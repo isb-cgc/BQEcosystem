@@ -1,10 +1,6 @@
 {
-  "creationTime": "1539985495296",
-  "description": "Data was generated from file metadata information from the GDC active archive release 13 October 2018. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-130",
-  "etag": "fWj2QzrhOx5rJMkR/6WhSg==",
-  "friendlyName": "RELEASE 13 FILE DATA ACTIVE",
-  "id": "isb-cgc:GDC_metadata.rel13_fileData_current",
-  "kind": "bigquery#table",
+  "description": "Data was generated from file metadata information from the GDC active archive release 22, downloaded Jan 22, 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-220",
+  "friendlyName": "RELEASE 22 FILE DATA ACTIVE",
   "labels": {
     "access": "open",
     "category": "file_metadata",
@@ -13,13 +9,8 @@
     "reference_genome_0": "hg38",
     "source": "gdc",
     "source_0": "gdc",
-    "status": "archived"
+    "status": "current"
   },
-  "lastModifiedTime": "1580325521838",
-  "location": "US",
-  "numBytes": "309760438",
-  "numLongTermBytes": "309760438",
-  "numRows": "358092",
   "schema": {
     "fields": [
       {
@@ -29,9 +20,9 @@
         "type": "STRING"
       },
       {
-        "description": "GDC file identifier. This is a duplicate of file_gdc_id field found in some tables. ",
+        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba4",
         "mode": "NULLABLE",
-        "name": "file_id",
+        "name": "file_gdc_id",
         "type": "STRING"
       },
       {
@@ -49,31 +40,55 @@
       {
         "description": "GDC file UUIDs for input file(s)",
         "mode": "NULLABLE",
-        "name": "analysis__input_files__file_id",
+        "name": "analysis_input_file_gdc_ids",
         "type": "STRING"
       },
       {
         "description": "Link to GDC workflow on github",
         "mode": "NULLABLE",
-        "name": "analysis__workflow_link",
+        "name": "analysis_workflow_link",
         "type": "STRING"
       },
       {
         "description": "Workflow name eg  STAR 2-Pass  ",
         "mode": "NULLABLE",
-        "name": "analysis__workflow_type",
+        "name": "analysis_workflow_type",
         "type": "STRING"
       },
       {
-        "description": "Associated Case ID",
+        "description": "GDC archive UUID",
         "mode": "NULLABLE",
-        "name": "associated_entities__case_id",
+        "name": "archive_gdc_id",
         "type": "STRING"
       },
       {
-        "description": "Associated entity UUID",
+        "description": "Archive revision number",
         "mode": "NULLABLE",
-        "name": "associated_entities__entity_id",
+        "name": "archive_revision",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Archive state",
+        "mode": "NULLABLE",
+        "name": "archive_state",
+        "type": "STRING"
+      },
+      {
+        "description": "Original archive submitter name, eg  nationwidechildrens.org_BRCA.bio.Level_1.56",
+        "mode": "NULLABLE",
+        "name": "archive_submitter_id",
+        "type": "STRING"
+      },
+      {
+        "description": "GDC case uuid for associated case(s)",
+        "mode": "NULLABLE",
+        "name": "associated_entities__case_gdc_id",
+        "type": "STRING"
+      },
+      {
+        "description": "GDC entity uuid for associated entity(ies)",
+        "mode": "NULLABLE",
+        "name": "associated_entities__entity_gdc_id",
         "type": "STRING"
       },
       {
@@ -89,49 +104,49 @@
         "type": "STRING"
       },
       {
-        "description": "Associated entity case UUID",
+        "description": "GDC unique identifier",
         "mode": "NULLABLE",
-        "name": "cases__case_id",
+        "name": "case_gdc_id",
         "type": "STRING"
       },
       {
-        "description": "DbGaP accession number for the project",
+        "description": "Program dbGaP accession number, eg phs000188",
         "mode": "NULLABLE",
-        "name": "cases__project__dbgap_accession_number",
+        "name": "project_dbgap_accession_number",
         "type": "STRING"
       },
       {
-        "description": "Project Disease Type",
+        "description": "The type of disease studied by the project; eg. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
         "mode": "NULLABLE",
-        "name": "cases__project__disease_type",
+        "name": "project_disease_type",
         "type": "STRING"
       },
       {
-        "description": "Study name of the project",
+        "description": "Project Name; frequently the same as or similar to the project disease type eg   Acute Lymphoblastic Leukemia - Phase II   or   Breast Invasive Carcinoma   etc",
         "mode": "NULLABLE",
-        "name": "cases__project__name",
+        "name": "project_name",
         "type": "STRING"
       },
       {
-        "description": "DbGaP accession number for the program",
+        "description": "Program dbGaP accession number, eg phs000178",
         "mode": "NULLABLE",
-        "name": "cases__project__program__dbgap_accession_number",
+        "name": "program_dbgap_accession_number",
         "type": "STRING"
       },
       {
-        "description": "Program Name",
+        "description": "Program name, eg TCGA or TARGET",
         "mode": "NULLABLE",
-        "name": "cases__project__program__name",
+        "name": "program_name",
         "type": "STRING"
       },
       {
-        "description": "Project ID",
+        "description": "Project name abbreviation; the program name appended with a project name abbreviation; eg. TCGA-OV, etc.",
         "mode": "NULLABLE",
-        "name": "cases__project__project_id",
+        "name": "project_short_name",
         "type": "STRING"
       },
       {
-        "description": "Timestamp of creation, eg 2016-10-27T21:58:12.297090-05:02",
+        "description": "Timestamp of creation, eg 2016-10-27T21:58:12.297090-05:10",
         "mode": "NULLABLE",
         "name": "created_datetime",
         "type": "STRING"
@@ -149,7 +164,7 @@
         "type": "STRING"
       },
       {
-        "description": "File format of the underlying data, eg BCR XML, BAM",
+        "description": "Experimental source of the data type, eg Tissue slide image, RNA-Seq",
         "mode": "NULLABLE",
         "name": "data_type",
         "type": "STRING"
@@ -157,7 +172,7 @@
       {
         "description": "Semicolon-separated list of GDC file UUIDs",
         "mode": "NULLABLE",
-        "name": "downstream_analyses__output_files__file_id",
+        "name": "downstream_analyses__output_file_gdc_ids",
         "type": "STRING"
       },
       {
@@ -191,27 +206,27 @@
         "type": "INTEGER"
       },
       {
-        "description": "GDC file identifier. This is a duplicate of file_gdc_id field found in some tables.",
+        "description": "GDC file identifier. This is a duplicate of file_gdc_id field found in some tables. ",
         "mode": "NULLABLE",
-        "name": "id",
+        "name": "file_id",
         "type": "STRING"
       },
       {
-        "description": "BAM or VCF index file GDC file UUID",
+        "description": "Where available, GDC file uuid for index file ",
         "mode": "NULLABLE",
-        "name": "index_files__file_id",
+        "name": "index_file_gdc_id",
         "type": "STRING"
       },
       {
-        "description": "BAM or VCF index file name",
+        "description": "Where available, GDC file name for index file ",
         "mode": "NULLABLE",
-        "name": "index_files__file_name",
+        "name": "index_file_name",
         "type": "STRING"
       },
       {
-        "description": "BAM  or VCF index file size",
+        "description": "Where available, size of the index file in bytes ",
         "mode": "NULLABLE",
-        "name": "index_files__file_size",
+        "name": "index_file_size",
         "type": "INTEGER"
       },
       {
@@ -221,27 +236,27 @@
         "type": "STRING"
       },
       {
-        "description": "Platform used to generate this data, eg  Illumina  , or  Affymetrix SNP 6.2",
+        "description": "Platform used to generate this data, eg  Illumina  , or  Affymetrix SNP 6.10",
         "mode": "NULLABLE",
         "name": "platform",
         "type": "STRING"
       },
       {
-        "description": "File state -- either submitted or released",
+        "description": "File state -- either live or submitted",
         "mode": "NULLABLE",
-        "name": "state",
+        "name": "file_state",
         "type": "STRING"
       },
       {
-        "description": "This can be used to identify a corresponding entry in the submitter's records. The GDC requires that submitter_id be unique for each entity within a project: the tuple (combination) of [ project_id, submitter_id ] is a unique key.",
+        "description": "Original submitter file id (eg CGHub analysis_id)",
         "mode": "NULLABLE",
-        "name": "submitter_id",
+        "name": "file_submitter_id",
         "type": "STRING"
       },
       {
-        "description": "Description of the data, e.g. clinical_supplement, aligned_reads",
+        "description": "File Type  -- eg aligned_reads, simple_somatic_mutation, gene_expression, etc",
         "mode": "NULLABLE",
-        "name": "type",
+        "name": "file_type",
         "type": "STRING"
       },
       {
@@ -251,12 +266,5 @@
         "type": "STRING"
       }
     ]
-  },
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel13_fileData_current",
-  "tableReference": {
-    "datasetId": "GDC_metadata",
-    "projectId": "isb-cgc",
-    "tableId": "rel13_fileData_current"
-  },
-  "type": "TABLE"
+  }
 }

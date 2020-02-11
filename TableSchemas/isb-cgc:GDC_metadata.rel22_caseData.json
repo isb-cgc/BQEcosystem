@@ -1,10 +1,6 @@
 {
-  "creationTime": "1554567760000",
-  "description": "Data was generated from file metadata information from the GDC release 16, March 2019. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160",
-  "etag": "qcFDOIZ7BrD5DNJSGOu+RQ==",
-  "friendlyName": "RELEASE 16 CASE DATA",
-  "id": "isb-cgc:GDC_metadata.rel16_caseData",
-  "kind": "bigquery#table",
+  "description": "Data was generated from file metadata information from the GDC release 22, downloaded Jan 22, 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-220",
+  "friendlyName": "RELEASE 22 CASE DATA",
   "labels": {
     "access": "open",
     "category": "file_metadata",
@@ -14,11 +10,6 @@
     "source_0": "gdc",
     "status": "current"
   },
-  "lastModifiedTime": "1580324915786",
-  "location": "US",
-  "numBytes": "5892192",
-  "numLongTermBytes": "5892192",
-  "numRows": "36389",
   "schema": {
     "fields": [
       {
@@ -28,13 +19,13 @@
         "type": "STRING"
       },
       {
-        "description": "Program dbGaP accession number, eg phs000184",
+        "description": "Program dbGaP accession number, eg phs000187",
         "mode": "NULLABLE",
         "name": "project_dbgap_accession_number",
         "type": "STRING"
       },
       {
-        "description": "The type of disease studied by the project; eg. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
+        "description": "The type of disease studied by the project; e.g. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
         "mode": "NULLABLE",
         "name": "project_disease_type",
         "type": "STRING"
@@ -58,7 +49,7 @@
         "type": "STRING"
       },
       {
-        "description": "ID of the Project -- e.g. TCGA-BRCA, TARGET-AML, etc.",
+        "description": "ID of the Project -- e.g. TCGA-BRCA, TARGET-AML, etc",
         "mode": "NULLABLE",
         "name": "project_id",
         "type": "STRING"
@@ -82,12 +73,5 @@
         "type": "INTEGER"
       }
     ]
-  },
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel16_caseData",
-  "tableReference": {
-    "datasetId": "GDC_metadata",
-    "projectId": "isb-cgc",
-    "tableId": "rel16_caseData"
-  },
-  "type": "TABLE"
+  }
 }
