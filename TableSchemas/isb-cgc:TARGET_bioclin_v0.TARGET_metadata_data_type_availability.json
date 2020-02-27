@@ -9,10 +9,8 @@
     "access": "open",
     "category": "clinical_biospecimen_data",
     "data_type": "file_metadata",
-    "data_type_0": "file_metadata",
     "program": "target",
     "source": "gdc",
-    "source_0": "target",
     "status": "current"
   },
   "lastModifiedTime": "1580336051876",

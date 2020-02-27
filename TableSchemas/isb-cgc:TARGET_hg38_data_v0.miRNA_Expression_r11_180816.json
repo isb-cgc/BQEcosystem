@@ -9,13 +9,10 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "mirna_expression",
-    "data_type_0": "mirna_expression",
     "experimental_strategy": "rnaseq",
     "program": "target",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "target",
-    "source_1": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325104628",

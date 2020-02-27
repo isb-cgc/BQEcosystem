@@ -9,10 +9,8 @@
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "data_type_0": "file_metadata",
     "program": "tcga",
     "source": "gdc",
-    "source_0": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325056131",

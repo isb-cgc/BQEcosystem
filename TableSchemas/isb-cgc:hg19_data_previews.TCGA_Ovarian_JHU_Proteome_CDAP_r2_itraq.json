@@ -9,11 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "protein_expression",
-    "data_type_0": "protein_quantification",
     "program": "cptac",
     "reference_genome_0": "hg19",
     "source": "pdc",
-    "source_0": "cptac",
     "status": "current"
   },
   "lastModifiedTime": "1580325297537",

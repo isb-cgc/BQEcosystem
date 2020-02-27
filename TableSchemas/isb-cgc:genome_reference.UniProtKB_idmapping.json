@@ -9,9 +9,7 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "genome_annotation",
-    "data_type_0": "protein_annotations",
     "source": "uniprot",
-    "source_0": "uniprot",
     "status": "current"
   },
   "lastModifiedTime": "1580325313956",

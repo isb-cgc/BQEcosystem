@@ -9,13 +9,10 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "gene_expression",
-    "data_type_0": "gene_expression",
-    "data_type_1": "rnaseq",
     "experimental_strategy": "rnaseq",
     "program": "gtex",
     "reference_genome_0": "hg19",
     "source": "gtex_portal",
-    "source_0": "genotype_tissue_expression_gtex_project",
     "status": "current"
   },
   "lastModifiedTime": "1580324999957",

@@ -9,13 +9,10 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "mirna_isoform_expression",
-    "data_type_0": "mirna_isoform_expression",
     "experimental_strategy": "rnaseq",
     "program": "tcga",
     "reference_genome_0": "hg19",
     "source": "gdc",
-    "source_0": "tcga",
-    "source_1": "gdc",
     "status": "deprecated"
   },
   "lastModifiedTime": "1580325394714",

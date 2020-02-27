@@ -9,11 +9,8 @@
     "access": "open",
     "category": "clinical_biospecimen_data",
     "data_type": "clinical_supplement",
-    "data_type_0": "clinical",
     "program": "tcga",
     "source": "gdc",
-    "source_0": "tcga",
-    "source_1": "gdc",
     "status": "deprecated"
   },
   "lastModifiedTime": "1580325325702",

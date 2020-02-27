@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "genome_annotation",
-    "data_type_0": "mirna_annotations",
     "reference_genome_0": "hg38",
     "source": "mirbase",
-    "source_0": "mirbase_the_microrna_database",
     "status": "current"
   },
   "lastModifiedTime": "1580325077184",

@@ -9,11 +9,9 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "dna_methylation",
-    "data_type_0": "dna_methylation",
     "experimental_strategy": "microarray",
     "reference_genome_0": "hg38",
     "source": "infinium",
-    "source_0": "infinium_humanmethylation_450",
     "status": "current"
   },
   "lastModifiedTime": "1580325039292",

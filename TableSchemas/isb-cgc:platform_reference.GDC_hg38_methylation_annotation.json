@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "dna_methylation",
-    "data_type_0": "dna_methylation",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580324887579",

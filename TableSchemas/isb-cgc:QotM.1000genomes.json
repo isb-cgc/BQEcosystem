@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "somatic_mutations",
-    "data_type_0": "somatic_mutations",
     "reference_genome_0": "hg38",
     "source": "isb-cgc",
-    "source_0": "isb_cgc-qotm",
     "status": "deprecated"
   },
   "lastModifiedTime": "1580325090755",

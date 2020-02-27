@@ -9,13 +9,10 @@
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "data_type_0": "file_metadata",
     "experimental_strategy": "rnaseq",
     "program": "target",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "target",
-    "source_1": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325101194",

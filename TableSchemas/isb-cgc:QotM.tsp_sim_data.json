@@ -9,9 +9,7 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "gene_expression",
-    "data_type_0": "gene_expression",
     "source": "isb-cgc",
-    "source_0": "isb_cgc-qotm",
     "status": "deprecated"
   },
   "lastModifiedTime": "1580325053213",

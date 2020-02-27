@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "somatic_mutations",
-    "data_type_0": "somatic_mutations",
     "reference_genome_0": "hg38",
     "source": "kaviar",
-    "source_0": "kaviar_genomic_variant_database",
     "status": "current"
   },
   "lastModifiedTime": "1580325044002",
