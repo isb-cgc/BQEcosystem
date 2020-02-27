@@ -9,13 +9,10 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "gene_expression",
-    "data_type_0": "gene_expression",
-    "data_type_1": "microarray",
     "experimental_strategy": "microarray",
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "source_0": "ccle",
     "status": "current"
   },
   "lastModifiedTime": "1580324845935",

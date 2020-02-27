@@ -9,9 +9,7 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "clinical_supplement",
-    "data_type_0": "disease_classifications",
     "source": "icd",
-    "source_0": "international_classficiation_of_disesase_icd",
     "status": "current"
   },
   "lastModifiedTime": "1580324994907",

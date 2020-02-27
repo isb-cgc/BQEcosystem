@@ -9,10 +9,8 @@
     "access": "open",
     "category": "clinical_biospecimen_data",
     "data_type": "biospecimen_supplement",
-    "data_type_0": "biospecimen",
     "program": "ccle",
     "source": "broad",
-    "source_0": "ccle",
     "status": "current"
   },
   "lastModifiedTime": "1580324861271",

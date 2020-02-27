@@ -9,9 +9,7 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "gene_ontology",
-    "data_type_0": "gene_ontology",
     "source": "go",
-    "source_0": "gene_ontology_resource_go",
     "status": "current"
   },
   "lastModifiedTime": "1580324987133",

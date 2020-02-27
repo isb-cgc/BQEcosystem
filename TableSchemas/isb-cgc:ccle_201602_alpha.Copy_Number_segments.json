@@ -9,11 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "copy_number_segment",
-    "data_type_0": "copy_number_segment",
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "source_0": "ccle",
     "status": "current"
   },
   "lastModifiedTime": "1580324849251",

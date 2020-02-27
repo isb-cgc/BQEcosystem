@@ -9,11 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "somatic_mutations",
-    "data_type_0": "somatic_mutations",
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "source_0": "ccle",
     "status": "current"
   },
   "lastModifiedTime": "1580324855504",

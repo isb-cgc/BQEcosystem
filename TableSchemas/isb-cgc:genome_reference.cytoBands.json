@@ -9,12 +9,10 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "genome_annotation",
-    "data_type_0": "cytoband_coordinate_conversion",
     "program": "cytoband",
     "reference_genome_0": "hg19",
     "reference_genome_1": "hg38",
     "source": "ucsc",
-    "source_0": "ucsc",
     "status": "current"
   },
   "lastModifiedTime": "1580324870329",

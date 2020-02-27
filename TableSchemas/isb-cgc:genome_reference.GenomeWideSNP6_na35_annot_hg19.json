@@ -9,12 +9,9 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "gene_expression",
-    "data_type_0": "gene_expression",
-    "data_type_1": "microarray",
     "experimental_strategy": "microarray",
     "reference_genome_0": "hg19",
     "source": "affymetrix",
-    "source_0": "affymetrix_genome_wide_human_snp_array",
     "status": "current"
   },
   "lastModifiedTime": "1580324996494",

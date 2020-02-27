@@ -9,9 +9,7 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "genome_annotation",
-    "data_type_0": "genome_annotations",
     "source": "isb-cgc",
-    "source_0": "isb_cgc",
     "status": "current"
   },
   "lastModifiedTime": "1580324989975",

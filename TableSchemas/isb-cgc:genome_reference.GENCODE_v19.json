@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "genome_annotation",
-    "data_type_0": "genome_annotations",
     "reference_genome_0": "hg19",
     "source": "gencode",
-    "source_0": "gencode",
     "status": "current"
   },
   "lastModifiedTime": "1580324976456",

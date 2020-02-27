@@ -9,10 +9,8 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "somatic_mutations",
-    "data_type_0": "somatic_mutations",
     "reference_genome_0": "hg19",
     "source": "clinvar",
-    "source_0": "clinvar",
     "status": "current"
   },
   "lastModifiedTime": "1580324866558",

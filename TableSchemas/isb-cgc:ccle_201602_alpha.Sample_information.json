@@ -9,11 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "biospecimen_supplement",
-    "data_type_0": "cell_line_annotations",
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "source_0": "ccle",
     "status": "current"
   },
   "lastModifiedTime": "1580324853731",
