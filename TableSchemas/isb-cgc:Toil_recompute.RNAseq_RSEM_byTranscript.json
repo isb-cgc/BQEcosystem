@@ -9,13 +9,10 @@
     "access": "open",
     "category": "genomic_reference_database",
     "data_type": "gene_expression",
-    "data_type_0": "gene_expression",
-    "data_type_1": "rnaseq",
     "experimental_strategy": "rnaseq",
     "program": "xena",
     "reference_genome_0": "hg19",
     "source": "ucsc",
-    "source_0": "ucsc_xena",
     "status": "current"
   },
   "lastModifiedTime": "1580325310913",

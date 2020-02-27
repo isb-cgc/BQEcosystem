@@ -9,12 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "somatic_mutations",
-    "data_type_0": "somatic_mutations",
     "program": "tcga",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "tcga",
-    "source_1": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325278989",

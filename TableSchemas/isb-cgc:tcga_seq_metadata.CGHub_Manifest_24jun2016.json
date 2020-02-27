@@ -9,11 +9,9 @@
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "data_type_0": "file_metadata",
     "program": "tcga",
     "reference_genome_0": "hg19",
     "source": "gdc",
-    "source_0": "gdc",
     "status": "deprecated"
   },
   "lastModifiedTime": "1580325417150",
