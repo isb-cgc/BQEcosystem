@@ -9,13 +9,10 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "dna_methylation",
-    "data_type_0": "dna_methylation",
     "experimental_strategy": "microarray",
     "program": "tcga",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "tcga",
-    "source_1": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325232922",

@@ -9,12 +9,9 @@
     "access": "open",
     "category": "processed_-omics_data",
     "data_type": "copy_number_segment_masked",
-    "data_type_0": "copy_number_segment_masked",
     "program": "tcga",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "source_0": "tcga",
-    "source_1": "gdc",
     "status": "current"
   },
   "lastModifiedTime": "1580325201106",
