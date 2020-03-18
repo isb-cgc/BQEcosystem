@@ -198,7 +198,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "The size of a file measured in bytes (B), kilobytes (KB), megabytes (MB), gigabytes (GB), terabytes (TB), and larger values.", 
+        "description": "The size of the file measured in bytes",
         "mode": "NULLABLE", 
         "name": "file_size", 
         "type": "INTEGER"
