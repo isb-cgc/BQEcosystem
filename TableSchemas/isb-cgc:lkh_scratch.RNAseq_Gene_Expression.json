@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC on December 2017. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
+  "description": "Data was extracted from GDC on March 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
   "id": "isb-cgc:TCGA_hg38_data_v0.RNAseq_Gene_Expression", 
   "kind": "bigquery#table", 
   "labels": {
@@ -8,7 +8,6 @@
     "data_type_0": "gene_expression", 
     "data_type_1": "rnaseq", 
     "reference_genome_0": "hg38", 
-    "source_0": "tcga", 
     "source_1": "gdc", 
     "status": "current"
   },
@@ -21,13 +20,13 @@
         "type": "STRING"
       }, 
       {
-        "description": "Original TCGA case barcode, eg TCGA-DX-A8BN", 
+        "description": "Original case barcode", 
         "mode": "NULLABLE", 
         "name": "case_barcode", 
         "type": "STRING"
       }, 
       {
-        "description": "TCGA sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "description": "sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
         "mode": "NULLABLE", 
         "name": "sample_barcode", 
         "type": "STRING"
