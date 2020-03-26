@@ -102,7 +102,19 @@
       {
         "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
-        "name": "file_gdc_id", 
+        "name": "file_gdc_id_counts", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "mode": "NULLABLE", 
+        "name": "file_gdc_id_fpkm", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "mode": "NULLABLE", 
+        "name": "file_gdc_id_fpkm_uq", 
         "type": "STRING"
       }, 
       {
