@@ -1,13 +1,15 @@
 {
   "description": "Data was extracted from GDC on March 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
   "id": "isb-cgc:TCGA_hg38_data_v0.RNAseq_Gene_Expression", 
+  "friendlyName": "TCGA HG38 RNASEQ GENE EXPRESSION",
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type_0": "gene_expression", 
     "data_type_1": "rnaseq", 
-    "reference_genome_0": "hg38", 
+    "reference_genome_0": "hg38",
+    source_0": "tcga",
     "source_1": "gdc", 
     "status": "current"
   },
@@ -111,10 +113,10 @@
       }
     ]
   }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/RNAseq_Gene_Expression", 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-project-zero/datasets/lkh_scratch/tables/RNAseq_Gene_Expression", 
   "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
+    "datasetId": "lkh_scratch", 
+    "projectId": "isb-project-zero", 
     "tableId": "RNAseq_Gene_Expression"
   }, 
   "type": "TABLE"
