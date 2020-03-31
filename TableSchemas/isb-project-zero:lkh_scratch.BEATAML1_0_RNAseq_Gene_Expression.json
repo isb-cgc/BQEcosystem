@@ -9,7 +9,7 @@
     "data_type_0": "gene_expression", 
     "data_type_1": "rnaseq", 
     "reference_genome_0": "hg38",
-    "source_0": "BEATAML1_0",
+    "source_0": "BEATAML",
     "source_1": "gdc", 
     "status": "current"
   },
