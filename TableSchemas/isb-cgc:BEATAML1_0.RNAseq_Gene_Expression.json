@@ -98,19 +98,19 @@
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file containing counts values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing counts values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_counts", 
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file containing FPKM values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing FPKM values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_fpkm", 
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file containing FPKM UQ values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing FPKM UQ values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_fpkm_uq", 
         "type": "STRING"
