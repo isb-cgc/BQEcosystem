@@ -6,7 +6,7 @@
     "category": "processed_-omics_data",
     "data_type": "gene_expression",
     "experimental_strategy": "rnaseq",
-    "program": "target",
+    "program": "beataml",
     "reference_genome_0": "hg38",
     "source": "gdc",
     "status": "current"
