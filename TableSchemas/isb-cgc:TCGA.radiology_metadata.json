@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from TCIA radiology files for the TCGA program"
+  "description": "Data was generated from TCIA radiology files for the TCGA program",
   "friendlyName": "TCGA Radiology Metadata",
   "labels": {
     "access": "open",
