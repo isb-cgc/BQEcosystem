@@ -37,49 +37,50 @@
         "description": "(see description for ID_SAMPLE)"
       },
       {
-        "name": "Primary_site",
+      {
+        "name": "PRIMARY_SITE",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
       },
       {
-        "name": "Site_subtype_1",
+        "name": "SITE_SUBTYPE_1",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further sub classification (level 1) of the samples tissue of origin."
       },
       {
-        "name": "Site_subtype_2",
+        "name": "SITE_SUBTYPE_2",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further sub classification (level 2) of the samples tissue of origin."
       },
       {
-        "name": "Site_subtype_3",
+        "name": "SITE_SUBTYPE_3",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further sub classification (level 3) of the samples tissue of origin."
       },
       {
-        "name": "Primary_histology",
+        "name": "PRIMARY_HISTOLOGY",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "The histological classification of the sample."
       },
       {
-        "name": "Histology_subtype_1",
+        "name": "HISTOLOGY_SUBTYPE_1",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further histological classification (level 1) of the sample."
       },
       {
-        "name": "Histology_subtype_2",
+        "name": "HISTOLOGY_SUBTYPE_2",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further histological classification (level 2) of the sample."
       },
       {
-        "name": "Histology_subtype_3",
+        "name": "HISTOLOGY_SUBTYPE_3",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further histological classification (level 3) of the sample."
