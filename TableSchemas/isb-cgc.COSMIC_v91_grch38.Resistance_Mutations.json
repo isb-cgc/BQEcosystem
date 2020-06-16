@@ -145,7 +145,7 @@
         "description": "Information on whether the mutation was reported to be homozygous , heterozygous or unknown within the sample."
       },
       {
-        "name": "Genome_Coordinates_GRCh37",
+        "name": "Genome_Coordinates_GRCh38",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "The genome location of the mutation (chr:start..end), on the specified genome version."
