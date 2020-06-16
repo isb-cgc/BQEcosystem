@@ -37,7 +37,6 @@
         "description": "(see description for ID_SAMPLE)"
       },
       {
-      {
         "name": "PRIMARY_SITE",
         "type": "INTEGER",
         "mode": "NULLABLE",
