@@ -13,7 +13,7 @@
   "schema": {
     "fields": [
       {
-        "name": "Study_ID",
+        "name": "STUDY_ID",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The study Id for these data."
