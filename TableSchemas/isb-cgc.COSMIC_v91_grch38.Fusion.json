@@ -89,7 +89,7 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Type of mutation."
-      },,
+      },
       {
         "name": "Translocation_Name",
         "type": "STRING",
