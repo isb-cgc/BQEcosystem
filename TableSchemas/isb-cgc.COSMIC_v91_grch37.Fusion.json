@@ -103,13 +103,13 @@
         "description": "Chromosome of 5' gene."
       },
       {
-        "name": "FIVE_PRIME_CHROMOSOME_START_FROM",
+        "name": "FIVE_PRIME_START_FROM",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The genomic coordinate of the start (+ strand)/breakpoint (- strand) of the 5' fusion gene as described in the Translocation Name."
       },
       {
-        "name": "FIVE_PRIME_CHROMOSOME_START_TO",
+        "name": "FIVE_PRIME_START_TO",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The range of genomic coordinates of the start (+ strand)/breakpoint (- strand) of the 5' fusion gene if it is an unknown base position."
@@ -139,13 +139,13 @@
         "description": "Chromosome of 3' gene."
       },
       {
-        "name": "THREE_PRIME_CHROMOSOME_START_FROM",
+        "name": "THREE_PRIME_START_FROM",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The genomic coordinate of the start (+ strand)/breakpoint (- strand) of the 3' fusion gene as described in the Translocation Name."
       },
       {
-        "name": "three_prime_CHROMOSOME_START_TO",
+        "name": "THREE_PRIME_START_TO",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The range of genomic coordinates of the start (+ strand)/breakpoint (- strand) of the 3' fusion gene if it is an unknown base position."
