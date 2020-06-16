@@ -1,5 +1,5 @@
 {
-  "description": "This table contains a list of breakpoint from the current release. ",
+  "description": "This table contains a list of breakpoints from the current release. ",
   "friendlyName": "COSMIC GRCH 37 BREAKPOINTS ",
   "labels": {
     "access": "controlled",
