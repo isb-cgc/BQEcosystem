@@ -151,6 +151,12 @@
         "description": "The range of genomic coordinates of the start (+ strand)/breakpoint (- strand) of the 3' fusion gene if it is an unknown base position."
       },
       {
+        "name": "THREE_PRIME_GENOME_STOP_FROM",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinate of the breakpoint (+ strand)/stop (- strand) of the 3' fusion gene as described in the Translocation Name."
+      },
+      {
         "name": "THREE_PRIME_GENOME_STOP_TO",
         "type": "INTEGER",
         "mode": "NULLABLE",
