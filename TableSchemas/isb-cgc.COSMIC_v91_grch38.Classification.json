@@ -13,160 +13,118 @@
   "schema": {
     "fields": [
       {
-        "name": "Sample_name",
+        "name": "COSMIC_PHENOTYPE_ID",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers."
+        "description": "Unique COSMIC identifier for the classification."
       },
       {
-        "name": "ID_SAMPLE",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "COSMIC sample identifier"
-      },
-      {
-        "name": "ID_TUMOUR",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "COSMIC tumour identifier"
-      },
-      {
-        "name": "Primary_site",
+        "name": "SITE_PRIMARY",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
       },
       {
-        "name": "Site_subtype_1",
+        "name": "SITE_SUBTYPE1",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further sub classification (level 1) of the samples tissue of origin."
+        "description": "Further sub classification (level 1) of the samples tissue of origin in publication."
       },
       {
-        "name": "Site_subtype_2",
+        "name": "SITE_SUBTYPE2",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further sub classification (level 2) of the samples tissue of origin."
+        "description": "Further sub classification (level 2) of the samples tissue of origin in publication."
       },
       {
-        "name": "Site_subtype_3",
+        "name": "SITE_SUBTYPE3",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further sub classification (level 3) of the samples tissue of origin."
+        "description": "Further sub classification (level 3) of the samples tissue of origin in publication."
       },
       {
-        "name": "Primary_histology",
+        "name": "HISTOLOGY",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The histological classification of the sample."
+        "description": "The histological classification of the sample in publication."
       },
       {
-        "name": "Histology_subtype_1",
+        "name": "HIST_SUBTYPE1",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further histological classification (level 1) of the sample."
+        "description": "Further histological classification (level 1) of the sample in publication."
       },
       {
-        "name": "Histology_subtype_2",
+        "name": "HIST_SUBTYPE2",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further histological classification (level 2) of the sample."
+        "description": "Further histological classification (level 2) of the sample in publication."
       },
       {
-        "name": "Histology_subtype_3",
+        "name": "HIST_SUBTYPE3",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Further histological classification (level 3) of the sample."
+        "description": "Further histological classification (level 3) of the sample in publication."
       },
       {
-        "name": "Mutation_Type",
+      "name": "SITE_PRIMARY_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Primary tissue specified in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE1_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 1) of the samples tissue of origin in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE2_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 2) of the samples tissue of origin in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE3_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 3) of the samples tissue of origin in COSMIC."
+      },
+      {
+        "name": "HISTOLOGY_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Type of mutation : Intra/Inter (chromosomal), tandem duplication, deletion, inversion, complex substitutions, complex amplicons."
+        "description": "The histological classification of the sample in COSMIC."
       },
       {
-        "name": "Mutation_ID",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "unique mutation identifier"
-      },
-      {
-        "name": "Breakpoint_Order",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "For variants involving multiple breakpoints, the predicted order along chromosome(s).Otherwise '0'."
-      },
-      {
-        "name": "GRCh",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "Coordinate system used"
-      },
-      {
-        "name": "Chrom_From",
+        "name": "HIST_SUBTYPE1_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The chromosome where the first variant/breakpoint occurs."
+        "description": "Further histological classification (level 1) of the sample in COSMIC."
       },
       {
-        "name": "Location_From_min",
+        "name": "HIST_SUBTYPE2_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The first position in breakpoint range."
+        "description": "Further histological classification (level 2) of the sample in COSMIC."
       },
       {
-        "name": "Location_From_max",
+        "name": "HIST_SUBTYPE3_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The last position in breakpoint range."
+        "description": "Further histological classification (level 3) of the sample in COSMIC."
       },
       {
-        "name": "Strand_From",
+        "name": "NCI_CODE",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Positive or negative"
+        "description": "NCI thesaurus code for tumour histological classification."
       },
       {
-        "name": "Chrom_To",
+        "name": "EFO",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The chromosome where the last variant/breakpoint occurs."
-      },
-      {
-        "name": "Location_To_min",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "The first position in breakpoint range."
-      },
-      {
-        "name": "Location_To_max",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "The last position in breakpoint range."
-      },
-      {
-        "name": "Strand_To",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Positive or negative"
-      },
-      {
-        "name": "Non_templated_ins_seq",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Non Templated Sequence (if any) which is inserted at the breakpoint. The sequence is not encoded."
-      },
-      {
-        "name": "Pubmed_ID",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "The PUBMED ID for the paper that the sample was noted in."
-      },
-      {
-        "name": "ID_STUDY",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "Lists the unique Ids of studies that have involved this structural mutation."
+        "description": "Experimental Factor Ontology (EFO)."
       }
     ]
   }
