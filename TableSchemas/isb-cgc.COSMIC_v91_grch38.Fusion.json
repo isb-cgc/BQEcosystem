@@ -169,7 +169,7 @@
         "description": "Type of mutation."
       },
       {
-        "name": "PUBMED_PMID",
+        "name": "Pubmed_PMID",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The PUBMED ID for the paper that the sample was noted in."
