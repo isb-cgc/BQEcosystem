@@ -19,16 +19,16 @@
         "description": "The study Id for these data."
       },
       {
-        "name": "Study_ID",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "The study Id for these data."
-      },
-      {
         "name": "ID_SAMPLE",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers. These samples are from the ICGC and TCGA."
+      },
+      {
+        "name": "SAMPLE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "(see description for ID_SAMPLE)"
       },
       {
         "name": "ID_TUMOUR",
