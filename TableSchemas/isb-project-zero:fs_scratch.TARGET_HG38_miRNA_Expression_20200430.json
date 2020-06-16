@@ -95,11 +95,11 @@
       }
     ]
   }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET/tables/miRNASeq_hg38_rel22", 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-project-zero/datasets/TARGET/tables/TARGET_HG38_miRNA_Expression_20200430", 
   "tableReference": {
     "datasetId": "TARGET", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNAseq_hg38_rel22"
+    "projectId": "isb-project-zero", 
+    "tableId": "TARGET_HG38_miRNA_Expression_20200430"
   }, 
   "type": "TABLE"
 }
