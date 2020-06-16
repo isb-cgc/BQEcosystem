@@ -163,7 +163,7 @@
         "description": "The PUBMED ID for the paper that the sample was noted in."
       },
       {
-        "name": "ID_Study",
+        "name": "ID_STUDY",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "Lists the unique Ids of studies that have involved this structural mutation."
