@@ -25,6 +25,12 @@
         "description": "Type of mutation (coding, non-coding etc.)"
       },
       {
+        "name": "GRCH",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Genome version of the mutation."
+      },
+      {
         "name": "MUTATION_ID",
         "type": "INTEGER",
         "mode": "NULLABLE",
