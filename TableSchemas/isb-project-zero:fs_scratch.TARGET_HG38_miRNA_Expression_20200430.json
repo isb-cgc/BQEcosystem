@@ -48,7 +48,7 @@
       {
         "description": "Unique miRNA id (aka symbol), eg hsa-mir-21  --  relevant reference information can be found in the isb-cgc:genome_reference dataset in the tables miRBase_v21 and miRBase_v21_hsa_gff3", 
         "mode": "NULLABLE", 
-        "name": "miRNA_ID", 
+        "name": "miRNA_id", 
         "type": "STRING"
       }, 
       {
@@ -72,7 +72,7 @@
       {
         "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba11", 
         "mode": "NULLABLE", 
-        "name": "fileUUID", 
+        "name": "file_gdc_id", 
         "type": "STRING"
       }, 
       {
