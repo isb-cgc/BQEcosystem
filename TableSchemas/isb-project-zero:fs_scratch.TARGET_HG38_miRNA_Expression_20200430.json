@@ -52,7 +52,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "Number of reads that were mapped to this mirna_id", 
+        "description": "Number of reads that were mapped to this miRNA", 
         "mode": "NULLABLE", 
         "name": "read_count", 
         "type": "INTEGER"
