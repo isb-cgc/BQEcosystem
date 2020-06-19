@@ -1,12 +1,12 @@
 {
   "description": "This table contains all TCGA level 3 methylation data from the ICGC portal for the current release",
-  "friendlyName": "COSMIC GRCH 37 COMPLETE METHYLATION",
+  "friendlyName": "COSMIC GRCH 38 COMPLETE METHYLATION",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "dna_methylation"
   },
