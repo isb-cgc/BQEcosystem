@@ -1,12 +1,12 @@
 {
   "description": "This table contains a list of breakpoints from the current release. ",
-  "friendlyName": "COSMIC GRCH 37 BREAKPOINTS ",
+  "friendlyName": "COSMIC GRCH 38 BREAKPOINTS ",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "somatic_mutation",
     "data_type": "processed_-omics_data"
   },
