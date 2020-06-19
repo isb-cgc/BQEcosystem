@@ -31,39 +31,21 @@
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for sample one (corresponds to the sample_one_barcode), eg a1ec9279-c1a6-4e58-97ed-9ec1f36187c5, associated with data file. May be null",
+        "description": "Unique GDC identifier for sample, eg a1ec9279-c1a6-4e58-97ed-9ec1f36187c5, associated with data file. May be null",
         "mode": "NULLABLE",
-        "name": "sample_one_gdc_id",
+        "name": "sample_gdc_id",
         "type": "STRING"
       },
       {
-        "description": "Submitter sample one barcode, eg TCGA-12-1089-01A",
+        "description": "Submitter sample barcode, eg TCGA-12-1089-01A",
         "mode": "NULLABLE",
-        "name": "sample_one_barcode",
+        "name": "sample_barcode",
         "type": "STRING"
       },
       {
-        "description": "Sample type for sample one, eg Primary Tumor, Solid Tissue Normal",
+        "description": "Sample type, eg Primary Tumor, Solid Tissue Normal",
         "mode": "NULLABLE",
-        "name": "sample_one_type_name",
-        "type": "STRING"
-      },
-            {
-        "description": "Unique GDC identifier for sample two (corresponds to the sample_two_barcode), when present for certain files (e.g. VCFs). Otherwise null",
-        "mode": "NULLABLE",
-        "name": "sample_two_gdc_id",
-        "type": "STRING"
-      },
-      {
-        "description": "Submitter sample two barcode, when present",
-        "mode": "NULLABLE",
-        "name": "sample_two_barcode",
-        "type": "STRING"
-      },
-      {
-        "description": "Sample type for sample two, eg Primary Tumor, Solid Tissue Normal, when present",
-        "mode": "NULLABLE",
-        "name": "sample_two_type_name",
+        "name": "sample_type_name",
         "type": "STRING"
       },
       {

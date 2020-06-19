@@ -1,0 +1,65 @@
+{
+  "description": "This table contains the listing the mapping all of COSMIC's legacy mutations(COSMs) to the new genomic identifiers(COSVs). This file also helps to identify the transcripts and the accession numbers on which the current mutation is annotated on, along with the mutation type.",
+  "friendlyName": "COSMIC GRCH 37 MUTATION TRACKING",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "processed_-omics_data",
+    "data_type": "somatic_mutation"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "IS_CANONICAL",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "To indentify the transcript, if it is a canonical transcript the column value would be a yes otherwise a no."
+      },
+      {
+        "name": "MUTATION_TYPE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Type of mutation (coding, non-coding etc.)"
+      },
+      {
+        "name": "GRCH",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Genome version of the mutation."
+      },
+      {
+        "name": "MUTATION_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "GENOMIC_MUTATION_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "LEGACY_MUTATION_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "ACCESSION_NUMBER",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The transcript identifier of the gene."
+      },
+      {
+        "name": "GENE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The gene name for which the data has been curated in COSMIC. In most cases this is the accepted HGNC identifier."
+      }
+    ]
+  }
+}

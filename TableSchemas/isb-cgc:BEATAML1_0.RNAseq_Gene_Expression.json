@@ -2,13 +2,13 @@
   "description": "Data was extracted from GDC on March 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
   "friendlyName": "BEATAML1.0 RNASEQ GENE EXPRESSION",
   "labels": {
-    "access": "open", 
-    "category": "processed_-omics_data", 
-    "data_type_0": "gene_expression", 
-    "data_type_1": "rnaseq", 
+    "access": "open",
+    "category": "processed_-omics_data",
+    "data_type": "gene_expression",
+    "experimental_strategy": "rnaseq",
+    "program": "beataml",
     "reference_genome_0": "hg38",
-    "source_0": "beataml",
-    "source_1": "gdc", 
+    "source": "gdc",
     "status": "current"
   },
   "schema": {
@@ -98,19 +98,19 @@
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing counts values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_counts", 
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing FPKM values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_fpkm", 
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
+        "description": "Unique GDC identifier for the file containing FPKM UQ values (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba43", 
         "mode": "NULLABLE", 
         "name": "file_gdc_id_fpkm_uq", 
         "type": "STRING"
