@@ -1,0 +1,137 @@
+{
+  "description": "All copy number abberations from the current release in a tab separated table. For more information on copy number data, please see http://cancer.sanger.ac.uk/cosmic/help/cnv/overview.",
+  "friendlyName": "COSMIC GRCH 37 COMPLETE COPY NUMBER VARIANTS",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "processed_-omics_data",
+    "data_type": "copy_number_segment"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "CNV_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The unique identifier for the variant (not stable, differs between releases)."
+      },
+      {
+        "name": "ID_GENE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The ID of the gene which overlaps the copy number segment (or '-' where there is no overlapping gene)."
+      },
+      {
+        "name": "gene_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The symbol of the gene which overlaps the copy number segment (or '-' where there is no overlapping gene)."
+      },
+      {
+        "name": "ID_SAMPLE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers. These samples are from the ICGC and TCGA."
+      },
+      {
+        "name": "ID_TUMOUR",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "(see description for ID_SAMPLE)"
+      },
+      {
+        "name": "Primary_site",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "Site_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin."
+      },
+      {
+        "name": "Site_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin."
+      },
+      {
+        "name": "Site_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 3) of the samples tissue of origin."
+      },
+      {
+        "name": "Primary_histology",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample."
+      },
+      {
+        "name": "Histology_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample."
+      },
+      {
+        "name": "Histology_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample."
+      },
+      {
+        "name": "Histology_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample."
+      },
+      {
+        "name": "SAMPLE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The name of the sample."
+      },
+      {
+        "name": "TOTAL_CN",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "The sum of the major and minor allele counts eg if ABB, total copy number = 3."
+      },
+      {
+        "name": "MINOR_ALLELE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The number of copies of the least frequent allele eg if ABB, minor allele = A ( 1 copy) and major allele = B ( 2 copies)."
+      },
+      {
+        "name": "MUT_TYPE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Defined as Gain or Loss. For ICGC samples; as defined in the original data. For TCGA samples reanalysed with ASCAT: GAIN = average genome ploidy <= 2.7 AND total copy number >= 5 OR average genome ploidy > 2.7 AND total copy number >= 9; LOSS = average genome ploidy <= 2.7 AND total copy number = 0 OR average genome ploidy > 2.7 AND total copy number < ( average genome ploidy - 2.7 )"
+      },
+      {
+        "name": "ID_STUDY",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Lists the unique Ids of studies that have involved this copy number variation."
+      },
+      {
+        "name": "GRCh",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Coordinate system used"
+      },
+      {
+        "name": "Chromosome_G_Start_G_Stop",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinates of the variation."
+      }
+    ]
+  }
+}
