@@ -1,12 +1,12 @@
 {
   "description": "This table contains COSMIC cancer classification information.",
-  "friendlyName": "COSMIC GRCH 37 CLASSIFICATION",
+  "friendlyName": "COSMIC GRCH 38 CLASSIFICATION",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "clinical_biospecimen_data",
     "data_type": "clinical_data"
   },
