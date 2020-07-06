@@ -1,12 +1,12 @@
 {
   "description": "This table contains all coding mutations in genes listed in the Cancer Gene Census.",
-  "friendlyName": "COSMIC GRCH 37 MUTANT CENSUS",
+  "friendlyName": "COSMIC GRCH 38 MUTANT CENSUS",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "genomic_reference_database",
     "data_type": "somatic_mutation"
   },

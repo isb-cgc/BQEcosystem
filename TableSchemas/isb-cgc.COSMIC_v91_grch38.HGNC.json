@@ -1,12 +1,12 @@
 {
   "description": "This table contains information regarding the relationship between the Cancer Gene Census, COSMIC ID, Gene Name, HGNC ID, and Entrez ID.",
-  "friendlyName": "COSMIC GRCH 37 GENOME HGNC MAPPING",
+  "friendlyName": "COSMIC GRCH 38 GENOME HGNC MAPPING",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "somatic_mutation",
     "data_type": "genomic_reference_database"
   },

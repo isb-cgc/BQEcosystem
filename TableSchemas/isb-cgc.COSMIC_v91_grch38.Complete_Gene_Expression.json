@@ -1,12 +1,12 @@
 {
   "description": "This table contains all gene-expression level 3 data from the TCGA portal.",
-  "friendlyName": "COSMIC GRCH 37 COMPLETE GENE EXPRESSION",
+  "friendlyName": "COSMIC GRCH 38 COMPLETE GENE EXPRESSION",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "gene_expression"
   },
