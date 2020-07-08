@@ -1,0 +1,4 @@
+{
+  "dataset_name": "BEATAML1_0",
+  "description": "This data set contains the current BEATAML1.0 program data extracted from the NCI GDC. The tables within this data set are dynamic and update with new releases, for static tables use BEATAML1_0_versioned."
+}
