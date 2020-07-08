@@ -1,0 +1,4 @@
+{
+  "dataset_name": "CGCI",
+  "description": "This data set contains the current CGCI program data extracted from the NCI GDC. The tables within this data set are dynamic and update with new releases, for static tables use CGCI_versioned."
+}
