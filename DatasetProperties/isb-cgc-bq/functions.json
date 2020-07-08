@@ -1,0 +1,4 @@
+{
+  "dataset_name": "functions",
+  "description": "This data set contains BigQuery persistent User Defined Functions created by the ISB-CGC team. The functions within this data set are dynamic, for static tables use functions_versioned."
+}
