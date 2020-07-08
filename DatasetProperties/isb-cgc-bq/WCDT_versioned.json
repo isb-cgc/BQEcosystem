@@ -1,0 +1,4 @@
+{
+  "dataset_name": "WCDT_versioned",
+  "description": "This dataset contains static versioned WCDT program data extracted from the NCI GDC."
+}
