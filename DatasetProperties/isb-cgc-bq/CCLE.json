@@ -1,4 +1,4 @@
 {
   "dataset_name": "CCLE",
-  "description": "This data set contains the current CCLE program data extracted from the NCI GDC legacy archive. The tables within this data set are dynamic and update with new releases; for static tables use CCLE_versioned."
+  "description": "This data set contains the current CCLE program data extracted from the NCI GDC and the Broad-Novartis Cancer Cell Line Encyclopedia (CCLE) project. See https://portals.broadinstitute.org/ccle/about for more information about CCLE. The tables within this data set are dynamic and update with new releases; for static tables use CCLE_versioned."
 }
