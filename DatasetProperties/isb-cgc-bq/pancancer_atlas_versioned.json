@@ -1,0 +1,4 @@
+{
+  "dataset_name": "pancancer_atlas",
+  "description": "The tables here mirror the files shared by the PanCancer Atlas initiative on the GDC at: https://gdc.cancer.gov/about-data/publications/pancanatlas \n\nThe tables are generally unmodified uploads of the file data. The Filtered_* tables were annotated as appropriate with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study, subsequently the tables were filtered using the PanCancer Atlas whitelist. Two exceptions are the (public) MC3 MAF file and the TCGA-CDR resource, recommended for outcome data. Use of the tables starting with Filtered_* is suggested. These tables are static and versioned."
+}
