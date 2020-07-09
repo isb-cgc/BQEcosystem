@@ -1,0 +1,49 @@
+{
+  "creationTime": "1590602132721", 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation data generated using Illumina Human Methylation 450k. Some samples were filtered using the PanCancer Atlas whitelist.  \n\nMore details: https://www.synapse.org/#!Synapse:syn4557792.10  \nand https://gdc.cancer.gov/about-data/publications/pancanatlas, file: jhu-usc.edu_PANCAN_HumanMethylation450.betaValue_whitelisted.tsv", 
+  "etag": "B/6dpN0wpi7wataQa/6WTg==", 
+  "friendlyName": "PanCancer DNA Methylation (450K Only)", 
+  "id": "isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted", 
+  "kind": "bigquery#table", 
+  "labels": {
+    "access": "open", 
+    "data_type": "methylation", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "lastModifiedTime": "1590602132721", 
+  "location": "US", 
+  "numBytes": "191403992776", 
+  "numLongTermBytes": "0", 
+  "numRows": "3827572160", 
+  "schema": {
+    "fields": [
+      {
+        "description": "Unique probe identifier (eg cg04676771) from the Illumina Human Methylation array -- please refer to the annotation table (isb-cgc:platform_reference.methylation_annotation) for more details about any particular probe", 
+        "mode": "NULLABLE", 
+        "name": "ID", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28", 
+        "mode": "NULLABLE", 
+        "name": "AliquotBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Normalized DNA methylation beta value (between 0 and 1, where 0 indicates completely un-methylated and 1 indicates fully methylated)", 
+        "mode": "NULLABLE", 
+        "name": "Beta", 
+        "type": "FLOAT"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted", 
+  "tableReference": {
+    "datasetId": "pancancer_atlas", 
+    "projectId": "isb-cgc", 
+    "tableId": "jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted"
+  }, 
+  "type": "TABLE"
+}

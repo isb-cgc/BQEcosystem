@@ -1,0 +1,78 @@
+{
+  "creationTime": "1590601979650", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration.  \nNote: the data was extracted from the BigQuery Table isb-cgc:pancancer_atlas.TCGA_RPPA_pancan_clean. The data is annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes ) \n\nMore details:  BigQuery table: isb-cgc:pancancer_atlas.PanCancer_TCGA_RPPA_pancan_clean \nand https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin", 
+  "etag": "mdUG7Z6jkjadXIi6GBypzw==", 
+  "friendlyName": "PanCancer Filtered RPPA Final", 
+  "id": "isb-cgc:pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean", 
+  "kind": "bigquery#table", 
+  "labels": {
+    "access": "open", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "lastModifiedTime": "1590601979650", 
+  "location": "US", 
+  "numBytes": "211161212", 
+  "numLongTermBytes": "0", 
+  "numRows": "1965033", 
+  "schema": {
+    "fields": [
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "ParticipantBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Barcode of the biospecimen sample, eg TCGA-13-1489-02A", 
+        "mode": "NULLABLE", 
+        "name": "SampleBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28", 
+        "mode": "NULLABLE", 
+        "name": "AliquotBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Letter code of the sample type using the TCGA standards, eg TPN, EBV. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/sample-type-codes", 
+        "mode": "NULLABLE", 
+        "name": "SampleTypeLetterCode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "There are 10 sample types: Blood Derived Normal, Primary solid Tumor, Solid Tissue Normal, Recurrent Solid Tumor, Metastatic, Additional - New Primary, Primary Blood Derived Cancer - Peripheral Blood, Buccal Cell Normal, Additioanal Metastatic, Bone Marrrow Normal", 
+        "mode": "NULLABLE", 
+        "name": "SampleType", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations", 
+        "mode": "NULLABLE", 
+        "name": "Study", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Protein symbol and phosphorylation status (if applicable), eg P53, JNK_pT183Y185", 
+        "mode": "NULLABLE", 
+        "name": "Protein", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Expression level of protein as measured by reverse-phase protein arrays (RPPAs).Examples: 0.204238725,-0.01826295", 
+        "mode": "NULLABLE", 
+        "name": "Value", 
+        "type": "FLOAT"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_TCGA_RPPA_pancan_clean", 
+  "tableReference": {
+    "datasetId": "pancancer_atlas", 
+    "projectId": "isb-cgc", 
+    "tableId": "Filtered_TCGA_RPPA_pancan_clean"
+  }, 
+  "type": "TABLE"
+}

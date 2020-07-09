@@ -1,0 +1,103 @@
+{
+  "creationTime": "1590602446876", 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains Sample Quality Annotations. This file was created by merging the annotations available in the DCC annotations database with manually curated lists of issue samples.   \n\nMore details: https://www.synapse.org/#!Synapse:syn4551248 \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas , file:merged_sample_quality_annotations.tsv", 
+  "etag": "t43eDfI3/1+4Sw5Dc7ub7g==", 
+  "friendlyName": "PanCancer Merged Sample Quality Annotations", 
+  "id": "isb-cgc:pancancer_atlas.merged_sample_quality_annotations", 
+  "kind": "bigquery#table", 
+  "labels": {
+    "access": "open", 
+    "data_type": "biospecimen", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "lastModifiedTime": "1590602446876", 
+  "location": "US", 
+  "numBytes": "8586850", 
+  "numLongTermBytes": "0", 
+  "numRows": "79286", 
+  "schema": {
+    "fields": [
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "patient_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations", 
+        "mode": "NULLABLE", 
+        "name": "cancer_type", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Platform used to generate this data, eg. HumanMethylation450, HumanMethylation27, IlluminaHiSeq_RNASeqV2, etc", 
+        "mode": "NULLABLE", 
+        "name": "platform", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Participant level annotations", 
+        "mode": "NULLABLE", 
+        "name": "patient_annotation", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Sample level annotations", 
+        "mode": "NULLABLE", 
+        "name": "sample_annotation", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot annotations", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_annotation", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Updated TCGA aliquot annotations", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_annotation_updated", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Indicates if participant barcode was excluded because of pathology, according to the TCGA Analysis Working Group. Takes values of null, \"1.0\" (excluded), or \"0.0\" (non excluded) ", 
+        "mode": "NULLABLE", 
+        "name": "AWG_excluded_because_of_pathology", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Describe the reazon of exclusion when AWG_excluded_because_of_pathology = \"1.0\"", 
+        "mode": "NULLABLE", 
+        "name": "AWG_pathology_exclusion_reason", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Indicates if participant barcode was reviewd by the expert pathology committee. Takes values of null, \"1.0\" (excluded), or \"0.0\" (non excluded).", 
+        "mode": "NULLABLE", 
+        "name": "Reviewed_by_EPC", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Boolean variable that indicates wether aliquot barcodes were flagged as \"do not use\" by the TCGA PanCancer Atlas Consortium", 
+        "mode": "NULLABLE", 
+        "name": "Do_not_use", 
+        "type": "STRING"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/merged_sample_quality_annotations", 
+  "tableReference": {
+    "datasetId": "pancancer_atlas", 
+    "projectId": "isb-cgc", 
+    "tableId": "merged_sample_quality_annotations"
+  }, 
+  "type": "TABLE"
+}
