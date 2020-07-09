@@ -1,4 +1,4 @@
 {
   "dataset_name": "GENIE",
-  "description": "This data set contains the current GENIE program data extracted from the NCI GDC. The tables within this data set are dynamic and update with new releases, for static tables use GENIE_versioned."
+  "description": "This data set contains the current GENIE program data extracted from the NCI GDC. The tables within this data set are dynamic and update with new releases; for static tables use GENIE_versioned."
 }
