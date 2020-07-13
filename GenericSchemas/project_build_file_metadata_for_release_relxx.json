@@ -7,7 +7,7 @@
     "data_type": "file_metadata",
     "reference_genome_0": "{---tag-ref-genome-0---}",
     "program": "{---tag-source-0---}",
-    "source_1": "gdc",
+    "source": "gdc",
     "status": "current"
   },
   "schema": {
