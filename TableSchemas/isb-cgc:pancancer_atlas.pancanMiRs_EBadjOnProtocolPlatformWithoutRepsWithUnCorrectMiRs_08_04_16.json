@@ -6,6 +6,7 @@
   "id": "isb-cgc:pancancer_atlas.pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
     "data_type": "mirna_expression", 
     "reference_genome": "hg19", 

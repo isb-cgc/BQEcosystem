@@ -6,8 +6,9 @@
   "id": "isb-cgc:pancancer_atlas.Filtered_all_CNVR_data_by_gene", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
-    "data_type": "copy_number_variation", 
+    "data_type": "copy_number_segment_masked", 
     "reference_genome": "hg19", 
     "source": "gdc", 
     "status": "current"

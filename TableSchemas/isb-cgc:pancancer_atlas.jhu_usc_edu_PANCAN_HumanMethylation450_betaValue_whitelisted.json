@@ -6,8 +6,9 @@
   "id": "isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
-    "data_type": "methylation", 
+    "data_type": "dna_methylation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
     "status": "current"

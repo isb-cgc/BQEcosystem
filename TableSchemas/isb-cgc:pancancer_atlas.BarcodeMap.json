@@ -6,8 +6,9 @@
   "id": "isb-cgc:pancancer_atlas.BarcodeMap", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
-    "data_type": "biospecimen", 
+    "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
     "source": "gdc", 
     "status": "current"

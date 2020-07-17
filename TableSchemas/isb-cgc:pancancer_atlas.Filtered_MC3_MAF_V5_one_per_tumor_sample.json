@@ -6,6 +6,7 @@
   "id": "isb-cgc:pancancer_atlas.Filtered_MC3_MAF_V5_one_per_tumor_sample", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
     "data_type": "somatic_mutations", 
     "reference_genome": "hg19", 

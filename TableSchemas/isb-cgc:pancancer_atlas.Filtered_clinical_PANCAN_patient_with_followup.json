@@ -6,8 +6,9 @@
   "id": "isb-cgc:pancancer_atlas.Filtered_clinical_PANCAN_patient_with_followup", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
-    "data_type": "clinical", 
+    "data_type": "clinical_data", 
     "reference_genome": "hg19", 
     "source": "gdc", 
     "status": "current"

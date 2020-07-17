@@ -6,8 +6,10 @@
   "id": "isb-cgc:pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean", 
   "kind": "bigquery#table", 
   "labels": {
+    "program": "pancancer_atlas",
     "access": "open", 
-    "reference_genome": "hg19", 
+    "reference_genome": "hg19",
+    "data_type": "protein_expression",
     "source": "gdc", 
     "status": "current"
   }, 
