@@ -1,0 +1,38 @@
+{
+  "creationTime": "1590602926909", 
+  "description": "Extracted from PanCancer Atlas initiative on the GDC in Aug 2016. Contains participant barcodes used in by the PanCancer Atlas initiative.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "etag": "ZLLufau6bDY2EeqjzFvhog==", 
+  "friendlyName": "Pancancer Participants Whitelist", 
+  "id": "isb-cgc:pancancer_atlas.Whitelist_ParticipantBarcodes", 
+  "kind": "bigquery#table", 
+  "labels": {
+    "program": "pancancer_atlas",
+    "access": "open", 
+    "data_type": "biospecimen_supplement", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "lastModifiedTime": "1590602926909", 
+  "location": "US", 
+  "numBytes": "155148", 
+  "numLongTermBytes": "0", 
+  "numRows": "11082", 
+  "schema": {
+    "fields": [
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "ParticipantBarcode", 
+        "type": "STRING"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Whitelist_ParticipantBarcodes", 
+  "tableReference": {
+    "datasetId": "pancancer_atlas", 
+    "projectId": "isb-cgc", 
+    "tableId": "Whitelist_ParticipantBarcodes"
+  }, 
+  "type": "TABLE"
+}
