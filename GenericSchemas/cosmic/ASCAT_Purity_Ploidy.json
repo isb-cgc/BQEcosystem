@@ -1,0 +1,41 @@
+{
+  "description": "This table contains information regarding the ploidy and aberrant cell fraction (purity estimate) for TCGA samples re-analysed using ASCAT.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} ASCAT PURITY PLOIDY FOR version {---tag-release---}",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "{---tag-ref-genome-0---}",
+    "category": "processed_-omics_data",
+    "data_type": "copy_number_segment"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Cancer_Type_Code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "TCGA disease code, eg ACC, BRCA, LUSC, etc."
+      },
+      {
+        "name": "Sample",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "TCGA aliquot identifier, eg TCGA-BR-4375-01A-01D-1155-01"
+      },
+      {
+        "name": "Aberrant_Cell_Fraction_Purity",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Purity estimate"
+      },
+      {
+        "name": "Ploidy",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Ploidy of the genome"
+      }
+    ]
+  }
+}
