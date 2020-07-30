@@ -235,7 +235,7 @@
         "description": "Any additional individual information (e.g. age group, hereditary syndromes)."
       },
       {
-        "name": "NCI_code",
+        "name": "nci_code",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "NCI thesaurus code for tumour histological classification."

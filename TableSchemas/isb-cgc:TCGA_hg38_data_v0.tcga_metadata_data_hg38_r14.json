@@ -8,10 +8,10 @@
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
+    "data_type": "file_metadata", 
     "reference_genome_0": "hg38", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325198219", 

@@ -1,12 +1,12 @@
 {
   "description": "This table contains all of the features related to a sample from the current release.",
-  "friendlyName": "COSMIC GRCH 37 SAMPLE",
+  "friendlyName": "COSMIC GRCH 38 SAMPLE",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "clinical_biospecimen_data",
     "data_type": "biospecimen_supplement"
   },
@@ -235,7 +235,7 @@
         "description": "Any additional individual information (e.g. age group, hereditary syndromes)."
       },
       {
-        "name": "NCI_code",
+        "name": "nci_code",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "NCI thesaurus code for tumour histological classification."

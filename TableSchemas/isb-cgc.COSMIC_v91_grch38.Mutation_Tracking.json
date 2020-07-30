@@ -1,12 +1,12 @@
 {
   "description": "This table contains the listing the mapping all of COSMIC's legacy mutations(COSMs) to the new genomic identifiers(COSVs). This file also helps to identify the transcripts and the accession numbers on which the current mutation is annotated on, along with the mutation type.",
-  "friendlyName": "COSMIC GRCH 37 MUTATION TRACKING",
+  "friendlyName": "COSMIC GRCH 38 MUTATION TRACKING",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "somatic_mutation"
   },
@@ -23,6 +23,12 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Type of mutation (coding, non-coding etc.)"
+      },
+      {
+        "name": "GRCH",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Genome version of the mutation."
       },
       {
         "name": "MUTATION_ID",

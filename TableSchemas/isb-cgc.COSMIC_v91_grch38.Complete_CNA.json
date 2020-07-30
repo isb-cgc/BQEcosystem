@@ -1,12 +1,12 @@
 {
   "description": "All copy number abberations from the current release in a tab separated table. For more information on copy number data, please see http://cancer.sanger.ac.uk/cosmic/help/cnv/overview.",
-  "friendlyName": "COSMIC GRCH 37 COMPLETE COPY NUMBER VARIANTS",
+  "friendlyName": "COSMIC GRCH 38 COMPLETE COPY NUMBER VARIANTS",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "copy_number_segment"
   },

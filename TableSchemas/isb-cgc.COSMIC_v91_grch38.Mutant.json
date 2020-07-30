@@ -1,12 +1,12 @@
 {
   "description": "This table contains all COSMIC coding point mutations from targeted and genome wide screens from the current release.",
-  "friendlyName": "COSMIC GRCH 37 ALL CODING POINT MUTATIONS",
+  "friendlyName": "COSMIC GRCH 38 ALL CODING POINT MUTATIONS",
   "labels": {
     "access": "controlled",
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "somatic_mutation",
     "data_type": "processed_-omics_data"
   },
