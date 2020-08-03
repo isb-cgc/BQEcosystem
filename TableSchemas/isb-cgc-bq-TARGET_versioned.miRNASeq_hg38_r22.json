@@ -2,8 +2,8 @@
   "creationTime": "1545355796512", 
   "description": "Data was extracted from the release 22 active archive of the GDC in June 2020 microRNA expression data for TARGET samples.", 
   "etag": "X2fYzRxJTijADixf84zQ7A==", 
-  "friendlyName": "TARGET HG38 MIRNASEQ", 
-  "id": "isb-cgc:TARGET.miRNAseq_hg38_r22", 
+  "friendlyName": "TARGET HG38 MIRNASEQ R22 VERSIONED", 
+  "id": "isb-cgc-bq:TARGET_versioned.miRNAseq_hg38_r22", 
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
@@ -12,7 +12,7 @@
     "reference_genome_0": "hg38", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "current"
   }, 
   "lastModifiedTime": "1580325107640", 
   "location": "US", 
