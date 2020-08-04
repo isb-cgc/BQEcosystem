@@ -1,22 +1,13 @@
 {
-  "creationTime": "1554567760000", 
   "description": "Data was generated from file metadata information from the GDC release 16, March 2019. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160", 
-  "etag": "qcFDOIZ7BrD5DNJSGOu+RQ==", 
   "friendlyName": "RELEASE 16 CASE DATA", 
-  "id": "isb-cgc:GDC_metadata.rel16_caseData", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "source_0": "gdc", 
-    "status": "current"
+    "data_type": "file_metadata", 
+    "source": "gdc", 
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580324915786", 
-  "location": "US", 
-  "numBytes": "5892192", 
-  "numLongTermBytes": "5892192", 
-  "numRows": "36389", 
   "schema": {
     "fields": [
       {
@@ -80,12 +71,5 @@
         "type": "INTEGER"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel16_caseData", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel16_caseData"
-  }, 
-  "type": "TABLE"
+  }
 }
