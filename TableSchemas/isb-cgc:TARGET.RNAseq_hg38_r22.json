@@ -13,7 +13,7 @@
     "program": "target",
     "reference_genome": "hg38",
     "source": "gdc",
-    "status": "archived"
+    "status": "deprecated"
   },
   "lastModifiedTime": "1590704508782",
   "location": "US",
