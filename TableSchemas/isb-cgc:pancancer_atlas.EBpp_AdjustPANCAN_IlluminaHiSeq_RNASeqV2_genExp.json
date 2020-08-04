@@ -7,6 +7,7 @@
   "kind": "bigquery#table", 
   "labels": {
     "program": "pancancer_atlas",
+    "category": "processed_-omics_data",
     "access": "open", 
     "data_type": "mirna_expression", 
     "reference_genome": "hg19", 
