@@ -8,7 +8,7 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "mirna_expression", 
+    "data_type": "mirna_expression", 
     "reference_genome_0": "hg38", 
     "program": "target", 
     "source": "gdc", 
