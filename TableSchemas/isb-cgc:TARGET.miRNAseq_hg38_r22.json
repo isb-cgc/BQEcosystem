@@ -48,7 +48,7 @@
       {
         "description": "Unique miRNA id (aka symbol), eg hsa-mir-21  --  relevant reference information can be found in the isb-cgc:genome_reference dataset in the tables miRBase_v21 and miRBase_v21_hsa_gff3", 
         "mode": "NULLABLE", 
-        "name": "mirna_id", 
+        "name": "miRNA_ID", 
         "type": "STRING"
       }, 
       {
