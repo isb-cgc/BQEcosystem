@@ -11,7 +11,7 @@
     "data_type": "gene_expression",
     "experimental_strategy": "rnaseq",
     "program": "target",
-    "reference_genome_0": "hg38",
+    "reference_genome": "hg38",
     "source": "gdc",
     "status": "archived"
   },
