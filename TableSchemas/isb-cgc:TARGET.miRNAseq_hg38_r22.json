@@ -1,6 +1,6 @@
 {
   "creationTime": "1545355796512", 
-  "description": "Data was extracted from the release 22 active archive of the GDC in June 2020 microRNA expression data for TARGET samples.", 
+  "description": "This table is DEPRECATED, the updated version of this table can be found at isb-cgc-bq:TARGET_versioned.miRNAseq_hg38_gdc_r22. Data was extracted from the release 22 active archive of the GDC in June 2020 microRNA expression data for TARGET samples.", 
   "etag": "X2fYzRxJTijADixf84zQ7A==", 
   "friendlyName": "TARGET HG38 MIRNASEQ", 
   "id": "isb-cgc:TARGET.miRNAseq_hg38_r22", 
