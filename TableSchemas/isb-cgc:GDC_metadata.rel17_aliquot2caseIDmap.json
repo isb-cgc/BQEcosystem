@@ -1,22 +1,13 @@
 {
-  "creationTime": "1569441026019", 
   "description": "Data was generated from file metadata information from the GDC release 17.1, June 2019. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-170", 
-  "etag": "aZxInsS87gt1Sx94iezM+A==", 
   "friendlyName": "RELEASE 17 ALIQUOT IDS TO CASE IDS", 
-  "id": "isb-cgc:GDC_metadata.rel17_aliquot2caseIDmap", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "source_0": "gdc", 
-    "status": "current"
+    "data_type": "file_metadata", 
+    "source": "gdc", 
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580324929669", 
-  "location": "US", 
-  "numBytes": "58536576", 
-  "numLongTermBytes": "58536576", 
-  "numRows": "182458", 
   "schema": {
     "fields": [
       {
@@ -116,12 +107,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel17_aliquot2caseIDmap", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel17_aliquot2caseIDmap"
-  }, 
-  "type": "TABLE"
+  }
 }
