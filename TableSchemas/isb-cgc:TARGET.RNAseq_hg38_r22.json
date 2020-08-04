@@ -1,6 +1,6 @@
 {
   "creationTime": "1590704507218",
-  "description": "Data was extracted from active archive of the GDC on December 2018 for RNAseq data for TARGET samples.",
+  "description": "This table is DEPRECATED, the updated version of this table can be found at isb-cgc-bq:TARGET_versioned.RNAseq_hg38_gdc_r22. Data was extracted from active archive of the GDC on December 2018 for RNAseq data for TARGET samples.",
   "etag": "nq6KkM+BnPOzHs0oejHNpA==",
   "friendlyName": "TARGET HG38 RNASEQ GENE EXPRESSION",
   "id": "isb-cgc:TARGET.RNAseq_hg38_r22",
