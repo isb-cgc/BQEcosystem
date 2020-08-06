@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC on March 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
+  "description": "Data was extracted from GDC on March 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.\nThis table has been deprecated, please see isb-cgc-bq.ORGANOID.RNAseq_hg38_gdc_current for the most current table.", 
   "friendlyName": "ORGANOID RNASEQ GENE EXPRESSION", 
   "labels": {
     "access": "open",
@@ -9,7 +9,7 @@
     "program": "organoid",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "status": "current"
+    "status": "deprecated"
   },
   "schema": {
     "fields": [
