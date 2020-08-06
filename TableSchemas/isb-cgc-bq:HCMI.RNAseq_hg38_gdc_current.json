@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from GDC on July 2020. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
-  "friendlyName": "HCMI RNASEQ GENE EXPRESSION FOR REL 23",
+  "friendlyName": "HCMI RNASEQ GENE EXPRESSION",
   "labels": {
     "access": "open",
     "category": "processed_-omics_data",
