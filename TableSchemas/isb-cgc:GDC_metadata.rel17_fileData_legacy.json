@@ -1,23 +1,14 @@
 {
-  "creationTime": "1569441150848", 
   "description": "Data was generated from file metadata information from the GDC legacy archive release 17.1, June 2019. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-170", 
-  "etag": "1efIEseTmlxMrNSDcHgjCw==", 
   "friendlyName": "RELEASE 17 FILE DATA LEGACY", 
-  "id": "isb-cgc:GDC_metadata.rel17_fileData_legacy", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
+    "data_type": "file_metadata", 
     "reference_genome_0": "hg19", 
-    "source_0": "gdc", 
-    "status": "current"
+    "source": "gdc", 
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580324927938", 
-  "location": "US", 
-  "numBytes": "681918696", 
-  "numLongTermBytes": "681918696", 
-  "numRows": "837942", 
   "schema": {
     "fields": [
       {
@@ -291,12 +282,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel17_fileData_legacy", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel17_fileData_legacy"
-  }, 
-  "type": "TABLE"
+  }
 }

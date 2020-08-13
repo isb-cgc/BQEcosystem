@@ -1,22 +1,13 @@
 {
-  "creationTime": "1554512501969", 
   "description": "Data was generated from file metadata information from the GDC release 16, March 2019. Image slides are mapped to case information\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160", 
-  "etag": "j1nDEahbEXHBh79FCyGTBQ==", 
   "friendlyName": "RELEASE 16 SLIDE IMAGES TO CASE IDS", 
-  "id": "isb-cgc:GDC_metadata.rel16_slide2caseIDmap", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "source_0": "gdc", 
-    "status": "current"
+    "data_type": "file_metadata", 
+    "source": "gdc", 
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580324922920", 
-  "location": "US", 
-  "numBytes": "7674347", 
-  "numLongTermBytes": "7674347", 
-  "numRows": "30594", 
   "schema": {
     "fields": [
       {
@@ -92,12 +83,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel16_slide2caseIDmap", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel16_slide2caseIDmap"
-  }, 
-  "type": "TABLE"
+  }
 }

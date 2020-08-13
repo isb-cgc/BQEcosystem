@@ -2,14 +2,14 @@
   "creationTime": "1545355796512", 
   "description": "Data was extracted from the release 22 active archive of the GDC in June 2020 microRNA expression data for TARGET samples.", 
   "etag": "X2fYzRxJTijADixf84zQ7A==", 
-  "friendlyName": "TARGET HG38 MIRNASEQ", 
-  "id": "isb-cgc:TARGET.miRNAseq_hg38_r22", 
+  "friendlyName": "TARGET HG38 MIRNASEQ R22 VERSIONED", 
+  "id": "isb-cgc-bq:TARGET_versioned.miRNAseq_hg38_gdc_r22", 
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "mirna_expression", 
-    "reference_genome_0": "hg38", 
+    "data_type": "mirna_expression", 
+    "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
     "status": "current"
@@ -48,7 +48,7 @@
       {
         "description": "Unique miRNA id (aka symbol), eg hsa-mir-21  --  relevant reference information can be found in the isb-cgc:genome_reference dataset in the tables miRBase_v21 and miRBase_v21_hsa_gff3", 
         "mode": "NULLABLE", 
-        "name": "mirna_id", 
+        "name": "miRNA_id", 
         "type": "STRING"
       }, 
       {
@@ -95,11 +95,11 @@
       }
     ]
   }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET/tables/miRNASeq_hg38_rel22", 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc-bq/datasets/TARGET_versioned/tables/miRNAseq_hg38_gdc_r22", 
   "tableReference": {
-    "datasetId": "TARGET", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNASeq_hg38_rel22"
+    "datasetId": "TARGET_versioned", 
+    "projectId": "isb-cgc-bq", 
+    "tableId": "miRNASeq_hg38_gdc_r22"
   }, 
   "type": "TABLE"
 }
