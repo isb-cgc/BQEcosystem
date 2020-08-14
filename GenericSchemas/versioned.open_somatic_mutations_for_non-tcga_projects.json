@@ -163,7 +163,7 @@
         "type": "STRING"
       },  
       {
-        "description": "Secondary data from orthogonal technology. Matched normal genotyping (validation) for allele 1. A "-" symbol for a deletion represents a variant. A "-" symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
+        "description": "Secondary data from orthogonal technology. Matched normal genotyping (validation) for allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
         "mode": "NULLABLE", 
         "name": "Matched_Norm_Validation_Allele1", 
         "type": "STRING"
