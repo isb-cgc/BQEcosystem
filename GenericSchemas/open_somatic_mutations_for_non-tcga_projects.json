@@ -301,7 +301,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "	Read depth supporting the variant allele in normal BAM (cleared in somatic MAF)", 
+        "description": "Read depth supporting the variant allele in normal BAM (cleared in somatic MAF)", 
         "mode": "NULLABLE", 
         "name": "n_alt_count", 
         "type": "STRING"
