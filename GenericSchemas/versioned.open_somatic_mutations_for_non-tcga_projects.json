@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from release {---tag-release---} of the {---tag-archive---} GDC archive on {---tag-release-month-year---} for {---tag-program---} somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---}", 
+  "description": "Data was extracted from release {---tag-release---} of the active GDC archive on {---tag-release-month-year---} for {---tag-program---} somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---}", 
   "friendlyName": "{---tag-program---} {---tag-ref-genome-0---} SOMATIC MUTATION {---tag-release---} VERSIONED",  
   "labels": {
     "access": "open", 
