@@ -151,6 +151,18 @@
         "type": "STRING"
       }, 
       {
+        "description": "Primary data genotype. Matched normal sequencing allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
+        "mode": "NULLABLE", 
+        "name": "Matched_Norm_Seq_Allele1", 
+        "type": "STRING"
+      },
+      {
+        "description": "Matched normal sequencing allele 2", 
+        "mode": "NULLABLE", 
+        "name": "Matched_Norm_Seq_Allele2", 
+        "type": "STRING"
+      },
+      {
         "description": "Secondary data from orthogonal technology. Tumor genotyping (validation) for allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases", 
         "mode": "NULLABLE", 
         "name": "Tumor_Validation_Allele1", 
