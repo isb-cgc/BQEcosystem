@@ -153,13 +153,13 @@
       {
         "description": "Primary data genotype. Matched normal sequencing allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
         "mode": "NULLABLE", 
-        "name": "Matched_Norm_Seq_Allele1", 
+        "name": "Match_Norm_Seq_Allele1", 
         "type": "STRING"
       },
       {
         "description": "Matched normal sequencing allele 2", 
         "mode": "NULLABLE", 
-        "name": "Matched_Norm_Seq_Allele2", 
+        "name": "Match_Norm_Seq_Allele2", 
         "type": "STRING"
       },
       {
