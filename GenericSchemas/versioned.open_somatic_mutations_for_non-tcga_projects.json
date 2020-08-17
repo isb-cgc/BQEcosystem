@@ -799,6 +799,12 @@
         "type": "STRING"
       }, 
       {
+        "description": "TBD", 
+        "mode": "NULLABLE", 
+        "name": "hotspot", 
+        "type": "STRING"
+      }, 
+      {
         "description": "|-delimited list of mutation caller(s) that agreed on this particular call, always in alphabetical order: muse, mutect, somaticsniper, varscan", 
         "mode": "NULLABLE", 
         "name": "callers", 
