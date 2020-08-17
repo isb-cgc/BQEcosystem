@@ -147,7 +147,7 @@
       {
         "description": "Aliquot barcode for the matched normal sample", 
         "mode": "NULLABLE", 
-        "name": "Match_Norm_Aliquot_Barcode", 
+        "name": "Matched_Norm_Aliquot_Barcode", 
         "type": "STRING"
       }, 
       {
@@ -159,7 +159,7 @@
       {
         "description": "Matched normal sequencing allele 2", 
         "mode": "NULLABLE", 
-        "name": "Matched_Norm_Seq_Allele2", 
+        "name": "Match_Norm_Seq_Allele2", 
         "type": "STRING"
       },
       {
