@@ -771,7 +771,7 @@
       {
         "description": "Unique GDC identifier for the tumor file submitter", 
         "mode": "NULLABLE", 
-        "name": "tumor_sumbitter_uuid", 
+        "name": "tumor_submitter_uuid", 
         "type": "STRING"
       }, 
       {
