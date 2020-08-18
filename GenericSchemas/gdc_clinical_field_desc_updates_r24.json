@@ -9,17 +9,17 @@
   "index_date": "The text term used to describe the reference or anchor date used when for date obfuscation, where a single date is obscurred by creating one or more date ranges in relation to this date.",
   "lost_to_followup": "The yes/no/unknown indicator used to describe whether a patient was unable to be contacted or seen for follow-up information.",
   "submitter_id": "The submitter_id of a case entity corresponds to the submitted_subject_id of the study participant in dbGaP records for the project.",
-  "updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]."
-  "demo__demographic_id": "GDC-assigned identifier for a case's demographic data."
-  "diag__diagnosis_id": "GDC-assigned identifier for a case's diagnosis."
+  "updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
+  "demo__demographic_id": "GDC-assigned identifier for a case's demographic data.",
+  "diag__diagnosis_id": "GDC-assigned identifier for a case's diagnosis.",
   "diag__anno__annotation_id": "GDC-assigned identifier for a case's diagnosis annotation data.",
   "diag__anno__entity_id": "GDC-assigned identifier for a case's diagnosis annotation entity data.",
-  "diag__anno__entity_type": "Annotation entity type (e.g. case, aliquot, analyte, portion, slide, sample)."
-  "diag__treat__treatment_id": "GDC-assigned identifier for a case's treatment data."
-  "exp__exposure_id": "GDC-assigned identifier for a case's exposure data."
-  "fam_hist__family_history_id": "GDC-assigned identifier for a case's family history data."
-  "follow__follow_up_id": "GDC-assigned identifier for a case's follow up data."
-  "follow__mol_test__molecular_test_id": "GDC-assigned identifier for case follow up's molecular test data."
+  "diag__anno__entity_type": "Annotation entity type (e.g. case, aliquot, analyte, portion, slide, sample).",
+  "diag__treat__treatment_id": "GDC-assigned identifier for a case's treatment data.",
+  "exp__exposure_id": "GDC-assigned identifier for a case's exposure data.",
+  "fam_hist__family_history_id": "GDC-assigned identifier for a case's family history data.",
+  "follow__follow_up_id": "GDC-assigned identifier for a case's follow up data.",
+  "follow__mol_test__molecular_test_id": "GDC-assigned identifier for case follow up's molecular test data.",
   "proj__name": "Display name for the project to which a case belongs.",
   "proj__project_id": "GDC-assigned identifier for the project to which a case belongs."
 }
