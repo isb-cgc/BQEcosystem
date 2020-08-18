@@ -1,0 +1,12 @@
+{
+  "description": "Data for the CTSP program was extracted using the GDC API in August 2020. This table contains information about CTSP patient cases and their clinical information.  More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
+  "friendlyName": "CTSP CLINICAL DATA",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "gdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "ctsp"
+  }
+}
