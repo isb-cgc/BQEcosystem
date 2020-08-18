@@ -1,45 +1,25 @@
 {
-  "cases": {
-    "case_id": "GDC unique identifier for this case (corresponds to the case_barcode) -- this can be used to access more information from the GDC data portal in the following way: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
-    "consent_type": "The text term used to describe the type of consent obtain from the subject for participation in the study.",
-    "created_datetime": "Timestamp of initial upload of data in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
-    "days_to_consent": "Number of days between the date used for index and the date the subject consent was obtained for participation in the study.",
-    "days_to_index": "Number of days from the date of case index. Note: GDC will likely deprecate this field information, therefore it may not exist in subsequent clinical data releases.",
-    "days_to_lost_to_followup": "If vital_status indicates 'alive', then this is the number of days from the date of diagnosis to the last followup (communication contact).",
-    "disease_type": "The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).",
-    "index_date": "The text term used to describe the reference or anchor date used when for date obfuscation, where a single date is obscurred by creating one or more date ranges in relation to this date.",
-    "lost_to_followup": "The yes/no/unknown indicator used to describe whether a patient was unable to be contacted or seen for follow-up information.",
-    "submitter_id": "The submitter_id of a case entity corresponds to the submitted_subject_id of the study participant in dbGaP records for the project.",
-    "updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]."
-  },
-  "cases.demographic": {
-    "demographic_id": "GDC-assigned identifier for a case's demographic data."
-  },
-  "cases.diagnoses": {
-    "diagnosis_id": "GDC-assigned identifier for a case's diagnosis."
-  },
-  "cases.diagnoses.annotations": {
-    "annotation_id": "GDC-assigned identifier for a case's diagnosis annotation data.",
-    "entity_id": "GDC-assigned identifier for a case's diagnosis annotation entity data.",
-    "entity_type": "Annotation entity type (e.g. case, aliquot, analyte, portion, slide, sample)."
-  },
-  "cases.diagnoses.treatments": {
-    "treatment_id": "GDC-assigned identifier for a case's treatment data."
-  },
-  "cases.exposures": {
-    "exposure_id": "GDC-assigned identifier for a case's exposure data."
-  },
-  "cases.family_histories": {
-    "family_history_id": "GDC-assigned identifier for a case's family history data."
-  },
-  "cases.follow_ups": {
-    "follow_up_id": "GDC-assigned identifier for a case's follow up data."
-  },
-  "cases.follow_ups.molecular_tests": {
-    "molecular_test_id": "GDC-assigned identifier for case follow up's molecular test data."
-  },
-  "cases.project": {
-    "name": "Display name for the project to which a case belongs.",
-    "project_id": "GDC-assigned identifier for the project to which a case belongs."
-  }
+  "cases.case_id": "GDC unique identifier for this case (corresponds to the case_barcode) -- this can be used to access more information from the GDC data portal in the following way: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba9.",
+  "cases.consent_type": "The text term used to describe the type of consent obtain from the subject for participation in the study.",
+  "cases.created_datetime": "Timestamp of initial upload of data in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
+  "cases.days_to_consent": "Number of days between the date used for index and the date the subject consent was obtained for participation in the study.",
+  "cases.days_to_index": "Number of days from the date of case index. Note: GDC will likely deprecate this field information, therefore it may not exist in subsequent clinical data releases.",
+  "cases.days_to_lost_to_followup": "If vital_status indicates 'alive', then this is the number of days from the date of diagnosis to the last followup (communication contact).",
+  "cases.disease_type": "The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).",
+  "cases.index_date": "The text term used to describe the reference or anchor date used when for date obfuscation, where a single date is obscurred by creating one or more date ranges in relation to this date.",
+  "cases.lost_to_followup": "The yes/no/unknown indicator used to describe whether a patient was unable to be contacted or seen for follow-up information.",
+  "cases.submitter_id": "The submitter_id of a case entity corresponds to the submitted_subject_id of the study participant in dbGaP records for the project.",
+  "cases.updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]."
+  "cases.demographic.demographic_id": "GDC-assigned identifier for a case's demographic data."
+  "cases.diagnoses.diagnosis_id": "GDC-assigned identifier for a case's diagnosis."
+  "cases.diagnoses.annotations.annotation_id": "GDC-assigned identifier for a case's diagnosis annotation data.",
+  "cases.diagnoses.annotations.entity_id": "GDC-assigned identifier for a case's diagnosis annotation entity data.",
+  "cases.diagnoses.annotations.entity_type": "Annotation entity type (e.g. case, aliquot, analyte, portion, slide, sample)."
+  "cases.diagnoses.treatments.treatment_id": "GDC-assigned identifier for a case's treatment data."
+  "cases.exposures.exposure_id": "GDC-assigned identifier for a case's exposure data."
+  "cases.family_histories.family_history_id": "GDC-assigned identifier for a case's family history data."
+  "cases.follow_ups.follow_up_id": "GDC-assigned identifier for a case's follow up data."
+  "cases.follow_ups.molecular_tests.molecular_test_id": "GDC-assigned identifier for case follow up's molecular test data."
+  "cases.project.name": "Display name for the project to which a case belongs.",
+  "cases.project.project_id": "GDC-assigned identifier for the project to which a case belongs."
 }
