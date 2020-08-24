@@ -1,4 +1,4 @@
 {
   "dataset_name": "BEATAML1_0",
-  "description": "This data set contains the current GENCODE data from EMBL-EBI. The tables within this data set are dynamic and update with new releases; for static tables use GENCODE_versioned."
+  "description": "This data set contains the current GENCODE data from EMBL-EBI. (www.gencodegenes.org) The tables within this data set are dynamic and update with new releases; for static tables use GENCODE_versioned."
 }
