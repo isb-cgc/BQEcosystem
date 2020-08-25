@@ -2,7 +2,7 @@
   "creationTime": "1535573226868", 
   "description": "Data was extracted from GDC active archive release on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110", 
   "etag": "073K2Kel1IdzJdaF6KkKow==", 
-  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION RELEASE 11", 
+  "friendlyName": "TARGET HG38 MIRNA ISOFORM  REL11 VERSIONED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression_r11_180816", 
   "kind": "bigquery#table", 
   "labels": {
@@ -12,7 +12,7 @@
     "reference_genome_0": "hg38", 
     "source_0": "target", 
     "source_1": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
   "lastModifiedTime": "1580325112683", 
   "location": "US", 
