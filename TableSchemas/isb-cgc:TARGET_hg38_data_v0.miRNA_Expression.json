@@ -9,7 +9,7 @@
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type": "mirna_expression",
-    "reference_genome_0": "hg38", 
+    "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
     "status": "deprecated"
