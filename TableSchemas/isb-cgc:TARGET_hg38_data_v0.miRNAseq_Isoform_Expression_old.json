@@ -2,7 +2,7 @@
   "creationTime": "1545355090976", 
   "description": "Data was extracted from the GDC on December 2018. MicroRNA isoform-level expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140", 
   "etag": "+dqcBXPungAOe/7Y1+kDDQ==", 
-  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION OLD", 
+  "friendlyName": "TARGET HG38 MIRNA ISOFORM REL14", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression_old", 
   "kind": "bigquery#table", 
   "labels": {
