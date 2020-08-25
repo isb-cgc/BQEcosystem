@@ -2,7 +2,7 @@
   "creationTime": "1535573208835", 
   "description": "Data was extracted from GDC for release 11 from May 2018 for mRNA expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110", 
   "etag": "CE51M1T6CF7q2Age30npjQ==", 
-  "friendlyName": "TARGET HG38 MIRNA EXPRESSION RELEASE 11", 
+  "friendlyName": "TARGET HG38 MIRNASEQ REL11 VERSIONED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNA_Expression_r11_180816", 
   "kind": "bigquery#table", 
   "labels": {
@@ -12,7 +12,7 @@
     "reference_genome_0": "hg38", 
     "source_0": "target", 
     "source_1": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
   "lastModifiedTime": "1580325104628", 
   "location": "US", 
