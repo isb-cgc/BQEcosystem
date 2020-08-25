@@ -8,10 +8,10 @@
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "reference_genome_0": "hg38", 
-    "source_0": "target", 
-    "source_1": "gdc", 
+    "data_type": "file_metadata", 
+    "reference_genome": "hg38", 
+    "program": "target", 
+    "source": "gdc", 
     "status": "archived"
   }, 
   "lastModifiedTime": "1580325101194", 
