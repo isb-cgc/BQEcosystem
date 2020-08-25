@@ -10,7 +10,7 @@
     "category": "clinical_biospecimen_data", 
     "data_type_0": "file_metadata", 
     "source_0": "target", 
-    "status": "current"
+    "status": "deprecated"
   }, 
   "lastModifiedTime": "1580336051876", 
   "location": "US", 
