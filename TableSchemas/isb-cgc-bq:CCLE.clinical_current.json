@@ -1,7 +1,7 @@
 {
   "description": "Data was extracted from the CCLE program in June 2019. This table contains clinical information about CCLE primary cell lines. More details: see https://portals.broadinstitute.org/ccle/about",
   "friendlyName": "CCLE CLINICAL",
-  "id": "isb-cgc-bq:CCLE_versioned.clinical_current",
+  "id": "isb-cgc-bq:CCLE.clinical_current",
   "kind": "bigquery#table",
   "labels": {
     "access": "open",
