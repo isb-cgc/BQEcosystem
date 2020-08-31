@@ -1,8 +1,8 @@
 {
   "creationTime": "1456501507311",
-  "description": "Data was generated from an older CCLE dataset from Google Genomics on February 2016. Expression data was generated using Raw Affymetrix U133+2 CEL files that was converted to a single value for each probe set using Robust Multi-array Average (RMA) and quantile normalization.",
+  "description": "Data was generated from an older CCLE dataset from Google Genomics on February 2016. Expression data was generated using Raw Affymetrix U133+2 CEL files that was converted to a single value for each probe set using Robust Multi-array Average (RMA) and quantile normalization. This table has been deprecated, please see isb-cgc-bq.CCLE.RMA_expression_hg19_current for the most current table.",
   "etag": "MItqVtEsHl1d1UmpSxio8A==",
-  "friendlyName": "CCLE 2016 - AFFYU133 MICROARRAY",
+  "friendlyName": "CCLE AFFYU133 MICROARRAY 2016", 
   "id": "isb-cgc:ccle_201602_alpha.AffyU133_RMA_expression",
   "kind": "bigquery#table",
   "labels": {
@@ -13,7 +13,7 @@
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "status": "current"
+    "status": "deprecated"
   },
   "lastModifiedTime": "1583860740252",
   "location": "US",
