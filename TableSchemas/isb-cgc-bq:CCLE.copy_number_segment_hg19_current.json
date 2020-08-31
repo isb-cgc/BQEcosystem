@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Copy number segment data are made available here.",
-  "friendlyName": "CCLE COPY NUMBER SEGMENTS 2016",
+  "friendlyName": "CCLE COPY NUMBER SEGMENTS",
   "id": "isb-cgc-bq:CCLE.copy_number_segment_hg19_current",
   "kind": "bigquery#table",
   "labels": {
