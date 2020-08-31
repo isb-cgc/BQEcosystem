@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Mutation calls was extracted using the file CCLE_hybrid_capture1650_hg19_NoCommonSNPs_NoNeutralVariants_CDS_2012.05.07.maf.gz.",
-  "friendlyName": "CCLE SOMATIC MUTATION 2016 VERISONED",
+  "friendlyName": "CCLE SOMATIC MUTATIONS 2016 VERISONED",
   "id": "isb-cgc-bq:CCLE_versioned.somatic_mutations_hg19_2016_02",
   "kind": "bigquery#table",
   "labels": {
