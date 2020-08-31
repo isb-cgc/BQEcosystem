@@ -10,7 +10,7 @@
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "status": "current"
+    "status": "archived"
   },
   "schema": {
     "fields": [
