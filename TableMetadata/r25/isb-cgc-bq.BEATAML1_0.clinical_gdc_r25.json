@@ -1,6 +1,6 @@
 {
-  "description": "Data for the BEATAML 1.0 program was extracted using the GDC API in August 2020. This table contains information about BEATAML patient cases and their clinical information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
-  "friendlyName": "BEATAML CLINICAL DATA",
+  "description": "Data for the BEATAML 1.0 program was extracted using the GDC API in August 2020. This table contains information about BEATAML 1.0 patient cases and their clinical information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
+  "friendlyName": "BEATAML 1.0 CLINICAL DATA",
   "labels": {
     "access": "open",
     "data_type": "clinical_data",
