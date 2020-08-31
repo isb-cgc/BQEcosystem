@@ -8,9 +8,9 @@
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
-    "data_type_0": "biospecimen", 
-    "source_0": "target", 
-    "source_1": "gdc", 
+    "data_type": "biospecimen", 
+    "program": "target", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325093677", 
