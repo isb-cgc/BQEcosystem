@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Fastqc metric data and deprecated google cloud storage path information are made available here.",
-  "friendlyName": "CCLE FASTQC METRICS 2016",
+  "friendlyName": "CCLE FASTQC METRICS",
   "id": "isb-cgc-bq:CCLE.fastqc_metrics_hg19_current",
   "kind": "bigquery#table",
   "labels": {
