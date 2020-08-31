@@ -1,0 +1,67 @@
+{
+  "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Copy number segment data are made available here.",
+  "friendlyName": "CCLE COPY NUMBER SEGMENTS 2016 VERSIONED",
+  "id": "isb-cgc-bq:CCLE_versioned.copy_number_segment_hg19_2016_02",
+  "kind": "bigquery#table",
+  "labels": {
+    "access": "open",
+    "category": "processed_-omics_data",
+    "data_type": "copy_number_segment",
+    "program": "ccle",
+    "reference_genome_0": "hg19",
+    "source": "broad",
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {
+        "description": "Cell line primary name, appended with a short name for the location  of the cancer; e.g. TC71_BONE, HUPT4_PANCREAS, etc",
+        "mode": "NULLABLE",
+        "name": "CCLE_name",
+        "type": "STRING"
+      },
+      {
+        "description": "The cell line primary name; e.g. TC-71, NIH:OVCAR-3, etc",
+        "mode": "NULLABLE",
+        "name": "Cell_line_primary_name",
+        "type": "STRING"
+      },
+      {
+        "description": "Platform used to generate these data (Genome_Wide_SNP_6)",
+        "mode": "NULLABLE",
+        "name": "Platform",
+        "type": "STRING"
+      },
+      {
+        "description": "Chromosome, possible values: chr1-22, and chrX",
+        "mode": "NULLABLE",
+        "name": "Chromosome",
+        "type": "STRING"
+      },
+      {
+        "description": "Start position",
+        "mode": "NULLABLE",
+        "name": "Start",
+        "type": "INTEGER"
+      },
+      {
+        "description": "End position",
+        "mode": "NULLABLE",
+        "name": "End",
+        "type": "INTEGER"
+      },
+      {
+        "description": "The num_probes field specifies the number of probes on the SNP chip that went into estimating the mean copy number for this segment",
+        "mode": "NULLABLE",
+        "name": "Num_Probes",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Provides the log2(CN/2) mean value estimate",
+        "mode": "NULLABLE",
+        "name": "Segment_Mean",
+        "type": "FLOAT"
+      }
+    ]
+  }
+}
