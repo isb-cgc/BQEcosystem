@@ -1,7 +1,7 @@
 {
   "description": "Data was generated from an older CCLE dataset from Google Genomics on February 2016. Expression data was generated using Raw Affymetrix U133+2 CEL files that was converted to a single value for each probe set using Robust Multi-array Average (RMA) and quantile normalization.",
   "friendlyName": "CCLE RMA EXPRESSION",
-  "id": "isb-cgc-bq:CCLE.RMA_expression_current",
+  "id": "isb-cgc-bq:CCLE.RMA_expression_hg19_current",
   "kind": "bigquery#table",
   "labels": {
     "access": "open",
