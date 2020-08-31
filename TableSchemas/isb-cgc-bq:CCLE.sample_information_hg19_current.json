@@ -1,7 +1,7 @@
 {
   "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Cell line annotations was extracted using the file: CCLE_sample_info_file_2012-10-18.txt.",
   "friendlyName": "CCLE SAMPLE INFORMATION",
-  "id": "isb-cgc=bq:CCLE.sample_information_current",
+  "id": "isb-cgc=bq:CCLE.sample_information_hg19_current",
   "kind": "bigquery#table",
   "labels": {
     "access": "open",
