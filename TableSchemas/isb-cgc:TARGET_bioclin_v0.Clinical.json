@@ -8,7 +8,7 @@
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
-    "data_type": "clinical", 
+    "data_type": "clinical_data", 
     "program": "target", 
     "source": "gdc", 
     "status": "archived"
