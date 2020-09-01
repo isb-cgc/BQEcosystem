@@ -11,7 +11,7 @@
     "data_type": "clinical", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "current"
   }, 
   "lastModifiedTime": "1580325285269", 
   "location": "US", 
