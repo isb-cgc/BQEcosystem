@@ -10,7 +10,7 @@
     "category": "processed_-omics_data", 
     "data_type": "gene_expression", 
     "experimental_strategy": "rnaseq", 
-    "reference_genome_0": "hg19", 
+    "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
     "status": "current"
