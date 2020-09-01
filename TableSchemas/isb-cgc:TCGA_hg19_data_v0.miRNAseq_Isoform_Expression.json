@@ -8,11 +8,11 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "mirna_isoform_expression", 
-    "reference_genome_0": "hg19", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
-    "status": "current"
+    "data_type": "mirna_isoform_expression", 
+    "reference_genome": "hg19", 
+    "program": "tcga", 
+    "source": "gdc", 
+    "status": "archived"
   }, 
   "lastModifiedTime": "1580325189763", 
   "location": "US", 
