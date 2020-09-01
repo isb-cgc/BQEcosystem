@@ -1,6 +1,6 @@
 {
   "description": "Data for the CCGI program was extracted using the GDC API in August 2020. This table contains follow ups information for molecular tests received by CGCI patients. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
-  "friendlyName": "ORGANOID CLINICAL DATA - FOLLOW UP MOLECULAR TESTS",
+  "friendlyName": "CGCI CLINICAL DATA - FOLLOW UP MOLECULAR TESTS",
   "labels": {
     "access": "open",
     "data_type": "clinical_data",
