@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. File metadata information including deprecated full cloud-storage-paths for BAM and SNP CEL files are made available here.",
-  "friendlyName": "CCLE FILE METADATA 2016_03 VERSIONED",
+  "friendlyName": "CCLE FILE METADATA 2016 VERSIONED",
   "id": "isb-cgc-bq:CCLE_versioned.file_metadata_hg19_2016_03",
   "kind": "bigquery#table",
   "labels": {
