@@ -9,11 +9,6 @@
     "source": "gnomad_database", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580324998201", 
-  "location": "US", 
-  "numBytes": "577664982110", 
-  "numLongTermBytes": "577664982110", 
-  "numRows": "241056551", 
   "schema": {
     "fields": [
       {
