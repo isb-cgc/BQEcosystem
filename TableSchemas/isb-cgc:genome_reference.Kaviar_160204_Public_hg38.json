@@ -1,23 +1,14 @@
 {
-  "creationTime": "1471719473459", 
   "description": "Data was loaded from the Kaviar database of known variants, released in February 2016. More details: see Glusman G, Caballero J, Mauldin DE, Hood L and Roach J (2011) KAVIAR: an accessible system for testing SNV novelty http://db.systemsbiology.net/kaviar/", 
-  "etag": "V9iA9Kwns0GKYxRGsD7OgQ==", 
   "friendlyName": "KAVIAR PUBLIC HG38 2016", 
-  "id": "isb-cgc:genome_reference.Kaviar_160204_Public_hg38", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
-    "source_0": "kaviar_genomic_variant_database", 
+    "source": "kaviar_genomic_variant_database", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325044002", 
-  "location": "US", 
-  "numBytes": "42631838528", 
-  "numLongTermBytes": "42631838528", 
-  "numRows": "220817971", 
   "schema": {
     "fields": [
       {
@@ -81,12 +72,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/Kaviar_160204_Public_hg38", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "Kaviar_160204_Public_hg38"
-  }, 
-  "type": "TABLE"
+  }
 }
