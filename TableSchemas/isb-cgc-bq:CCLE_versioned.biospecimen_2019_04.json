@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from the CCLE program in April 2019. This table contains sample data for CCLE primary cell lines. More details: see https://portals.broadinstitute.org/ccle/about",
-  "friendlyName": "CCLE BIOSPECIMEN 2019_04 VERSIONED",
+  "friendlyName": "CCLE BIOSPECIMEN 2019 VERSIONED",
   "id": "isb-cgc-bq:CCLE_versioned.biospecimen_2019_04",
   "kind": "bigquery#table",
   "labels": {
