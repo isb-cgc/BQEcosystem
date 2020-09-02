@@ -1,5 +1,6 @@
 {
   "description": "Data was loaded from the ClinVar release created on April 1, 2018. The ClinVar data was loaded from a VCF file downloaded from NCBI and uploaded into BigQuery using the Google Variant Transforms tool (v0.2.0).", 
+  "friendlyName": "CLINVAR 20180401 GRCH37",
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
