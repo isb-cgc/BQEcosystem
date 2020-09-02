@@ -1,23 +1,13 @@
 {
-  "creationTime": "1523938396284", 
   "description": "Data was loaded from the ClinVar release created on April 1, 2018. The ClinVar data was loaded from a VCF file downloaded from NCBI and uploaded into BigQuery using the Google Variant Transforms tool (v0.2.0). More details: see https://www.ncbi.nlm.nih.gov/variation/docs/ClinVar_vcf_files/ and https://github.com/googlegenomics/gcp-variant-transforms", 
-  "etag": "okI58AbYfMhZ1ff3TTVD4Q==", 
-  "friendlyName": "CLINVAR 20180401 GRCH38", 
-  "id": "isb-cgc:genome_reference.ClinVar_20180401_GRCh38", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
-    "source_0": "clinvar", 
+    "source": "clinvar", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580324868308", 
-  "location": "US", 
-  "numBytes": "124761377", 
-  "numLongTermBytes": "124761377", 
-  "numRows": "354334", 
   "schema": {
     "fields": [
       {
@@ -235,12 +225,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/ClinVar_20180401_GRCh38", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "ClinVar_20180401_GRCh38"
-  }, 
-  "type": "TABLE"
+  }
 }
