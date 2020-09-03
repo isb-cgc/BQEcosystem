@@ -1,24 +1,15 @@
 {
-  "creationTime": "1469734243196", 
   "description": "Data was loaded from TCGA DCC on July 2016 for Somatic Mutations MAF data.", 
-  "etag": "qecg3AlEuq3C88vGu8ZBLg==", 
   "friendlyName": "TCGA 2016 BETA SOMATIC MUTATION CALLS", 
-  "id": "isb-cgc:tcga_201607_beta.Somatic_Mutation_calls", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg19", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "deprecated"
-  }, 
-  "lastModifiedTime": "1580325414372", 
-  "location": "US", 
-  "numBytes": "5715538107", 
-  "numLongTermBytes": "5715538107", 
-  "numRows": "5356089", 
+  }
   "schema": {
     "fields": [
       {
@@ -367,12 +358,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/tcga_201607_beta/tables/Somatic_Mutation_calls", 
-  "tableReference": {
-    "datasetId": "tcga_201607_beta", 
-    "projectId": "isb-cgc", 
-    "tableId": "Somatic_Mutation_calls"
-  }, 
-  "type": "TABLE"
+  }
 }
