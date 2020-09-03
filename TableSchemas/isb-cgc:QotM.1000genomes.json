@@ -4,7 +4,7 @@
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
     "source": "isb_cgc-qotm", 
     "status": "deprecated"
