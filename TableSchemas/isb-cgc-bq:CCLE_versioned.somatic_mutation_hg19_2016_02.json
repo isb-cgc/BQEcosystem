@@ -11,7 +11,7 @@
     "reference_genome_0": "hg19",
     "source": "broad",
     "status": "current"
-  }
+  },
   "schema": {
     "fields": [
       {
