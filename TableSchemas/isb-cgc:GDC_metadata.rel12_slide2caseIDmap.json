@@ -1,22 +1,13 @@
-{
-  "creationTime": "1530576748096", 
+{ 
   "description": "Data was generated from file metadata information from the GDC release 12 June 2018. Image slides are mapped to case information.", 
-  "etag": "Vdm6MBTxCX2t419UjHEfPQ==", 
-  "friendlyName": "RELEASE 12 SLIDE IMAGES TO CASE IDS", 
-  "id": "isb-cgc:GDC_metadata.rel12_slide2caseIDmap", 
-  "kind": "bigquery#table", 
+  "friendlyName": "SLIDE IMAGES TO CASE IDS REL12", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "source_0": "gdc", 
+    "data_type": "file_metadata", 
+    "source": "gdc", 
     "status": "archived"
   }, 
-  "lastModifiedTime": "1580325517680", 
-  "location": "US", 
-  "numBytes": "7605324", 
-  "numLongTermBytes": "7605324", 
-  "numRows": "30338", 
   "schema": {
     "fields": [
       {
@@ -92,12 +83,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel12_slide2caseIDmap", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel12_slide2caseIDmap"
-  }, 
-  "type": "TABLE"
+  }
 }
