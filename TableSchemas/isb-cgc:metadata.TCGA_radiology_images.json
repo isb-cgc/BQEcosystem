@@ -9,7 +9,7 @@
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata",
-    "program": "target"
+    "program": "target",
     "source": "gdc", 
     "status": "current"
   }, 
