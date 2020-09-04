@@ -2,7 +2,7 @@
   "creationTime": "1565111360399", 
   "description": "Data was generated from file metadata information from the GDC on Aug 2019. Image slides are mapped to case barcodes and to old google cloud storage paths.", 
   "etag": "zSDJYQzf87JshhLgC8URTA==", 
-  "friendlyName": "TCGA SLIDE IMAGES METADATA OLD", 
+  "friendlyName": "TCGA SLIDE IMAGES METADATA RELEASE 18 VERSIONED", 
   "id": "isb-cgc:metadata.TCGA_slide_images_old", 
   "kind": "bigquery#table", 
   "labels": {
@@ -11,7 +11,7 @@
     "data_type_0": "file_metadata",
     "source": "gdc",
     "program": "target",
-    "status": "current"
+    "status": "archived"
   }, 
   "lastModifiedTime": "1580325304735", 
   "location": "US", 
