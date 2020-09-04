@@ -8,7 +8,7 @@
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata",
+    "data_type": "file_metadata",
     "source": "gdc",
     "program": "target",
     "status": "deprecated"
