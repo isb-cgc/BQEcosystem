@@ -5,7 +5,7 @@
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type": "somatic_mutation", 
-    "reference_genome_0": "hg38", 
+    "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
     "status": "current"
