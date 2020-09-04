@@ -8,11 +8,11 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "protein_quantification", 
-    "data_type_1": "proteomics", 
-    "reference_genome_0": "hg38", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "experimental_strategy": "rppa", 
+    "data_type": "protein_expression", 
+    "reference_genome": "hg38", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325269373", 
