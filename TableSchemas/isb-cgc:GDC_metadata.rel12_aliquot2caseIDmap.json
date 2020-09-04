@@ -1,10 +1,6 @@
 {
-  "creationTime": "1530576766100", 
   "description": "Data was generated from file metadata information from the GDC release 12 from June 2018. Aliquot are mapped to case information.", 
-  "etag": "GcxJkYR+K0VqP2JeZ5mmxA==", 
-  "friendlyName": "RELEASE 12 ALIQUOT IDS TO CASE IDS", 
-  "id": "isb-cgc:GDC_metadata.rel12_aliquot2caseIDmap", 
-  "kind": "bigquery#table", 
+  "friendlyName": "ALIQUOT IDS TO CASE IDS REL12 ", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
@@ -105,12 +101,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GDC_metadata/tables/rel12_aliquot2caseIDmap", 
-  "tableReference": {
-    "datasetId": "GDC_metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "rel12_aliquot2caseIDmap"
-  }, 
-  "type": "TABLE"
+  }
 }
