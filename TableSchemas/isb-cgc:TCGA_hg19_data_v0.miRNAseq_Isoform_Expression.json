@@ -12,7 +12,7 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "current"
   }, 
   "lastModifiedTime": "1580325189763", 
   "location": "US", 
