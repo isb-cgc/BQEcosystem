@@ -1,14 +1,14 @@
 {
   "description": "Data was extracted from release 6 of the active GDC archive on January 2018 for somatic mutation data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-70", 
-  "friendlyName": "TCGA HG38 SOMATIC MUTATION RELEASE 7", 
+  "friendlyName": "TCGA HG38 SOMATIC MUTATION RELEASE 7 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type": "somatic_mutation", 
-    "reference_genome_0": "hg38", 
+    "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
   "schema": {
     "fields": [
