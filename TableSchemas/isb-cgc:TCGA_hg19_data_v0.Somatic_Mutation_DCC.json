@@ -5,10 +5,10 @@
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type": "somatic_mutation", 
-    "reference_genome_0": "hg19", 
+    "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
   "schema": {
     "fields": [
