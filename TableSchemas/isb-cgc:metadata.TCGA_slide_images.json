@@ -10,7 +10,7 @@
     "category": "file_metadata", 
     "data_type_0": "file_metadata", 
     "source_0": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
   "lastModifiedTime": "1580325302889", 
   "location": "US", 
