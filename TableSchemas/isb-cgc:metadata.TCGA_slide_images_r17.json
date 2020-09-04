@@ -11,7 +11,7 @@
     "data_type": "file_metadata", 
     "source": "gdc",
     "program": "target",
-    "status": "deprecated"
+    "status": "current"
   }, 
   "lastModifiedTime": "1580325057916", 
   "location": "US", 
