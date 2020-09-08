@@ -1,10 +1,6 @@
 {
-  "creationTime": "1535573208835", 
   "description": "Data was extracted from GDC for release 11 from May 2018 for mRNA expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110", 
-  "etag": "CE51M1T6CF7q2Age30npjQ==", 
   "friendlyName": "TARGET HG38 MIRNASEQ REL11 VERSIONED", 
-  "id": "isb-cgc:TARGET_hg38_data_v0.miRNA_Expression_r11_180816", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -13,12 +9,7 @@
     "program": "target", 
     "source": "gdc", 
     "status": "archived"
-  }, 
-  "lastModifiedTime": "1580325104628", 
-  "location": "US", 
-  "numBytes": "408521180", 
-  "numLongTermBytes": "408521180", 
-  "numRows": "1485990", 
+  }
   "schema": {
     "fields": [
       {
@@ -92,12 +83,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_hg38_data_v0/tables/miRNA_Expression_r11_180816", 
-  "tableReference": {
-    "datasetId": "TARGET_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNA_Expression_r11_180816"
-  }, 
-  "type": "TABLE"
+  }
 }
