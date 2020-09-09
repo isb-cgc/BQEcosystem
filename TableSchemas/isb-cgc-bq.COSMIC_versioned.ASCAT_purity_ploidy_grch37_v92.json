@@ -1,6 +1,6 @@
 {
   "description": "This table contains information regarding the ploidy and aberrant cell fraction (purity estimate) for TCGA samples re-analysed using ASCAT.",
-  "friendlyName": "COSMIC GRCH 37 ASCAT PURITY PLOIDY v92 VERSIONED",
+  "friendlyName": "COSMIC GRCH 37 ASCAT PURITY PLOIDY V92 VERSIONED",
   "labels": {
     "access": "controlled",
     "status": "current",
