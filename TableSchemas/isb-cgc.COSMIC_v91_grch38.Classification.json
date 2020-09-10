@@ -3,7 +3,7 @@
   "friendlyName": "COSMIC GRCH 38 CLASSIFICATION",
   "labels": {
     "access": "controlled",
-    "status": "current",
+    "status": "archived",
     "program": "cosmic",
     "source": "sanger",
     "reference_genome_0": "hg38",
