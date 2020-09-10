@@ -8,7 +8,7 @@
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
-    "data_type_0": "clinical", 
+    "data_type_0": "clinical annotation", 
     "program": "tcga", 
     "source": "gdc", 
     "status": "current"
