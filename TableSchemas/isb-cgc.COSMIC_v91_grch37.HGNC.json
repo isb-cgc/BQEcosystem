@@ -3,7 +3,7 @@
   "friendlyName": "COSMIC GRCH 37 GENOME HGNC MAPPING",
   "labels": {
     "access": "controlled",
-    "status": "current",
+    "status": "archived",
     "program": "cosmic",
     "source": "sanger",
     "reference_genome_0": "hg19",
