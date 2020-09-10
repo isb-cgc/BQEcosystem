@@ -1,6 +1,6 @@
 {
   "description": "Data was generated from file metadata information from the GDC release 18, downloaded July 12, 2019. \nLegacy case counts derived from legacy endpoint download on Oct 18, 2019. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-180", 
-  "friendlyName": "RELEASE 18 CASE DATA", 
+  "friendlyName": "CASE DATA REL18", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 

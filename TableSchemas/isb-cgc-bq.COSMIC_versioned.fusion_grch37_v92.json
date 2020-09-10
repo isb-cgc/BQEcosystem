@@ -1,0 +1,185 @@
+{
+  "description": "This table contains all gene fusion mutation data from the current release.",
+  "friendlyName": "COSMIC GRCH 37 FUSION MUTATIONS V92 VERSIONED",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "processed_-omics_data",
+    "data_type": "somatic_mutation"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Sample_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers."
+      },
+      {
+        "name": "Sample_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "(See description for Sample_ID field)"
+      },
+      {
+        "name": "Primary_site",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "Site_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin."
+      },
+      {
+        "name": "Site_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin."
+      },
+      {
+        "name": "Site_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 3) of the samples tissue of origin."
+      },
+      {
+        "name": "Primary_histology",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample."
+      },
+      {
+        "name": "Histology_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample."
+      },
+      {
+        "name": "Histology_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample."
+      },
+      {
+        "name": "Histology_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample."
+      },
+      {
+        "name": "Fusion_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Unique fusion mutation identifier."
+      },
+      {
+        "name": "Translocation_Name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Syntax describing the portions of mRNA present (in HGVS 'r.' format) from each gene (allows representation of UTR sequences)."
+      },
+      {
+        "name": "Fusion_Type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Type of mutation."
+      },
+      {
+        "name": "Translocation_Name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Syntax describing the portions of mRNA present (in HGVS 'r.' format) from each gene (allows representation of UTR sequences)."
+      },
+      {
+        "name": "FIVE_PRIME_CHROMOSOME",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Chromosome of 5' gene."
+      },
+      {
+        "name": "FIVE_PRIME_GENOME_START_FROM",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinate of the start (+ strand)/breakpoint (- strand) of the 5' fusion gene as described in the Translocation Name."
+      },
+      {
+        "name": "FIVE_PRIME_GENOME_START_TO",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The range of genomic coordinates of the start (+ strand)/breakpoint (- strand) of the 5' fusion gene if it is an unknown base position."
+      },
+      {
+        "name": "FIVE_PRIME_GENOME_STOP_FROM",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinate of the breakpoint (+ strand)/start (- strand) of the 5' fusion gene as described in the Translocation Name."
+      },
+      {
+        "name": "FIVE_PRIME_GENOME_STOP_TO",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The range of genomic coordinates of the breakpoint (+ strand)/start (- strand) of the 5' fusion gene if it is an unknown base position."
+      },
+      {
+        "name": "FIVE_PRIME_STRAND",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The orientation of the 5' gene (+/-)."
+      },
+      {
+        "name": "THREE_PRIME_CHROMOSOME",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Chromosome of 3' gene."
+      },
+      {
+        "name": "THREE_PRIME_GENOME_START_FROM",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinate of the start (+ strand)/breakpoint (- strand) of the 3' fusion gene as described in the Translocation Name."
+      },
+      {
+        "name": "THREE_PRIME_GENOME_START_TO",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The range of genomic coordinates of the start (+ strand)/breakpoint (- strand) of the 3' fusion gene if it is an unknown base position."
+      },
+      {
+        "name": "THREE_PRIME_GENOME_STOP_FROM",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genomic coordinate of the breakpoint (+ strand)/start (- strand) of the 3' fusion gene as described in the Translocation Name."
+      },
+      {
+        "name": "THREE_PRIME_GENOME_STOP_TO",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The range of genomic coordinates of the breakpoint (+ strand)/start (- strand) of the 3' fusion gene if it is an unknown base position."
+      },
+      {
+        "name": "THREE_PRIME_STRAND",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The orientation of the 3' gene (+/-)."
+      },
+      {
+        "name": "Fusion_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Type of mutation."
+      },
+      {
+        "name": "Pubmed_PMID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The PUBMED ID for the paper that the sample was noted in."
+      }
+    ]
+  }
+}

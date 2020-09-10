@@ -1,18 +1,18 @@
 {
   "creationTime": "1456501727325",
-  "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Mutation calls was extracted using the file CCLE_hybrid_capture1650_hg19_NoCommonSNPs_NoNeutralVariants_CDS_2012.05.07.maf.gz.",
+  "description": "Data was extracted from an older CCLE dataset from Google Genomics on February 2016. Mutation calls was extracted using the file CCLE_hybrid_capture1650_hg19_NoCommonSNPs_NoNeutralVariants_CDS_2012.05.07.maf.gz. This table has been deprecated; please see isb-cgc-bq.CCLE.somatic_mutations_hg19_current for the most current table.",
   "etag": "UdABiAc7E/whpJpOGJSn1Q==",
-  "friendlyName": "CCLE 2016 - SOMATIC MUTATION",
+  "friendlyName": "CCLE SOMATIC MUTATION 2016",
   "id": "isb-cgc:ccle_201602_alpha.Mutation_calls",
   "kind": "bigquery#table",
   "labels": {
     "access": "open",
     "category": "processed_-omics_data",
-    "data_type": "somatic_mutations",
+    "data_type": "somatic_mutation",
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "status": "current"
+    "status": "deprecated"
   },
   "lastModifiedTime": "1582913626229",
   "location": "US",

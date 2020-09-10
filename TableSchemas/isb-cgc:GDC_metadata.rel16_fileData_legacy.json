@@ -1,6 +1,6 @@
 {
   "description": "Data was generated from file metadata information from the GDC legacy archive release 16, March 2019. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-160", 
-  "friendlyName": "RELEASE 16 FILE DATA LEGACY", 
+  "friendlyName": "FILE DATA LEGACY REL16", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 

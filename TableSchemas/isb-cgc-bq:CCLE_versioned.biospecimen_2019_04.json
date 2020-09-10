@@ -1,0 +1,54 @@
+{
+  "description": "Data was extracted from the CCLE program in April 2019. This table contains sample data for CCLE primary cell lines. More details: see https://portals.broadinstitute.org/ccle/about",
+  "friendlyName": "CCLE BIOSPECIMEN 2019 VERSIONED",
+  "id": "isb-cgc-bq:CCLE_versioned.biospecimen_2019_04",
+  "kind": "bigquery#table",
+  "labels": {
+    "access": "open",
+    "category": "clinical_biospecimen_data",
+    "data_type": "biospecimen_supplement",
+    "program": "ccle",
+    "source": "broad",
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {
+        "description": "Unique GDC identifier for this sample (corresponds to the sample_barcode), eg a1ec9279-c1a6-4e58-97ed-9ec1f36187c5  --  this can be used to access more information from the GDC data portal",
+        "mode": "NULLABLE",
+        "name": "sample_gdc_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Sample bar code; CCLE appended with the case barcode",
+        "mode": "NULLABLE",
+        "name": "sample_barcode",
+        "type": "STRING"
+      },
+      {
+        "description": "GDC unique identifier for this CCLE project and cell line",
+        "mode": "NULLABLE",
+        "name": "case_gdc_id",
+        "type": "STRING"
+      },
+      {
+        "description": "A case barcode assigned to the project/cell line record; same as the cell line primary name.",
+        "mode": "NULLABLE",
+        "name": "case_barcode",
+        "type": "STRING"
+      },
+      {
+        "description": "Two-digit sample type code; 50 = Cell Lines, 13 = EBV Immortalized Normal",
+        "mode": "NULLABLE",
+        "name": "sample_type",
+        "type": "STRING"
+      },
+      {
+        "description": "Project name abbreviation; the program name appended with a project name abbreviation; e.g. CCLE-OV, etc.",
+        "mode": "NULLABLE",
+        "name": "project_short_name",
+        "type": "STRING"
+      }
+    ]
+  }
+}

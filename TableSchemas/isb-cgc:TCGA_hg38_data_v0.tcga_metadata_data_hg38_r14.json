@@ -1,24 +1,15 @@
 {
-  "creationTime": "1551994198162", 
   "description": "Data was generated from file metadata for TCGA data in the GDC active archive for release 14 from December 2018. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140", 
-  "etag": "SPWpjaGHUrKKTp2u5J7oHA==", 
-  "friendlyName": "TCGA HG38 METADATA RELEASE 14", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.tcga_metadata_data_hg38_r14", 
-  "kind": "bigquery#table", 
+  "friendlyName": "TCGA HG38 METADATA REL14 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata", 
-    "reference_genome_0": "hg38", 
+    "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580325198219", 
-  "location": "US", 
-  "numBytes": "76106894", 
-  "numLongTermBytes": "76106894", 
-  "numRows": "163972", 
   "schema": {
     "fields": [
       {
@@ -148,12 +139,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/tcga_metadata_data_hg38_r14", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "tcga_metadata_data_hg38_r14"
-  }, 
-  "type": "TABLE"
+  }
 }

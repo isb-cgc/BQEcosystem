@@ -1,8 +1,8 @@
 {
   "creationTime": "1551994127513",
-  "description": "Data was generated from file metadata for CCLE data in the GDC active archive for release 14 from December 2018. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140",
+  "description": "Data was generated from file metadata for CCLE data in the GDC active archive for release 14 from December 2018. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140. This table has been deprecated; please see `isb-cgc-bq.CCLE.per_sample_file_metadata_hg19_gdc_current` for the most current table.",
   "etag": "uQ2M2emrIMGP/Z2F/AYddQ==",
-  "friendlyName": "CCLE HG19 METADATA RELEASE 14",
+  "friendlyName": "CCLE HG19 PER SAMPLE FILE METADATA REL14",
   "id": "isb-cgc:CCLE_hg19_data_v0.ccle_metadata_data_hg19_r14",
   "kind": "bigquery#table",
   "labels": {
@@ -12,7 +12,7 @@
     "program": "ccle",
     "reference_genome_0": "hg19",
     "source": "broad",
-    "status": "current"
+    "status": "deprecated"
   },
   "lastModifiedTime": "1584566242645",
   "location": "US",

@@ -1,23 +1,14 @@
 {
-  "creationTime": "1525831180884", 
   "description": "Data was loaded from the gnomAD database, release 2.0.2, October 2017). The data (containing SNVs and indels) was loaded from the VCF files copied from the GCS bucket (gs://gnomad-public/release/2.0.2/vcf/genomes/gnomad.genomes.r2.0.2.sites.chr*.vcf.bgz) and then uploaded using the Google Variant Transforms tool (v0.2.0).", 
-  "etag": "XH0LKNNVLEZkEGkwx+KYfg==", 
   "friendlyName": "GNOMAD GRCH37 2017", 
-  "id": "isb-cgc:genome_reference.gnomAD_20171003_GRCh37", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg19", 
-    "source_0": "gnomad_database", 
+    "source": "gnomad_database", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580324998201", 
-  "location": "US", 
-  "numBytes": "577664982110", 
-  "numLongTermBytes": "577664982110", 
-  "numRows": "241056551", 
   "schema": {
     "fields": [
       {
@@ -1497,12 +1488,5 @@
         "type": "INTEGER"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/gnomAD_20171003_GRCh37", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "gnomAD_20171003_GRCh37"
-  }, 
-  "type": "TABLE"
+  }
 }

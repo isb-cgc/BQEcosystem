@@ -8,10 +8,10 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "dna_methylation", 
-    "reference_genome_0": "hg38", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "data_type": "dna_methylation", 
+    "reference_genome": "hg38", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325208663", 

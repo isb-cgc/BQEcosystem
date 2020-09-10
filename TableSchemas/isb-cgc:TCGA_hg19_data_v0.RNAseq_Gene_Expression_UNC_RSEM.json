@@ -8,11 +8,11 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "gene_expression", 
-    "data_type_1": "rnaseq", 
-    "reference_genome_0": "hg19", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "data_type": "gene_expression", 
+    "experimental_strategy": "rnaseq", 
+    "reference_genome": "hg19", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325193003", 

@@ -1,24 +1,15 @@
 {
-  "creationTime": "1590601664478", 
   "description": "Extracted from the PanCancer Atlas initiative on the GDC in Sept 2016 (file name pancan.merged.v0.2.5.filtered.maf.gz). Contains Somatic mutation calls.    \n\nNote: Data was filtered such that the only rows with the Variant_Classification in {Frame_Shift_Del, Frame_Shift_Ins, In_Frame_Del, In_Frame_Ins, Missense_Mutation, Nonsense_Mutation, Nonstop_Mutation, Splice_Site, Translation_Start_Site} were retained (Consistent with e.g. ISB, MSKCC, Broad definition of mutated gene). Moreover, Additional annotations were added (e.g. ParticipantBarcode). FPPP project aliquots were removed, and Rows with a solid tissue normal reference were removed if a corresponding blood derived normal reference was available.   \n\nMore details https://gdc.cancer.gov/about-data/publications/PanCan-MYC-2018", 
-  "etag": "znyNnxVItvkTNyl4BlSuMg==", 
   "friendlyName": "PanCancer Filtered Merged MAF", 
-  "id": "isb-cgc:pancancer_atlas.Filtered_MC3_MAF_V5_one_per_tumor_sample", 
-  "kind": "bigquery#table", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
     "access": "open", 
-    "data_type": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1590601664478", 
-  "location": "US", 
-  "numBytes": "439254093", 
-  "numLongTermBytes": "0", 
-  "numRows": "2127885", 
   "schema": {
     "fields": [
       {
@@ -100,12 +91,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_MC3_MAF_V5_one_per_tumor_sample", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "Filtered_MC3_MAF_V5_one_per_tumor_sample"
-  }, 
-  "type": "TABLE"
+  }
 }

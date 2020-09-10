@@ -1,16 +1,12 @@
-{
-  "creationTime": "1520969972166", 
-  "description": "Data was loaded from dbSNP, build 150, released on Feb 3 2017 . These human single nucleotide variations, microsatellites, and small-scale insertions and deletions were downloaded via a VCF file from the NCBI and uploaded into BigQuery using the Google Variant Transforms tool (v0.2.0). More details:https://github.com/ncbi/dbsnp/tree/master/Build%20Announcements/151, ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b150_GRCh37p13/VCF and https://github.com/googlegenomics/gcp-variant-transforms", 
-  "etag": "6hf5zuZL6bAuXVZTTje+Cg==", 
+{ 
+  "description": "Data was loaded from dbSNP, build 150, released on Feb 3 2017 . These human single nucleotide variations, microsatellites, and small-scale insertions and deletions were downloaded via a VCF file from the NCBI and uploaded into BigQuery using the Google Variant Transforms tool (v0.2.0). More details:https://github.com/ncbi/dbsnp/tree/master/Build%20Announcements/151, ftp://ftp.ncbi.nih.gov/snp/organisms/human_9606_b150_GRCh37p13/VCF and https://github.com/googlegenomics/gcp-variant-transforms",  
   "friendlyName": "DBSNP B150 GRCH37P13 ALL", 
-  "id": "isb-cgc:genome_reference.dbSNP_b150_GRCh37p13_All", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "hg19", 
-    "source_0": "dbsnp_database", 
+    "source": "dbsnp_database", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580324872018", 
@@ -391,12 +387,5 @@
         "type": "BOOLEAN"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/dbSNP_b150_GRCh37p13_All", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "dbSNP_b150_GRCh37p13_All"
-  }, 
-  "type": "TABLE"
+  }
 }

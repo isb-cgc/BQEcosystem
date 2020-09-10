@@ -1,24 +1,15 @@
 {
-  "creationTime": "1574274327033", 
   "description": "TCGA HG19 file data table based on GDC rel14, with the 5aa shared bucket with Broad BAM index file relocations.", 
-  "etag": "r2PZROl4qWQ2WJkpZJFz8Q==", 
-  "friendlyName": "TCGA HG19 METADATA RELEASE 14", 
-  "id": "isb-cgc:TCGA_hg19_data_v0.tcga_metadata_data_hg19_r14", 
-  "kind": "bigquery#table", 
+  "friendlyName": "TCGA HG19 METADATA REL14 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type_0": "file_metadata", 
-    "reference_genome_0": "hg38", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "data_type": "file_metadata", 
+    "reference_genome": "hg38", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325299358", 
-  "location": "US", 
-  "numBytes": "183742076", 
-  "numLongTermBytes": "0", 
-  "numRows": "435289", 
   "schema": {
     "fields": [
       {
@@ -148,12 +139,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg19_data_v0/tables/tcga_metadata_data_hg19_r14", 
-  "tableReference": {
-    "datasetId": "TCGA_hg19_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "tcga_metadata_data_hg19_r14"
-  }, 
-  "type": "TABLE"
+  }
 }
