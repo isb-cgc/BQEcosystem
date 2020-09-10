@@ -1,0 +1,149 @@
+{
+  "description": "This table contains all TCGA level 3 methylation data from the ICGC portal for the current release",
+  "friendlyName": "COSMIC GRCH 38 COMPLETE METHYLATION",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg38",
+    "category": "processed_-omics_data",
+    "data_type": "dna_methylation"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "STUDY_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The study Id for these data."
+      },
+      {
+        "name": "ID_SAMPLE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers. These samples are from the ICGC and TCGA."
+      },
+      {
+        "name": "SAMPLE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "(see description for ID_SAMPLE)"
+      },
+      {
+        "name": "ID_TUMOUR",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "(see description for ID_SAMPLE)"
+      },
+      {
+        "name": "PRIMARY_SITE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "SITE_SUBTYPE_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin."
+      },
+      {
+        "name": "SITE_SUBTYPE_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin."
+      },
+      {
+        "name": "SITE_SUBTYPE_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 3) of the samples tissue of origin."
+      },
+      {
+        "name": "PRIMARY_HISTOLOGY",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample."
+      },
+      {
+        "name": "HISTOLOGY_SUBTYPE_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample."
+      },
+      {
+        "name": "HISTOLOGY_SUBTYPE_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample."
+      },
+      {
+        "name": "HISTOLOGY_SUBTYPE_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample."
+      },
+      {
+        "name": "FRAGMENT_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The unique probe Id for a specific CpG."
+      },
+      {
+        "name": "GENOME_VERSION",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Coordinate system used"
+      },
+      {
+        "name": "CHROMOSOME",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The chromosome location of the probe (1-22, X or Y)."
+      },
+      {
+        "name": "POSITION",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The genome location of the CpG targeted by the probe (1-based coordinates)."
+      },
+      {
+        "name": "STRAND",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Positive or negative."
+      },
+      {
+        "name": "GENE_NAME",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The gene name (if the probe falls within the coding region of a COSMIC gene) or the probe annotation as described by Illumina."
+      },
+      {
+        "name": "METHYLATION",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The methylation level; H (High, beta-value >0.8) or L (Low, beta-value < 0.2)."
+      },
+      {
+        "name": "AVG_BETA_VALUE_NORMAL",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "The average beta-value across the normal population. The beta-value of the tumour must differ from this value by >0.5 to be considered a variant."
+      },
+      {
+        "name": "BETA_VALUE",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "The beta-value for the probe in the tumour sample. Only values >0.8 (High) or <0.2 (Low) are included."
+      },
+      {
+        "name": "TWO_SIDED_P_VALUE",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The two sided p-value."
+      }
+    ]
+  }
+}
