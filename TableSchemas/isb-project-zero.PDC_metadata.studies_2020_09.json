@@ -9,9 +9,27 @@
   "schema": {
     "fields": [
       {
+        "name": "pdc_study_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "study_id",
         "type": "STRING",
         "mode": "REQUIRED",
+        "description": ""
+      },
+      {
+        "name": "project_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
         "description": ""
       },
       {
@@ -27,7 +45,13 @@
         "description": ""
       },
       {
-        "name": "project_id",
+        "name": "study_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_shortname",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
@@ -45,12 +69,6 @@
         "description": ""
       },
       {
-        "name": "program_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "program_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
@@ -60,6 +78,36 @@
         "name": "program_name",
         "type": "STRING",
         "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_manager",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_start_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_end_date",
+        "type": "DATE",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "primary_site",
+        "type": "STRING",
+        "mode": "REPEATED",
+        "description": ""
+      },
+      {
+        "name": "disease_type",
+        "type": "STRING",
+        "mode": "REPEATED",
         "description": ""
       },
       {
@@ -77,6 +125,18 @@
       {
         "name": "acquisition_type",
         "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquots_count",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "cases_count",
+        "type": "INTEGER",
         "mode": "NULLABLE",
         "description": ""
       }
