@@ -1,0 +1,85 @@
+{
+  "description": "This table contains PDC study metadata.",
+  "friendlyName": "PDC STUDY METADATA 2020-09",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "study_id",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": ""
+      },
+      {
+        "name": "study_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "submitter_id_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "project_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "project_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "project_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "program_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "analytical_fraction",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "experiment_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "acquisition_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
