@@ -1,9 +1,9 @@
 {
   "description": "This table contains a list of breakpoints from the current release. ",
-  "friendlyName": "COSMIC GRCH 38 BREAKPOINTS ",
+  "friendlyName": "COSMIC GRCH 38 BREAKPOINTS",
   "labels": {
     "access": "controlled",
-    "status": "current",
+    "status": "archived",
     "program": "cosmic",
     "source": "sanger",
     "reference_genome_0": "hg38",
