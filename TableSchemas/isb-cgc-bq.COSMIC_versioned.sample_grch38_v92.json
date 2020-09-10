@@ -1,0 +1,251 @@
+{
+  "description": "This table contains all of the features related to a sample from the current release.",
+  "friendlyName": "COSMIC GRCH 38 SAMPLE V92 VERSIONED",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg38",
+    "category": "clinical_biospecimen_data",
+    "data_type": "biospecimen_supplement"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "sample_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "COSMIC sample identifier; a sample is an instance of a portion of a tumour being examined for mutations; a number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual; a sample id is used to identify a sample within the COSMIC database; there can be multiple ids, if the same sample has been entered into the database multiple times from different papers."
+      },
+      {
+        "name": "sample_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The sample name can be derived from a number of sources."
+      },
+      {
+        "name": "id_tumour",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "COSMIC tumour identifier"
+      },
+      {
+        "name": "id_individual",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "COSMIC individual identifier (aka patient/case)"
+      },
+      {
+        "name": "primary_site",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "site_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin."
+      },
+      {
+        "name": "site_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin."
+      },
+      {
+        "name": "site_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 3) of the samples tissue of origin."
+      },
+      {
+        "name": "primary_histology",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample."
+      },
+      {
+        "name": "histology_subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample."
+      },
+      {
+        "name": "histology_subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample."
+      },
+      {
+        "name": "histology_subtype_3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample."
+      },
+      {
+        "name": "therapy_relationship",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Relates the time-point of tissue sampling to the drug therapy used to treat the tumour."
+      },
+      {
+        "name": "sample_differentiator",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Gives additional information if more than one sample (e.g. carcinomatous and sarcomatous components) from a tumour has been screened for mutations or if samples from a tumour were taken at different time points."
+      },
+      {
+        "name": "mutation_allele_specification",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Where a publication has information on more than one mutation for one gene in a sample and reports whether or not the mutations occurred on the same or different chromosomes."
+      },
+      {
+        "name": "msi",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "If microsatellite instability data is given in the publication per sample then High, Low, Stable/Low, MSI or Stable is reported in COSMIC. Unknown is the default."
+      },
+      {
+        "name": "average_ploidy",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "The average ploidy of the sample, calculated from copy number data (where available)."
+      },
+      {
+        "name": "whole_genome_screen",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "'y' if the sample was whole genome screened"
+      },
+      {
+        "name": "whole_exome_screen",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "'y' if the sample was whole exome screened"
+      },
+      {
+        "name": "sample_remark",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Any additional sample information e.g. % mutant allele burden."
+      },
+      {
+        "name": "drug_response",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Clinical and in vitro responses to drugs (particularly targeted drugs). Phrasing based on RECIST guidelines.  Note that in COSMIC, SD (stable disease) and PD (progressive disease) = clinical primary non response."
+      },
+      {
+        "name": "grade",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Grade of tumour. The phrase 'Some Grade data are given in publication' is used when publication reports grade data or when data hasn't been given per sample. More detailed data follow commonly used grading systems in tumours."
+      },
+      {
+        "name": "age_at_tumour_recurrence",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Where both primary and recurrent tumour samples from an individual have been screened for mutations and the age (in years) of the patient at the time of the recurrence is different to that at diagnosis."
+      },
+      {
+        "name": "stage",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Stage of tumour. The phrase 'Some Stage data are given in publication' is used when publication reports stage data or when data hasn't been given per sample. More detailed data follow commonly used staging systems in tumours."
+      },
+      {
+        "name": "cytogenetics",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Karyotype of the tumour."
+      },
+      {
+        "name": "metastatic_site",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tissue site of any metastases identified in an individual."
+      },
+      {
+        "name": "tumour_source",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Source of tumour tissue sample e.g. primary, metastasis."
+      },
+      {
+        "name": "tumour_remark",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Any additional tumour information e.g. metachronous tumour."
+      },
+      {
+        "name": "age",
+        "type": "FLOAT",
+        "mode": "NULLABLE",
+        "description": "Age (in years) of individual at diagnosis."
+      },
+      {
+        "name": "ethnicity",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Ethnicity (e.g. Caucasian) of individual."
+      },
+      {
+        "name": "environmental_variables",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Environmental variables to which an individual has been exposed (e.g. viral exposure, smoking status)."
+      },
+      {
+        "name": "germline_mutation",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Gene name/mutation if a germline mutation as well as a somatic mutation has been detected in the same gene in the same tumour sample."
+      },
+      {
+        "name": "therapy",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Any significant treatment an individual has received prior to mutation screening."
+      },
+      {
+        "name": "family",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Any familial cancer history for an individual or familial relationships of individuals screened for mutations in the same publication."
+      },
+      {
+        "name": "normal_tissue_tested",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "If normal tissue from the same individual has been screened for mutations."
+      },
+      {
+        "name": "gender",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Sex of individual."
+      },
+      {
+        "name": "individual_remark",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Any additional individual information (e.g. age group, hereditary syndromes)."
+      },
+      {
+        "name": "nci_code",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "NCI thesaurus code for tumour histological classification."
+      },
+      {
+        "name": "sample_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Describes where the sample has originated from including the tumour type."
+      }
+    ]
+  }
+}
