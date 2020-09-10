@@ -101,13 +101,13 @@
       {
         "name": "primary_site",
         "type": "STRING",
-        "mode": "REPEATED",
+        "mode": "NULLABLE",
         "description": ""
       },
       {
         "name": "disease_type",
         "type": "STRING",
-        "mode": "REPEATED",
+        "mode": "NULLABLE",
         "description": ""
       },
       {
