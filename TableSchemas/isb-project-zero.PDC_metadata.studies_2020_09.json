@@ -88,13 +88,13 @@
       },
       {
         "name": "program_start_date",
-        "type": "DATE",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
         "name": "program_end_date",
-        "type": "DATE",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
