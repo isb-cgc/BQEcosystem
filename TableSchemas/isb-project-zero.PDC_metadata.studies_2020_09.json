@@ -15,6 +15,12 @@
         "description": ""
       },
       {
+        "name": "pdc_study_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "study_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
