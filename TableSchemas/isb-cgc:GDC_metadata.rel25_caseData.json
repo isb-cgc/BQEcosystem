@@ -15,7 +15,13 @@
         "mode": "NULLABLE", 
         "name": "case_gdc_id", 
         "type": "STRING"
-      }, 
+      },
+      {
+        "description": "Anatomical site of the cancer under investigation or review",
+        "mode": "NULLABLE",
+        "name": "primary_site",
+        "type": "STRING"
+      },
       {
         "description": "Program dbGaP accession number, eg phs000187", 
         "mode": "NULLABLE", 
