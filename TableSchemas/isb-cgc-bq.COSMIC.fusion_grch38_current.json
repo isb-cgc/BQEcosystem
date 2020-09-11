@@ -6,7 +6,7 @@
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "somatic_mutation"
   },
