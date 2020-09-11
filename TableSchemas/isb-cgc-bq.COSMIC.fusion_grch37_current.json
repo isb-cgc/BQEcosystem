@@ -103,6 +103,24 @@
         "description": "Chromosome of 5' gene."
       },
       {
+        "name": "FIVE_PRIME_STRAND",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The orientation of the 5' gene (+/-)."
+      },
+      {
+        "name": "FIVE_PRIME_GENE_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The transcript identifier of the 5' gene."
+      },
+      {
+        "name": "FIVE_PRIME_GENE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The transcript identifier of the 5' gene."
+      },
+      {
         "name": "FIVE_PRIME_GENOME_START_FROM",
         "type": "INTEGER",
         "mode": "NULLABLE",
@@ -127,16 +145,28 @@
         "description": "The range of genomic coordinates of the breakpoint (+ strand)/start (- strand) of the 5' fusion gene if it is an unknown base position."
       },
       {
-        "name": "FIVE_PRIME_STRAND",
+        "name": "THREE_PRIME_CHROMOSOME",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Chromosome of 3' gene."
+      },
+            {
+        "name": "THREE_PRIME_STRAND",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "The orientation of the 5' gene (+/-)."
       },
       {
-        "name": "THREE_PRIME_CHROMOSOME",
+        "name": "THREE_PRIME_GENE_ID",
         "type": "INTEGER",
         "mode": "NULLABLE",
-        "description": "Chromosome of 3' gene."
+        "description": "The transcript identifier of the 5' gene."
+      },
+      {
+        "name": "THREE_PRIME_GENE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The transcript identifier of the 5' gene."
       },
       {
         "name": "THREE_PRIME_GENOME_START_FROM",
@@ -161,12 +191,6 @@
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "The range of genomic coordinates of the breakpoint (+ strand)/start (- strand) of the 3' fusion gene if it is an unknown base position."
-      },
-      {
-        "name": "THREE_PRIME_STRAND",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "The orientation of the 3' gene (+/-)."
       },
       {
         "name": "FUSION_TYPE",
