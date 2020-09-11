@@ -121,7 +121,7 @@
         "description": "The transcript identifier of the 5' gene."
       },
       {
-        "name": "FIVE_PRIME_OBSERVED_EXON",
+        "name": "FIVE_PRIME_LAST_OBSERVED_EXON",
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "Last observed exon number of the 5' gene fusion partner."
