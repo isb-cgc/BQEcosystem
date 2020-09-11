@@ -1,136 +1,130 @@
 {
-  "description": "This table contains a list of cancer census genes from the current release.",
-  "friendlyName": "COSMIC GRCH 38 CANCER GENE CENSUS",
+  "description": "This table contains COSMIC cancer classification information.",
+  "friendlyName": "COSMIC GRCH 38 CLASSIFICATION",
   "labels": {
     "access": "controlled",
-    "status": "current",
+    "status": "archived",
     "program": "cosmic",
     "source": "sanger",
     "reference_genome_0": "hg38",
-    "category": "genomic_reference_database",
-    "data_type": "genome_annotation"
+    "category": "clinical_biospecimen_data",
+    "data_type": "clinical_data"
   },
   "schema": {
     "fields": [
       {
-        "name": "Gene_Symbol",
+        "name": "COSMIC_PHENOTYPE_ID",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The gene name for which the data has been curated in COSMIC. In most cases this is the accepted HGNC identifier."
+        "description": "Unique COSMIC identifier for the classification."
       },
       {
-        "name": "Name",
+        "name": "SITE_PRIMARY",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Descriptive name of the gene"
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
       },
       {
-        "name": "Entrez_GeneId",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "Entrez gene ID for linking to Entrez website"
-      },
-      {
-        "name": "Genome_Location",
+        "name": "SITE_SUBTYPE1",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Genomic coordinates for gene"
+        "description": "Further sub classification (level 1) of the samples tissue of origin in publication."
       },
       {
-        "name": "Tier",
-        "type": "INTEGER",
-        "mode": "NULLABLE",
-        "description": "Classification Tier (1 or 2): Tier 2 of the Cancer Gene Census consists of genes with strong indications of roles in cancer but with less expansive available evidence, compared to Tier 1."
-      },
-      {
-        "name": "Hallmark",
+        "name": "SITE_SUBTYPE2",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "'Yes' or blank (null)"
+        "description": "Further sub classification (level 2) of the samples tissue of origin in publication."
       },
       {
-        "name": "Chr_Band",
-        "type": "FLOAT",
-        "mode": "NULLABLE",
-        "description": "Chromosome band, eg 19p13.3"
-      },
-      {
-        "name": "Somatic",
+        "name": "SITE_SUBTYPE3",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Either 'yes' or blank"
+        "description": "Further sub classification (level 3) of the samples tissue of origin in publication."
       },
       {
-        "name": "Germline",
+        "name": "HISTOLOGY",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Either 'yes' or blank (usually blank)"
+        "description": "The histological classification of the sample in publication."
       },
       {
-        "name": "Tumour_Types_Somatic",
+        "name": "HIST_SUBTYPE1",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Comma-separated list of tumor types (or blank)"
+        "description": "Further histological classification (level 1) of the sample in publication."
       },
       {
-        "name": "Tumour_Types_Germline",
+        "name": "HIST_SUBTYPE2",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Comma-separated list of tumor types (or blank)"
+        "description": "Further histological classification (level 2) of the sample in publication."
       },
       {
-        "name": "Cancer_Syndrome",
+        "name": "HIST_SUBTYPE3",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Usually blank, but may specify, for example 'familial paraganglioma'"
+        "description": "Further histological classification (level 3) of the sample in publication."
       },
       {
-        "name": "Tissue_Type",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Comma-separated list of single-letter tissue-type abbreviations "
+      "name": "SITE_PRIMARY_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Primary tissue specified in COSMIC."
       },
       {
-        "name": "Molecular_Genetics",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Usually either 'Dom' (dominant) or 'Rec' (recessive)"
+      "name": "SITE_SUBTYPE1_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 1) of the samples tissue of origin in COSMIC."
       },
       {
-        "name": "Role_in_Cancer",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "E.g. 'oncogene', or 'TSG', etc"
+      "name": "SITE_SUBTYPE2_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 2) of the samples tissue of origin in COSMIC."
       },
       {
-        "name": "Mutation_Types",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Comma-seperated list of mutation type abbreviations, eg 'Mis, N, F' (missense, nonsense, frameshift)"
+      "name": "SITE_SUBTYPE3_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 3) of the samples tissue of origin in COSMIC."
       },
       {
-        "name": "Translocation_Partner",
+        "name": "HISTOLOGY_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Usually blank, but may list one or more other genes"
+        "description": "The histological classification of the sample in COSMIC."
       },
       {
-        "name": "Other_Germline_Mut",
+        "name": "HIST_SUBTYPE1_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Either 'yes' or blank (usually blank)"
+        "description": "Further histological classification (level 1) of the sample in COSMIC."
       },
       {
-        "name": "Other_Syndrome",
+        "name": "HIST_SUBTYPE2_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Usually blank, but may specify, for example 'IPEX-like syndrome'"
+        "description": "Further histological classification (level 2) of the sample in COSMIC."
       },
       {
-        "name": "Synonyms",
+        "name": "HIST_SUBTYPE3_COSMIC",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "Comma-separated list of synonyms for this gene"
+        "description": "Further histological classification (level 3) of the sample in COSMIC."
+      },
+      {
+        "name": "NCI_CODE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "NCI thesaurus code for tumour histological classification."
+      },
+      {
+        "name": "EFO",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Experimental Factor Ontology (EFO)."
       }
     ]
   }
