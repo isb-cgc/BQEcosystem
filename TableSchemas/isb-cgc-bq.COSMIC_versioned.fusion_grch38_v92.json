@@ -6,7 +6,7 @@
     "status": "current",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg19",
+    "reference_genome_0": "hg38",
     "category": "processed_-omics_data",
     "data_type": "somatic_mutation"
   },
@@ -121,6 +121,12 @@
         "description": "The transcript identifier of the 5' gene."
       },
       {
+        "name": "FIVE_PRIME_OBSERVED_EXON",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Last observed exon number of the 5' gene fusion partner."
+      },
+      {
         "name": "FIVE_PRIME_GENOME_START_FROM",
         "type": "INTEGER",
         "mode": "NULLABLE",
@@ -154,19 +160,25 @@
         "name": "THREE_PRIME_STRAND",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The orientation of the 5' gene (+/-)."
+        "description": "The orientation of the 3' gene (+/-)."
       },
       {
         "name": "THREE_PRIME_GENE_ID",
         "type": "INTEGER",
         "mode": "NULLABLE",
-        "description": "The transcript identifier of the 5' gene."
+        "description": "The transcript identifier of the 3' gene."
       },
       {
         "name": "THREE_PRIME_GENE_NAME",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": "The transcript identifier of the 5' gene."
+        "description": "The transcript identifier of the 3' gene."
+      },
+      {
+        "name": "THREE_PRIME_FIRST_OBSERVED_EXON",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "First observed exon number of the 3' gene fusion partner."
       },
       {
         "name": "THREE_PRIME_GENOME_START_FROM",
