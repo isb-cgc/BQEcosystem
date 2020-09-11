@@ -1,23 +1,14 @@
 {
-  "creationTime": "1473568475347", 
   "description": "Data was loaded from the GENCODE reference gene set, release 22, dated March 2015. These annotations are based on the hg38/GRCh38 reference genome. More details: Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_22/gencode.v22.annotation.gtf.gz", 
-  "etag": "xhdWGpoPlC/K8mmWQFNSsA==", 
   "friendlyName": "GENCODE V22", 
-  "id": "isb-cgc:genome_reference.GENCODE_v22", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
     "data_type_0": "genome_annotations", 
     "reference_genome_0": "hg38", 
     "source_0": "gencode", 
-    "status": "current"
+    "status": "archived"
   }, 
-  "lastModifiedTime": "1580324979315", 
-  "location": "US", 
-  "numBytes": "947882857", 
-  "numLongTermBytes": "947882857", 
-  "numRows": "2563671", 
   "schema": {
     "fields": [
       {
@@ -213,12 +204,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/GENCODE_v22", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "GENCODE_v22"
-  }, 
-  "type": "TABLE"
+  }
 }
