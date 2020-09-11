@@ -251,6 +251,12 @@
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": "This is an ID to uniquely identify a sample based on primary tissue and primary histology."
+      },
+      {
+        "name": "cosmic_phenotype_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "This is an ID to uniquely identify a sample based on primary tissue and primary histology."
       }
     ]
   }
