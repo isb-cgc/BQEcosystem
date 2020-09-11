@@ -37,7 +37,7 @@
         "description": "Further sub classification (level 1) of the samples tissue of origin."
       },
       {
-        "name": "STIE_SUBTYPE_2",
+        "name": "SITE_SUBTYPE_2",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Further sub classification (level 2) of the samples tissue of origin."
