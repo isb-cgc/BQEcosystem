@@ -1,0 +1,12 @@
+{
+  "description": "Data for the CCGI program was extracted using the GDC API in September 2020. This table contains information about CGCI patient cases and their clinical information.  More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
+  "friendlyName": "CGCI CLINICAL DATA",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "gdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "cgci"
+  }
+}
