@@ -6,7 +6,7 @@
     "status": "archived",
     "program": "cosmic",
     "source": "sanger",
-    "reference_genome_0": "hg38",
+    "reference_genome_0": "hg19",
     "category": "clinical_biospecimen_data",
     "data_type": "clinical_data"
   },
