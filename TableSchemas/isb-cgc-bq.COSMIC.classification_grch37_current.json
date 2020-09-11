@@ -1,6 +1,6 @@
 {
   "description": "This table contains COSMIC cancer classification information.",
-  "friendlyName": "COSMIC GRCH 38 CLASSIFICATION",
+  "friendlyName": "COSMIC GRCH 37 CLASSIFICATION",
   "labels": {
     "access": "controlled",
     "status": "archived",
