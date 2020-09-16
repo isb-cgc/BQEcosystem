@@ -4,7 +4,7 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "{---tag-ref-genome-0---}", 
     "program": "{---tag-source-0---}", 
     "source": "gdc", 
