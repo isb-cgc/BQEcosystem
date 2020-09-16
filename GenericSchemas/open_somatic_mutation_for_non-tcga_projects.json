@@ -4,7 +4,7 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type": "somatic_mutations", 
+    "data_type": "somatic_mutation", 
     "reference_genome_0": "{---tag-ref-genome-0---}", 
     "program": "{---tag-source-0---}", 
     "source": "gdc", 
@@ -22,30 +22,6 @@
         "description": "Original TCGA case barcode, eg TCGA-DX-A8BN", 
         "mode": "NULLABLE", 
         "name": "case_barcode", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA sample barcode for the tumor, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
-        "mode": "NULLABLE", 
-        "name": "sample_barcode_tumor", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA sample barcode for the normal control, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
-        "mode": "NULLABLE", 
-        "name": "sample_barcode_normal", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA aliquot barcode for the tumor, eg TCGA-12-1089-01A-01D-0517-01", 
-        "mode": "NULLABLE", 
-        "name": "aliquot_barcode_tumor", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA aliquot barcode for the normal control, eg TCGA-12-1089-01A-01D-0517-01", 
-        "mode": "NULLABLE", 
-        "name": "aliquot_barcode_normal", 
         "type": "STRING"
       }, 
       {
@@ -844,6 +820,30 @@
         "description": "Varscan2 caller identified the variant at this position", 
         "mode": "NULLABLE", 
         "name": "varscan2", 
+        "type": "STRING"
+      }
+            {
+        "description": "TCGA sample barcode for the tumor, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode_tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA sample barcode for the normal control, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode_normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode for the tumor, eg TCGA-12-1089-01A-01D-0517-01", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode_tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode for the normal control, eg TCGA-12-1089-01A-01D-0517-01", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode_normal", 
         "type": "STRING"
       }
     ]
