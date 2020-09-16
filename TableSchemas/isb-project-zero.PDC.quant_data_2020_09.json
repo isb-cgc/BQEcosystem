@@ -33,23 +33,16 @@
         "description": ""
       },
       {
-        "name": "log2_ratios",
-        "type": "RECORD",
-        "mode": "REPEATED",
-        "fields": [
-          {
-            "name": "gene",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "log2_ratio",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          }
-        ]
+        "name": "gene",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "log2_ratio",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
       }
     ]
   }
