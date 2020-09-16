@@ -245,6 +245,12 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": "Describes where the sample has originated from including the tumour type."
+      },
+      {
+        "name": "cosmic_phenotype_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "This is an ID to uniquely identify a sample based on primary tissue and primary histology."
       }
     ]
   }
