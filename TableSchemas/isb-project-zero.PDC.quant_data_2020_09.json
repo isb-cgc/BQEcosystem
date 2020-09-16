@@ -9,18 +9,6 @@
   "schema": {
     "fields": [
       {
-        "name": "study_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "study_submitter_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "aliquot_run_metadata_id",
         "type": "STRING",
         "mode": "NULLABLE",
@@ -28,6 +16,12 @@
       },
       {
         "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
