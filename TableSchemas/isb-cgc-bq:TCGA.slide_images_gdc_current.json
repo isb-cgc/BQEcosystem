@@ -8,7 +8,7 @@
     "data_type": "file_metadata", 
     "source": "gdc",
     "program": "target",
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
