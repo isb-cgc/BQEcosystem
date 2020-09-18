@@ -1,6 +1,6 @@
 {
   "description": "Data was generated from file metadata information from the GDC release 26, downloaded Sep, 2020. Image slides are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-260", 
-  "friendlyName": "SLIDE IMAGES TO CASE IDS REL26", 
+  "friendlyName": "SLIDE IMAGES TO CASE IDS REL26 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
