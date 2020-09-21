@@ -1,0 +1,61 @@
+{
+  "description": "This table contains PDC mapping for Cases Samples Aliquots.",
+  "friendlyName": "PDC CASES SAMPLES ALIQUOTS DATA 2020-09",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "case_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "case_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "external_case_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "sample_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "sample_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
