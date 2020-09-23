@@ -19,9 +19,15 @@
         "type": "STRING"
       }, 
       {
-        "description": "Original TCGA case barcode, eg TCGA-DX-A8BN", 
+        "description": "Original case barcode, eg TCGA-DX-A8BN", 
         "mode": "NULLABLE", 
         "name": "case_barcode", 
+        "type": "STRING"
+      },
+      {
+        "description": "Anatomical site of the cancer under investigation or review",
+        "mode": "NULLABLE",
+        "name": "primary_site",
         "type": "STRING"
       },
       {
