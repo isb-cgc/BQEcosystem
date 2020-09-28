@@ -4,9 +4,9 @@
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "genome_annotation", 
+    "data_type": "genome_annotation", 
     "reference_genome_0": "hg38", 
-    "source_0": "gencode", 
+    "source": "gencode", 
     "status": "archived"
   }, 
   "schema": {
