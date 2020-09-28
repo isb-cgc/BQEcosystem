@@ -4,7 +4,7 @@
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "genome_annotations", 
+    "data_type_0": "genome_annotation", 
     "reference_genome_0": "hg19", 
     "source_0": "gencode", 
     "status": "archived"
