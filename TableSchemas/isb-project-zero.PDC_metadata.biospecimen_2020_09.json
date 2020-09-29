@@ -27,6 +27,12 @@
         "description": ""
       },
       {
+        "name": "study_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "aliquot_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
