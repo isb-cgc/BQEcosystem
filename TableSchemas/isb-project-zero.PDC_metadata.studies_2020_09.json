@@ -51,12 +51,6 @@
         "description": ""
       },
       {
-        "name": "study_shortname",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "project_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
