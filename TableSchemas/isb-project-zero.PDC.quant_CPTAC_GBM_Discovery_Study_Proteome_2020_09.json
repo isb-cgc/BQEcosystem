@@ -1,0 +1,44 @@
+{
+  "description": "This table contains PDC quant data for CPTAC GBM Discovery Study - Proteome",
+  "friendlyName": "CPTAC GBM DISCOVERY STUDY - PROTEOME QUANT DATA 2020_09",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc",
+    "embargo_end_date": "2021-03-01"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "gene",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "log2_ratio",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
