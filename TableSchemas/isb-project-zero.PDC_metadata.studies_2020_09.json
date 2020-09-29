@@ -39,12 +39,6 @@
         "description": ""
       },
       {
-        "name": "submitter_id_name",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "study_name",
         "type": "STRING",
         "mode": "NULLABLE",
