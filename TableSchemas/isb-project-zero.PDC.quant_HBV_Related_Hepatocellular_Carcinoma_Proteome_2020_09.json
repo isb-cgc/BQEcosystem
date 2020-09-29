@@ -1,0 +1,43 @@
+{
+  "description": "This table contains PDC quant data for HBV - Related Hepatocellular Carcinoma - Proteome",
+  "friendlyName": "HBV - RELATED HEPATOCELLULAR CARCINOMA - PROTEOME QUANT DATA 2020_09",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "gene",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "log2_ratio",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
