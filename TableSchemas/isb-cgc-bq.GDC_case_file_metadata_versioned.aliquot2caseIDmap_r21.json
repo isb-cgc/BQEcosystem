@@ -1,12 +1,12 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 23, downloaded April 2020. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-230\nThis table has been deprecated, please see isb-cgc-bq.GDC_case_file_metadata.aliquot2caseIDmap_current for the most current table.", 
-  "friendlyName": "ALIQUOT IDS TO CASE IDS REL23", 
+  "description": "Data was generated from file metadata information from the GDC release 21, downloaded Dec 13, 2019. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-210", 
+  "friendlyName": "ALIQUOT IDS TO CASE IDS REL21 VERSIONED",  
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
-    "data_type": "file_metadata",
-    "source": "gdc",
-    "status": "deprecated"
+    "data_type": "file_metadata", 
+    "source": "gdc", 
+    "status": "archived"
   }, 
   "schema": {
     "fields": [

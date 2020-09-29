@@ -1,12 +1,12 @@
 {
-  "description": "Data was generated from file metadata information from the GDC legacy archive release 22, downloaded Jan 22, 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-220\nThis table has been deprecated, please see isb-cgc-bq.GDC_case_file_metadata.fileData_legacy_current for the most current table.", 
-  "friendlyName": "FILE DATA LEGACY REL22", 
+  "description": "Data was generated from file metadata information from the GDC legacy archive release 23, downloaded April 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-230", 
+  "friendlyName": "FILE DATA LEGACY REL23 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata", 
     "source": "gdc",
-    "status": "deprecated"
+    "status": "archived"
   }, 
   "schema": {
     "fields": [
