@@ -1,6 +1,6 @@
 {
-  "description": "This table contains PDC file metadata.",
-  "friendlyName": "PDC FILE METADATA 2020-09",
+  "description": "This table contains PDC file data.",
+  "friendlyName": "PDC FILES DATA 2020-09",
   "labels": {
     "access": "open",
     "status": "current",
@@ -55,50 +55,8 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
-      },
-      {
-        "name": "aliquots",
-        "type": "RECORD",
-        "mode": "REPEATED",
-        "fields": [
-          {
-            "name": "aliquot_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "aliquot_submitter_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "sample_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "sample_submitter_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "case_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "case_submitter_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          }
-        ]
       }
     ]
   }
 }
+
