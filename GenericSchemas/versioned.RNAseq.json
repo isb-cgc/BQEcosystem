@@ -26,6 +26,12 @@
         "type": "STRING"
       }, 
       {
+        "description": "Anatomical site of the cancer under investigation or review",
+        "mode": "NULLABLE",
+        "name": "primary_site",
+        "type": "STRING"
+      },
+      {
         "description": "sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
         "mode": "NULLABLE", 
         "name": "sample_barcode", 
