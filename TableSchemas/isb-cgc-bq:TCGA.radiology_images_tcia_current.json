@@ -6,7 +6,7 @@
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata",
-    "program": "target",
+    "program": "tcga",
     "source": "gdc", 
     "status": "current"
   }, 
