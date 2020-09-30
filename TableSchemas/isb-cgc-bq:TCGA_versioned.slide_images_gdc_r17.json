@@ -1,7 +1,7 @@
 { 
   "description": "Data was generated from file metadata information from the GDC on Aug 2019. Image slides are mapped to case barcodes and google cloud storage paths.", 
   "friendlyName": "TCGA SLIDE IMAGES METADATA REL17 VERSIONED", 
-  "id": "isb-cgc-bq:TCGA.slide_images_gdc_r17", 
+  "id": "isb-cgc-bq:TCGA_versioned.slide_images_gdc_r17", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
