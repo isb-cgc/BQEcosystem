@@ -1,7 +1,7 @@
 { 
   "description": "Data was extracted from GDC legacy archive on February 2017. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms.", 
   "friendlyName": "TCGA HG19 MIRNASEQ ISOFORM EXPRESSION", 
-  "id": "isb-cgc-bq:TCGA.miRNAseq_hg19_gdc_current", 
+  "id": "isb-cgc-bq:TCGA.miRNAseq_isoform_hg19_gdc_current", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
