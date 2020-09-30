@@ -1,7 +1,7 @@
 {
   "description": "Data was generated from file metadata information for TCGA radiology images from June 2018.", 
   "friendlyName": "TCGA RADIOLOGY IMAGES 2018 VERSIONED", 
-  "id": "isb-cgc-bq:TCGA.radiology_images_tcia_2018_06", 
+  "id": "isb-cgc-bq:TCGA_versioned.radiology_images_tcia_2018_06", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
