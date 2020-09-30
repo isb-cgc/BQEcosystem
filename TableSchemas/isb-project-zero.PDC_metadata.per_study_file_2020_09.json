@@ -15,12 +15,6 @@
         "description": ""
       },
       {
-        "name": "file_submitter_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "file_name",
         "type": "STRING",
         "mode": "NULLABLE",
