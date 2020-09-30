@@ -15,36 +15,6 @@
         "description": ""
       },
       {
-        "name": "file_name",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_size",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "md5sum",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_location",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_submitter_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "fraction_number",
         "type": "STRING",
         "mode": "NULLABLE",
@@ -52,24 +22,6 @@
       },
       {
         "name": "experiment_type",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "data_category",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_type",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_format",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
@@ -122,18 +74,6 @@
             "description": ""
           },
           {
-            "name": "status",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "aliquot_is_ref",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
             "name": "sample_id",
             "type": "STRING",
             "mode": "NULLABLE",
@@ -153,36 +93,6 @@
           },
           {
             "name": "case_submitter_id",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "aliquot_quantity",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "aliquot_volume",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "amount",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "analyte_type",
-            "type": "STRING",
-            "mode": "NULLABLE",
-            "description": ""
-          },
-          {
-            "name": "concentration",
             "type": "STRING",
             "mode": "NULLABLE",
             "description": ""
