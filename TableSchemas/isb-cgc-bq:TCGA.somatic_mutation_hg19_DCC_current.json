@@ -8,7 +8,7 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
