@@ -1,6 +1,6 @@
 {
-  "description": "Data was extracted from the TCGA DCC on February 2017 for somatic mutation calls with each mutation call was annotated using Oncotator.", 
-  "friendlyName": "TCGA HG19 SOMATIC MUTATION DCC", 
+  "description": "Data was extracted from the TCGA DCC on February 2017 for somatic mutation calls with each mutation call was annotated using Oncotator. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.somatic_mutation_hg19_DCC_2017_02.", 
+  "friendlyName": "TCGA HG19 SOMATIC MUTATION DCC 2017 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -8,7 +8,7 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
