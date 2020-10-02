@@ -1,17 +1,14 @@
-{
-  "creationTime": "1530129546867", 
-  "description": "Data was extracted from the TCGA program in June 2018. This clinical information about patient cases also includes TCGA project information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/", 
-  "etag": "dw1INF0jzBpOIl41CVLsmA==", 
-  "friendlyName": "TCGA CLINICAL 2017 VERSIONED", 
-  "id": "isb-cgc:TCGA_bioclin_v0.Clinical", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data was extracted from the TCGA program in June 2018. This clinical information about patient cases also includes TCGA project information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.clinical_gdc_2018_06. Please see isb-cgc-bq.TCGA.clinical_gdc_current for the most current table.", 
+  "friendlyName": "TCGA CLINICAL 2018 DEPRECATED", 
+  "id": "isb-cgc:TCGA_bioclin_v0.Clinical",  
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
     "data_type": "clinical_data", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
   "lastModifiedTime": "1580325532557", 
   "location": "US", 
