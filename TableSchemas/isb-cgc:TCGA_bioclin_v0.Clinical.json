@@ -10,11 +10,6 @@
     "source": "gdc", 
     "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325532557", 
-  "location": "US", 
-  "numBytes": "4801321", 
-  "numLongTermBytes": "4801321", 
-  "numRows": "11315", 
   "schema": {
     "fields": [
       {
