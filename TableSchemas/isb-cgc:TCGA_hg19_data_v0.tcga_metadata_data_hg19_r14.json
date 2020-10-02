@@ -1,6 +1,6 @@
 {
-  "description": "TCGA HG19 file data table based on GDC rel14, with the 5aa shared bucket with Broad BAM index file relocations.", 
-  "friendlyName": "TCGA HG19 METADATA REL14 VERSIONED", 
+  "description": "TCGA HG19 file data table based on GDC rel14, with the 5aa shared bucket with Broad BAM index file relocations. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.per_sample_file_metadata_hg19_gdc_r14. Please see isb-cgc-bq.TCGA.per_sample_file_metadata_hg19_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG19 METADATA REL14 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
@@ -8,7 +8,7 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
