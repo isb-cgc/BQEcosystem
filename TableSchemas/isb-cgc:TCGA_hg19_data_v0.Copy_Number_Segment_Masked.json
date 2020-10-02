@@ -1,10 +1,7 @@
 {
-  "creationTime": "1487032055357", 
-  "description": "Data was extracted from TCGA DCC on February 2017. Copy-number segmentation information was generated using the Affymetrix Genome Wide SNP 6.0 array.", 
-  "etag": "wNMfJ5iYf71+H7MlcwXBbA==", 
-  "friendlyName": "TCGA HG19 COPY NUMBER SEGMENT MASKED", 
+  "description": "Data was extracted from TCGA DCC on February 2017. Copy-number segmentation information was generated using the Affymetrix Genome Wide SNP 6.0 array. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.copy_number_segment_masked_hg38_gdc_r14. Please see isb-cgc-bq.TCGA.copy_number_segment_masked_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG19 COPY NUMBER SEGMENT MASKED 2017 DEPRECATED", 
   "id": "isb-cgc:TCGA_hg19_data_v0.Copy_Number_Segment_Masked", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -12,13 +9,8 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325123215", 
-  "location": "US", 
-  "numBytes": "336419121", 
-  "numLongTermBytes": "336419121", 
-  "numRows": "2646095", 
   "schema": {
     "fields": [
       {
