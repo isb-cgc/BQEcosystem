@@ -1,10 +1,7 @@
-{
-  "creationTime": "1485986469053", 
-  "description": "Data was extracted from TCGA DCC on February 2017. RNAseq gene expression data was generated using UNC V2 pipeline.", 
-  "etag": "4xrqAMstDMk6ADdC1ABklA==", 
-  "friendlyName": "TCGA HG19 RNASEQ GENE EXPRESSION UNC RSEM", 
+{ 
+  "description": "Data was extracted from TCGA DCC on February 2017. RNAseq gene expression data was generated using UNC V2 pipeline. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.RNAseq_hg19_gdc_2017_02. Please see isb-cgc-bq.TCGA.RNAseq_hg19_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG19 RNASEQ GENE EXPRESSION UNC RSEM 2017 DEPRECATED", 
   "id": "isb-cgc:TCGA_hg19_data_v0.RNAseq_Gene_Expression_UNC_RSEM", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -13,13 +10,8 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325193003", 
-  "location": "US", 
-  "numBytes": "27105580383", 
-  "numLongTermBytes": "27105580383", 
-  "numRows": "228078879", 
   "schema": {
     "fields": [
       {
