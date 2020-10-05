@@ -1,10 +1,7 @@
-{
-  "creationTime": "1548971076945", 
-  "description": "Data was extracted from release 14 active GDC archive from December 2018 for miRNA isoform expression. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140", 
-  "etag": "kzGmDof0f0AUlnjJ/s7rmg==", 
-  "friendlyName": "TCGA HG38 MIRNASEQ ISOFORM EXPRESSION", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.miRNAseq_Isoform_Expression", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data was extracted from release 14 active GDC archive from December 2018 for miRNA isoform expression. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.miRNAseq_isoform_hg38_gdc_r14. Please see isb-cgc-bq.TCGA.miRNAseq_isoform_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG38 MIRNASEQ ISOFORM EXPRESSION REL14 DEPRECATED", 
+  "id": "isb-cgc:TCGA_hg38_data_v0.miRNAseq_Isoform_Expression",  
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -12,13 +9,8 @@
     "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325266233", 
-  "location": "US", 
-  "numBytes": "8115063402", 
-  "numLongTermBytes": "8115063402", 
-  "numRows": "53265656", 
   "schema": {
     "fields": [
       {
@@ -106,12 +98,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/miRNAseq_Isoform_Expression", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNAseq_Isoform_Expression"
-  }, 
-  "type": "TABLE"
+  }
 }
