@@ -1,10 +1,7 @@
-{
-  "creationTime": "1512491214033", 
-  "description": "Data was extracted from GDC on December 2017. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot.", 
-  "etag": "WBiHxtJ0uXnGJgt8VxNiIg==", 
-  "friendlyName": "TCGA HG38 RNASEQ GENE EXPRESSION", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.RNAseq_Gene_Expression", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data was extracted from GDC on December 2017. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.RNAseq_hg38_gdc_2017_12. Please see isb-cgc-bq.TCGA.RNAseq_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG38 RNASEQ GENE EXPRESSION 2017 DEPRECATED", 
+  "id": "isb-cgc:TCGA_hg38_data_v0.RNAseq_Gene_Expression",  
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -13,13 +10,8 @@
     "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325271162", 
-  "location": "US", 
-  "numBytes": "218059368390", 
-  "numLongTermBytes": "218059368390", 
-  "numRows": "670937919", 
   "schema": {
     "fields": [
       {
@@ -119,12 +111,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/RNAseq_Gene_Expression", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "RNAseq_Gene_Expression"
-  }, 
-  "type": "TABLE"
+  }
 }
