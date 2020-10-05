@@ -1,6 +1,6 @@
 {
-  "description": "Data was extracted from release 10 of the active GDC archive on January 2018 for somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-101", 
-  "friendlyName": "TCGA HG38 SOMATIC MUTATION", 
+  "description": "Data was extracted from release 10 of the active GDC archive on January 2018 for somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-101. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.somatic_mutation_hg38_gdc_r10. Please see isb-cgc-bq.TCGA.somatic_mutation_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG38 SOMATIC MUTATION DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -8,7 +8,7 @@
     "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
