@@ -1,23 +1,15 @@
 {
-  "creationTime": "1528643392653", 
-  "description": "Data was generated from file metadata information for TCGA radiology images from June 2018.", 
-  "etag": "JDRLip90YnRKRdXoMVwZGQ==", 
-  "friendlyName": "TCGA RADIOLOGY IMAGES", 
+  "description": "Data was generated from file metadata information for TCGA radiology images from June 2018. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.radiology_images_tcia_2018_06. Please see isb-cgc-bq.TCGA.radiology_images_tcia_current for the most current table.", 
+  "friendlyName": "TCGA RADIOLOGY IMAGES 2018 DEPRECATED", 
   "id": "isb-cgc:metadata.TCGA_radiology_images", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata",
-    "program": "target",
+    "program": "tcga",
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325056131", 
-  "location": "US", 
-  "numBytes": "1099141248", 
-  "numLongTermBytes": "1099141248", 
-  "numRows": "1469216", 
   "schema": {
     "fields": [
       {
@@ -303,12 +295,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/metadata/tables/TCGA_radiology_images", 
-  "tableReference": {
-    "datasetId": "metadata", 
-    "projectId": "isb-cgc", 
-    "tableId": "TCGA_radiology_images"
-  }, 
-  "type": "TABLE"
+  }
 }
