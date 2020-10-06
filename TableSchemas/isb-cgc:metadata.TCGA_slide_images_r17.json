@@ -1,13 +1,13 @@
 {
-  "description": "Data was generated from file metadata information from GDC release 17 on Aug 2019. Image slides are mapped to case barcodes and google cloud storage paths.", 
-  "friendlyName": "TCGA SLIDE IMAGES REL17", 
+  "description": "Data was generated from file metadata information from GDC release 17 on Aug 2019. Image slides are mapped to case barcodes and google cloud storage paths. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.slide_images_gdc_r17. Please see isb-cgc-bq.TCGA.slide_images_gdc_current for the most current table.", 
+  "friendlyName": "TCGA SLIDE IMAGES REL17 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata", 
     "source": "gdc",
     "program": "target",
-    "status": "current"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
