@@ -10,11 +10,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325285269", 
-  "location": "US", 
-  "numBytes": "4304985", 
-  "numLongTermBytes": "4304985", 
-  "numRows": "11353", 
   "schema": {
     "fields": [
       {
