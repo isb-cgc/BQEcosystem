@@ -1,6 +1,5 @@
 { 
-  "description": "Data was extracted from the TCGA program in June 2018. This clinical information about patient cases also includes TCGA project information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/", 
-  "etag": "dw1INF0jzBpOIl41CVLsmA==", 
+  "description": "Data was extracted from the TCGA program in June 2018. This clinical information about patient cases also includes TCGA project information. More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",  
   "friendlyName": "TCGA CLINICAL 2018 VERSIONED", 
   "id": "isb-cgc-bq:TCGA_versioned.clinical_gdc_2018_06", 
   "labels": {
