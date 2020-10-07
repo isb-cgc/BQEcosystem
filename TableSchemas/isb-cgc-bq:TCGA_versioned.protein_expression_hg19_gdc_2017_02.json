@@ -11,7 +11,7 @@
     "program": "tcga", 
     "source": "gdc", 
     "status": "current"
-  }
+  },
   "schema": {
     "fields": [
       {
