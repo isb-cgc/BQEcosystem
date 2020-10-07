@@ -9,7 +9,19 @@
   "schema": {
     "fields": [
       {
+        "name": "gene_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "gene_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "NCBI_gene_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
