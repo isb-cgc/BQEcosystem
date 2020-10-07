@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from release 14 of the active GDC archive from December 2018 for miRNAseq expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.miRNAseq_hg38_gdc_rel14. Please see isb-cgc-bq.TCGA.miRNAseq_hg38_gdc_current for the most current table.", 
+  "description": "Data was extracted from release 14 of the active GDC archive from December 2018 for miRNAseq expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140. This table has been deprecated. It has been copied to isb-cgc-bq.TCGA_versioned.miRNAseq_hg38_gdc_r14. Please see isb-cgc-bq.TCGA.miRNAseq_hg38_gdc_current for the most current table.", 
   "friendlyName": "TCGA HG38 MIRNASEQ EXPRESSION REL14 DEPRECATED", 
   "id": "isb-cgc:TCGA_hg38_data_v0.miRNAseq_Expression", 
   "labels": {
