@@ -1,7 +1,7 @@
 { 
   "description": "This data was generated from Annotations obtained from the TCGA DCC in June 2016. This annotation data for TCGA patient cases includes the GDC case identifier. It may have slight differences from the annotations available at the GDC.", 
   "friendlyName": "TCGA BIOCLINICAL ANNOTATIONS 2017 VERSIONED", 
-  "id": "isb-cgc-bq:TCGA_versioned.annotations_2017_04", 
+  "id": "isb-cgc-bq:TCGA_versioned.annotations_gdc_2017_04", 
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
