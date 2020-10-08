@@ -8,7 +8,7 @@
     "data_type": "clinical_data", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "archived"
   }, 
   "schema": {
     "fields": [
