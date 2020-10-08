@@ -6,12 +6,12 @@
   "id": "isb-cgc:TCGA_hg19_data_v0.DNA_Methylation_chr19", 
   "kind": "bigquery#table", 
   "labels": {
-    "access": "open", 
+     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "dna_methylation", 
-    "reference_genome_0": "hg19", 
-    "source_0": "tcga", 
-    "source_1": "gdc", 
+    "data_type": "dna_methylation", 
+    "reference_genome": "hg19", 
+    "program": "tcga", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325151899", 
