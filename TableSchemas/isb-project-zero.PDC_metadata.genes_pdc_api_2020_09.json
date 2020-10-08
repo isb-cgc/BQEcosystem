@@ -17,17 +17,23 @@
       {
         "name": "gene_name",
         "type": "STRING",
-        "mode": "NULLABLE",
+        "mode": "REQUIRED",
         "description": ""
       },
       {
         "name": "NCBI_gene_id",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "AKA Entrez Gene ID"
       },
       {
         "name": "authority",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "hgnc_gene_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
