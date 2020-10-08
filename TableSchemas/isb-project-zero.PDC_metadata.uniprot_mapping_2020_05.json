@@ -2,9 +2,7 @@
   "description": "This table contains mapping data sourced from UniProt (ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).",
   "friendlyName": "UNIPROT MAPPING 2020-05",
   "labels": {
-    "access": "open",
-    "status": "current",
-    "source": "pdc"
+    "status": "current"
   },
   "schema": {
     "fields": [
