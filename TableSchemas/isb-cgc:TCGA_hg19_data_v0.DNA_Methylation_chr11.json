@@ -8,10 +8,10 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "dna_methylation", 
-    "reference_genome_0": "hg19", 
+    "data_type": "dna_methylation", 
+    "reference_genome": "hg19", 
     "program": "tcga", 
-    "source": "gdc",  
+    "source": "gdc", 
     "status": "current"
   }, 
   "lastModifiedTime": "1580325131178", 
