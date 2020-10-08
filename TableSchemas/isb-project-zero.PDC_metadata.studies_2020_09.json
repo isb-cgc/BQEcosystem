@@ -127,6 +127,12 @@
         "type": "INTEGER",
         "mode": "NULLABLE",
         "description": ""
+      },
+      {
+        "name": "embargo_date",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
       }
     ]
   }
