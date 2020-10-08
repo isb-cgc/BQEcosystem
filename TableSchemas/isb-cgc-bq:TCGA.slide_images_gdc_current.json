@@ -7,7 +7,7 @@
     "category": "file_metadata", 
     "data_type": "file_metadata", 
     "source": "gdc",
-    "program": "target",
+    "program": "tcga",
     "status": "current"
   }, 
   "schema": {
