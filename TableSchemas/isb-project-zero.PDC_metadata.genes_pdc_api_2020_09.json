@@ -15,7 +15,7 @@
         "description": ""
       },
       {
-        "name": "gene_name",
+        "name": "gene_symbol",
         "type": "STRING",
         "mode": "REQUIRED",
         "description": ""
@@ -33,7 +33,7 @@
         "description": ""
       },
       {
-        "name": "hgnc_gene_id",
+        "name": "authority_gene_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""

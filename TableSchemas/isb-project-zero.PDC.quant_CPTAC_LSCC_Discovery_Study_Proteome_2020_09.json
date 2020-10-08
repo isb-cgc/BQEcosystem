@@ -22,19 +22,19 @@
         "description": ""
       },
       {
-        "name": "study_id",
+        "name": "study_name",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "gene",
+        "name": "gene_symbol",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "log2_ratio",
+        "name": "protein_abundance_log2ratio",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
