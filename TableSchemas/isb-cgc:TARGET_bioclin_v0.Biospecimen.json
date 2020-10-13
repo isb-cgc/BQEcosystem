@@ -1,8 +1,6 @@
 {
-  "creationTime": "1493165069880", 
-  "description": "Data was extracted from the TARGET program in April 2017. This biospecimen information (sample types) for patient cases was generated from a set of XLSX files downloaded from \nhttps://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target.", 
-  "etag": "AwfaSWvYENM3XE5tIaRzGQ==", 
-  "friendlyName": "TARGET BIOSPECIMEN", 
+  "description": "Data was extracted from the TARGET program in April 2017. This biospecimen information (sample types) for patient cases was generated from a set of XLSX files downloaded from \nhttps://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.biospecimen_gdc_2017_04. Please see isb-cgc-bq.TARGET.biospecimen_gdc_current for the most current table.", 
+  "friendlyName": "TARGET BIOSPECIMEN 2017 DEPRECATED", 
   "id": "isb-cgc:TARGET_bioclin_v0.Biospecimen", 
   "kind": "bigquery#table", 
   "labels": {
@@ -11,13 +9,8 @@
     "data_type": "biospecimen", 
     "program": "target", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325093677", 
-  "location": "US", 
-  "numBytes": "1225084", 
-  "numLongTermBytes": "1225084", 
-  "numRows": "7276", 
   "schema": {
     "fields": [
       {
@@ -69,12 +62,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_bioclin_v0/tables/Biospecimen", 
-  "tableReference": {
-    "datasetId": "TARGET_bioclin_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "Biospecimen"
-  }, 
-  "type": "TABLE"
+  }
 }
