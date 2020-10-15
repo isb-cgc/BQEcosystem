@@ -1,12 +1,12 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 25, Sep 2020. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-250", 
-  "friendlyName": "GDC FILE ID TO GCS URLS REL25 VERSIONED", 
+  "description": "Data was generated from file metadata information from the GDC release 26, Oct 2020. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-260", 
+  "friendlyName": "GDC FILE ID TO GCS URLS REL26 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata",
     "source": "gdc", 
-    "status": "archived"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
