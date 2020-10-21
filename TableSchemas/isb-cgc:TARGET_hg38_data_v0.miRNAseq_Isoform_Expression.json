@@ -1,10 +1,7 @@
 {
-  "creationTime": "1545355112773", 
-  "description": "Data was extracted from GDC active archive on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms.", 
-  "etag": "nJ8/aRF6PI1PWTa5vtEnDg==", 
-  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION", 
-  "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression", 
-  "kind": "bigquery#table", 
+  "description": "Data was extracted from GDC active archive on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms. This table has been deprecated. Please see isb-cgc-bq.TARGET.miRNAseq_isoform_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION REL11 DEPRECATED", 
+  "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression",  
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -14,11 +11,6 @@
     "source": "gdc", 
     "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325109229", 
-  "location": "US", 
-  "numBytes": "754879300", 
-  "numLongTermBytes": "754879300", 
-  "numRows": "2475648", 
   "schema": {
     "fields": [
       {
@@ -122,12 +114,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_hg38_data_v0/tables/miRNAseq_Isoform_Expression", 
-  "tableReference": {
-    "datasetId": "TARGET_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNAseq_Isoform_Expression"
-  }, 
-  "type": "TABLE"
+  }
 }
