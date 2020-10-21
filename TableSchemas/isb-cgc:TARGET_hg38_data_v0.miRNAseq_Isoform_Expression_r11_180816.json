@@ -1,10 +1,7 @@
 {
-  "creationTime": "1535573226868", 
-  "description": "Data was extracted from GDC active archive release on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110", 
-  "etag": "073K2Kel1IdzJdaF6KkKow==", 
-  "friendlyName": "TARGET HG38 MIRNA ISOFORM  REL11 VERSIONED", 
+  "description": "Data was extracted from GDC active archive release on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.miRNAseq_isoform_hg38_gdc_r11. Please see isb-cgc-bq.TARGET.miRNAseq_isoform_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TARGET HG38 MIRNA ISOFORM REL11 DEPRECATED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression_r11_180816", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -12,13 +9,8 @@
     "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325112683", 
-  "location": "US", 
-  "numBytes": "754879300", 
-  "numLongTermBytes": "754879300", 
-  "numRows": "2475648", 
   "schema": {
     "fields": [
       {
@@ -122,12 +114,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_hg38_data_v0/tables/miRNAseq_Isoform_Expression_r11_180816", 
-  "tableReference": {
-    "datasetId": "TARGET_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "miRNAseq_Isoform_Expression_r11_180816"
-  }, 
-  "type": "TABLE"
+  }
 }
