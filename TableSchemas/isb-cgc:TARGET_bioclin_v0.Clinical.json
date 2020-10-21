@@ -1,23 +1,15 @@
 {
-  "creationTime": "1493253979957", 
-  "description": "Data was extracted from the TARGET program in April 2017. This clinical information about patient cases was generated from a set of XLSX files downloaded from https://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target. \n\nNOTE: While this table contains information about over 5000 TARGET cases, this does not necessarily mean that molecular data exists for all of them, nor that the NCI GDC data repository currently contains all available data. Cases are grouped into projects. In general, each project is associated with a single disease, although ALL (Acute Lymphoblastic Leukemia) has two projects: Phase1 and Phase2 (P1 and P2). Some fields in this table may be relevant to only one of the sub-projects and will therefore be null for many of the cases. The fields are (approximately) ordered from left to right where the fields towards the left are rarely null, while the fields toward the right are almost always null.", 
-  "etag": "oCKOqL3zwZ5/ZwmAbeWmdg==", 
-  "friendlyName": "TARGET CLINICAL 2017 VERSIONED", 
+  "description": "Data was extracted from the TARGET program in April 2017. This clinical information about patient cases was generated from a set of XLSX files downloaded from https://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target. \n\nNOTE: While this table contains information about over 5000 TARGET cases, this does not necessarily mean that molecular data exists for all of them, nor that the NCI GDC data repository currently contains all available data. Cases are grouped into projects. In general, each project is associated with a single disease, although ALL (Acute Lymphoblastic Leukemia) has two projects: Phase1 and Phase2 (P1 and P2). Some fields in this table may be relevant to only one of the sub-projects and will therefore be null for many of the cases. The fields are (approximately) ordered from left to right where the fields towards the left are rarely null, while the fields toward the right are almost always null. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.clinical_gdc_2017_04. Please see isb-cgc-bq.TARGET.clinical_gdc_current for the most current table.",  
+  "friendlyName": "TARGET CLINICAL 2017 DEPRECATED", 
   "id": "isb-cgc:TARGET_bioclin_v0.Clinical", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
     "data_type": "clinical_data", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
-  }, 
-  "lastModifiedTime": "1580325096507", 
-  "location": "US", 
-  "numBytes": "2017542", 
-  "numLongTermBytes": "2017542", 
-  "numRows": "5011", 
+    "status": "deprecated"
+  },
   "schema": {
     "fields": [
       {
@@ -801,12 +793,5 @@
         "type": "INTEGER"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_bioclin_v0/tables/Clinical", 
-  "tableReference": {
-    "datasetId": "TARGET_bioclin_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "Clinical"
-  }, 
-  "type": "TABLE"
+  }
 }
