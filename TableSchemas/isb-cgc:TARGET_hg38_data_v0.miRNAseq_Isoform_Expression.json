@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from GDC active archive on December 2018. microRNA isoform expression data was generated using Illumina GA or HiSeq sequencing platforms. This table has been deprecated. Please see isb-cgc-bq.TARGET.miRNAseq_isoform_hg38_gdc_current for the most current table.", 
-  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION REL11 DEPRECATED", 
+  "friendlyName": "TARGET HG38 MIRNASEQ ISOFORM EXPRESSION DEPRECATED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNAseq_Isoform_Expression",  
   "labels": {
     "access": "open", 
