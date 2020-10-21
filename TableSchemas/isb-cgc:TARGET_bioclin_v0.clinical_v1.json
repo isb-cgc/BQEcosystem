@@ -10,11 +10,6 @@
     "source": "gdc", 
     "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325099516", 
-  "location": "US", 
-  "numBytes": "1552216", 
-  "numLongTermBytes": "1552216", 
-  "numRows": "7416", 
   "schema": {
     "fields": [
       {
@@ -144,12 +139,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_bioclin_v0/tables/clinical_v1", 
-  "tableReference": {
-    "datasetId": "TARGET_bioclin_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "clinical_v1"
-  }, 
-  "type": "TABLE"
+  }
 }
