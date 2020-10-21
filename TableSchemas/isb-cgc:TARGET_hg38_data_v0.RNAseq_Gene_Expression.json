@@ -1,10 +1,7 @@
-{
-  "creationTime": "1512591071442", 
-  "description": "Data was extracted from active archive of the GDC on December 2018 for RNAseq data for TARGET samples.", 
-  "etag": "T2tu390PSSaEEAC8K5tLzQ==", 
-  "friendlyName": "TARGET HG38 RNASEQ GENE EXPRESSION 2017 VERSIONED", 
+{ 
+  "description": "Data was extracted from active archive of the GDC on December 2018 for RNAseq data for TARGET samples. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.RNAseq_hg38_gdc_2017_12. Please see isb-cgc-bq.TARGET.RNAseq_hg38_gdc_current for the most current table.",  
+  "friendlyName": "TARGET HG38 RNASEQ GENE EXPRESSION 2017 DEPRECATED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.RNAseq_Gene_Expression", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -13,13 +10,8 @@
     "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325114509", 
-  "location": "US", 
-  "numBytes": "9116507013", 
-  "numLongTermBytes": "9116507013", 
-  "numRows": "29092323", 
   "schema": {
     "fields": [
       {
@@ -119,12 +111,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TARGET_hg38_data_v0/tables/RNAseq_Gene_Expression", 
-  "tableReference": {
-    "datasetId": "TARGET_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "RNAseq_Gene_Expression"
-  }, 
-  "type": "TABLE"
+  }
 }
