@@ -1,6 +1,6 @@
 {
-  "description": "Data was extracted from GDC for release 11 from May 2018 for mRNA expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110", 
-  "friendlyName": "TARGET HG38 MIRNASEQ REL11 VERSIONED", 
+  "description": "Data was extracted from GDC for release 11 from May 2018 for mRNA expression data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-110. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.miRNAseq_hg38_gdc_r11. Please see isb-cgc-bq.TARGET.miRNAseq_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TARGET HG38 MIRNASEQ REL11 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -8,7 +8,7 @@
     "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   },
   "schema": {
     "fields": [
