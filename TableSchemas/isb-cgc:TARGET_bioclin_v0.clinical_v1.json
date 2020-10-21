@@ -1,17 +1,14 @@
 {
-  "creationTime": "1561173011368", 
-  "description": "Data was extracted from the TARGET program in June 2019. This clinical information about patient cases was generated from a set of XLSX files downloaded from https://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target. This table clinical_v1 contains a subset of the columns in the Clinical table.", 
-  "etag": "ZeROTYB/rRG46+Pi5QWEAA==", 
-  "friendlyName": "TARGET CLINICAL", 
+  "description": "Data was extracted from the TARGET program in June 2019. This clinical information about patient cases was generated from a set of XLSX files downloaded from https://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target. This table has been deprecated. It has been copied to isb-cgc-bq.TARGET_versioned.clinical_gdc_2019_06. Please see isb-cgc-bq.TARGET.clinical_gdc_current for the most current table.", 
+  "friendlyName": "TARGET CLINICAL 2019 DEPRECATED", 
   "id": "isb-cgc:TARGET_bioclin_v0.clinical_v1", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
     "data_type": "clinical_data", 
     "program": "target", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
   "lastModifiedTime": "1580325099516", 
   "location": "US", 
