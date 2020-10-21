@@ -1,6 +1,6 @@
 {
-  "description": "Data was generated from file metadata for TARGET data in the GDC active archive for release 14 from December 2018. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140", 
-  "friendlyName": "TARGET HG38 METADATA REL14", 
+  "description": "Data was generated from file metadata for TARGET data in the GDC active archive for release 14 from December 2018. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140. It has been copied to isb-cgc-bq.TARGET_versioned.per_sample_file_metadata_hg38_gdc_r14. Please see isb-cgc-bq.TARGET.per_sample_file_metadata_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TARGET HG38 METADATA REL14 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
@@ -8,7 +8,7 @@
     "reference_genome": "hg38", 
     "program": "target", 
     "source": "gdc", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
