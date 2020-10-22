@@ -1,8 +1,6 @@
 {
-  "creationTime": "1529370039742", 
   "description": "This data was generated in June 2018. It is a mapping of TARGET samples to Data Types. More details: see table TARGET_metadata_data_type_availability for the Data Types.", 
-  "etag": "aZZaMa2AizYiDVjEirioMA==", 
-  "friendlyName": "TARGET SAMPLE METADATA", 
+  "friendlyName": "TARGET SAMPLE METADATA DEPRECATED", 
   "id": "isb-cgc:TARGET_bioclin_v0.TARGET_metadata_sample_data_availability", 
   "kind": "bigquery#table", 
   "labels": {
@@ -13,11 +11,6 @@
     "source": "gdc",
     "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580336028238", 
-  "location": "US", 
-  "numBytes": "348860", 
-  "numLongTermBytes": "348860", 
-  "numRows": "9180", 
   "schema": {
     "fields": [
       {
