@@ -1,10 +1,7 @@
-{
-  "creationTime": "1545355796512", 
+{ 
   "description": "Data was extracted from the release 22 active archive of the GDC in June 2020 microRNA expression data for TARGET samples.", 
-  "etag": "X2fYzRxJTijADixf84zQ7A==", 
   "friendlyName": "TARGET HG38 MIRNASEQ", 
   "id": "isb-cgc-bq:TARGET.miRNAseq_hg38_gdc_current", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -14,11 +11,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325107640", 
-  "location": "US", 
-  "numBytes": "241702728", 
-  "numLongTermBytes": "241702728", 
-  "numRows": "919809", 
   "schema": {
     "fields": [
       {
@@ -94,12 +86,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc-bq/datasets/TARGET/tables/miRNASeq_hg38_gdc_current", 
-  "tableReference": {
-    "datasetId": "TARGET", 
-    "projectId": "isb-cgc-bq", 
-    "tableId": "miRNASeq_hg38_gdc_current"
-  }, 
-  "type": "TABLE"
+  }
 }
