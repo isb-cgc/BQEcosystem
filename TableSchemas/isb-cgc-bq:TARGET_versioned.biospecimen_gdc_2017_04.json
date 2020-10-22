@@ -1,7 +1,7 @@
 {
   "description": "Data was extracted from the TARGET program in April 2017. This biospecimen information (sample types) for patient cases was generated from a set of XLSX files downloaded from \nhttps://target-data.nci.nih.gov/Public/.../clinical/harmonized. More details: see https://ocg.cancer.gov/programs/target.", 
   "friendlyName": "TARGET BIOSPECIMEN 2017 VERSIONED", 
-  "id": "isb-cgc-bq:TARGET_versioned.biospecimen_gdc_2017_04", 
+  "id": "isb-cgc-bq:TARGET_versioned.biospecimen_gdc_2017_04.json", 
   "labels": {
     "access": "open", 
     "category": "clinical_biospecimen_data", 
