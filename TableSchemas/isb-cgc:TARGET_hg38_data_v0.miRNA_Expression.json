@@ -2,7 +2,7 @@
   "creationTime": "1545355954591", 
   "description": "Data was extracted from active archive of the GDC on December 2018 for microRNA expression data for TARGET samples. This table has been deprecated. Please see isb-cgc-bq.TARGET.miRNAseq_hg38_gdc_current for the most current table.", 
   "etag": "5KxgLucvIMn2Em6YBuwPVg==", 
-  "friendlyName": "TARGET HG38 MIRNA EXPRESSION", 
+  "friendlyName": "TARGET HG38 MIRNA EXPRESSION DEPRECATED", 
   "id": "isb-cgc:TARGET_hg38_data_v0.miRNA_Expression", 
   "kind": "bigquery#table", 
   "labels": {
