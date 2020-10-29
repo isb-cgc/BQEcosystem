@@ -62,6 +62,12 @@
         "mode": "NULLABLE",
         "description": ""
       },
+            {
+        "name": "uniprot_accession_nums",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
       {
         "name": "proteins",
         "type": "STRING",
