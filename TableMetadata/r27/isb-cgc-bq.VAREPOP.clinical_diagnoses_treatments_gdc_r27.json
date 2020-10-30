@@ -1,0 +1,12 @@
+{
+  "description": "Data for the VAREPOP program was extracted using the GDC API in October 2020. This table contains clinical data related to diagnoses treatments information for VAREPOP patient cases.   More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
+  "friendlyName": "VAREPOP CLINICAL DATA - DIAGNOSES TREATMENTS",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "gdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "varepop"
+  }
+}
