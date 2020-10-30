@@ -1,0 +1,12 @@
+{
+  "description": "Data for the MMRF program was extracted using the GDC API in October 2020. This table contains patient follow ups for molecular tests information for the MMRF program.  More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
+  "friendlyName": "MMRF CLINICAL DATA - FOLLOW UP INFORMATION",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "gdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "mmrf"
+  }
+}
