@@ -1,13 +1,13 @@
 { 
-  "description": "Data was loaded from the GENCODE reference gene set, release 19, dated December 2013. These annotations are based on the hg19/GRCh37 reference genome. More details: Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_19/gencode.v19.annotation.gtf.gz", 
-  "friendlyName": "GENCODE V19", 
+  "description": "Data was loaded from the GENCODE reference gene set, release 19, dated December 2013. These annotations are based on the hg19/GRCh37 reference genome. More details: Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_19/gencode.v19.annotation.gtf.gz. This table has been deprecated. It has been copied to isb-cgc-bq.GENCODE_versioned.annotation_gtf_hg19_v19. Please see isb-cgc-bq.GENCODE_versioned.annotation_gtf_hg38_current for the most current table.", 
+  "friendlyName": "GENCODE V19 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
     "data_type": "genome_annotation", 
     "reference_genome_0": "hg19", 
     "source": "gencode", 
-    "status": "archived"
+    "status": "deprecated"
   }, 
   "schema": {
     "fields": [
