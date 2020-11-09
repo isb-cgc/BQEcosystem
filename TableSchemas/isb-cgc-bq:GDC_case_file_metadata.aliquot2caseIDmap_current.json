@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 26, downloaded Oct 2020. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-260", 
+  "description": "Data was generated from file metadata information from the GDC release 27, downloaded Nov 2020. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-270", 
   "friendlyName": "ALIQUOT IDS TO CASE IDS MAP", 
   "labels": {
     "access": "open", 
