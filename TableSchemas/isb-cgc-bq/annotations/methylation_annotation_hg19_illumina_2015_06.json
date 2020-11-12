@@ -1,12 +1,12 @@
 { 
   "description": "Data was loaded from the Illumina file HumanMethylation450_15017482_v.1.2.csv in June 2015, and updated in April 2017. DNA methylation platform annotation information was made available to the public with permission from Illumina.", 
-  "friendlyName": "ILLUMINA DNA METHYLATION ANNOTATION 2015", 
+  "friendlyName": "HG19 ILLUMINA DNA METHYLATION ANNOTATION 2015", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "dna_methylation", 
+    "data_type": "dna_methylation", 
     "reference_genome_0": "hg19", 
-    "source_0": "infinium_humanmethylation_450", 
+    "source": "infinium", 
     "status": "archived"
   }, 
   "schema": {
