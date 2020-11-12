@@ -4,9 +4,9 @@
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "dna_methylation", 
+    "data_type": "dna_methylation", 
     "reference_genome_0": "hg38", 
-    "source_0": "gdc", 
+    "source": "gdc", 
     "status": "current"
   }, 
   "schema": {
