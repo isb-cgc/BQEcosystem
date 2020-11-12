@@ -4,11 +4,11 @@
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
-    "data_type_0": "dna_methylation", 
-    "data_type_1": "coordinate_conversion", 
+    "data_type": "dna_methylation", 
     "reference_genome_0": "hg19", 
-    "reference_genome_1": "hg38", 
-    "source_0": "ucsc", 
+    "reference_genome_1": "hg38",
+    "program": "cytoband",
+    "source": "ucsc", 
     "status": "current"
   }, 
   "schema": {
