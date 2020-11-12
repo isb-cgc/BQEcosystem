@@ -1,23 +1,14 @@
-{
-  "creationTime": "1480442504703", 
-  "description": "Data was loaded from the output of the GDC DNA methylation liftover workflow in November 2016. HG38 methylation data was loaded using the Methylation Liftover Pipeline. More details: see https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Methylation_LO_Pipeline", 
-  "etag": "1Za0KETSWkPLnr1OP2e0jw==", 
-  "friendlyName": "HG38 DNA METHYLATION ANNOTATION", 
-  "id": "isb-cgc:platform_reference.GDC_hg38_methylation_annotation", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data was loaded from the output of the GDC DNA methylation liftover workflow in November 2016. HG38 methylation data was loaded using the Methylation Liftover Pipeline. More details: see https://docs.gdc.cancer.gov/Data/Bioinformatics_Pipelines/Methylation_LO_Pipeline. This table has been deprecated. It has been copied to isb-cgc-bq.annotations_versioned.methylation_annotation_hg38_gdc_2016_11. Please see isb-cgc-bq.annotations.methylation_annotation_hg38_gdc_current for the most current table.",  
+  "friendlyName": "HG38 DNA METHYLATION ANNOTATION DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "genomic_reference_database", 
     "data_type_0": "dna_methylation", 
     "reference_genome_0": "hg38", 
     "source_0": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580324887579", 
-  "location": "US", 
-  "numBytes": "141192805", 
-  "numLongTermBytes": "141192805", 
-  "numRows": "481573", 
   "schema": {
     "fields": [
       {
@@ -83,12 +74,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/platform_reference/tables/GDC_hg38_methylation_annotation", 
-  "tableReference": {
-    "datasetId": "platform_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "GDC_hg38_methylation_annotation"
-  }, 
-  "type": "TABLE"
+  }
 }
