@@ -1,5 +1,5 @@
 { 
-  "description": "Data was loaded from hg19 data in September 2016. Hg38 positions were mapped to the hg19 positions using the UCSC liftOver tool. More details: see http://genome.ucsc.edu/cgi-bin/hgLiftOver. This table has been deprecated. It has been copied to isb-cgc-bq.annotations_versioned.liftover_hg19_to_hg38_2016_09. Please see isb-cgc-bq.annotations.liftover_hg19_to_hg38_current for the most current table.", 
+  "description": "Data was loaded from hg19 data in September 2016. Hg38 positions were mapped to the hg19 positions using the UCSC liftOver tool. More details: see http://genome.ucsc.edu/cgi-bin/hgLiftOver. This table has been deprecated. It has been copied to isb-cgc-bq.annotations_versioned.liftover_hg19_to_hg38_2016_08. Please see isb-cgc-bq.annotations.liftover_hg19_to_hg38_current for the most current table.", 
   "friendlyName": "LIFTOVER BETWEEN HG19 AND HG38 DEPRECATED", 
   "labels": {
     "access": "open", 
