@@ -7,7 +7,7 @@
     "source": "gdc",
     "status": "current"
   },
-  "friendlyName": "CONTROLLED TARGET HG38 ALL MUTATIONS VCF RELEASE 22",
+  "friendlyName": "TARGET HG38 ALL MUTATIONS VCF CURRENT",
   "schema": {
     "fields": [
       {
