@@ -5,6 +5,7 @@
     "category": "processed_-omics_data",
     "data_type": "vcf",
     "program": "target",
+    "reference_genome_0": "hg38",
     "source": "gdc",
     "status": "current"
   },
