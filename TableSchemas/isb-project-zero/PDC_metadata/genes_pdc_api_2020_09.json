@@ -62,8 +62,14 @@
         "mode": "NULLABLE",
         "description": ""
       },
-            {
-        "name": "uniprot_accession_nums",
+      {
+        "name": "uniprotkb_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "uniprotkb_ids",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
