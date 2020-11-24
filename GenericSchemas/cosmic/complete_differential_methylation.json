@@ -116,7 +116,7 @@
       },
       {
         "name": "GENE_NAME",
-        "type": "INTEGER",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": "The gene name (if the probe falls within the coding region of a COSMIC gene) or the probe annotation as described by Illumina."
       },
