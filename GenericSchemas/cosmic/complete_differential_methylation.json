@@ -140,7 +140,7 @@
       },
       {
         "name": "TWO_SIDED_P_VALUE",
-        "type": "INTEGER",
+        "type": "FLOAT",
         "mode": "NULLABLE",
         "description": "The two sided p-value."
       }
