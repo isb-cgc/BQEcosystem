@@ -85,18 +85,6 @@
         "description": "Syntax describing the portions of mRNA present (in HGVS 'r.' format) from each gene (allows representation of UTR sequences)."
       },
       {
-        "name": "Fusion_Type",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Type of mutation."
-      },
-      {
-        "name": "Translocation_Name",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": "Syntax describing the portions of mRNA present (in HGVS 'r.' format) from each gene (allows representation of UTR sequences)."
-      },
-      {
         "name": "FIVE_PRIME_CHROMOSOME",
         "type": "INTEGER",
         "mode": "NULLABLE",
