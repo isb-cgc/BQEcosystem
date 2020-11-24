@@ -128,7 +128,7 @@
       },
       {
         "name": "Chromosome_G_Start_G_Stop",
-        "type": "INTEGER",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": "The genomic coordinates of the variation."
       }
