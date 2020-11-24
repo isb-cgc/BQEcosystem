@@ -38,7 +38,7 @@
       },
       {
         "name": "PRIMARY_SITE",
-        "type": "INTEGER",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
       },
