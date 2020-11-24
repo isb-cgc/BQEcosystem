@@ -122,7 +122,7 @@
       },
       {
         "name": "METHYLATION",
-        "type": "INTEGER",
+        "type": "STRING",
         "mode": "NULLABLE",
         "description": "The methylation level; H (High, beta-value >0.8) or L (Low, beta-value < 0.2)."
       },
