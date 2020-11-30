@@ -13,6 +13,8 @@
   "authority_gene_id": "HGNC Identifier (e.g. 11186)",
   "description": "Gene description",
   "organism": "species investigated in the study (e.g Homo sapiens)",
+  "uniprotkb_id": "Oldest Swiss-Prot ID associated with this gene, if available; otherwise, oldest UniProt ID",
+  "uniprotkb_ids": "List of all UniProt accession numbers associated with this gene",
   "chromosome": "Chromosome",
   "locus": "Cytogenetic coordinates (e.g.2q37)",
   "proteins": "Semi-colon separated list of protein accessions associated with the gene",
