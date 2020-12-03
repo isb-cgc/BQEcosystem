@@ -1,6 +1,6 @@
 {
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Clinical information about patient cases in the TCGA project. \n\nNote: Participants were filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: BigQuery table: isb-cgc:pancancer_atlas.clinical_PANCAN_patient_with_followup \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_clinical_PANCAN_patient_with_followup.",  
-  "friendlyName": "PanCancer Filtered Clinical With Patient Follow-up DEPRECATED", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Clinical information about patient cases in the TCGA project. \n\nNote: Participants were filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes)  \n\nMore details: BigQuery table: isb-cgc-bq:pancancer_atlas.Original_clinical_PANCAN_patient_with_followup \nand https://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "friendlyName": "PanCancer Filtered Clinical With Patient Follow-up", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data",
@@ -8,7 +8,7 @@
     "data_type": "clinical_data", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

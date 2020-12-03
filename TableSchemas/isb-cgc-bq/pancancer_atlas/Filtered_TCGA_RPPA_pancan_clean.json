@@ -1,14 +1,14 @@
-{ 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains Copy Number Variation data based on the GISTIC algorithm. \n\nNote: The original data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study; and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: https://www.synapse.org/#!Synapse:syn5031907 \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene.", 
-  "friendlyName": "PanCancer Filtered Copy Number DEPRECATED", 
+{
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration.  \nNote: the data was extracted from the BigQuery Table isb-cgc-bq:pancancer_atlas.Original_TCGA_RPPA_pancan_clean. The data is annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes) \n\nMore details:  BigQuery table: isb-cgc-bq:pancancer_atlas.Original_TCGA_RPPA_pancan_clean \nand https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin", 
+  "friendlyName": "PanCancer Filtered RPPA Final", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
     "access": "open", 
-    "data_type": "copy_number_segment_masked", 
-    "reference_genome": "hg19", 
+    "reference_genome": "hg19",
+    "data_type": "protein_expression",
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
@@ -49,27 +49,15 @@
         "type": "STRING"
       }, 
       {
-        "description": "eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown", 
+        "description": "Protein symbol and phosphorylation status (if applicable), eg P53, JNK_pT183Y185", 
         "mode": "NULLABLE", 
-        "name": "Gene_Symbol", 
+        "name": "Protein", 
         "type": "STRING"
       }, 
       {
-        "description": "Gene locus ID, eg.  57380, 100616303", 
+        "description": "Expression level of protein as measured by reverse-phase protein arrays (RPPAs).Examples: 0.204238725,-0.01826295", 
         "mode": "NULLABLE", 
-        "name": "Locus_ID", 
-        "type": "INTEGER"
-      }, 
-      {
-        "description": "Full cytoband name, including chromosome. E.g, 17p13.2 See https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html", 
-        "mode": "NULLABLE", 
-        "name": "Cytoband", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Gistic Copy Number calls", 
-        "mode": "NULLABLE", 
-        "name": "GISTIC_Calls", 
+        "name": "Value", 
         "type": "FLOAT"
       }
     ]

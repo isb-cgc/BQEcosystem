@@ -1,6 +1,6 @@
 {
-  "description": "Extracted from PanCancer Atlas initiative on the GDC in Aug 2016. Contains participant barcodes used in by the PanCancer Atlas initiative.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Whitelist_ParticipantBarcodes.",  
-  "friendlyName": "Pancancer Participants Whitelist DEPRECATED", 
+  "description": "Extracted from PanCancer Atlas initiative on the GDC in Aug 2016. Contains participant barcodes used in by the PanCancer Atlas initiative.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "friendlyName": "Pancancer Participants Whitelist", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data",
@@ -8,7 +8,7 @@
     "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

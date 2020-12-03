@@ -1,6 +1,6 @@
-{ 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains Copy Number Variation data based on the GISTIC algorithm. \n\nNote: The original data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study; and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: https://www.synapse.org/#!Synapse:syn5031907 \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene.", 
-  "friendlyName": "PanCancer Filtered Copy Number DEPRECATED", 
+{
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains Copy Number Variation data based on the GISTIC algorithm. \n\nNote: The original data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study; and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes)  \n\nMore details: https://www.synapse.org/#!Synapse:syn5031907 \nand https://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "friendlyName": "PanCancer Filtered Copy Number", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -8,7 +8,7 @@
     "data_type": "copy_number_segment_masked", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

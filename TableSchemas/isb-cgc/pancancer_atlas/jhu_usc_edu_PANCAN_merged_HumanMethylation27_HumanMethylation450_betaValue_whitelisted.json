@@ -1,10 +1,6 @@
-{
-  "creationTime": "1590602218414", 
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation (Merged from the 27K and 450K tables).  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas, file:jhu-usc.edu_PANCAN_merged_HumanMethylation27_HumanMethylation450.betaValue_whitelisted.tsv", 
-  "etag": "4u1EGYNOpZS3xVJD/LNItg==", 
-  "friendlyName": "PanCancer DNA Methylation (Merged 27K+450K Only)", 
-  "id": "isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation (Merged from the 27K and 450K tables).  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas, file:jhu-usc.edu_PANCAN_merged_HumanMethylation27_HumanMethylation450.betaValue_whitelisted.tsv. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Original_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted",  
+  "friendlyName": "PanCancer DNA Methylation (Merged 27K+450K Only) DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -12,13 +8,8 @@
     "data_type": "dna_methylation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1590602218414", 
-  "location": "US", 
-  "numBytes": "13603011942", 
-  "numLongTermBytes": "0", 
-  "numRows": "272093439", 
   "schema": {
     "fields": [
       {
@@ -40,12 +31,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted"
-  }, 
-  "type": "TABLE"
+  }
 }

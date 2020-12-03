@@ -1,10 +1,6 @@
 {
-  "creationTime": "1590600992164", 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains batch normalized RNASeqV2 mRNA data annotated with pertinent TCGA Barcodes.  \n\nNote: the data was extracted from the BigQuery Table isb-cgc:pancancer_atlas.EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp. The table was annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes ).  \n\nMore details: BigQuery table: isb-cgc:pancance_atlas.Pancancer_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp_annot \nand https://gdc.cancer.gov/about-data/publications/pancanatlas", 
-  "etag": "54MuQsIR5Mth6bupFFns3w==", 
-  "friendlyName": "PanCancer Filtered RNA Final", 
-  "id": "isb-cgc:pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp", 
-  "kind": "bigquery#table", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains batch normalized RNASeqV2 mRNA data annotated with pertinent TCGA Barcodes.  \n\nNote: the data was extracted from the BigQuery Table isb-cgc:pancancer_atlas.EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp. The table was annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes ).  \n\nMore details: BigQuery table: isb-cgc:pancance_atlas.Pancancer_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp_annot \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp.", 
+  "friendlyName": "PanCancer Filtered RNA Final DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -12,13 +8,8 @@
     "data_type": "mirna_expression", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "current"
-  }, 
-  "lastModifiedTime": "1590600992164", 
-  "location": "US", 
-  "numBytes": "25293750424", 
-  "numLongTermBytes": "0", 
-  "numRows": "218901522", 
+    "status": "deprecated"
+  },
   "schema": {
     "fields": [
       {
@@ -76,12 +67,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp"
-  }, 
-  "type": "TABLE"
+  }
 }

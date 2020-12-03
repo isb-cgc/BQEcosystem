@@ -1,10 +1,6 @@
 {
-  "creationTime": "1590601491661", 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation (Merged from the 27K and 450K tables) annotated with pertinent TCGA barcodes.  \n\nNote: The data was filtered from the BigQuery table isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted, using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: BigQuery Table: isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted \nand https://gdc.cancer.gov/about-data/publications/pancanatlas", 
-  "etag": "1ZT5LWlMJKPBJrH297SsxA==", 
-  "friendlyName": "PanCancer Filtered DNA Methylation (Merged 27K+450K Only)", 
-  "id": "isb-cgc:pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted", 
-  "kind": "bigquery#table", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation (Merged from the 27K and 450K tables) annotated with pertinent TCGA barcodes.  \n\nNote: The data was filtered from the BigQuery table isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted, using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: BigQuery Table: isb-cgc:pancancer_atlas.jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted.", 
+  "friendlyName": "PanCancer Filtered DNA Methylation (Merged 27K+450K Only) DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -12,13 +8,8 @@
     "data_type": "dna_methylation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1590601491661", 
-  "location": "US", 
-  "numBytes": "29996080429", 
-  "numLongTermBytes": "0", 
-  "numRows": "265538808", 
   "schema": {
     "fields": [
       {
@@ -70,12 +61,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "Filtered_jhu_usc_edu_PANCAN_merged_HumanMethylation27_HumanMethylation450_betaValue_whitelisted"
-  }, 
-  "type": "TABLE"
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains Sample Quality Annotations. This file was created by merging the annotations available in the DCC annotations database with manually curated lists of issue samples.   \n\nMore details: https://www.synapse.org/#!Synapse:syn4551248 \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas, file:merged_sample_quality_annotations.tsv. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.merged_sample_quality_annotations.",  
-  "friendlyName": "PanCancer Merged Sample Quality Annotations DEPRECATED",  
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains Sample Quality Annotations. This file was created by merging the annotations available in the DCC annotations database with manually curated lists of issue samples.   \n\nMore details: https://www.synapse.org/#!Synapse:syn4551248 \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas , file:merged_sample_quality_annotations.tsv", 
+  "friendlyName": "PanCancer Merged Sample Quality Annotations", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data",
@@ -8,7 +8,7 @@
     "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
@@ -73,7 +73,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "Indicates if participant barcode was reviewd by the expert pathology committee. Takes values of null, \"1.0\" (excluded), or \"0.0\" (non excluded).", 
+        "description": "Indicates if participant barcode was reviewed by the expert pathology committee. Takes values of null, \"1.0\" (excluded), or \"0.0\" (non excluded).", 
         "mode": "NULLABLE", 
         "name": "Reviewed_by_EPC", 
         "type": "STRING"

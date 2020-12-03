@@ -1,6 +1,6 @@
 {
-  "description": "Generated from TCGA Aliquot Report and samples used in PanCancer Atlas initiative, Feb 19, 2016. Contains Barcode Mappings used to annotate the pan-cancer tables with  ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study.  Note: The data was processed from TCGA Aliquot Report, formerly at https://tcga-data.nci.nih.gov/datareports/aliquotReport.htm\n\nMore details: https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.BarcodeMap.",  
-  "friendlyName": "PanCancer Barcode Map DEPRECATED", 
+  "description": "Generated from TCGA Aliquot Report and samples used in PanCancer Atlas initiative, Feb 19, 2016. Contains Barcode Mappings used to annotate the pan-cancer tables with  ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study.  Note: The data was processed from TCGA Aliquot Report, formerly at https://tcga-data.nci.nih.gov/datareports/aliquotReport.htm\n\nMore details: https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/", 
+  "friendlyName": "PanCancer Barcode Map", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data", 
@@ -8,7 +8,7 @@
     "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

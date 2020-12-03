@@ -1,14 +1,14 @@
 { 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains Copy Number Variation data based on the GISTIC algorithm. \n\nNote: The original data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study; and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes )  \n\nMore details: https://www.synapse.org/#!Synapse:syn5031907 \nand https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_all_CNVR_data_by_gene.", 
-  "friendlyName": "PanCancer Filtered Copy Number DEPRECATED", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation data generated using Illumina Human Methylation 450k.  \n\nNote: The data was annotated with pertinent TGCA barcodes data, and filtered from the BigQuery table isb-cgc-bq:pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes)  \n\nMore details: BigQuery table: isb-cgc-bq:pancancer_atlas.Original_jhu_usc_edu_PANCAN_HumanMethylation450_betaValue_whitelisted \nand https://gdc.cancer.gov/about-data/publications/pancanatlas",  
+  "friendlyName": "PanCancer Filtered DNA Methylation (450K Only)", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
     "access": "open", 
-    "data_type": "copy_number_segment_masked", 
+    "data_type": "dna_methylation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [
@@ -49,27 +49,15 @@
         "type": "STRING"
       }, 
       {
-        "description": "eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown", 
+        "description": "Unique probe identifier (eg cg04676771) from the Illumina Human Methylation array -- please refer to the annotation table (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) for more details about any particular probe", 
         "mode": "NULLABLE", 
-        "name": "Gene_Symbol", 
+        "name": "ID", 
         "type": "STRING"
       }, 
       {
-        "description": "Gene locus ID, eg.  57380, 100616303", 
+        "description": "Normalized DNA methylation beta value (between 0 and 1, where 0 indicates completely un-methylated and 1 indicates fully methylated)", 
         "mode": "NULLABLE", 
-        "name": "Locus_ID", 
-        "type": "INTEGER"
-      }, 
-      {
-        "description": "Full cytoband name, including chromosome. E.g, 17p13.2 See https://www.ncbi.nlm.nih.gov/Class/MLACourse/Original8Hour/Genetics/chrombanding.html", 
-        "mode": "NULLABLE", 
-        "name": "Cytoband", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Gistic Copy Number calls", 
-        "mode": "NULLABLE", 
-        "name": "GISTIC_Calls", 
+        "name": "Beta", 
         "type": "FLOAT"
       }
     ]

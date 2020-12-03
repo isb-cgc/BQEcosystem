@@ -1,0 +1,35 @@
+{
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains DNA Methylation data generated using Illumina Human Methylation 27k. Some samples were filtered using the PanCancer Atlas whitelist.  \n\nMore details: https://www.synapse.org/#!Synapse:syn4557792.10 and https://gdc.cancer.gov/about-data/publications/pancanatlas. \n\nFor data annotated with pertinent TCGA Barcodes and filtered by the barcode white list, table Filtered_jhu_usc_edu_PANCAN_HumanMethylation27_betaValue_whitelisted is recommended.", 
+  "friendlyName": "PanCancer DNA Methylation (27k Only)", 
+  "labels": {
+    "program": "pancancer_atlas",
+    "category": "processed_-omics_data",
+    "access": "open", 
+    "data_type": "dna_methylation", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "Unique probe identifier (eg cg04676771) from the Illumina Human Methylation array -- please refer to the annotation table (isb-cgc-bq.annotations.methylation_annotation_hg19_illumina_current) for more details about any particular probe", 
+        "mode": "NULLABLE", 
+        "name": "ID", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28", 
+        "mode": "NULLABLE", 
+        "name": "AliquotBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Normalized DNA methylation beta value (between 0 and 1, where 0 indicates completely un-methylated and 1 indicates fully methylated)", 
+        "mode": "NULLABLE", 
+        "name": "Beta", 
+        "type": "FLOAT"
+      }
+    ]
+  }
+}

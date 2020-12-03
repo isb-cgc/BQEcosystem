@@ -1,6 +1,6 @@
-{
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains  batch effects normalized miRNA data.  \n\nMore details: https://www.synapse.org/#!Synapse:syn6171109 \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas , file:pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16.csv. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Original_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16.", 
-  "friendlyName": "PanCancer MicroRNA Protocol Platform DEPRECATED", 
+{ 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains batch effects normalized miRNA data.  \n\nMore details: https://www.synapse.org/#!Synapse:syn6171109 \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas, file:pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16.csv. \n\nFor data annotated with pertinent TCGA Barcodes and filtered by the barcode white list, table Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16 is recommended.", 
+  "friendlyName": "PanCancer MicroRNA Protocol Platform",  
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -8,7 +8,7 @@
     "data_type": "mirna_expression", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

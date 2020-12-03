@@ -1,10 +1,6 @@
 {
-  "creationTime": "1590601979650", 
-  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration.  \nNote: the data was extracted from the BigQuery Table isb-cgc:pancancer_atlas.TCGA_RPPA_pancan_clean. The data is annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes ) \n\nMore details:  BigQuery table: isb-cgc:pancancer_atlas.PanCancer_TCGA_RPPA_pancan_clean \nand https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin", 
-  "etag": "mdUG7Z6jkjadXIi6GBypzw==", 
-  "friendlyName": "PanCancer Filtered RPPA Final", 
-  "id": "isb-cgc:pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean", 
-  "kind": "bigquery#table", 
+  "description": "Data extracted from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration.  \nNote: the data was extracted from the BigQuery Table isb-cgc:pancancer_atlas.TCGA_RPPA_pancan_clean. The data is annotated with pertinent TCGA Barcodes, and participants were subsequently filtered using the PanCancer Atlas whitelist (table Whitelist_ParticipantBarcodes ) \n\nMore details:  BigQuery table: isb-cgc:pancancer_atlas.PanCancer_TCGA_RPPA_pancan_clean \nand https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_TCGA_RPPA_pancan_clean.", 
+  "friendlyName": "PanCancer Filtered RPPA Final DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -12,13 +8,8 @@
     "reference_genome": "hg19",
     "data_type": "protein_expression",
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1590601979650", 
-  "location": "US", 
-  "numBytes": "211161212", 
-  "numLongTermBytes": "0", 
-  "numRows": "1965033", 
   "schema": {
     "fields": [
       {
@@ -70,12 +61,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_TCGA_RPPA_pancan_clean", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "Filtered_TCGA_RPPA_pancan_clean"
-  }, 
-  "type": "TABLE"
+  }
 }

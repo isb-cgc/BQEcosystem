@@ -1,6 +1,6 @@
 {
-  "description": "Extracted from the PanCancer Atlas initiative on the GDC in Sept 2016 (file name pancan.merged.v0.2.5.filtered.maf.gz). Contains Somatic mutation calls.    \n\nNote: Data was filtered such that the only rows with the Variant_Classification in {Frame_Shift_Del, Frame_Shift_Ins, In_Frame_Del, In_Frame_Ins, Missense_Mutation, Nonsense_Mutation, Nonstop_Mutation, Splice_Site, Translation_Start_Site} were retained (Consistent with e.g. ISB, MSKCC, Broad definition of mutated gene). Moreover, Additional annotations were added (e.g. ParticipantBarcode). FPPP project aliquots were removed, and Rows with a solid tissue normal reference were removed if a corresponding blood derived normal reference was available.   \n\nMore details https://gdc.cancer.gov/about-data/publications/PanCan-MYC-2018. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_MC3_MAF_V5_one_per_tumor_sample.", 
-  "friendlyName": "PanCancer Filtered Merged MAF DEPRECATED", 
+  "description": "Extracted from the PanCancer Atlas initiative on the GDC in Sept 2016 (file name pancan.merged.v0.2.5.filtered.maf.gz). Contains Somatic mutation calls.    \n\nNote: Data was filtered such that the only rows with the Variant_Classification in {Frame_Shift_Del, Frame_Shift_Ins, In_Frame_Del, In_Frame_Ins, Missense_Mutation, Nonsense_Mutation, Nonstop_Mutation, Splice_Site, Translation_Start_Site} were retained (Consistent with e.g. ISB, MSKCC, Broad definition of mutated gene). Moreover, Additional annotations were added (e.g. ParticipantBarcode). FPPP project aliquots were removed, and Rows with a solid tissue normal reference were removed if a corresponding blood derived normal reference was available.   \n\nMore details https://gdc.cancer.gov/about-data/publications/PanCan-MYC-2018", 
+  "friendlyName": "PanCancer Filtered Merged MAF", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -8,7 +8,7 @@
     "data_type": "somatic_mutation", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

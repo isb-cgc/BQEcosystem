@@ -1,6 +1,6 @@
-{ 
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration, generated using the reverse phase protein array (RPPA) platform.  \n\nMore details:  https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin, file:TCGA-RPPA-pancan-clean.txt. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Original_TCGA_RPPA_pancan_clean.", 
-  "friendlyName": "PanCancer RPPA Final DEPRECATED", 
+{
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains normalized and batch corrected data of protein concentration, generated using the reverse phase protein array (RPPA) platform.  \n\nMore details:  https://gdc.cancer.gov/about-data/publications/PanCan-CellOfOrigin, file:TCGA-RPPA-pancan-clean.txt. \n\nFor data annotated with pertinent TCGA Barcodes and filtered by the barcode white list, table Filtered_TCGA_RPPA_pancan_clean is recommended.", 
+  "friendlyName": "PanCancer RPPA Final", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -8,8 +8,8 @@
     "data_type": "protein_expression",
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "deprecated"
-  },  
+    "status": "current"
+  }, 
   "schema": {
     "fields": [
       {

@@ -1,10 +1,6 @@
-{
-  "creationTime": "1590600508327", 
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Clinical information about patient cases in the TCGA project.  \n\nMore details:  https://gdc.cancer.gov/about-data/publications/pancanatlas file: clinical_PANCAN_patient_with_followup.tsv  \n\nand https://www.synapse.org/#!Synapse:syn4983466.1", 
-  "etag": "qDmA9YGxdgMnRbOOPgYAEQ==", 
-  "friendlyName": "PanCancer Clinical With Patient Follow-up", 
-  "id": "isb-cgc:pancancer_atlas.clinical_PANCAN_patient_with_followup", 
-  "kind": "bigquery#table", 
+{ 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Clinical information about patient cases in the TCGA project.  \n\nMore details:  https://gdc.cancer.gov/about-data/publications/pancanatlas file: clinical_PANCAN_patient_with_followup.tsv  \n\nand https://www.synapse.org/#!Synapse:syn4983466.1. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Original_clinical_PANCAN_patient_with_followup.", 
+  "friendlyName": "PanCancer Clinical With Patient Follow-up DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data",
@@ -12,13 +8,8 @@
     "data_type": "clinical_data", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1590600508327", 
-  "location": "US", 
-  "numBytes": "6285527", 
-  "numLongTermBytes": "0", 
-  "numRows": "10956", 
   "schema": {
     "fields": [
       {
@@ -4498,12 +4489,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/clinical_PANCAN_patient_with_followup", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "clinical_PANCAN_patient_with_followup"
-  }, 
-  "type": "TABLE"
+  }
 }

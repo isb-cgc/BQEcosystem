@@ -1,10 +1,6 @@
 {
-  "creationTime": "1590601744071", 
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains batch effects normalized miRNA data.  \n\nNote: This table was extracted from isb-cgc:pancancer_atlas.pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16. Data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas BigQuery table: isb-cgc:pancancer_atlas.pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16", 
-  "etag": "I5fK5Mighuxox0MYI6exLQ==", 
-  "friendlyName": "PanCancer Filtered MicroRNA", 
-  "id": "isb-cgc:pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16", 
-  "kind": "bigquery#table", 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in Aug 2016. Contains batch effects normalized miRNA data.  \n\nNote: This table was extracted from isb-cgc:pancancer_atlas.pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16. Data was annotated with ParticipantBarcode, SampleBarcode, AliquotBarcode, SampleTypeLetterCode, SampleType and TCGA Study.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas BigQuery table: isb-cgc:pancancer_atlas.pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16.", 
+  "friendlyName": "PanCancer Filtered MicroRNA DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
@@ -12,13 +8,8 @@
     "data_type": "mirna_expression", 
     "reference_genome": "hg19", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1590601744071", 
-  "location": "US", 
-  "numBytes": "1031752430", 
-  "numLongTermBytes": "0", 
-  "numRows": "8042232", 
   "schema": {
     "fields": [
       {
@@ -76,12 +67,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/pancancer_atlas/tables/Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16", 
-  "tableReference": {
-    "datasetId": "pancancer_atlas", 
-    "projectId": "isb-cgc", 
-    "tableId": "Filtered_pancanMiRs_EBadjOnProtocolPlatformWithoutRepsWithUnCorrectMiRs_08_04_16"
-  }, 
-  "type": "TABLE"
+  }
 }
