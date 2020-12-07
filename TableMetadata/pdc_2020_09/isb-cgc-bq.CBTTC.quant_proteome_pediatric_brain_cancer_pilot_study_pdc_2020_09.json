@@ -7,6 +7,6 @@
     "status": "current",
     "category": "processed_-omics_data",
     "data_type": "protein_expression",
-    "program": "Pediatric_Brain_Tumor_Atlas_CBTTC"
+    "program": "cbttc"
   }
 }
