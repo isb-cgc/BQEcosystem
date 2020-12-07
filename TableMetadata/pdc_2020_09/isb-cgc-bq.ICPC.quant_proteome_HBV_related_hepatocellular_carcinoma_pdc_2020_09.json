@@ -7,6 +7,6 @@
     "status": "current",
     "category": "processed_-omics_data",
     "data_type": "protein_expression",
-    "program": "International_Cancer_Proteogenome_Consortium"
+    "program": "icpc"
   }
 }
