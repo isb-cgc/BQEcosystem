@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 14 was generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 14 2017 VERSIONED", 
+  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 14", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
