@@ -1,0 +1,43 @@
+{
+  "description": "This table contains PDC quant data for TCGA Breast Cancer Proteome",
+  "friendlyName": "TCGA BREAST CANCER PROTEOME QUANT DATA 2020_11",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Uniquely identifies the aliquot by how it was used in the experiment (based on the labelling reagent and/or biological replicate)"
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique source id provided by the data submitter (e.g. looks like e5e1306b-719e-4c3e-b85b-fd1231_D2)"
+      },
+      {
+        "name": "study_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of the study (e.g. Pediatric Brain Cancer Pilot Study - Phosphoproteome)"
+      },
+      {
+        "name": "gene_symbol",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Gene name (e.g. SORT1)"
+      },
+      {
+        "name": "protein_abundance_log2ratio",
+        "type": "FLOAT64",
+        "mode": "NULLABLE",
+        "description": "Average log-ratio of sample reporter-ion to common reference of peptide ions associated with the gene in acquisitions from a specific biological sample"
+      }
+    ]
+  }
+}
