@@ -1,7 +1,5 @@
-{
-  "creationTime": "1495154869745", 
+{ 
   "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 1 was generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "etag": "oO3ppUl/4cxJQPQP6WABTQ==", 
   "friendlyName": "TCGA HG38 DNA METHYLATION CHR 1", 
   "id": "isb-cgc:TCGA_hg38_data_v0.DNA_Methylation_chr1", 
   "kind": "bigquery#table", 
@@ -14,11 +12,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325208663", 
-  "location": "US", 
-  "numBytes": "96180655174", 
-  "numLongTermBytes": "96180655174", 
-  "numRows": "377208334", 
   "schema": {
     "fields": [
       {
@@ -82,12 +75,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/DNA_Methylation_chr1", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr1"
-  }, 
-  "type": "TABLE"
+  }
 }

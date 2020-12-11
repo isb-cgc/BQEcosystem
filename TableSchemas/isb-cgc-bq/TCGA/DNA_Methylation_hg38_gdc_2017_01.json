@@ -1,10 +1,6 @@
 {
-  "creationTime": "1483567460409", 
   "description": "Data was extracted from GDC on January 2017 for DNA Methylation data generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "etag": "pPqdywcfeEvKsEDidr3VmA==", 
-  "friendlyName": "TCGA HG38 DNA METHYLATION", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.DNA_Methylation", 
-  "kind": "bigquery#table", 
+  "friendlyName": "TCGA HG38 DNA METHYLATION 2017 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -14,11 +10,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325205996", 
-  "location": "US", 
-  "numBytes": "1000398640637", 
-  "numLongTermBytes": "1000398640637", 
-  "numRows": "3923388076", 
   "schema": {
     "fields": [
       {
@@ -82,12 +73,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/DNA_Methylation", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation"
-  }, 
-  "type": "TABLE"
+  }
 }

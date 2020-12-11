@@ -1,10 +1,6 @@
 {
-  "creationTime": "1483561983110", 
-  "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 13 was generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "etag": "WGFoIPMMb11P8flKszNjaQ==", 
-  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 13", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.DNA_Methylation_chr13", 
-  "kind": "bigquery#table", 
+  "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 13 was generated using Illumina Human Methylation 27k and 450k platforms.",  
+  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 13 2017 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -14,11 +10,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325217922", 
-  "location": "US", 
-  "numBytes": "24512047304", 
-  "numLongTermBytes": "24512047304", 
-  "numRows": "96125717", 
   "schema": {
     "fields": [
       {
@@ -82,12 +73,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/DNA_Methylation_chr13", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr13"
-  }, 
-  "type": "TABLE"
+  }
 }

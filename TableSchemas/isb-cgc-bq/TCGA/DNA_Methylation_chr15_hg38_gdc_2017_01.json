@@ -1,10 +1,6 @@
 {
-  "creationTime": "1483562096979", 
   "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 15 was generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "etag": "MfHSs6xS/wxsUu9IEzu6IA==", 
-  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 15", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.DNA_Methylation_chr15", 
-  "kind": "bigquery#table", 
+  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 15 2017 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -14,11 +10,6 @@
     "source": "gdc", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325221521", 
-  "location": "US", 
-  "numBytes": "31404858947", 
-  "numLongTermBytes": "31404858947", 
-  "numRows": "123159408", 
   "schema": {
     "fields": [
       {
@@ -82,12 +73,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/DNA_Methylation_chr15", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr15"
-  }, 
-  "type": "TABLE"
+  }
 }

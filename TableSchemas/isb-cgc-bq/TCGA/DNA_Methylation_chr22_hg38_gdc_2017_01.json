@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 22 was generated using Illumina Human Methylation 27k and 450k platforms.",  
-  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 22", 
+  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 22 2017 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
