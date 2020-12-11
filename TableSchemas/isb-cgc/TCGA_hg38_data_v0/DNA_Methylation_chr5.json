@@ -1,10 +1,6 @@
 {
-  "creationTime": "1483561337559", 
-  "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 5 was generated using Illumina Human Methylation 27k and 450k platforms.", 
-  "etag": "aNDvonQvcru+2C01TZwuTg==", 
-  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 5", 
-  "id": "isb-cgc:TCGA_hg38_data_v0.DNA_Methylation_chr5", 
-  "kind": "bigquery#table", 
+  "description": "Data was extracted from GDC on January 2017 for DNA Methylation for chromosome 5 was generated using Illumina Human Methylation 27k and 450k platforms. \n\nThis table has been deprecated. It has been copied to isb-cgc-bq.TCGA.DNA_Methylation_chr5_hg38_gdc_2017_01. Please see TCGA.DNA_Methylation_chr5_hg38_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG38 DNA METHYLATION CHR 5 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -12,13 +8,8 @@
     "reference_genome": "hg38", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325247969", 
-  "location": "US", 
-  "numBytes": "49497030357", 
-  "numLongTermBytes": "49497030357", 
-  "numRows": "194117263", 
   "schema": {
     "fields": [
       {
@@ -82,12 +73,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg38_data_v0/tables/DNA_Methylation_chr5", 
-  "tableReference": {
-    "datasetId": "TCGA_hg38_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr5"
-  }, 
-  "type": "TABLE"
+  }
 }
