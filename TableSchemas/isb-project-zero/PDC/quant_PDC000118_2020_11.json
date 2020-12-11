@@ -1,6 +1,6 @@
 {
   "description": "This table contains PDC quant data for Prospective Ovarian PNNL Proteome Qeplus",
-  "friendlyName": "PROSPECTIVE OVARIAN PNNL PROTEOME QEPLUS QUANT DATA 2020_09",
+  "friendlyName": "PROSPECTIVE OVARIAN PNNL PROTEOME QEPLUS QUANT DATA 2020_11",
   "labels": {
     "access": "open",
     "status": "current",
@@ -12,31 +12,31 @@
         "name": "aliquot_run_metadata_id",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "Uniquely identifies the aliquot by how it was used in the experiment (based on the labelling reagent and/or biological replicate)"
       },
       {
         "name": "aliquot_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "Unique source id provided by the data submitter (e.g. looks like e5e1306b-719e-4c3e-b85b-fd1231_D2)"
       },
       {
         "name": "study_name",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "Name of the study (e.g. Pediatric Brain Cancer Pilot Study - Phosphoproteome)"
       },
       {
         "name": "gene_symbol",
         "type": "STRING",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "Gene name (e.g. SORT1)"
       },
       {
         "name": "protein_abundance_log2ratio",
-        "type": "STRING",
+        "type": "FLOAT64",
         "mode": "NULLABLE",
-        "description": ""
+        "description": "Average log-ratio of sample reporter-ion to common reference of peptide ions associated with the gene in acquisitions from a specific biological sample"
       }
     ]
   }

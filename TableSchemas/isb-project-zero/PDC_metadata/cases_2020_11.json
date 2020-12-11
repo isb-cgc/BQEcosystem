@@ -1,6 +1,6 @@
 {
-  "description": "This table contains PDC quant data.",
-  "friendlyName": "PDC QUANT DATA 2020-09",
+  "description": "This table contains PDC API case endpoint data.",
+  "friendlyName": "PDC CASES DATA 2020-11",
   "labels": {
     "access": "open",
     "status": "current",
@@ -8,32 +8,32 @@
   },
   "schema": {
     "fields": [
-      {
-        "name": "aliquot_run_metadata_id",
+     {
+        "name": "case_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "aliquot_submitter_id",
+        "name": "case_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "study_id",
+        "name": "project_submitter_id",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "gene",
+        "name": "disease_type",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
       },
       {
-        "name": "log2_ratio",
+        "name": "primary_site",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
@@ -41,3 +41,4 @@
     ]
   }
 }
+

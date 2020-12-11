@@ -1,0 +1,62 @@
+{
+  "description": "This table contains PDC API file metadata.",
+  "friendlyName": "PDC FILE METADATA 2020-11",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "file_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "fraction_number",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "experiment_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "plex_or_dataset_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "analyte",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "instrument",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_run_metadata_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
+
