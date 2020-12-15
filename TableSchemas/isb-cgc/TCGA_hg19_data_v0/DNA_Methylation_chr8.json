@@ -1,10 +1,6 @@
 {
-  "creationTime": "1485812174676", 
-  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. DNA Methylation data for chromosome 8 is made available here.", 
-  "etag": "L2wvGr5hN+t4EVF37IMY9A==", 
-  "friendlyName": "TCGA HG19 DNA METHYLATION CHR 8", 
-  "id": "isb-cgc:TCGA_hg19_data_v0.DNA_Methylation_chr8", 
-  "kind": "bigquery#table", 
+  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. DNA Methylation data for chromosome 8 is made available here. \n\nThis table has been deprecated. It has been copied to isb-cgc-bq.TCGA.DNA_Methylation_chr8_hg19_gdc_2017_01. Please see TCGA.DNA_Methylation_chr8_hg19_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG19 DNA METHYLATION CHR 8 DEPRECATED", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
@@ -12,13 +8,8 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325176687", 
-  "location": "US", 
-  "numBytes": "18772497299", 
-  "numLongTermBytes": "18772497299", 
-  "numRows": "164810092", 
   "schema": {
     "fields": [
       {
@@ -64,12 +55,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg19_data_v0/tables/DNA_Methylation_chr8", 
-  "tableReference": {
-    "datasetId": "TCGA_hg19_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr8"
-  }, 
-  "type": "TABLE"
+  }
 }

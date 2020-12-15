@@ -1,8 +1,6 @@
 {
-  "creationTime": "1485812658572", 
-  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. DNA Methylation data for chromosome 21 is made available here.", 
-  "etag": "lOIBJyTpWxuUB+t83WUCyg==", 
-  "friendlyName": "TCGA HG19 DNA METHYLATION CHR 21", 
+  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. DNA Methylation data for chromosome 21 is made available here. \n\nThis table has been deprecated. It has been copied to isb-cgc-bq.TCGA.DNA_Methylation_chr21_hg19_gdc_2017_01. Please see TCGA.DNA_Methylation_chr21_hg19_gdc_current for the most current table.", 
+  "friendlyName": "TCGA HG19 DNA METHYLATION CHR 21 DEPRECATED", 
   "id": "isb-cgc:TCGA_hg19_data_v0.DNA_Methylation_chr21", 
   "kind": "bigquery#table", 
   "labels": {
@@ -12,13 +10,8 @@
     "reference_genome": "hg19", 
     "program": "tcga", 
     "source": "gdc", 
-    "status": "current"
+    "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325159261", 
-  "location": "US", 
-  "numBytes": "4033354736", 
-  "numLongTermBytes": "4033354736", 
-  "numRows": "35410447", 
   "schema": {
     "fields": [
       {
@@ -64,12 +57,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/TCGA_hg19_data_v0/tables/DNA_Methylation_chr21", 
-  "tableReference": {
-    "datasetId": "TCGA_hg19_data_v0", 
-    "projectId": "isb-cgc", 
-    "tableId": "DNA_Methylation_chr21"
-  }, 
-  "type": "TABLE"
+  }
 }
