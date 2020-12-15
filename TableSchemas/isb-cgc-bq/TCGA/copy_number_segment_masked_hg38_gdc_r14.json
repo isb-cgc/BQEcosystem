@@ -1,6 +1,6 @@
 { 
   "description": "Data was extracted from release 14 of the active GDC archive from GDC on December 2018 for masked copy number segment data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-140", 
-  "friendlyName": "TCGA HG38 COPY NUMBER SEGMENT MASKED VERSIONED", 
+  "friendlyName": "TCGA HG38 COPY NUMBER SEGMENT MASKED REL14 VERSIONED", 
   "id": "isb-cgc-bq:TCGA_versioned.copy_number_segment_masked_hg38_gdc_r14", 
   "labels": {
     "access": "open", 
