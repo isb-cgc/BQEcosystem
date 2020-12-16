@@ -15,6 +15,12 @@
         "description": ""
       },
       {
+        "name": "file_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "fraction_number",
         "type": "STRING",
         "mode": "NULLABLE",
@@ -55,6 +61,49 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
+      },
+      {
+        "name": "aliquots",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "aliquot_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "aliquot_submitter_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "sample_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "sample_submitter_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "case_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "case_submitter_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          }
+        ]
       }
     ]
   }
