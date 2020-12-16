@@ -122,7 +122,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "Platform used to generate data; either IlluminaHiSeqor IlluminaGA", 
+        "description": "Platform used to generate data; either IlluminaHiSeq or IlluminaGA", 
         "mode": "NULLABLE", 
         "name": "platform", 
         "type": "STRING"
