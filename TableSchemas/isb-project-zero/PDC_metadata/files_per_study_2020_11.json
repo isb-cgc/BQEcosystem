@@ -9,48 +9,6 @@
   "schema": {
     "fields": [
       {
-        "name": "file_id",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_name",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_type",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_size",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_format",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "file_location",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
-        "name": "data_category",
-        "type": "STRING",
-        "mode": "NULLABLE",
-        "description": ""
-      },
-      {
         "name": "study_id",
         "type": "STRING",
         "mode": "NULLABLE",
@@ -75,10 +33,71 @@
         "description": ""
       },
       {
+        "name": "file_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "file_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "file_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "file_type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
         "name": "md5sum",
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
+      },
+      {
+        "name": "file_location",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "file_size",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "data_category",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "file_format",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "signedUrl",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "url",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          }
+        ]
       }
     ]
   }
