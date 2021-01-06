@@ -1,6 +1,6 @@
 {
-  "description": "This table contains a list of breakpoints from the current release. ",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} BREAKPOINTS FOR {---tag-release---}",
+  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains a list of breakpoints from the current release. ",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} BREAKPOINTS",
   "labels": {
     "access": "controlled",
     "status": "current",
