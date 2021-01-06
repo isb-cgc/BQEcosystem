@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all COSMIC coding point mutations from targeted and genome wide screens from the current release.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} ALL CODING POINT MUTATIONS FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all COSMIC coding point mutations from targeted and genome wide screens from the current release.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} ALL CODING POINT MUTATIONS",
   "labels": {
     "access": "controlled",
     "status": "current",
