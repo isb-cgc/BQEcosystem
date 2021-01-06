@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all coding mutations in genes listed in the Cancer Gene Census.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} MUTANT CENSUS FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all coding mutations in genes listed in the Cancer Gene Census.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} MUTANT CENSUS",
   "labels": {
     "access": "controlled",
     "status": "current",
