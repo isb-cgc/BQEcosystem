@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains COSMIC cancer classification information.",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains COSMIC cancer classification information.",
   "friendlyName": "COSMIC {---tag-ref-genome-0---} CLASSIFICATION {---tag-release---} VERSIONED",
   "labels": {
     "access": "controlled",
