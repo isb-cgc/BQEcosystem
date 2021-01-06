@@ -1,6 +1,6 @@
 {
-  "description": "This table contains the details of all mutations in COSMIC which are known to confer drug resistance.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} DRUG RESISTANCE MUTATIONS FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains the details of all mutations in COSMIC which are known to confer drug resistance.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} DRUG RESISTANCE MUTATIONS",
   "labels": {
     "access": "controlled",
     "status": "current",
