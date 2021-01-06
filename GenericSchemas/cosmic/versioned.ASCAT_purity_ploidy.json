@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains information regarding the ploidy and aberrant cell fraction (purity estimate) for TCGA samples re-analysed using ASCAT.",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains information regarding the ploidy and aberrant cell fraction (purity estimate) for TCGA samples re-analysed using ASCAT.",
   "friendlyName": "COSMIC {---tag-ref-genome-0---} ASCAT PURITY PLOIDY {---tag-release---} VERSIONED",
   "labels": {
     "access": "controlled",
