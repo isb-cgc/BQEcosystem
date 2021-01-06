@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all gene-expression level 3 data from the TCGA portal.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE GENE EXPRESSION FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all gene-expression level 3 data from the TCGA portal.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE GENE EXPRESSION",
   "labels": {
     "access": "controlled",
     "status": "current",
