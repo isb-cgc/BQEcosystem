@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all gene fusion mutation data from the current release.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} FUSION MUTATIONS FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all gene fusion mutation data from the current release.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} FUSION MUTATIONS",
   "labels": {
     "access": "controlled",
     "status": "current",
