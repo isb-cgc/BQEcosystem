@@ -1,6 +1,6 @@
 {
-  "description": "This table contains information regarding the complete curated COSMIC dataset (targeted screens) from the current release.  It includes all coding point mutations, and the negative data set.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE TARGETED SCREENS MUTANT FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains information regarding the complete curated COSMIC dataset (targeted screens) from the current release.  It includes all coding point mutations, and the negative data set.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE TARGETED SCREENS MUTANT",
   "labels": {
     "access": "controlled",
     "status": "current",
