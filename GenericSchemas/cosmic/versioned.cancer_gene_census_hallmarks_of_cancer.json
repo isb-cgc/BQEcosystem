@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC in {---tag-release-month-year---}. A tab separated table listing the hallmarks of cancer for a subset of cancer census genes.",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. A tab separated table listing the hallmarks of cancer for a subset of cancer census genes.",
   "friendlyName": "COSMIC {---tag-ref-genome-0---} CANCER GENE CENSUS HALLMARKS OF CANCER {---tag-release---} VERSIONED",
   "labels": {
     "access": "controlled",
