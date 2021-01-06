@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all non-coding mutations from the current release.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} NON CODING MUTATIONS FOR {---tag-release---}",
+  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains all non-coding mutations from the current release.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} NON CODING MUTATIONS {---tag-release---} VERSIONED",
   "labels": {
     "access": "controlled",
     "status": "current",
