@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains all TCGA level 3 methylation data from the ICGC portal for the current release",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all TCGA level 3 methylation data from the ICGC portal for the current release",
   "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE METHYLATION {---tag-release---} VERSIONED",
   "labels": {
     "access": "controlled",
