@@ -1,5 +1,5 @@
 {
-  "description": "This table contains information regarding the relationship between the Cancer Gene Census, COSMIC ID, Gene Name, HGNC ID, and Entrez ID.",
+  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains information regarding the relationship between the Cancer Gene Census, COSMIC ID, Gene Name, HGNC ID, and Entrez ID.",
   "friendlyName": "COSMIC {---tag-ref-genome-0---} GENOME HGNC MAPPING FOR {---tag-release---}",
   "labels": {
     "access": "controlled",
