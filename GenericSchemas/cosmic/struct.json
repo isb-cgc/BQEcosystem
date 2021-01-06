@@ -1,6 +1,6 @@
 {
-  "description": "This table contains all structural variants from the current release.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} STRUCTURAL VARIANTS FOR {---tag-release---}",
+  "description": "Data was extracted from COSMIC in {---tag-release-month-year---}. This table contains all structural variants from the current release.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} STRUCTURAL VARIANTS",
   "labels": {
     "access": "controlled",
     "status": "current",
