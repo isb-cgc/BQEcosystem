@@ -1,0 +1,131 @@
+{
+  "description": "Data was extracted from GDC in {---tag-release-month-year---}. This table contains COSMIC cancer classification information.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} CLASSIFICATION {---tag-release---} VERSIONED",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "{---tag-ref-genome-0---}",
+    "category": "clinical_biospecimen_data",
+    "data_type": "clinical_data"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "COSMIC_PHENOTYPE_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique COSMIC identifier for the classification."
+      },
+      {
+        "name": "SITE_PRIMARY",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "SITE_SUBTYPE1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin in publication."
+      },
+      {
+        "name": "SITE_SUBTYPE2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin in publication."
+      },
+      {
+        "name": "SITE_SUBTYPE3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 3) of the samples tissue of origin in publication."
+      },
+      {
+        "name": "HISTOLOGY",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample in publication."
+      },
+      {
+        "name": "HIST_SUBTYPE1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample in publication."
+      },
+      {
+        "name": "HIST_SUBTYPE2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample in publication."
+      },
+      {
+        "name": "HIST_SUBTYPE3",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample in publication."
+      },
+      {
+      "name": "SITE_PRIMARY_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Primary tissue specified in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE1_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 1) of the samples tissue of origin in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE2_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 2) of the samples tissue of origin in COSMIC."
+      },
+      {
+      "name": "SITE_SUBTYPE3_COSMIC",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Further sub classification (level 3) of the samples tissue of origin in COSMIC."
+      },
+      {
+        "name": "HISTOLOGY_COSMIC",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample in COSMIC."
+      },
+      {
+        "name": "HIST_SUBTYPE1_COSMIC",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample in COSMIC."
+      },
+      {
+        "name": "HIST_SUBTYPE2_COSMIC",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample in COSMIC."
+      },
+      {
+        "name": "HIST_SUBTYPE3_COSMIC",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 3) of the sample in COSMIC."
+      },
+      {
+        "name": "NCI_CODE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "NCI thesaurus code for tumour histological classification."
+      },
+      {
+        "name": "EFO",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Experimental Factor Ontology (EFO)."
+      }
+    ]
+  }
+}
