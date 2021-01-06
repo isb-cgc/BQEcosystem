@@ -1,6 +1,6 @@
 {
-  "description": "All copy number abberations from the current release in a tab separated table. For more information on copy number data, please see http://cancer.sanger.ac.uk/cosmic/help/cnv/overview.",
-  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE COPY NUMBER VARIANTS FOR {---tag-release---}",
+  "description": "Data was extracted from GDC in {---tag-release-month-year---}. All copy number abberations from the current release in a tab separated table. For more information on copy number data, please see http://cancer.sanger.ac.uk/cosmic/help/cnv/overview.",
+  "friendlyName": "COSMIC {---tag-ref-genome-0---} COMPLETE COPY NUMBER VARIANTS",
   "labels": {
     "access": "controlled",
     "status": "current",
