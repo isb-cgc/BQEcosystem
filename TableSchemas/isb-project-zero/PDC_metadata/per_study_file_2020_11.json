@@ -85,6 +85,19 @@
         "type": "STRING",
         "mode": "NULLABLE",
         "description": ""
+      },
+      {
+        "name": "signedUrl",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "url",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          }
+        ]
       }
     ]
   }
