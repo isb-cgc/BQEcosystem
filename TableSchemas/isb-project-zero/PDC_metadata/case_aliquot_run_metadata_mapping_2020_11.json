@@ -1,0 +1,64 @@
+{
+  "description": "This table contains the PDC API casesSamplesAliquots mapping.",
+  "friendlyName": "PDC CASES SAMPLES ALIQUOTS DATA 2020-11",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "case_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "samples",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+          {
+            "name": "sample_id",
+            "type": "STRING",
+            "mode": "NULLABLE",
+            "description": ""
+          },
+          {
+            "name": "aliquots",
+            "type": "RECORD",
+            "mode": "REPEATED",
+            "fields": [
+              {
+                "name": "aliquot_id",
+                "type": "STRING",
+                "mode": "NULLABLE",
+                "description": ""
+              },
+              {
+                "name": "aliquot_submitter_id",
+                "type": "STRING",
+                "mode": "NULLABLE",
+                "description": ""
+              },
+              {
+                "name": "aliquot_run_metadata",
+                "type": "RECORD",
+                "mode": "REPEATED",
+                "fields": [
+                  {
+                    "name": "aliquot_run_metadata_id",
+                    "type": "STRING",
+                    "mode": "NULLABLE",
+                    "description": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

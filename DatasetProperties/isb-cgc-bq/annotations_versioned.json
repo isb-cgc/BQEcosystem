@@ -1,0 +1,4 @@
+{
+  "dataset_name": "annotations_versioned",
+  "description": "This dataset contains static versioned methylation, liftover and other annotations."
+}

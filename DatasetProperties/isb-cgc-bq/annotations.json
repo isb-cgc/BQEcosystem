@@ -1,0 +1,4 @@
+{
+  "dataset_name": "annotations",
+  "description": "This data set contains methylation, liftover and other annotations. The tables within this data set are dynamic and update with new releases; for static tables use annotations_versioned."
+}

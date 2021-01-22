@@ -1,0 +1,44 @@
+{
+  "description": "This table contains PDC quant data for CPTAC HNSCC Discovery Study - Proteome",
+  "friendlyName": "CPTAC HNSCC DISCOVERY STUDY - PROTEOME QUANT DATA 2020_09",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc",
+    "embargo_end_date": "2021-08-03"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "gene_symbol",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "protein_abundance_log2ratio",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}

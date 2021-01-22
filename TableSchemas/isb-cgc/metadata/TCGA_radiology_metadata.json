@@ -1,13 +1,12 @@
 {
-  "description": "Data was generated from file metadata for {---tag-program---} data in the GDC {---tag-archive---} archive for {---tag-release---} from {---tag-release-month-year---}. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---}",
-  "friendlyName": "{---tag-program---} {---tag-ref-genome-0---} PER SAMPLE FILE METADATA",
+  "description": "Data was generated from TCIA radiology files for the TCGA program",
+  "friendlyName": "TCGA Radiology Metadata",
   "labels": {
     "access": "open",
     "category": "file_metadata",
-    "data_type": "file_metadata",
-    "reference_genome_0": "{---tag-ref-genome-0---}",
-    "program": "{---tag-source-0---}",
-    "source": "gdc",
+    "data_type_0": "file_metadata",
+    "source_0": "tcga",
+    "source_1": "tcia",
     "status": "current"
   },
   "schema": {

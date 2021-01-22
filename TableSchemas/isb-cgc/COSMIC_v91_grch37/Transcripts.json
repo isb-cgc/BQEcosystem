@@ -1,0 +1,41 @@
+{
+  "description": "This table contains the gene name and transcript accession for each gene ID.",
+  "friendlyName": "COSMIC GRCH 37 TRANSCRIPTS",
+  "labels": {
+    "access": "controlled",
+    "status": "archived",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "genome_annotation",
+    "data_type": "genomic_reference_database"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Gene_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The unique ID of the gene."
+      },
+      {
+        "name": "Gene_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The name of the gene."
+      },
+      {
+        "name": "Transcript_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The accession of the transcript."
+      },
+      {
+        "name": "STRAND",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Positive or negative."
+      }
+    ]
+  }
+}

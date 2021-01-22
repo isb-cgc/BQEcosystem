@@ -1,0 +1,59 @@
+{
+  "description": "A tab separated table listing the hallmarks of cancer for a subset of cancer census genes.",
+  "friendlyName": "COSMIC GRCH 37 CANCER GENE CENSUS HALLMARKS OF CANCER",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "genomic_reference_database",
+    "data_type": "genome_annotation"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "GENE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The gene name for which the data have been curated in CGC. In most cases this is the accepted HGNC gene symbol."
+      },
+      {
+        "name": "CELL_TYPE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Tissue or cancer for which the Hallmark is described."
+      },
+      {
+        "name": "PUBMED_PMID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The PUBMED ID for the paper that the Hallmark was noted in"
+      },
+      {
+        "name": "HALLMARK",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Name of the biological process that when dysregulated, may promote cancer or other data category describing the role of a gene in cancer."
+      },
+      {
+        "name": "IMPACT",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Describes how the gene activity impacts the hallmarks of cancer i.e. promotes/suppresses or characterises the role of a gene in carcinogenesis i.e. Oncogene/Tumour suppressor Gene/Fusion"
+      },
+      {
+        "name": "DESCRIPTION",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "A brief functional summary of how geneâs activity impacts a hallmark of cancer."
+      },
+      {
+        "name": "CELL_LINE",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "For evidence obtained from experiments on cell lines, the name of the cell lines are provided here."
+      }
+    ]
+  }
+}
