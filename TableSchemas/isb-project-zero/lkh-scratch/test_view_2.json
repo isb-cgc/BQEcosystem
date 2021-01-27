@@ -8,7 +8,7 @@
     "reference_genome_0": "test", 
     "program": "test", 
     "source": "gdc", 
-    "status": "current"
+    "status": "current",
     "view_row_count": "10508"
   }, 
   "schema": {
