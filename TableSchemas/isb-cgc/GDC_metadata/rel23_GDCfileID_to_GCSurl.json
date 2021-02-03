@@ -6,7 +6,7 @@
     "category": "file_metadata", 
     "data_type": "file_metadata",
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "deprecated",
     "view_row_count": "1906928"
   }, 
   "schema": {
