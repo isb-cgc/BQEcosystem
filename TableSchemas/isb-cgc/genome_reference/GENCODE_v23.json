@@ -1,5 +1,5 @@
 {
-  "description": "This table was moved to isb-cgc-bq.GENCODE_versioned.annotation_gtf_hg28_v23 and is replaced here with a view. Please see isb-cgc-bq.GENCODE.annotation_gtf_hg38_current for the most current table.\nData was loaded from the GENCODE reference gene set, release 23, dated July 2015. These annotations are based on the hg38/GRCh38 reference genome. More details: see Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/gencode.v23.annotation.gtf.gz..", 
+  "description": "This table was moved to isb-cgc-bq.GENCODE_versioned.annotation_gtf_hg28_v23 and is replaced here with a view. Please see isb-cgc-bq.GENCODE.annotation_gtf_hg38_current for the most current table.\nData was loaded from the GENCODE reference gene set, release 23, dated July 2015. These annotations are based on the hg38/GRCh38 reference genome. More details: see Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/gencode.v23.annotation.gtf.gz.", 
   "friendlyName": "GENCODE V23 VIEW", 
   "labels": {
     "access": "open", 
