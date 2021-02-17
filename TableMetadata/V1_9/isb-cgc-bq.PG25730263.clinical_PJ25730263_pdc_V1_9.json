@@ -1,0 +1,12 @@
+{
+  "description": "Data for the PJ25730263 project was extracted using PDC API V1.9 in Feburary 2021. This table contains information about patient cases and their clinical information. More details: see https://pdc.cancer.gov/data-dictionary/dictionary.html",
+  "friendlyName": "PJ25730263 CLINICAL DATA",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "pdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "pg25730263"
+  }
+}
