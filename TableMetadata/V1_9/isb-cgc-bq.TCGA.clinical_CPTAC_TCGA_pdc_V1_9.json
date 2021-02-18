@@ -7,6 +7,7 @@
     "source": "pdc",
     "category": "clinical_biospecimen_data",
     "status": "current",
-    "program": "tcga"
+    "program": "tcga",
+    "embargo": "none"
   }
 }

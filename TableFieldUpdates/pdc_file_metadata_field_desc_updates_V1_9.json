@@ -2,9 +2,7 @@
   "file_id": "An identifier (UUID) to uniquely identify the file in PDC (e.g. 795dd383-5efd-484b-9c2f-f061ae617fc7)",
   "file_submitter_id": "An identifier provided by the file submitter",
   "file_name": "Name of file in PDC",
-  "study_id": "Unique PDC identifier for the study (e.g. b91a0119-f3a0-11ea-b1fd-0aad30af8a83)",
-  "pdc_study_id": "PDC study identifier (e.g. PDC000239)",
-  "study_name": "Full name of the study (e.g. Prospective Breast BI Acetylome)",
+  "pdc_study_ids": "PDC study identifier (e.g. PDC000239); in cases where file exists in multiple studies, study ids are semicolon delimited (e.g. PDC000126;PDC000127)",
   "study_submitter_id": "Unique identifier deriving from the data submitter used for the study (e.g. S046-1-CompRef)",
   "study_run_metadata_id": "An identifier (UUID) to uniquely identify the group the files generated in a single experimental run in PDC (e.g. f2c5c6bf-f40d-11e8-a44b-0a9c39d33490)",
   "study_run_metadata_submitter_id": "An identifier provided by the submitter to identify the group the files generated in a single experimental run (e.g. SRM25730263-1)",
@@ -25,5 +23,6 @@
   "case_id": "An identifier (UUID) to uniquely identify the case in PDC  (e.g. 0067a0e0-63d8-11e8-bcf1-0a2705229b82)",
   "entity_id": "An identifier (UUID) to uniquely identify the entity in PDC  (e.g. 2a6b4244-6428-11e8-bcf1-0a2705229b82, which refers to an aliquot)",
   "entity_submitter_id": "An identifier provided by the data submitter",
-  "entity_type": "Associated entity type (e.g. aliquot or case)"
+  "entity_type": "Associated entity type (e.g. aliquot or case)",
+  "embargo_date": "PDC releases certain data with the condition that users who access the data can not publish or deciminate it prior to the embargo date; if null, data is not under an embargo"
 }
