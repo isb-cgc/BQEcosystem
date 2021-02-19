@@ -1,6 +1,6 @@
 {
-  "description": "Data for entity associations was generated from file metadata information from PDC data release V1.9, downloaded Feb 2021.",
-  "friendlyName": "FILE METADATA ASSOCIATED ENTITIES FOR PDC",
+  "description": "Data was generated from file metadata information from PDC data release V1.9, downloaded Feb 2021.",
+  "friendlyName": "FILE METADATA FOR PDC",
   "labels": {
     "access": "open",
     "source": "pdc",
