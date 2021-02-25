@@ -1,5 +1,5 @@
 {
-  "case_id": "Unique PDC identifier associated with the patient (e.g. looks like 24cb0fcb-63d6-11e8-bcf1-0a2705229b82 )",
+  "case_id": "Unique PDC identifier associated with the patient (e.g. looks like 24cb0fcb-63d6-11e8-bcf1-0a2705229b82)",
   "sample_id": "Unique PDC identifier associated with the sample (e.g. looks like 1c64cd8f-d028-11ea-b1fd-0aad30af8a83)",
   "aliquot_id": "Unique PDC identifier associated with the aliquot (e.g. looks like 1c6638dc-d028-11ea-b1fd-0aad30af8a83)",
   "aliquot_submitter_id": "Unique source id provided by the data submitter (e.g. looks like e5e1306b-719e-4c3e-b85b-fd1231_D2)",
