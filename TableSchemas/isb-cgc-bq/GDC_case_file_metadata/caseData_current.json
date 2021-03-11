@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 27, downloaded Nov, 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-270", 
+  "description": "Data was generated from file metadata information from the GDC release 28, downloaded Mar, 2021. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-280", 
   "friendlyName": "CASE METADATA", 
   "labels": {
     "access": "open", 
