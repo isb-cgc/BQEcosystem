@@ -1,0 +1,53 @@
+{
+  "description": "This table contains mapping data sourced from UniProt (https://www.uniprot.org/uniprot/?query=reviewed:yes).",
+  "friendlyName": "SWISSPROT ACCESSION NUMBERS 2020-06",
+  "labels": {
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "swissprot_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "entry_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "protein_names",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "gene_names",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "organism",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "length",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}

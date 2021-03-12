@@ -1,0 +1,4 @@
+{
+  "dataset_name": "COSMIC",
+  "description": "This dataset contains COSMIC (the Catalogue of Somatic Mutations in Cancer) data for from Wellcome Sanger Institute. The tables within this data set are dynamic and update with new releases; for static tables use COSMIC_versioned."
+}

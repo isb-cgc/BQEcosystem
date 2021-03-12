@@ -1,0 +1,4 @@
+{
+  "dataset_name": "GENCODE_versioned",
+  "description": "This dataset contains static versioned GENCODE data from EMBL-EBI (www.gencodegenes.org)."
+}

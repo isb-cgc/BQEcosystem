@@ -1,0 +1,179 @@
+{
+  "description": "This table contains the details of all mutations in COSMIC which are known to confer drug resistance.",
+  "friendlyName": "COSMIC GRCH 38 DRUG RESISTANCE MUTATIONS",
+  "labels": {
+    "access": "controlled",
+    "status": "archived",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg38",
+    "category": "processed_-omics_data",
+    "data_type": "somatic_mutation"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Sample_Name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "A sample is an instance of a portion of a tumour being examined for mutations. The sample name can be derived from a number of sources. In many cases it originates from the cell line name. Other sources include names assigned by the annotators, or an incremented number assigned during an anonymisation process. A number of samples can be taken from a single tumour and a number of tumours can be obtained from one individual. A sample id is used to identify a sample within the COSMIC database. There can be multiple ids, if the same sample has been entered into the database multiple times from different papers."
+      },
+      {
+        "name": "Sample_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "(See description for Sample_Name field)"
+      },
+      {
+        "name": "Gene_Name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The gene name for which the data has been curated in COSMIC. In most cases this is the accepted HGNC identifier."
+      },
+      {
+        "name": "Transcript",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The transcript identifier (accession number) of the gene."
+      },
+      {
+        "name": "Census_Gene",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Is the gene in the Cancer Gene Census (Yes, or No)."
+      },
+      {
+        "name": "Drug_Name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The name of the drug which the mutation confers resistance to."
+      },
+      {
+        "name": "MUTATION_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "GENOMIC_MUTATION_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "LEGACY_MUTATION_ID",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Unique mutation identifier"
+      },
+      {
+        "name": "AA_Mutation",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The change that has occurred in the peptide sequence. Formatting is based on the recommendations made by the Human Genome Variation Society."
+      },
+      {
+        "name": "CDS_Mutation",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The change that has occurred in the nucleotide sequence. Formatting is identical to the method used for the peptide sequence."
+      },
+      {
+        "name": "Primary_Tissue",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The primary tissue/cancer from which the sample originated. More details on the tissue classification are avaliable from http://cancer.sanger.ac.uk/cosmic/classification. In COSMIC we have standard classification system for tissue types and sub types because they vary a lot between different papers."
+      },
+      {
+        "name": "Tissue_Subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 1) of the samples tissue of origin."
+      },
+      {
+        "name": "Tissue_Subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further sub classification (level 2) of the samples tissue of origin."
+      },
+      {
+        "name": "Histology",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The histological classification of the sample."
+      },
+      {
+        "name": "Histology_Subtype_1",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 1) of the sample."
+      },
+      {
+        "name": "Histology_Subtype_2",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Further histological classification (level 2) of the sample."
+      },
+      {
+        "name": "Pubmed_Id",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "The PUBMED ID for the paper that the sample was noted in, linking to pubmed to provide more details of the publication."
+      },
+      {
+        "name": "CGP_Study",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Lists the unique Ids of studies that have involved this sample."
+      },
+      {
+        "name": "Somatic_Status",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Information on whether the sample was reported to be Confirmed Somatic, Previously Reported or Variant of unknown origin."
+      },
+      {
+        "name": "Sample_Type",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Describes where the sample has originated from including the tumour type."
+      },
+      {
+        "name": "Zygosity",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Information on whether the mutation was reported to be homozygous , heterozygous or unknown within the sample."
+      },
+      {
+        "name": "Genome_Coordinates_GRCh38",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The genome location of the mutation (chr:start..end), on the specified genome version."
+      },
+      {
+        "name": "Tier",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Classification Tier (1 or 2): Tier 2 of the Cancer Gene Census consists of genes with strong indications of roles in cancer but with less expansive available evidence, compared to Tier 1."
+      },
+      {
+        "name": "HGVSP",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Human Genome Variation Society peptide syntax."
+      },
+      {
+        "name": "HGVSC",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Human Genome Variation Society coding dna sequence syntax (CDS)."
+      },
+      {
+        "name": "HGVSG",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Human Genome Variation Society genomic syntax (3' shifted)."
+      }
+    ]
+  }
+}

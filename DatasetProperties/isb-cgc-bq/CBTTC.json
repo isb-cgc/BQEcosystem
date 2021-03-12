@@ -1,0 +1,4 @@
+{
+  "dataset_name": "CBTTC",
+  "description": "This data set contains the current CBTTC (AKA CBTN) program data extracted from the NCI PDC. The tables within this data set are dynamic and update with new releases; for static tables use CBTTC_versioned."
+}

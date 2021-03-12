@@ -1,0 +1,59 @@
+{
+  "description": "This table contains information regarding the relationship between the Cancer Gene Census, COSMIC ID, Gene Name, HGNC ID, and Entrez ID.",
+  "friendlyName": "COSMIC GRCH 37 GENOME HGNC MAPPING V92 VERSIONED",
+  "labels": {
+    "access": "controlled",
+    "status": "current",
+    "program": "cosmic",
+    "source": "sanger",
+    "reference_genome_0": "hg19",
+    "category": "somatic_mutation",
+    "data_type": "genomic_reference_database"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "COSMIC_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "COSMIC Gene ID (COSG*)."
+      },
+      {
+        "name": "COSMIC_GENE_NAME",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Gene name used in COSMIC."
+      },
+      {
+        "name": "Entrez_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "Entrez ID mapping."
+      },
+      {
+        "name": "HGNC_ID",
+        "type": "INTEGER",
+        "mode": "NULLABLE",
+        "description": "HGNC mapping."
+      },
+      {
+        "name": "Mutated",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Does the gene have coding mutations? yes or no"
+      },
+      {
+        "name": "Cancer_census",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Is the gene in the Cancer gene census? yes or no."
+      },
+      {
+        "name": "Expert_Curated",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "Has the gene been manually curated by the team of expert curators? yes or no"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "description": "Data was extracted from TCGA DCC on February 2017. RPPA/protein qualification data for TCGA samples was extracted by the NCI GDC in the legacy archive specifically the files with names like \"MDA_RPPA_Core.protein_expression.Level_3\". Note: A significant amount of manual curation of the gene and protein symbols was done. More details: https://bioinformatics.mdanderson.org/public-software/tcpa/",  
+  "friendlyName": "TCGA HG38 PROTEIN EXPRESSION 2017 VERSIONED", 
+  "id": "isb-cgc-bq:TCGA_versioned.protein_expression_hg38_gdc_2017_02", 
+  "labels": {
+    "access": "open", 
+    "category": "processed_-omics_data", 
+    "experimental_strategy": "rppa", 
+    "data_type": "protein_expression", 
+    "reference_genome": "hg38", 
+    "program": "tcga", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "Project name abbreviation; the program name appended with a project name abbreviation; eg. TCGA-OV, etc.", 
+        "mode": "NULLABLE", 
+        "name": "project_short_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Original TCGA case barcode, eg TCGA-DX-A8BN", 
+        "mode": "NULLABLE", 
+        "name": "case_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-30", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Gene name e.g. TTN, DDR1, etc.", 
+        "mode": "NULLABLE", 
+        "name": "gene_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Protein name e.g. AR, MAPK", 
+        "mode": "NULLABLE", 
+        "name": "protein_base_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "If the antibody targets a phosphorylated protein, this field will contain that information, eg pS473  --  otherwise this field will be null", 
+        "mode": "NULLABLE", 
+        "name": "phospho", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Protein symbol with phosphorylation status, eg ACC_pS79", 
+        "mode": "NULLABLE", 
+        "name": "protein_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Expression level of protein as measured by reverse-phase protein arrays. https://bioinformatics.mdanderson.org/public-software/tcpa/", 
+        "mode": "NULLABLE", 
+        "name": "protein_expression", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Animal of origin for the antibody M (Mouse), R (Rabbit), G (Goat)", 
+        "mode": "NULLABLE", 
+        "name": "antibody_source", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Validation status of antibody by correlation of RPPA data with Western blot, V E C (https://bioinformatics.mdanderson.org/public-software/mclp/)", 
+        "mode": "NULLABLE", 
+        "name": "validation_status", 
+        "type": "STRING"
+      }
+    ]
+  }
+}

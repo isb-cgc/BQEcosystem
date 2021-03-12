@@ -1,0 +1,73 @@
+{ 
+  "description": "Data was extracted from TCGA DCC on February 2017. RNAseq gene expression data was generated using UNC V2 pipeline.",  
+  "friendlyName": "TCGA HG19 RNASEQ GENE EXPRESSION 2017 VERSIONED", 
+  "id": "isb-cgc-bq:TCGA_versioned.RNAseq_hg19_gdc_2017_02",  
+  "labels": {
+    "access": "open", 
+    "category": "processed_-omics_data", 
+    "data_type": "gene_expression", 
+    "experimental_strategy": "rnaseq", 
+    "reference_genome": "hg19", 
+    "program": "tcga", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "Project name abbreviation; the program name appended with a project name abbreviation; eg. TCGA-OV, etc.", 
+        "mode": "NULLABLE", 
+        "name": "project_short_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Original TCGA case barcode, eg TCGA-12-1089  --  note that each case typically has a primary-tumor sample and a matched-normal (blood or adjacent tissue) sample; please refer to the TCGA Biospecimen table for more details", 
+        "mode": "NULLABLE", 
+        "name": "case_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Original TCGA sample barcode, eg TCGA-12-1089-01A", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Original TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-01", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "HUGO Gene Nomenclature Committee gene symbol, based on gene_id in original data file, eg AMY1A. Null if no gene symbol could be found (see documentation for additional details regarding ETL) http://isb-cancer-genomics-cloud.readthedocs.io/en/latest/sections/data/data2/ETL_mRNAexpression.html", 
+        "mode": "NULLABLE", 
+        "name": "HGNC_gene_symbol", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "The gene symbol. In this table, gene symbol is gene namee.g. ENSG00000251562", 
+        "mode": "NULLABLE", 
+        "name": "gene_id", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "Normalized gene expression from original rsem.genes.normalized_results file", 
+        "mode": "NULLABLE", 
+        "name": "normalized_count", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Gene symbol from the original data file, differs if the approved gene symbol has since changed, eg C11orf17 became AKIP1", 
+        "mode": "NULLABLE", 
+        "name": "original_gene_symbol", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Platform used to generate data; either IlluminaHiSeq (for close to 93% of samples) or IlluminaGA", 
+        "mode": "NULLABLE", 
+        "name": "platform", 
+        "type": "STRING"
+      }
+    ]
+  }
+}

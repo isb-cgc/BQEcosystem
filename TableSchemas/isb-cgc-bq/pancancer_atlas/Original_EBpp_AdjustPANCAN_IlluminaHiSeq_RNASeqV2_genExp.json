@@ -1,0 +1,41 @@
+{ 
+  "description": "Data was loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains batch normalized RNASeqV2 mRNA data.  \n\nMore details: https://www.synapse.org/#!Synapse:syn4976369.3  \nand \nhttps://gdc.cancer.gov/about-data/publications/pancanatlas \nfile: EBPlusPlusAdjustPANCAN_IlluminaHiSeq_RNASeqV2.geneExp.tsv. \n\nFor data annotated with pertinent TCGA Barcodes and filtered by the barcode white list, table Filtered_EBpp_AdjustPANCAN_IlluminaHiSeq_RNASeqV2_genExp is recommended.", 
+  "friendlyName": "PanCancer RNA Final", 
+  "labels": {
+    "program": "pancancer_atlas",
+    "category": "processed_-omics_data",
+    "access": "open", 
+    "data_type": "mirna_expression", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown", 
+        "mode": "NULLABLE", 
+        "name": "symbol", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Entrez ID from the NCBI, eg 730971", 
+        "mode": "NULLABLE", 
+        "name": "entrez", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-28", 
+        "mode": "NULLABLE", 
+        "name": "AliquotBarcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Reads Per Kilobase of transcript, per Million mapped reads (RPKM) is a normalized unit of transcript expression. It scales by transcript length to compensate for the fact that most RNA-seq protocols will generate more sequencing reads from longer RNA molecules.Examples: 0.0617, 14.9241, 2.2411", 
+        "mode": "NULLABLE", 
+        "name": "RPKM", 
+        "type": "FLOAT"
+      }
+    ]
+  }
+}

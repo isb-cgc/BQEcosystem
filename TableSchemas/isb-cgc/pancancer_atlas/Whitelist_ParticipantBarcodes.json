@@ -1,0 +1,23 @@
+{
+  "description": "Extracted from PanCancer Atlas initiative on the GDC in Aug 2016. Contains participant barcodes used in by the PanCancer Atlas initiative.  \n\nMore details: https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.Whitelist_ParticipantBarcodes.",  
+  "friendlyName": "Pancancer Participants Whitelist DEPRECATED", 
+  "labels": {
+    "program": "pancancer_atlas",
+    "category": "clinical_biospecimen_data",
+    "access": "open", 
+    "data_type": "biospecimen_supplement", 
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "deprecated"
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "ParticipantBarcode", 
+        "type": "STRING"
+      }
+    ]
+  }
+}

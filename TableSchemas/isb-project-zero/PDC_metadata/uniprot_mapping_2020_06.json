@@ -1,0 +1,29 @@
+{
+  "description": "This table contains mapping data sourced from UniProt (ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/idmapping/).",
+  "friendlyName": "UNIPROT MAPPING 2020-06",
+  "labels": {
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "uniprot_kb_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "authority",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "authority_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}

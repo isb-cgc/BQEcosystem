@@ -1,0 +1,43 @@
+{
+  "description": "This table contains PDC quant data for {---tag-study-name---}",
+  "friendlyName": "{---tag-study-name-upper---} QUANT DATA {---tag-release---}",
+  "labels": {
+    "access": "open",
+    "status": "current",
+    "source": "pdc"
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "aliquot_run_metadata_id",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": ""
+      },
+      {
+        "name": "aliquot_submitter_id",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "study_name",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "{---tag-gene-or-site-label---}",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      },
+      {
+        "name": "protein_abundance_log2ratio",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": ""
+      }
+    ]
+  }
+}
