@@ -1,12 +1,13 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 23, April 2020. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-230\nThis table has been deprecated, please see isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current for the most current table.", 
-  "friendlyName": "GDC FILE ID TO GCS URLS REL23", 
+  "description": "This table was moved to isb-cgc-bq.GDC_case_file_metadata_versioned.GDCfileID_to_GCSurl_r23 and is replaced here with a view. Please see isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current for the most current table.\nData was generated from file metadata information from the GDC release 23, April 2020. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-230.", 
+  "friendlyName": "GDC FILE ID TO GCS URLS REL23 VIEW", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
     "data_type": "file_metadata",
     "source": "gdc", 
-    "status": "deprecated"
+    "status": "deprecated",
+    "view_row_count": "1906928"
   }, 
   "schema": {
     "fields": [
