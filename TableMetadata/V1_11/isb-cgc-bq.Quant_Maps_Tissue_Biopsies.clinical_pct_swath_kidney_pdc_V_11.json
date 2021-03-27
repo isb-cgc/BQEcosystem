@@ -1,0 +1,13 @@
+{
+  "description": "Data for the Quantitative Maps of Tissue Biopsies - PCT SWATH Kidney project was extracted using PDC API V1.11 in March 2021. This table contains information about patient cases and their clinical information. More details: see https://pdc.cancer.gov/data-dictionary/dictionary.html",
+  "friendlyName": "QUANT MAPS TISSUE BIOPSIES KIDNEY CLINICAL DATA",
+  "labels": {
+    "access": "open",
+    "data_type": "clinical_data",
+    "source": "pdc",
+    "category": "clinical_biospecimen_data",
+    "status": "current",
+    "program": "quant_maps_tissue_biopsies",
+    "embargo": "none"
+  }
+}

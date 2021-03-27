@@ -93,7 +93,6 @@
   "url": "PDC datastore file paths (typically hosted on AWS)",
   "access": "Data accessibility policy (open or controlled)",
   "updated_datetime": "Timestamp of latest update (e.g. 2017-03-04T16:37:26.081298-06:00)",
-  "case_id": "An identifier (UUID) to uniquely identify the case in PDC  (e.g. 0067a0e0-63d8-11e8-bcf1-0a2705229b82)",
   "entity_id": "An identifier (UUID) to uniquely identify the entity in PDC  (e.g. 2a6b4244-6428-11e8-bcf1-0a2705229b82, which refers to an aliquot)",
   "entity_submitter_id": "An identifier provided by the data submitter",
   "entity_type": "Associated entity type (e.g. aliquot or case)",
