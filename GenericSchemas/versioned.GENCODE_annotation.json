@@ -11,8 +11,6 @@
   }, 
   "schema": {
     "fields": [
-       "schema": {
-    "fields": [
       {
         "name": "seqname",
         "type": "string",
