@@ -72,11 +72,6 @@
         "description": " E.g., protein_coding, lincRNA, etc. "
       },
       {
-        "name": "gene_status",
-        "type": "string",
-        "description": " Either KNOWN, NOVEL, or PUTATIVE "
-      },
-      {
         "name": "transcript_name",
         "type": "string",
         "description": "E.g., TTN-018 (corresponding to Ensembl transcript ID ENST00000589042.1 in GRCh37p.13) "
@@ -90,11 +85,6 @@
         "name": "transcript_id_v",
         "type": "string",
         "description": "Ensembl transcript with version. E.g.,ENST00000589042.4"
-      },
-      {
-        "name": "transcript_status",
-        "type": "string",
-        "description": " Either KNOWN, NOVEL, or PUTATIVE "
       },
       {
         "name": "transcript_type",
