@@ -1,6 +1,6 @@
 {
   "description": "Data was generated from file metadata information from the GDC active archive release 23, downloaded April 2020. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-230", 
-  "friendlyName": "FILE METADATA ACTIVE REL23 VERSIONED", 
+  "friendlyName": "FILE METADATA GDC ACTIVE REL23 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 
