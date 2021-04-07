@@ -1,0 +1,11 @@
+{
+  "description": "Case data was generated from file metadata information from PDC data release V1.11, downloaded March 2021. File count per case is included.",
+  "friendlyName": "PDC CASE METADATA",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "file_metadata",
+    "data_type": "file_metadata"
+  }
+}
