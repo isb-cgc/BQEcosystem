@@ -88,6 +88,7 @@
   "primary_site": "The text term used to describe the general location of the malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)",
   "prior_malignancy": "The yes/no/unknown indicator used to describe the patient's history of prior cancer diagnosis",
   "prior_treatment": "A yes/no/unknown/not applicable indicator related to the administration of therapeutic agents received before the body specimen was collected",
+  "program_name": "Name of the data's source program",
   "progression_free_survival": "Number of days between the date used for index and the first date the patient is known to be free of disease progression",
   "progression_free_survival_event": "The event used to define the patient''s disease progression",
   "progression_or_recurrence": "Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment",
