@@ -1,0 +1,11 @@
+{
+  "description": "Aliquot data was generated from file metadata information from PDC data release V1.11, downloaded March 2021.",
+  "friendlyName": "PDC ALIQUOT IDS TO CASE IDS MAP V1_11 VERSIONED",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "file_metadata",
+    "data_type": "file_metadata"
+  }
+}
