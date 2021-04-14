@@ -93,7 +93,7 @@
   "progression_free_survival_event": "The event used to define the patient''s disease progression",
   "progression_or_recurrence": "Yes/No/Unknown indicator to identify whether a patient has had a new tumor event after initial treatment",
   "project_id": "PDC project UUID (e.g. edb4ca56-f1e8-11e9-9a07-0a80fada099c)",
-  "project_name": "Project Name (e.g. CPTAC-2)",
+  "project_name": "Project name (e.g. CPTAC-2)",
   "project_submitter_id": "Project Submitter ID (e.g. PJ25730263, Georgetown Lung Cancer Proteomics Study)",
   "race": "An arbitrary classification of a taxonomic group that is a division of a species; the provided values are based on the categories defined by the U.S. Office of Management and Business and used by the U.S. Census Bureau",
   "residual_disease": "Text terms to describe the status of a tissue margin following surgical resection",
