@@ -1,0 +1,11 @@
+{
+  "description": "Case data was generated from PDC data release {---tag-version---}, downloaded {---tag-month-year---}. File count per case is included.",
+  "friendlyName": "PDC CASE METADATA",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "file_metadata",
+    "data_type": "file_metadata"
+  }
+}

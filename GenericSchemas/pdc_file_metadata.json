@@ -1,0 +1,11 @@
+{
+  "description": "Data was generated from file metadata information from PDC data release {---tag-version---}, downloaded {---tag-month-year---}.",
+  "friendlyName": "FILE METADATA FOR PDC",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+  }
+}
