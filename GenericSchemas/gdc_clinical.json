@@ -1,6 +1,6 @@
 {
   "description": "Data for the {---tag-program-name-upper---} program was extracted using the GDC API in {---tag-extracted-month-year---}. This table contains information about {---tag-program-name-upper---} patient cases and their clinical information.  More details: see https://docs.gdc.cancer.gov/Encyclopedia/pages/Clinical_Data/",
-  "friendlyName": "{---tag-program-name-upper---} CLINICAL DATA {---tag-mapping-type-upper---}",
+  "friendlyName": "{---tag-program-name-upper---} CLINICAL DATA {---tag-mapping-name---}",
   "labels": {
     "access": "open",
     "data_type": "clinical_data",
