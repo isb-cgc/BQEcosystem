@@ -1,5 +1,5 @@
 {
-  "description": "Case data was generated from PDC data release {---tag-version---}, downloaded {---tag-month-year---}. File count per case is included.",
+  "description": "Case data was generated from PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}. File count per case is included.",
   "friendlyName": "PDC CASE METADATA",
   "labels": {
     "access": "open",

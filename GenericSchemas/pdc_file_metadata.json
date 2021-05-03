@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from PDC data release {---tag-version---}, downloaded {---tag-month-year---}.",
+  "description": "Data was generated from file metadata information from PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}.",
   "friendlyName": "FILE METADATA FOR PDC",
   "labels": {
     "access": "open",
