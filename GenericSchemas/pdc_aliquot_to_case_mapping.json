@@ -1,5 +1,5 @@
 {
-  "description": "Aliquot data was generated from PDC data release {---tag-version---}, downloaded {---tag-month-year---}.",
+  "description": "Aliquot data was generated from PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}.",
   "friendlyName": "PDC ALIQUOT IDS TO CASE IDS MAP",
   "labels": {
     "access": "open",
