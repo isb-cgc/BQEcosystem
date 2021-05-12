@@ -1,8 +1,6 @@
 {
   "access": "Data accessibility policy (open or controlled)",
-
-  "acetylation_sites": "",
-
+  "acetylation_sites": "Single letter codes and protein sequence positions of the acetylated amino acids (e.g. k12k16, k21)",
   "age_at_diagnosis": "Age at the time of diagnosis expressed in number of days since birth",
   "ajcc_clinical_m": "Extent of the distant metastasis for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment",
   "ajcc_clinical_n": "Extent of the regional lymph node involvement for the cancer based on evidence obtained from clinical assessment parameters determined prior to treatment",
@@ -69,9 +67,7 @@
   "gene_description": "Description of the gene, sourced by PDC from NCBI",
   "gene_id": "Unique gene identifier assigned by PDC",
   "gene_symbol": "Gene symbol, sourced by PDC from NCBI",
-
-  "glycosylation_sites": "",
-
+  "glycosylation_sites": "Single letter codes and protein sequence positions of the glycosylated amino acids in the protein sequence (e.g. n113n119, n57)",
   "hiv_positive": "Text term to signify whether a physician has diagnosed HIV infection in a patient",
   "hpv_positive_type": "Text classification to represent the strain or type of human papillomavirus identified in an individual",
   "hpv_status": "The findings of the oncogenic HPV",
@@ -98,9 +94,7 @@
   "overall_survival": "Number of days between the date used for index and the patient's date of death or the date the patient was last known to be alive",
   "pdc_study_ids": "PDC study identifier (e.g. PDC000239); in cases where file exists in multiple studies, study ids are semicolon delimited (e.g. PDC000126;PDC000127)",
   "perineural_invasion_present": "A yes/no indicator to ask if perineural invasion or infiltration of tumor or cancer is present",
-
-  "phosphorylation_sites": "",
-
+  "phosphorylation_sites": "Single letter codes and protein sequence positions of the phosphorylated amino acids (e.g. t304s310, t59)",
   "plex_or_dataset_name": "Plex or dataset name (e.g. 04CPTAC_P93P94Compref_Proteome_BI_20180916)",
   "preservation_method": "Text term that represents the method used to preserve the sample.",
   "primary_diagnosis": "Text term used to describe the patient's histologic diagnosis, as described by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O)",
@@ -132,9 +126,7 @@
   "tissue_type": "Text term that represents a description of the kind of tissue collected with respect to disease status or proximity to tumor tissue",
   "tumor_grade": "Numeric value to express the degree of abnormality of cancer cells, a measure of differentiation and aggressiveness",
   "tumor_stage": "The extent of a cancer in the body. Staging is usually based on the size of the tumor, whether lymph nodes contain cancer, and whether the cancer has spread from the original site to other parts of the body. The accepted values for tumor_stage depend on the tumor site, type, and accepted staging system. These items should accompany the tumor_stage value as associated metadata",
-
-  "ubiquitylation_sites": "",
-
+  "ubiquitylation_sites": "Single letter codes and protein sequence positions of the ubiquitylated amino acids",
   "uniprotkb_id": "Oldest UniProt id found in 'proteins' column list, derived programmatically",
   "uniprotkb_ids": "Every UniProt id found in 'proteins' column list",
   "uniprot_id": "Unique identifier assigned to a sequence by UniProt, often containing biologically relevant information",
