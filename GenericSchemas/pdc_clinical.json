@@ -1,6 +1,6 @@
 {
   "description": "Data for the {---tag-project-name---} project was extracted using PDC API {---tag-version---} in {---tag-extracted-month-year---}. This table contains information about patient cases and their clinical information. More details: see https://pdc.cancer.gov/data-dictionary/dictionary.html",
-  "friendlyName": "{---tag-friendly-project-name-upper---} CLINICAL DATA",
+  "friendlyName": "{---tag-friendly-project-name-upper---} CLINICAL {---tag-mapping-name---}DATA",
   "labels": {
     "access": "open",
     "data_type": "clinical_data",
