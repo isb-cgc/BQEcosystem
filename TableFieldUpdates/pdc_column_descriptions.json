@@ -67,7 +67,7 @@
   "gene_description": "Description of the gene, sourced by PDC from NCBI",
   "gene_id": "Unique gene identifier assigned by PDC",
   "gene_symbol": "Gene symbol, sourced by PDC from NCBI",
-  "glycosylation_sites": "Single letter codes and protein sequence positions of the glycosylated amino acids in the protein sequence (e.g. n113n119, n57)",
+  "glycosylation_sites": "Single letter codes and protein sequence positions of the glycosylated amino acids (e.g. n113n119, n57)",
   "hiv_positive": "Text term to signify whether a physician has diagnosed HIV infection in a patient",
   "hpv_positive_type": "Text classification to represent the strain or type of human papillomavirus identified in an individual",
   "hpv_status": "The findings of the oncogenic HPV",
