@@ -1,0 +1,11 @@
+{
+  "description": "Data was extracted from getPaginatedGenes API endpoint in PDC data release {---tag-uniprot-version---}, downloaded {---tag-extracted-month-year---}.",
+  "friendlyName": "GENE MAPPING FOR PDC",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "genomic_reference_database",
+    "data_type": "genome_annotation"
+  }
+}
