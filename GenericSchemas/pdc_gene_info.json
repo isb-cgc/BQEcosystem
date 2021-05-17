@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from getPaginatedGenes API endpoint in PDC data release {---tag-uniprot-version---}, downloaded {---tag-extracted-month-year---}.",
+  "description": "Data was extracted from getPaginatedGenes API endpoint in PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}.",
   "friendlyName": "GENE MAPPING FOR PDC",
   "labels": {
     "access": "open",
