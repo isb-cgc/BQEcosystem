@@ -6,6 +6,7 @@
     "source": "pdc",
     "status": "current",
     "category": "genomic_reference_database",
-    "data_type": "genome_annotation"
+    "data_type_0": "genome_annotation",
+    "data_type_1": "proteome_annotation"
   }
 }
