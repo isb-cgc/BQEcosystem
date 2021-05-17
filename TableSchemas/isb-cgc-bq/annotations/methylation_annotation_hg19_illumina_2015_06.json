@@ -3,7 +3,7 @@
   "friendlyName": "HG19 ILLUMINA DNA METHYLATION ANNOTATION 2015", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "dna_methylation", 
     "reference_genome_0": "hg19", 
     "source": "infinium", 

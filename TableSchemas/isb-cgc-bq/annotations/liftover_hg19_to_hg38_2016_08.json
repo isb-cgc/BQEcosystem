@@ -3,7 +3,7 @@
   "friendlyName": "LIFTOVER BETWEEN HG19 AND HG38 2016", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "genome_annotation", 
     "reference_genome_0": "hg19", 
     "reference_genome_1": "hg38", 

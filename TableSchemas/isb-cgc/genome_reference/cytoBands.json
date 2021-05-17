@@ -7,7 +7,7 @@
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type_0": "cytoband_coordinate_conversion", 
     "reference_genome_0": "hg19", 
     "reference_genome_1": "hg38", 

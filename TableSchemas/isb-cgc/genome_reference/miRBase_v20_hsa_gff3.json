@@ -7,7 +7,7 @@
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type_0": "mirna_annotations", 
     "reference_genome_0": "hg19", 
     "source_0": "mirbase_the_microrna_database", 
