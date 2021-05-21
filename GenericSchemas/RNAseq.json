@@ -86,6 +86,11 @@
         "type": "FLOAT"
       }, 
       {
+        "description": "The longer name of the sample type; eg. Primary Tumor, Recurrent Tumor, etc",
+        "mode": "NULLABLE",
+        "name": "sample_type_name",
+        "type": "STRING"
+      {
         "description": "Unique GDC identifier for this case (corresponds to the case_barcode).  Can be used to access more information from the GDC data portal like this:   https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba36", 
         "mode": "NULLABLE", 
         "name": "case_gdc_id", 
