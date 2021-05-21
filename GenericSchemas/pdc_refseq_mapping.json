@@ -5,7 +5,7 @@
     "access": "open",
     "source": "uniprot",
     "status": "current",
-    "category": "genomic_reference_database",
+    "category": "reference_database",
     "data_type": "proteome_annotation"
   }
 }
