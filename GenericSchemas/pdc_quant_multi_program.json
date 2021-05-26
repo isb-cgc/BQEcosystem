@@ -7,6 +7,7 @@
     "source": "pdc",
     "data_type": "protein_expression",
     "category": "processed_-omics_data",
-    "program": "{---tag-program-name-lower---}"
+    "program_0": "{---tag-program-name-0-lower---}",
+    "program_1": "{---tag-program-name-1-lower---}"
   }
 }
