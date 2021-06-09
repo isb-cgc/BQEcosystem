@@ -1,0 +1,74 @@
+{
+  "Academia Sinica LUAD-100": {
+    "PROJECT_SHORT_NAME": "academia_sinica_LUAD_100",
+    "PROJECT_FRIENDLY_NAME": "ACADEMIA SINICA LUAD-100",
+    "PROGRAM_SHORT_NAME": "ICPC",
+    "PROGRAM_LABELS": "icpc"
+  },
+  "CPTAC-2": {
+    "PROJECT_SHORT_NAME": "CPTAC_2",
+    "PROJECT_FRIENDLY_NAME": "CPTAC2",
+    "PROGRAM_SHORT_NAME": "CPTAC",
+    "PROGRAM_LABELS": "cptac2"
+  },
+  "CPTAC-TCGA": {
+    "PROJECT_SHORT_NAME": "CPTAC_TCGA",
+    "PROJECT_FRIENDLY_NAME": "CPTAC-TCGA",
+    "PROGRAM_SHORT_NAME": "TCGA",
+    "PROGRAM_LABELS": "cptac2; tcga"
+  },
+  "CPTAC3-Discovery": {
+    "PROJECT_SHORT_NAME": "CPTAC3_discovery",
+    "PROJECT_FRIENDLY_NAME": "CPTAC3 DISCOVERY",
+    "PROGRAM_SHORT_NAME": "CPTAC",
+    "PROGRAM_LABELS": "cptac3"
+  },
+  "CPTAC2-Other": {
+    "PROJECT_SHORT_NAME": "CPTAC2_other",
+    "PROJECT_FRIENDLY_NAME": "CPTAC2 OTHER",
+    "PROGRAM_SHORT_NAME": "CPTAC",
+    "PROGRAM_LABELS": "cptac2"
+  },
+  "CPTAC3-Other": {
+    "PROJECT_SHORT_NAME": "CPTAC3_other",
+    "PROJECT_FRIENDLY_NAME": "CPTAC3 OTHER",
+    "PROGRAM_SHORT_NAME": "CPTAC",
+    "PROGRAM_LABELS": "cptac3"
+  },
+  "Georgetown Lung Cancer Proteomics Study": {
+    "PROJECT_SHORT_NAME": "georgetown_lung_cancer",
+    "PROJECT_FRIENDLY_NAME": "GEORGETOWN LUNG CANCER",
+    "PROGRAM_SHORT_NAME": "GPRP",
+    "PROGRAM_LABELS": "georgetown_proteomics"
+  },
+  "Human Early-Onset Gastric Cancer - Korea University": {
+    "PROJECT_SHORT_NAME": "human_early_onset_gastric_cancer",
+    "PROJECT_FRIENDLY_NAME": "HUMAN EARLY-ONSET GASTRIC CANCER",
+    "PROGRAM_SHORT_NAME": "ICPC",
+    "PROGRAM_LABELS": "icpc"
+  },
+  "Integrated Proteogenomic Characterization of HBV-related Hepatocellular carcinoma": {
+    "PROJECT_SHORT_NAME": "HBV_related_hepatocellular_carcinoma",
+    "PROJECT_FRIENDLY_NAME": "HBV-RELATED HEPATOCELLULAR CARCINOMA",
+    "PROGRAM_SHORT_NAME": "ICPC",
+    "PROGRAM_LABELS": "icpc"
+  },
+  "Oral Squamous Cell Carcinoma - Chang Gung University": {
+    "PROJECT_SHORT_NAME": "oral_squamous_cell_carcinoma",
+    "PROJECT_FRIENDLY_NAME": "ORAL SQUAMOUS CELL CARCINOMA",
+    "PROGRAM_SHORT_NAME": "ICPC",
+    "PROGRAM_LABELS": "icpc"
+  },
+  "PJ25730263": {
+    "PROJECT_SHORT_NAME": "pct_swath_kidney",
+    "PROJECT_FRIENDLY_NAME": "QUANT MAPS TISSUE BIOPSIES KIDNEY",
+    "PROGRAM_SHORT_NAME": "Quant_Maps_Tissue_Biopsies",
+    "PROGRAM_LABELS": "quant_maps_tissue_biopsies"
+  },
+  "Proteogenomic Analysis of Pediatric Brain Cancer Tumors Pilot Study": {
+    "PROJECT_SHORT_NAME": "pediatric_brain_cancer",
+    "PROJECT_FRIENDLY_NAME": "PEDIATRIC BRAIN CANCER",
+    "PROGRAM_SHORT_NAME": "CBTTC",
+    "PROGRAM_LABELS": "cbttc"
+  }
+}
