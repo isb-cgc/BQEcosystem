@@ -1,13 +1,13 @@
 {
-  "description": "Data was loaded from the GENCODE reference gene set, release 34, dated April 2020. These annotations are based on the hg38/GRCh38 reference genome. More details: see Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_34/gencode.v34.annotation.gtf.gz", 
-  "friendlyName": "GENCODE V34 VERSIONED", 
+  "description": "Data was loaded from the GENCODE reference gene set, release 35, dated August 2020. These annotations are based on the hg38/GRCh38 reference genome. More details: see Harrow J, et al. (2012) GENCODE: The reference human genome annotation for The ENCODE Project http://www.ncbi.nlm.nih.gov/pubmed/22955987 and ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_35/gencode.v35.annotation.gtf.gz", 
+  "friendlyName": "GENCODE V35 VERSIONED", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "genome_annotation", 
     "reference_genome_0": "hg38", 
     "source": "gencode", 
-    "status": "archived"
+    "status": "current"
   }, 
   "schema": {
     "fields": [

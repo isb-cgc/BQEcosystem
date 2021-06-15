@@ -3,7 +3,7 @@
   "friendlyName": "GENCODE V22 VERSIONED", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "genome_annotation", 
     "reference_genome_0": "hg38", 
     "source": "gencode", 

@@ -8,7 +8,7 @@
     "source": "sanger",
     "reference_genome_0": "hg38",
     "category": "genome_annotation",
-    "data_type": "genomic_reference_database"
+    "data_type": "reference_database"
   },
   "schema": {
     "fields": [

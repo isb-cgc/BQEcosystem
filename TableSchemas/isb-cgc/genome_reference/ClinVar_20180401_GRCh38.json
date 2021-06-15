@@ -3,7 +3,7 @@
   "friendlyName": "CLINVAR 20180401 GRCH38",
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
     "source": "clinvar", 

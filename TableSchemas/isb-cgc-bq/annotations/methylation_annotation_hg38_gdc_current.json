@@ -3,7 +3,7 @@
   "friendlyName": "HG38 DNA METHYLATION ANNOTATION", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "dna_methylation", 
     "reference_genome_0": "hg38", 
     "source": "gdc", 

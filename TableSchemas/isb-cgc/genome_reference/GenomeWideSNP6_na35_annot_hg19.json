@@ -7,7 +7,7 @@
   "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type_0": "gene_expression", 
     "data_type_1": "microarray", 
     "reference_genome_0": "hg19", 
