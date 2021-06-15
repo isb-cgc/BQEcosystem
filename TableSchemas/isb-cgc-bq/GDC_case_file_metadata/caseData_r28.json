@@ -1,6 +1,6 @@
 {
   "description": "Data was generated from file metadata information from the GDC release 28, downloaded Feb, 2021. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-280", 
-  "friendlyName": "CASE DATA REL28 VERSIONED", 
+  "friendlyName": "CASE METADATA REL28 VERSIONED", 
   "labels": {
     "access": "open", 
     "category": "file_metadata", 

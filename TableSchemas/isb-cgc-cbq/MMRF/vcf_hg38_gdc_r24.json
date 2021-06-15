@@ -1,0 +1,430 @@
+{
+  "creationTime": "1617394709157", 
+  "description": "WARNING NOTICE\nYou are accessing a US Government web site which may contain information that must be protected under the US Privacy Act or other sensitive information and is intended for Government authorized use only.\n\nUnauthorized attempts to upload information, change information, or use of this web site may result in disciplinary action, civil, and/or criminal penalties. Unauthorized users of this website should have no expectation of privacy regarding any communications or data processed by this website.\n\nAnyone accessing this website expressly consents to monitoring of their actions and all communications or data transiting or stored on related to this website and is advised that if such monitoring reveals possible evidence of criminal activity, NIH may provide that evidence to law enforcement officials.\n\nYou are reminded that when accessing controlled information you are bound by the dbGaP DATA USE CERTIFICATION AGREEMENT (DUCA) for each dataset.\n\nVariant information compiled from all currently active MMRF VCF files across multiple workflow types from the GDC release 24.", 
+  "friendlyName": "MMRF HG38 ALL MUTATIONS VCF RELEASE 24",
+  "etag": "zJfNstYgAu6qf2y5feCkWA==", 
+  "id": "isb-cgc-cbq:MMRF_versioned.vcf_hg38_gdc_r24",
+  "kind": "bigquery#table", 
+  "lastModifiedTime": "1617396701753", 
+  "location": "US", 
+  "numBytes": "0", 
+  "numLongTermBytes": "0", 
+  "numRows": "0", 
+  "schema": {
+    "fields": [
+      {
+        "description": "Submitter identifier", 
+        "mode": "NULLABLE", 
+        "name": "case_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Study abbreviations for the type of cancer.", 
+        "mode": "NULLABLE", 
+        "name": "project_short_name", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Chromosome: An identifier from the reference genome or an angle-bracketed ID String (\u201c<ID>\u201d)pointing  to  a  contig  in  the  assembly  file  (cf.  the  ##assembly  line  in  the  header).   All  entries  for  a  specificCHROM should form a contiguous block within the VCF file.  The colon symbol (:)  must be absent from allchromosome names to avoid parsing errors when dealing with breakends.  (String, no white-space permitted,Required).", 
+        "mode": "NULLABLE", 
+        "name": "CHROM", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Position:  The reference position, with the 1st base having position 1.  Positions are sorted numerically,in increasing order, within each reference sequence CHROM. It is permitted to have multiple records with thesame POS. Telomeres are indicated by using positions 0 or N+1, where N is the length of the correspondingchromosome or contig.  (Integer, Required)", 
+        "mode": "NULLABLE", 
+        "name": "POS", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "Dentifier:  Semi-colon separated list of unique identifiers where available.  If this is a dbSNP variant it isencouraged to use the rs number(s).  No identifier should be present in more than one data record.  If there is noidentifier available, then the missing value should be used.  (String, no white-space or semi-colons permitted)", 
+        "mode": "NULLABLE", 
+        "name": "ID", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Reference base(s):  Each base must be one of A,C,G,T,N (case insensitive).  Multiple bases are permitted.The  value  in  the  POS  field  refers  to  the  position  of  the  first  base  in  the  String.   For  simple  insertions  anddeletions in which either the REF or one of the ALT alleles would otherwise be null/empty, the REF and ALTStrings must include the base before the event (which must be reflected in the POS field),  unless the eventoccurs at position 1 on the contig in which case it must include the base after the event; this padding base isnot required (although it is permitted) for e.g. complex substitutions or other events where all alleles have atleast one base represented in their Strings.  If any of the ALT alleles is a symbolic allele (an angle-bracketedID String \u201c<ID>\u201d) then the padding base is required and POS denotes the coordinate of the base precedingthe polymorphism.  Tools processing VCF files are not required to preserve case in the allele Strings.  (String,Required).", 
+        "mode": "NULLABLE", 
+        "name": "REF", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Alternate base(s):  Comma separated list of alternate non-reference alleles.  These alleles do not have tobe called in any of the samples.  Options are base Strings made up of the bases A,C,G,T,N,*, (case insensitive)or  an  angle-bracketed  ID  String  (\u201c<ID>\u201d)  or  a  breakend  replacement  string  as  described  in  the  section  onbreakends.  The \u2018*\u2019 allele is reserved to indicate that the allele is missing due to a upstream deletion.  If thereare no alternative alleles, then the missing value should be used.  Tools processing VCF files are not requiredto preserve case in the allele String, except for IDs, which are case sensitive.  (String; no whitespace, commas,or angle-brackets are permitted in the ID String itself)", 
+        "mode": "NULLABLE", 
+        "name": "ALT", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Quality:  Phred-scaled quality score for the assertion made in ALT. i.e.\u221210log10prob(call in ALT iswrong).  If ALT is \u2018.\u2019  (no variant) then this is\u221210log10prob(variant), and if ALT is not \u2018.\u2019  this is\u221210log10prob(no variant).  If unknown, the missing value should be specified.  (Numeric)", 
+        "mode": "NULLABLE", 
+        "name": "QUAL", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Filter status: PASS if this position has passed all filters, i.e., a call is made at this position.  Otherwise,if the site has not passed all filters, a semicolon-separated list of codes for filters that fail.  e.g. \u201cq10;s50\u201d mightindicate that at this site the quality is below 10 and the number of samples with data is below 50% of the totalnumber of samples.  \u20180\u2019 is reserved and should not be used as a filter String.  If filters have not been applied,then this field should be set to the missing value.  (String, no white-space or semi-colons permitted)", 
+        "mode": "NULLABLE", 
+        "name": "FILTER", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "An extensible list of key-value pairs (fields) describing the variation. See below for some common fields. Multiple fields are separated by semicolons with optional values in the format: <key>=<data>[,data].", 
+        "mode": "NULLABLE", 
+        "name": "INFO", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "An (optional) extensible list of fields for describing the samples.", 
+        "mode": "NULLABLE", 
+        "name": "FORMAT", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Normal Sample", 
+        "mode": "NULLABLE", 
+        "name": "NORMAL", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Tumor Sample", 
+        "mode": "NULLABLE", 
+        "name": "TUMOR", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another", 
+        "mode": "NULLABLE", 
+        "name": "PGT_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Sum of base quality scores for each allele", 
+        "mode": "NULLABLE", 
+        "name": "QSS_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Occurrence count for each base at this site (A,C,G,T)", 
+        "mode": "NULLABLE", 
+        "name": "BCOUNT_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Genotype when called independently (only filled if called in joint prior mode)", 
+        "mode": "NULLABLE", 
+        "name": "IGT_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Allele fraction of the event in the tumor", 
+        "mode": "NULLABLE", 
+        "name": "AF_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Count of reads in F2R1 pair orientation supporting the alternate allele for normal sample", 
+        "mode": "NULLABLE", 
+        "name": "ALT_F2R1_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Somatic Score", 
+        "mode": "NULLABLE", 
+        "name": "SSC_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Strand read counts for normal sample: ref/fwd, ref/rev, var/fwd, var/rev", 
+        "mode": "NULLABLE", 
+        "name": "DP4_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Genotype for the normal sample", 
+        "mode": "NULLABLE", 
+        "name": "GT_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Physical phasing haplotype information, describing how the alternate alleles are phased in relation to one another", 
+        "mode": "NULLABLE", 
+        "name": "PGT_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Count of reads in F1R2 pair orientation supporting the reference allele", 
+        "mode": "NULLABLE", 
+        "name": "REF_F1R2_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Fraction of alt reads indicating OxoG error for normal sample", 
+        "mode": "NULLABLE", 
+        "name": "FOXOG_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Count of reads in F1R2 pair orientation supporting the alternate allele for normal sample", 
+        "mode": "NULLABLE", 
+        "name": "ALT_F1R2_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Variant status relative to non-adjacent Normal,0=wildtype,1=germline,2=somatic,3=LOH,4=post-transcriptional modification,5=unknown", 
+        "mode": "NULLABLE", 
+        "name": "SS_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Variant allele quality", 
+        "mode": "NULLABLE", 
+        "name": "VAQ_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Joint genotype quality (only filled if called in join prior mode)", 
+        "mode": "NULLABLE", 
+        "name": "JGQ_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Allele Depth for the normal sample", 
+        "mode": "NULLABLE", 
+        "name": "AD_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Base quality at this position for the normal sample", 
+        "mode": "NULLABLE", 
+        "name": "BQ_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Variant allele frequency for normal sample", 
+        "mode": "NULLABLE", 
+        "name": "FREQ_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Average mapping quality for each allele present in the genotype", 
+        "mode": "NULLABLE", 
+        "name": "AMQ_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Conditional genotype quality, encoded as a phred quality for the normal sample - 10log10p", 
+        "mode": "NULLABLE", 
+        "name": "GQ_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Count of reads in F2R1 pair orientation supporting the reference allele", 
+        "mode": "NULLABLE", 
+        "name": "REF_F2R1_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group", 
+        "mode": "NULLABLE", 
+        "name": "PID_Normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Combined depth across samples for the normal sample, e.g. DP=154", 
+        "mode": "NULLABLE", 
+        "name": "DP_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Depth of reference-supporting bases", 
+        "mode": "NULLABLE", 
+        "name": "RD_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Average mapping quality across all reads", 
+        "mode": "NULLABLE", 
+        "name": "MQ_Normal", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Sum of base quality scores for each allele", 
+        "mode": "NULLABLE", 
+        "name": "QSS_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Occurrence count for each base at this site (A,C,G,T)", 
+        "mode": "NULLABLE", 
+        "name": "BCOUNT_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Genotype when called independently (only filled if called in joint prior mode)", 
+        "mode": "NULLABLE", 
+        "name": "IGT_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Allele fraction of the event in the tumor", 
+        "mode": "NULLABLE", 
+        "name": "AF_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Average mapping quality for each allele present in the genotype", 
+        "mode": "NULLABLE", 
+        "name": "AMQ_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Physical phasing ID information, where each unique ID within a given sample (but not across samples) connects records within a phasing group", 
+        "mode": "NULLABLE", 
+        "name": "PID_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Combined depth across samples for the tumor sample, e.g. DP=154", 
+        "mode": "NULLABLE", 
+        "name": "DP_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Somatic Score", 
+        "mode": "NULLABLE", 
+        "name": "SSC_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Fraction of alt reads indicating OxoG error for tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "FOXOG_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Variant allele frequency for tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "FREQ_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Joint genotype quality (only filled if called in join prior mode)", 
+        "mode": "NULLABLE", 
+        "name": "JGQ_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Base quality at this position for the tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "BQ_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Allele Depth for the tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "AD_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Conditional genotype quality, encoded as a phred quality for the tumor sample - 10log10p", 
+        "mode": "NULLABLE", 
+        "name": "GQ_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Average mapping quality across all reads", 
+        "mode": "NULLABLE", 
+        "name": "MQ_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Count of reads in F2R1 pair orientation supporting the alternate allele for tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "ALT_F2R1_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Depth of reference-supporting bases", 
+        "mode": "NULLABLE", 
+        "name": "RD_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Count of reads in F2R1 pair orientation supporting the reference allele", 
+        "mode": "NULLABLE", 
+        "name": "REF_F2R1_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Variant allele quality", 
+        "mode": "NULLABLE", 
+        "name": "VAQ_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Variant status relative to non-adjacent Normal,0=wildtype,1=germline,2=somatic,3=LOH,4=post-transcriptional modification,5=unknown", 
+        "mode": "NULLABLE", 
+        "name": "SS_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Count of reads in F1R2 pair orientation supporting the alternate allele for tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "ALT_F1R2_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Genotype for the tumor sample", 
+        "mode": "NULLABLE", 
+        "name": "GT_Tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Count of reads in F1R2 pair orientation supporting the reference allele", 
+        "mode": "NULLABLE", 
+        "name": "REF_F1R2_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Strand read counts for tumor sample: ref/fwd, ref/rev, var/fwd, var/rev", 
+        "mode": "NULLABLE", 
+        "name": "DP4_Tumor", 
+        "type": "FLOAT"
+      }, 
+      {
+        "description": "Workflow process used to generate the vcf.", 
+        "mode": "NULLABLE", 
+        "name": "analysis_workflow_type", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Reference genome", 
+        "mode": "NULLABLE", 
+        "name": "reference", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Tumor types range from 01 - 09, normal types from 10 - 19 and control samples from 20 - 29. See Code Tables Report for a complete list of sample codes", 
+        "mode": "NULLABLE", 
+        "name": "associated_entities__entity_submitter_id", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Google Cloud Storage buckets paths", 
+        "mode": "NULLABLE", 
+        "name": "file_gdc_url", 
+        "type": "STRING"
+      }
+    ]
+  }, 
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc-cbq/datasets/MMRF_versioned/tables/vcf_hg38_gdc_r24", 
+  "tableReference": {
+    "datasetId": "MMRF_versioned", 
+    "projectId": "isb-cgc-cbq", 
+    "tableId": "vcf_hg38_gdc_r24"
+  }, 
+  "type": "VIEW", 
+  "view": {
+    "query": "SELECT * FROM `isb-cgc-cbq.MMRF_data.vcf_hg38_gdc_r24_data`", 
+    "useLegacySql": false
+  }
+}

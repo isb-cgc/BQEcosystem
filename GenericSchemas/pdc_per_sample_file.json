@@ -1,0 +1,12 @@
+{
+  "description": "Per-sample file metadata for the {---tag-project-name---} project was generated using information from PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}.",
+  "friendlyName": "{---tag-friendly-project-name-upper---} PER SAMPLE FILE METADATA FOR PDC",
+  "labels": {
+    "access": "open",
+    "source": "pdc",
+    "status": "current",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "program": "{---tag-program-name-lower---}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "description": "Data was extracted from UniProtKB REST API version {---tag-uniprot-version---}, downloaded from https://www.uniprot.org/uniprot/ in {---tag-extracted-month-year---} ",
+  "friendlyName": "REFSEQ UNIPROT MAPPING",
+  "labels": {
+    "access": "open",
+    "source": "uniprot",
+    "status": "current",
+    "category": "reference_database",
+    "data_type": "proteome_annotation"
+  }
+}
