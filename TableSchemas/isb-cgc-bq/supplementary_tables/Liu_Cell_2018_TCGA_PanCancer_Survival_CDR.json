@@ -1,0 +1,24 @@
+{
+  "description": "", 
+  "friendlyName": "", 
+  "labels": {
+    "program": "",
+    "category": "", 
+    "access": "open", 
+    "data_type": "", 
+    "reference_genome": "", 
+    "source": "", 
+    "status": ""
+  }, 
+  "schema": {
+    "fields": [
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "", 
+        "type": ""
+      }, 
+      
+    ]
+  }
+}
