@@ -1,24 +1,130 @@
 {
   "description": "", 
-  "friendlyName": "", 
+  "friendlyName": "SUPPPLEMENTAL - TCGA PANCANCER CLINICAL DATA RESOURCE (TCGA-CDR)", 
   "labels": {
-    "program": "",
-    "category": "", 
+    "program": "TCGA",
+    "category": "clinical_biospecimen_data", 
     "access": "open", 
-    "data_type": "", 
-    "reference_genome": "", 
-    "source": "", 
-    "status": ""
+    "data_type": "clinical_data",  
+    "source": "lit", 
+    "status": "current"
   }, 
   "schema": {
     "fields": [
       {
+        "description": "Row number from excel spread sheet", 
+        "mode": "NULLABLE", 
+        "name": "Row", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "bcr_patient_barcode", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "cancer type such as brca, ov, blca, skcm, gbm, and so on.", 
+        "mode": "NULLABLE", 
+        "name": "type", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Age, in years, at which a condition or disease was first diagnosed", 
+        "mode": "NULLABLE", 
+        "name": "age_at_initial_pathologic_diagnosis", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "Participant gender; eg. MALE, FEMALE", 
+        "mode": "NULLABLE", 
+        "name": "gender", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "The race of a participant, independent from ethnicity; eg. White, Black or African American, Asian, Native Hawaiian or other Pacific Islander, American Indian or Alaska Native", 
+        "mode": "NULLABLE", 
+        "name": "race", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "The stage of the cancer, based on surgery or biopsy; eg. Stage II, Stage III, Stage IV, Stage IVA, Stage IIIB, Stage IIIS, Stage IIIC", 
+        "mode": "NULLABLE", 
+        "name": "ajcc_pathologic_tumor_stage", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "	The stage of the cancer, based on results of tests done before surgery, such as physical exams and imaging scans; eg. Stage I, Stage II, Stage III, Stage IV", 
+        "mode": "NULLABLE", 
+        "name": "clinical_stage", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Four digit year of the initial pathologic diagnosis", 
+        "mode": "NULLABLE", 
+        "name": "histological_type", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Term to describe the number of levels or 'tiers' in the system used to describe the cellular histologic grade in a tissue specimen. NCI CDE: 3385981", 
+        "mode": "NULLABLE", 
+        "name": "histological_grade", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Four digit year of the initial pathologic diagnosis", 
+        "mode": "NULLABLE", 
+        "name": "initial_pathologic_dx_year", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "The response that describes the menopausal status of a patient (a condition or state relating to the permanent cessation of menses).", 
+        "mode": "NULLABLE", 
+        "name": "menopause_status", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Days since birth (a negative value, relative to the date of diagnosis which is considered to be t=0)", 
+        "mode": "NULLABLE", 
+        "name": "birth_days_to", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "The latest updated vital status from follow-up data, eg Alive, Dead, [Discrepancy], NULL", 
+        "mode": "NULLABLE", 
+        "name": "vital_status", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "The latest updated tumor status from follow-up data", 
+        "mode": "NULLABLE", 
+        "name": "tumor_status", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "The latest 'last_contact_days_to' updated from the follow-up data files", 
+        "mode": "NULLABLE", 
+        "name": "last_contact_days_to", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "The available 'death_days_to' from the follow-up data files", 
+        "mode": "NULLABLE", 
+        "name": "death_days_to", 
+        "type": "INTEGER"
+      }, 
+      {
+        "description": "The available 'cause_of_death' from the follow-up data files", 
+        "mode": "NULLABLE", 
+        "name": "cause_of_death", 
+        "type": "STRING"
+      }, 
+      {
         "description": "", 
         "mode": "NULLABLE", 
-        "name": "", 
+        "name": "new_tumor_event_type", 
         "type": ""
       }, 
-      
     ]
   }
 }
