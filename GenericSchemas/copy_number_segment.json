@@ -69,13 +69,13 @@
       {
         "description": "The greater strand copy number of the two strands of the DNA.", 
         "mode": "NULLABLE", 
-        "name": "Major_Copy_Number", 
+        "name": "major_copy_number", 
         "type": "INTEGER"
       }, 
       {
         "description": "The smaller strand copy number of the two strands of the DNA.", 
         "mode": "NULLABLE", 
-        "name": "Minor_Copy_Number", 
+        "name": "minor_copy_number", 
         "type": "FLOAT"
       }, 
       {
