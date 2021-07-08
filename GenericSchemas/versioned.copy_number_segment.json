@@ -61,6 +61,12 @@
         "type": "INTEGER"
       }, 
       {
+        "description": "The weighted median of the strand copy numbers.", 
+        "mode": "NULLABLE", 
+        "name": "copy_number", 
+        "type": "INTEGER"
+      },
+      {
         "description": "The greater strand copy number of the two strands of the DNA.", 
         "mode": "NULLABLE", 
         "name": "Major_Copy_Number", 
