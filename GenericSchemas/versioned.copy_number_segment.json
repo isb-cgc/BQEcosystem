@@ -1,5 +1,5 @@
 { 
-  "description": "Data was extracted from {---tag-release---} of the active GDC archive from GDC on {---tag-release-month-year---} for {---tag-program---} copy number segment data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---}", 
+  "description": "Data was extracted from {---tag-release---} of the active GDC archive from GDC on {---tag-release-month-year---} for {---tag-program---} copy number segment data. More details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-{---tag-release---}", 
   "friendlyName": "TCGA HG38 COPY NUMBER SEGMENT MASKED {---tag-release---} VERSIONED", 
   "labels": {
     "access": "open", 
