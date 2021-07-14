@@ -61,7 +61,7 @@
         "type": "INTEGER"
       }, 
       {
-        "description": "The weighted median of the strand copy numbers.", 
+        "description": "The sum of the Major and Minor Copy Numbers", 
         "mode": "NULLABLE", 
         "name": "copy_number", 
         "type": "INTEGER"
