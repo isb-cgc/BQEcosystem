@@ -67,13 +67,13 @@
         "type": "INTEGER"
       },
       {
-        "description": "The greater strand copy number of the two strands of the DNA.", 
+        "description": "The Copy Number of the more prevalent allele set in the dataset for the genomic region", 
         "mode": "NULLABLE", 
         "name": "major_copy_number", 
         "type": "INTEGER"
       }, 
       {
-        "description": "The smaller strand copy number of the two strands of the DNA.", 
+        "description": "The Copy Number of the less prevalent allele set in the dataset for the genomic region", 
         "mode": "NULLABLE", 
         "name": "minor_copy_number", 
         "type": "FLOAT"
