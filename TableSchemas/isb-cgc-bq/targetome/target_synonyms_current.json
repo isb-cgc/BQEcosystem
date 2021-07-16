@@ -1,4 +1,15 @@
-[
-    {"name": "targetID", "type": "integer", "mode": "nullable", "description": "ID for Targetome target"},
-    {"name": "synonym", "type": "string", "mode": "nullable", "description": "Synonym or alias for Targetome target"}
-]
+{
+  "description": "Targetome target synonyms",
+  "friendlyName": "Targetome target synonyms",
+  "labels": {
+    "access": "open",
+    "program": "targetome",
+    "status": "archived"
+  },
+  "schema": {
+    "fields": [
+      {"name": "targetID", "type": "integer", "mode": "nullable", "description": "ID for Targetome target"},
+      {"name": "synonym", "type": "string", "mode": "nullable", "description": "Synonym or alias for Targetome target"}
+    ]
+  }
+}
