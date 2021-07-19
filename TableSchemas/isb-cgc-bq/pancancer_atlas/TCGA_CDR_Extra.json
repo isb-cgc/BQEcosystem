@@ -1,0 +1,120 @@
+{
+  "description": "Data loaded from the 'An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics' by  Liu J, et al. Contains a curated resource of extra clinical annotations and survival data for TCGA data.\nMore details:\nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018\nhttps://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "friendlyName": "PanCancer Clinical Data Resource (CDR) Outcome and Survival - Extra", 
+  "labels": {
+    "program": "pancancer_atlas",
+    "category": "clinical_biospecimen_data",
+    "access": "open", 
+    "data_type_0": "clinical_supplement", 
+    "data_type_1": "survival",
+    "reference_genome": "hg19", 
+    "source": "gdc", 
+    "status": "current"
+  }, 
+  "schema": {
+    "fields": [
+            {
+        "description": "Data row number", 
+        "mode": "NULLABLE", 
+        "name": "Row", 
+        "type": "STRING"
+      },
+      {
+        "description": "TCGA barcode identifier for the study participant, eg TCGA-02-0001", 
+        "mode": "NULLABLE", 
+        "name": "bcr_patient_barcode", 
+        "type": "STRING"
+      },
+      {
+        "description": "TCGA study abbreviation, eg LAML. Full list available at https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables/tcga-study-abbreviations", 
+        "mode": "NULLABLE", 
+        "name": "type", 
+        "type": "SRING"
+      },
+      {
+        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_1", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_time_1", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_2", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_time_2", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFS", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "mode": "NULLABLE", 
+        "name": "PFS_time", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Disease-specific survival with competing risk events, 0 for censored, 1 for DSS event of interest, 2 for competing risk death.", 
+        "mode": "NULLABLE", 
+        "name": "DSS_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Disease-specific survival time in days, whose values are the same as DSS.time in Tab TCGA-CDR.", 
+        "mode": "NULLABLE", 
+        "name": "DFI_time_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Progression-free interval with competing risk events, 0 for censored, 1 for PFI event of interest, 2 for competing risk death.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "progression-free interval time in days, whose values are the same as PFI.time in Tab TCGA-CDR.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_time_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "progression-free interval (PFI.1) with competing risk events, 0 for censored, 1 for PFI.1 event of interest, 2 for competing risk death.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_1_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "progression-free interval time in days, whose values are the same as PFI.time.1", 
+        "mode": "NULLABLE", 
+        "name": "PFI_time_1_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "progression-free interval (PFI.1) with competing risk events, 0 for censored, 1 for PFI.2 event of interest, 2 for competing risk death.", 
+        "mode": "NULLABLE", 
+        "name": "PFI_2_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "progression-free interval time in days, whose values are the same as PFI.time.2", 
+        "mode": "NULLABLE", 
+        "name": "PFI_time_2_cr", 
+        "type": "INTEGER"
+      }
+    ]
+  }
+}
