@@ -76,6 +76,18 @@
       {
         "description": "Disease-specific survival time in days, whose values are the same as DSS.time in Tab TCGA-CDR.", 
         "mode": "NULLABLE", 
+        "name": "DSS_time_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Disease-free interval with competing risk events, 0 for censored, 1 for DFI event of interest, 2 for competing risk death.",
+        "mode": "NULLABLE", 
+        "name": "DFI_cr", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "Disease-specific survival time in days, whose values are the same as DSS.time in Tab TCGA-CDR.", 
+        "mode": "NULLABLE", 
         "name": "DFI_time_cr", 
         "type": "INTEGER"
       },
