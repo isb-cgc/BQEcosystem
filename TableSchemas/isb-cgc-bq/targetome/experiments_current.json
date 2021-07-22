@@ -1,14 +1,15 @@
 {
-  "description": "Targetome experimental evidence",
-  "friendlyName": "Targetome experimental evidence",
+  "friendlyName": "TARGETOME EXPERIMENTAL EVIDENCE",
+  "description": "Targetome experimental evidence table, providing experimental support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/) in July 2021.",
   "labels": {
     "access": "open",
-    "program": "targetome",
-    "status": "archived"
+    "source": "targetome",
+    "category": "reference_database",
+    "status": "current"
   },
   "schema": {
     "fields": [
-      {"name": "expID", "type": "integer", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome n"},
+      {"name": "expID", "type": "integer", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome interactions"},
       {"name": "exp_assayType", "type": "string", "mode": "nullable", "description": "Assay type used for experimental evidence"},
       {"name": "exp_assayValueLow", "type": "float", "mode": "nullable", "description": "Low value for experimental assay"},
       {"name": "exp_assayValueMedian", "type": "string", "mode": "nullable", "description": "Median value for experimental assay"},

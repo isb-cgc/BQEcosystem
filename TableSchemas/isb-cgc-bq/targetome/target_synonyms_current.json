@@ -1,10 +1,11 @@
 {
-  "description": "Targetome target synonyms",
-  "friendlyName": "Targetome target synonyms",
+  "friendlyName": "TARGETOME TARGET SYNONYMS",
+  "description": "Synonyms for targets involved in Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/) in July 2021.",
   "labels": {
     "access": "open",
-    "program": "targetome",
-    "status": "archived"
+    "source": "targetome",
+    "category": "reference_database",
+    "status": "current"
   },
   "schema": {
     "fields": [
