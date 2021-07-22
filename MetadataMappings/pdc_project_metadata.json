@@ -70,5 +70,11 @@
     "project_friendly_name": "PEDIATRIC BRAIN CANCER",
     "program_short_name": "CBTTC",
     "program_labels": "cbttc"
+  },
+  "Proteogenomic Translational Research Centers (PTRC)": {
+    "project_short_name": "proteogenomic_translational_research_centers",
+    "project_friendly_name": "PROTEOGENOMIC TRANSLATIONAL RESEARCH CENTERS (PTRC)",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac3"
   }
 }
