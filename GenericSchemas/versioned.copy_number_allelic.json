@@ -61,15 +61,21 @@
         "type": "INTEGER"
       }, 
       {
-        "description": "Number of probes in the SNP array used to infer this CN segment", 
+        "description": "The sum of the Major and Minor Copy Numbers", 
         "mode": "NULLABLE", 
-        "name": "num_probes", 
+        "name": "copy_number", 
+        "type": "INTEGER"
+      },
+      {
+        "description": "The Copy Number of the more prevalent allele set in the dataset for the genomic region", 
+        "mode": "NULLABLE", 
+        "name": "major_copy_number", 
         "type": "INTEGER"
       }, 
       {
-        "description": "Mean CN value for this segment -- the value is base2 log(CN/2), centered at 0.", 
+        "description": "The Copy Number of the less prevalent allele set in the dataset for the genomic region", 
         "mode": "NULLABLE", 
-        "name": "segment_mean", 
+        "name": "minor_copy_number", 
         "type": "FLOAT"
       }, 
       {
