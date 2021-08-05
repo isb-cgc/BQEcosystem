@@ -1,0 +1,17 @@
+{
+    "friendlyname": "UNIPROT TO REACTOME PHYSICAL ENTITIES ALL LEVELS",
+    "description": "",
+    "labels": {},
+    "schema": {
+        "fields": [
+            {"name": "source_id", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "pe_stable_id", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "pe_name", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "pathway_stable_id", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "url", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "pathway_name", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "evidence_code", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "species", "type": "string", "mode": "nullable", "description": "<add description here>"}
+        ]
+    }
+}
