@@ -108,12 +108,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/Ensembl_GRCh37_75", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "Ensembl_GRCh37_75"
-  }, 
-  "type": "TABLE"
+  }
 }
