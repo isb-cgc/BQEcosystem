@@ -1,0 +1,16 @@
+{
+    "friendlyName": "REACTOME PATHWAYS HIERARCHY",
+    "description": "Reactome pathways parent to child hierarchy.",
+    "labels": {
+      "access": "open",
+      "source": "reactome",
+      "category": "reference_database",
+      "status": "current"
+    },
+    "schema": {
+        "fields": [
+            {"name": "parent_id", "type": "string", "mode": "nullable", "description": "Reactome pathway stable identifier associated with 'child' pathways"},
+            {"name": "child_id", "type": "string", "mode": "nullable", "description": "Reactome pathway stable identifier associated with 'parent' pathways"}
+        ]
+    }
+}

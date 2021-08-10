@@ -1,0 +1,19 @@
+{
+    "friendlyName": "REACTOME PHYSICAL ENTITIES",
+    "description": "External protein, gene, or small molecule identifiers that have been mapped to Reactome physical entities.",
+    "labels": {
+      "access": "open",
+      "source": "reactome",
+      "category": "reference_database",
+      "status": "current"
+    },
+    "schema": {
+        "fields": [
+            {"name": "stable_id", "type": "string", "mode": "nullable", "description": "Reactome physical entity stable identifier"},
+            {"name": "ensembl_id", "type": "string", "mode": "nullable", "description": "Ensembl database identifier"},
+            {"name": "uniprot_id", "type": "string", "mode": "nullable", "description": "UniProt database identifier"},
+            {"name": "name", "type": "string", "mode": "nullable", "description": "Reactome physical entity name"},
+            {"name": "location", "type": "string", "mode": "nullable", "description": "Reactome physical entity location"}
+        ]
+    }
+}
