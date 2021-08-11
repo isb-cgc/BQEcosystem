@@ -6,7 +6,7 @@
     "category": "processed_-omics_data", 
     "data_type_0": "protein_quantification", 
     "reference_genome_0": "hg19", 
-    "source_0": "literature", 
+    "source": "literature", 
     "status": "current"
   }, 
   "schema": {
@@ -54,12 +54,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/hg19_data_previews/tables/TCGA_Breast_BI_CDAP_r3_phosphopeptide_itraq", 
-  "tableReference": {
-    "datasetId": "hg19_data_previews", 
-    "projectId": "isb-cgc", 
-    "tableId": "TCGA_Breast_BI_CDAP_r3_phosphopeptide_itraq"
-  }, 
-  "type": "TABLE"
+  }
 }
