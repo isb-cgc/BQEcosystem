@@ -1,0 +1,18 @@
+{
+    "friendlyName": "REACTOME PATHWAYS",
+    "description": "Reactome pathways downloaded from https://reactome.org/download-data/ on 08/2021 and filtered to only include human pathways (i.e., species = 'Homo sapiens').",
+    "labels": {
+      "access": "open",
+      "source": "reactome",
+      "category": "reference_database",
+      "status": "current"
+    },
+    "schema": {
+        "fields": [
+            {"name": "stable_id", "type": "string", "mode": "nullable", "description": "Reactome pathway stable identifier"},
+            {"name": "url", "type": "string", "mode": "nullable", "description": "URL to pathway on the Reactome website"},
+            {"name": "name", "type": "string", "mode": "nullable", "description": "Reactome pathwayh name"},
+            {"name": "species", "type": "string", "mode": "nullable", "description": "Reactome pathway species"}
+        ]
+    }
+}

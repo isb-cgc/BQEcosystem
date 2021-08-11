@@ -1,0 +1,17 @@
+{
+    "friendlyName": "REACTOME PHYSICAL ENTITIES TO PATHWAY MAPPING",
+    "description": "External protein, gene, or small molecules mapped to Reactome pathways. This data was downloaded from https://reactome.org/download-data on 8/2021 and filtered to include only human physical entities and pathways.",
+    "labels": {
+      "access": "open",
+      "source": "reactome",
+      "category": "reference_database",
+      "status": "current"
+    },
+    "schema": {
+        "fields": [
+            {"name": "pe_stable_id", "type": "string", "mode": "nullable", "description": "Reactome physical entity stable identifier"},
+            {"name": "pathway_stable_id", "type": "string", "mode": "nullable", "description": "Reactome pathway stable identifier"},
+            {"name": "evidence_code", "type": "string", "mode": "nullable", "description": "Code that indicates the type of evidence supporting physical entity relation to pathway"}
+        ]
+    }
+}
