@@ -56,12 +56,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/hg19_data_previews/tables/TCGA_Breast_BI_CDAP_r3_phosphosite_itraq", 
-  "tableReference": {
-    "datasetId": "hg19_data_previews", 
-    "projectId": "isb-cgc", 
-    "tableId": "TCGA_Breast_BI_CDAP_r3_phosphosite_itraq"
-  }, 
-  "type": "TABLE"
+  }
 }
