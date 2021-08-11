@@ -7,7 +7,8 @@
     "access": "open", 
     "reference_genome": "hg19",
     "data_type": "protein_expression",
-    "source": "gdc", 
+    "source_0": "gdc",  
+    "source_1": "literature",
     "status": "current"
   }, 
   "schema": {
