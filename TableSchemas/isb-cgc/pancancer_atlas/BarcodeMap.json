@@ -7,7 +7,8 @@
     "access": "open", 
     "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
-    "source": "gdc", 
+    "source_0": "gdc", 
+    "source_1": "literature"
     "status": "deprecated"
   }, 
   "schema": {
