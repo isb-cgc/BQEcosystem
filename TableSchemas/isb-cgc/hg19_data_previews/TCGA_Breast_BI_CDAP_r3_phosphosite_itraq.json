@@ -4,7 +4,7 @@
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "protein_quantification", 
+    "data_type_0": "protein_expression", 
     "reference_genome_0": "hg19", 
     "program_0": "cptac2",
     "program_1": "tcga",
