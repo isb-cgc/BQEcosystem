@@ -5,6 +5,8 @@
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type_0": "protein_quantification", 
+    "program_0": "cptac2",
+    "program_1": "tcga",
     "reference_genome_0": "hg19", 
     "source": "literature", 
     "status": "current"
