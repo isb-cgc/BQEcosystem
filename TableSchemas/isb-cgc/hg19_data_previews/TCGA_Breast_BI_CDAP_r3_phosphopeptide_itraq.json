@@ -1,23 +1,14 @@
 {
-  "creationTime": "1495077696162", 
   "description": "Data was extracted from .tsv files now found at https://cptc-xfer.uis.georgetown.edu/publicData/Phase_II_Data/TCGA_Breast_Cancer derived from the following publication in Nature in 2017: \"Proteogenomics connects somatic mutations to signalling in breast cancer\". Phosphopeptide quantitations was extracted using the CPTAC iTRAQ phosphopeptide quantitations for a set of breast cancer samples. The samples are identified using the same TCGA barcodes that are used in other available TCGA tables in BigQuery, allowing for convenient integrative analyses. \nMore details: https://www.ncbi.nlm.nih.gov/pubmed/27251275.", 
-  "etag": "pTR3oB18cDpNlkZ6G5FunQ==", 
   "friendlyName": "TCGA-BRCA ITRAQ PHOSPHOPEPTIDE QUANTITATION REPORT", 
-  "id": "isb-cgc:hg19_data_previews.TCGA_Breast_BI_CDAP_r3_phosphopeptide_itraq", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
     "data_type_0": "protein_quantification", 
     "reference_genome_0": "hg19", 
-    "source_0": "cptac", 
+    "source_0": "literature", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325292892", 
-  "location": "US", 
-  "numBytes": "205339241", 
-  "numLongTermBytes": "205339241", 
-  "numRows": "2511668", 
   "schema": {
     "fields": [
       {
