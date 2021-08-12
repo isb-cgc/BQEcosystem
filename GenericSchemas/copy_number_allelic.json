@@ -31,7 +31,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "sample barcode, eg TCGA-12-1089-01A.", 
+        "description": "sample barcode, eg TCGA-12-1089-01A", 
         "mode": "NULLABLE", 
         "name": "sample_barcode", 
         "type": "STRING"
