@@ -32,7 +32,7 @@
         "type": "STRING"
       },
       {
-        "description": "sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "description": "sample barcode, eg TCGA-12-1089-01A", 
         "mode": "NULLABLE", 
         "name": "sample_barcode", 
         "type": "STRING"
