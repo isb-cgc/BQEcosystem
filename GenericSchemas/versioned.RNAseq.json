@@ -38,7 +38,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-31", 
+        "description": "aliquot barcode, eg TCGA-12-1089-01A-01D-0517-31", 
         "mode": "NULLABLE", 
         "name": "aliquot_barcode", 
         "type": "STRING"
