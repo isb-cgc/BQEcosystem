@@ -8,7 +8,7 @@
     "reference_genome_0": "hg19", 
     "program_0": "cptac2",
     "program_1": "tcga",
-    "source_0": "litature", 
+    "source_0": "literature", 
     "status": "current"
   }, 
   "schema": {
