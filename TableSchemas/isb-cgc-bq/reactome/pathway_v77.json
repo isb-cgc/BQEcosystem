@@ -11,7 +11,7 @@
         "fields": [
             {"name": "stable_id", "type": "string", "mode": "nullable", "description": "Reactome pathway stable identifier"},
             {"name": "url", "type": "string", "mode": "nullable", "description": "URL to pathway on the Reactome website"},
-            {"name": "name", "type": "string", "mode": "nullable", "description": "Reactome pathwayh name"},
+            {"name": "name", "type": "string", "mode": "nullable", "description": "Reactome pathway name"},
             {"name": "species", "type": "string", "mode": "nullable", "description": "Reactome pathway species"},
             {"name": "lowest_level", "type": "boolean", "mode": "nullable", "description": "Indicates if pathway is at the lowest level in the hierarchy, i.e., not a parent"}
         ]
