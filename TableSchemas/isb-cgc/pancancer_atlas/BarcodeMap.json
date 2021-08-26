@@ -8,7 +8,7 @@
     "data_type": "biospecimen_supplement", 
     "reference_genome": "hg19", 
     "source_0": "gdc", 
-    "source_1": "literature"
+    "source_1": "literature",
     "status": "deprecated"
   }, 
   "schema": {
