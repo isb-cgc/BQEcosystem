@@ -1,5 +1,5 @@
 {
-  "description": "Data loaded from the 'An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics' by  Liu J, et al. Contains a curated resource of extra clinical annotations and survival data for TCGA data.\nMore details:\nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018\nhttps://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "description": "Data loaded from the article 'An Integrated TCGA Pan-Cancer Clinical Data Resource to Drive High-Quality Survival Outcome Analytics' by  Liu J, et al. Contains a curated resource of extra clinical annotations and survival data for TCGA data.\nMore details:\nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018\nand\nhttps://gdc.cancer.gov/about-data/publications/pancanatlas", 
   "friendlyName": "PanCancer Clinical Data Resource (CDR) Outcome and Survival - Extra", 
   "labels": {
     "program": "pancancer_atlas",
@@ -44,25 +44,25 @@
         "type": "INTEGER"
       },
       {
-        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise.", 
         "mode": "NULLABLE", 
         "name": "PFI_2", 
         "type": "INTEGER"
       },
       {
-        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise.", 
         "mode": "NULLABLE", 
         "name": "PFI_time_2", 
         "type": "INTEGER"
       },
       {
-        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "description": "Progression-free interval event, 1 for patient having new tumor event whether it was a progression of disease, local recurrence, distant metastasis, new primary tumor of the cancer, or died with the cancer without new tumor event, including cases with a new tumor event whose type is N/A. 0 for censored otherwise.", 
         "mode": "NULLABLE", 
         "name": "PFS", 
         "type": "INTEGER"
       },
       {
-        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise. New primary tumor in other organ was censored.", 
+        "description": "Progression-free interval time in days, for events, either new_tumor_event_dx_days_to or death_days_to,  whichever is applicable; or for censored cases, either last_contact_days_to or death_days_to, whichever is applicable. 0 for censored otherwise.", 
         "mode": "NULLABLE", 
         "name": "PFS_time", 
         "type": "INTEGER"
@@ -74,7 +74,7 @@
         "type": "INTEGER"
       },
       {
-        "description": "Disease-specific survival time in days, whose values are the same as DSS.time in Tab TCGA-CDR.", 
+        "description": "Disease-specific survival time in days, whose values are the same as DSS_time in isb-project-zero:pancancer_atlas.TCGA_CDR.", 
         "mode": "NULLABLE", 
         "name": "DSS_time_cr", 
         "type": "INTEGER"
@@ -86,7 +86,7 @@
         "type": "INTEGER"
       },
       {
-        "description": "Disease-specific survival time in days, whose values are the same as DSS.time in Tab TCGA-CDR.", 
+        "description": "Disease-specific survival time in days, whose values are the same as DSS_time in isb-project-zero:pancancer_atlas.TCGA_CDR.", 
         "mode": "NULLABLE", 
         "name": "DFI_time_cr", 
         "type": "INTEGER"
@@ -98,31 +98,31 @@
         "type": "INTEGER"
       },
       {
-        "description": "progression-free interval time in days, whose values are the same as PFI.time in Tab TCGA-CDR.", 
+        "description": "progression-free interval time in days, whose values are the same as PFI_time in Tab TCGA-CDR.", 
         "mode": "NULLABLE", 
         "name": "PFI_time_cr", 
         "type": "INTEGER"
       },
       {
-        "description": "progression-free interval (PFI.1) with competing risk events, 0 for censored, 1 for PFI.1 event of interest, 2 for competing risk death.", 
+        "description": "progression-free interval (PFI_1) with competing risk events, 0 for censored, 1 for PFI_1 event of interest, 2 for competing risk death.", 
         "mode": "NULLABLE", 
         "name": "PFI_1_cr", 
         "type": "INTEGER"
       },
       {
-        "description": "progression-free interval time in days, whose values are the same as PFI.time.1", 
+        "description": "progression-free interval time in days, whose values are the same as PFI_time_1", 
         "mode": "NULLABLE", 
         "name": "PFI_time_1_cr", 
         "type": "INTEGER"
       },
       {
-        "description": "progression-free interval (PFI.1) with competing risk events, 0 for censored, 1 for PFI.2 event of interest, 2 for competing risk death.", 
+        "description": "progression-free interval (PFI_1) with competing risk events, 0 for censored, 1 for PFI_2 event of interest, 2 for competing risk death.", 
         "mode": "NULLABLE", 
         "name": "PFI_2_cr", 
         "type": "INTEGER"
       },
       {
-        "description": "progression-free interval time in days, whose values are the same as PFI.time.2", 
+        "description": "progression-free interval time in days, whose values are the same as PFI_time_2", 
         "mode": "NULLABLE", 
         "name": "PFI_time_2_cr", 
         "type": "INTEGER"
