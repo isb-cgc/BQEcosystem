@@ -1,5 +1,5 @@
 {
-  "friendlyName": "TARGETOME SOURCES",
+  "friendlyName": "TARGETOME SOURCES V1 VERSIONED",
   "description": "Targetome literature evidence table, providing support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://github.com/ablucher/The-Cancer-Targetome) in July 2021.",
   "labels": {
     "access": "open",
