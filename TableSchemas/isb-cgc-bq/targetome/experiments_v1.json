@@ -1,0 +1,30 @@
+{
+  "friendlyName": "TARGETOME EXPERIMENTAL EVIDENCE V1 VERSIONED",
+  "description": "Targetome experimental evidence table, providing experimental support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/) in July 2021.",
+  "labels": {
+    "access": "open",
+    "source": "targetome",
+    "category": "reference_database",
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {"name": "expID", "type": "integer", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome interactions"},
+      {"name": "exp_assayType", "type": "string", "mode": "nullable", "description": "Assay type used for experimental evidence"},
+      {"name": "exp_assayValueLow", "type": "float", "mode": "nullable", "description": "Low value for experimental assay"},
+      {"name": "exp_assayValueMedian", "type": "string", "mode": "nullable", "description": "Median value for experimental assay"},
+      {"name": "exp_assayValueHigh", "type": "float", "mode": "nullable", "description": "High value for experimental assay"},
+      {"name": "exp_assayUnits", "type": "string", "mode": "nullable", "description": "Units of measurement for experimental assay"},
+      {"name": "exp_assayRelation", "type": "string", "mode": "nullable", "description": "Relation of values for experimental assay"},
+      {"name": "exp_assayDescription", "type": "string", "mode": "nullable", "description": "Experimental assay description"},
+      {"name": "exp_assaySpecies", "type": "string", "mode": "nullable", "description": "Species used in experimental assay"},
+      {"name": "exp_parentSource", "type": "string", "mode": "nullable", "description": "Source from which experimental assay was obtained"},
+      {"name": "sourceID", "type": "integer", "mode": "nullable", "description": "ID for source of supporting Targetome evidence"},
+      {"name": "PubMedID", "type": "string", "mode": "nullable", "description": "PubMedID identifying literature"},
+      {"name": "databaseName", "type": "string", "mode": "nullable", "description": "Name of database from which supporting evidence and literature are obtained"},
+      {"name": "db_version", "type": "string", "mode": "nullable", "description": "Database version"},
+      {"name": "db_downloadURL", "type": "string", "mode": "nullable", "description": "URL from which database was downloaded"},
+      {"name": "db_downloadDate", "type": "string", "mode": "nullable", "description": "Date on which database was downloaded"}
+    ]
+  }
+}
