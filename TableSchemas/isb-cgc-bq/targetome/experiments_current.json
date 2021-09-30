@@ -1,6 +1,6 @@
 {
   "friendlyName": "TARGETOME EXPERIMENTAL EVIDENCE",
-  "description": "Targetome experimental evidence table, providing experimental support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/) in July 2021.",
+  "description": "Targetome experimental evidence table, providing experimental support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://github.com/ablucher/The-Cancer-Targetome) in July 2021.",
   "labels": {
     "access": "open",
     "source": "targetome",
