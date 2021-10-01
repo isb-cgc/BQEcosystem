@@ -5,6 +5,7 @@
       "access": "open",
       "source": "reactome",
       "category": "reference_database",
+      "data_type": "pathway_annotations",
       "status": "current"
     },
     "schema": {
