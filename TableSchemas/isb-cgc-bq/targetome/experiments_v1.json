@@ -5,6 +5,7 @@
     "access": "open",
     "source": "targetome",
     "category": "reference_database",
+    "data_type": "drug_target_interactions",
     "status": "current"
   },
   "schema": {
