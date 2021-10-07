@@ -25,8 +25,8 @@
       {"name": "targetType", "type": "string", "mode": "nullable", "description": "Type of Targetome target (e.g., protein, DNA, or RNA)"},
       {"name": "target_uniprotID", "type": "string", "mode": "nullable", "description": "Uniprot ID of Targetome target"},
       {"name": "targetSpecies", "type": "string", "mode": "nullable", "description": "Species of Targetome target"},
-      {"name": "sourceID", "type": "string", "mode": "nullable", "description": "ID for source supporting Targetome interaction"},
-      {"name": "expID", "type": "string", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome interaction"}
+      {"name": "sourceID", "type": "integer", "mode": "nullable", "description": "ID for source supporting Targetome interaction"},
+      {"name": "expID", "type": "integer", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome interaction"}
     ]
   }
 }
