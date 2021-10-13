@@ -13,7 +13,7 @@
       {"name": "expID", "type": "integer", "mode": "nullable", "description": "ID for experimental evidence supporting Targetome interactions"},
       {"name": "exp_assayType", "type": "string", "mode": "nullable", "description": "Assay type used for experimental evidence"},
       {"name": "exp_assayValueLow", "type": "float", "mode": "nullable", "description": "Low value for experimental assay"},
-      {"name": "exp_assayValueMedian", "type": "string", "mode": "nullable", "description": "Median value for experimental assay"},
+      {"name": "exp_assayValueMedian", "type": "float", "mode": "nullable", "description": "Median value for experimental assay"},
       {"name": "exp_assayValueHigh", "type": "float", "mode": "nullable", "description": "High value for experimental assay"},
       {"name": "exp_assayUnits", "type": "string", "mode": "nullable", "description": "Units of measurement for experimental assay"},
       {"name": "exp_assayRelation", "type": "string", "mode": "nullable", "description": "Relation of values for experimental assay"},
