@@ -1,5 +1,5 @@
 {
-  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains A curated resource of the clinical annotations for TCGA data and provides recommendations for use of clinical endpoints. It is strongly recommended that this file be used for clinical elements and survival outcome data first.\nMore details: \nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018\nand\nhttps://gdc.cancer.gov/about-data/publications/pancanatlas", 
+  "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains A curated resource of the clinical annotations for TCGA data and provides recommendations for use of clinical endpoints. It is strongly recommended that this file be used for clinical elements and survival outcome data first.\nMore details: \nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018 https://gdc.cancer.gov/about-data/publications/pancanatlas", 
   "friendlyName": "PanCancer Clinical Data Resource (CDR) Outcome and Survival Data", 
   "labels": {
     "program": "pancancer_atlas",
