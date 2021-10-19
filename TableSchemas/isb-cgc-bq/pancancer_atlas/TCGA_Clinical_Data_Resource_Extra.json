@@ -14,7 +14,7 @@
   "schema": {
     "fields": [
             {
-        "description": "Data row number", 
+        "description": "Data row number from the original file", 
         "mode": "NULLABLE", 
         "name": "Row", 
         "type": "STRING"
