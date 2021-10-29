@@ -76,5 +76,11 @@
     "project_friendly_name": "PROTEOGENOMIC TRANSLATIONAL RESEARCH CENTERS (PTRC)",
     "program_short_name": "CPTAC",
     "program_labels": "cptac3"
+  },
+  "CPTAC2-Confirmatory-JHU-Ovarian": {
+    "project_short_name": "CPTAC2_Confirmatory_JHU_Ovarian",
+    "project_friendly_name": "CPTAC2-Confirmatory-JHU-Ovarian",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac2"
   }
 }
