@@ -1,68 +1,97 @@
-[
-  {
-    "description": "GDC unique identifier",
-    "mode": "NULLABLE",
-    "name": "case_gdc_id",
-    "type": "STRING"
+{
+  "creationTime": "1621366662095",
+  "description": "Data was generated from file metadata information from the GDC release 29, downloaded Apr 2021. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-290",
+  "etag": "Em0iMJ7smKFxO8UNmsaFJw==",
+  "friendlyName": "CASE METADATA REL29 VERSIONED",
+  "id": "isb-cgc-bq:GDC_case_file_metadata_versioned.caseData_r29",
+  "kind": "bigquery#table",
+  "labels": {
+    "access": "open",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "source": "gdc",
+    "status": "current"
   },
-  {
-    "description": "Anatomical site of the cancer under investigation or review",
-    "mode": "NULLABLE",
-    "name": "primary_site",
-    "type": "STRING"
+  "lastModifiedTime": "1621366662952",
+  "location": "US",
+  "numBytes": "16863083",
+  "numLongTermBytes": "16863083",
+  "numRows": "85917",
+  "schema": {
+    "fields": [
+      {
+        "description": "GDC unique identifier",
+        "mode": "NULLABLE",
+        "name": "case_gdc_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Anatomical site of the cancer under investigation or review",
+        "mode": "NULLABLE",
+        "name": "primary_site",
+        "type": "STRING"
+      },
+      {
+        "description": "Program dbGaP accession number, eg phs000187",
+        "mode": "NULLABLE",
+        "name": "project_dbgap_accession_number",
+        "type": "STRING"
+      },
+      {
+        "description": "The type of disease studied by the project; e.g. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
+        "mode": "NULLABLE",
+        "name": "project_disease_type",
+        "type": "STRING"
+      },
+      {
+        "description": "Project Name; frequently the same as or similar to the project disease type eg   Acute Lymphoblastic Leukemia - Phase II   or   Breast Invasive Carcinoma   etc",
+        "mode": "NULLABLE",
+        "name": "project_name",
+        "type": "STRING"
+      },
+      {
+        "description": "Program dbGaP accession number, eg phs000178",
+        "mode": "NULLABLE",
+        "name": "program_dbgap_accession_number",
+        "type": "STRING"
+      },
+      {
+        "description": "Program name, eg TCGA or TARGET",
+        "mode": "NULLABLE",
+        "name": "program_name",
+        "type": "STRING"
+      },
+      {
+        "description": "ID of the Project -- e.g. TCGA-BRCA, TARGET-AML, etc",
+        "mode": "NULLABLE",
+        "name": "project_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Submitter identifier, eg HCC1954, TCGA-ZX-AA5X, etc",
+        "mode": "NULLABLE",
+        "name": "case_barcode",
+        "type": "STRING"
+      },
+      {
+        "description": "Total number of files for this case in the GDC legacy archive",
+        "mode": "NULLABLE",
+        "name": "legacy_file_count",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Total number of files for this case in the active (default) GDC archive",
+        "mode": "NULLABLE",
+        "name": "active_file_count",
+        "type": "INTEGER"
+      }
+    ]
   },
-  {
-    "description": "Program dbGaP accession number, eg phs000187",
-    "mode": "NULLABLE",
-    "name": "project_dbgap_accession_number",
-    "type": "STRING"
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc-bq/datasets/GDC_case_file_metadata_versioned/tables/caseData_r29",
+  "tableReference": {
+    "datasetId": "GDC_case_file_metadata_versioned",
+    "projectId": "isb-cgc-bq",
+    "tableId": "caseData_r29"
   },
-  {
-    "description": "The type of disease studied by the project; e.g. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
-    "mode": "NULLABLE",
-    "name": "project_disease_type",
-    "type": "STRING"
-  },
-  {
-    "description": "Project Name; frequently the same as or similar to the project disease type eg   Acute Lymphoblastic Leukemia - Phase II   or   Breast Invasive Carcinoma   etc",
-    "mode": "NULLABLE",
-    "name": "project_name",
-    "type": "STRING"
-  },
-  {
-    "description": "Program dbGaP accession number, eg phs000178",
-    "mode": "NULLABLE",
-    "name": "program_dbgap_accession_number",
-    "type": "STRING"
-  },
-  {
-    "description": "Program name, eg TCGA or TARGET",
-    "mode": "NULLABLE",
-    "name": "program_name",
-    "type": "STRING"
-  },
-  {
-    "description": "ID of the Project -- e.g. TCGA-BRCA, TARGET-AML, etc",
-    "mode": "NULLABLE",
-    "name": "project_id",
-    "type": "STRING"
-  },
-  {
-    "description": "Submitter identifier, eg HCC1954, TCGA-ZX-AA5X, etc",
-    "mode": "NULLABLE",
-    "name": "case_barcode",
-    "type": "STRING"
-  },
-  {
-    "description": "Total number of files for this case in the GDC legacy archive",
-    "mode": "NULLABLE",
-    "name": "legacy_file_count",
-    "type": "INTEGER"
-  },
-  {
-    "description": "Total number of files for this case in the active (default) GDC archive",
-    "mode": "NULLABLE",
-    "name": "active_file_count",
-    "type": "INTEGER"
-  }
-]
+  "type": "TABLE"
+}
