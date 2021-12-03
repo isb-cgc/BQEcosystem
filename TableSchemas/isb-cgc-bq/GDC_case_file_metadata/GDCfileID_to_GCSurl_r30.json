@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 29, October 2021. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-300", 
+  "description": "Data was generated from file metadata information from the GDC release 30, October 2021. Current google cloud storage paths are mapped to file gdc ids.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-300", 
   "friendlyName": "GDC FILE ID TO GCS URLS REL30 VERSIONED", 
   "labels": {
     "access": "open", 
