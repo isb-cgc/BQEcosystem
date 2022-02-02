@@ -1,0 +1,4 @@
+{
+  "dataset_name": "DEPMAP",
+  "description": "This dataset contains data extracted from the DEPMAP.org. The tables within this data set are dynamic and update with new releases; for static tables use DEPMAP_versioned."
+}
