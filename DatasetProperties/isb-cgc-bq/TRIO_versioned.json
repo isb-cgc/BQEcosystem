@@ -1,0 +1,4 @@
+{
+  "dataset_name": "TRIO_versioned",
+  "description": "This dataset contains static versioned TRIO program data extracted from the NCI GDC."
+}
