@@ -1,5 +1,5 @@
 { 
-  "description": "Data was extracted from TCGA DCC on February 2017. RNAseq gene expression data was generated using UNC V2 pipeline.",  
+  "description": "Data was extracted from TCGA DCC on February 2017. RNAseq gene expression data was generated using UNC V2 pipeline. This table is clustered on project_short_name, case_barcode, sample_barcode, and aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.",  
   "friendlyName": "TCGA HG19 RNASEQ GENE EXPRESSION", 
   "id": "isb-cgc-bq:TCGA.RNAseq_hg19_gdc_current",  
   "labels": {
