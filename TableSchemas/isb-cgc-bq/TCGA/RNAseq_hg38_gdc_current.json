@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC on December 2017. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot. This table is clustered on project_short_name, case_barcode, aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.", 
+  "description": "Data was extracted from GDC on December 2017. mRNA expression data was generated using Illumina GA or HiSeq sequencing platforms with information from each of the three files (HTSeq Counts, HTSeq FPKM, HTSeq FPKM-UQ) from the GDC's RNAseq pipeline was combine for each aliquot. This table is clustered on project_short_name, case_barcode, sample_barcode, and aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.", 
   "friendlyName": "TCGA HG38 RNASEQ GENE EXPRESSION", 
   "id": "isb-cgc-bq:TCGA.RNAseq_hg38_gdc_current", 
   "labels": {
