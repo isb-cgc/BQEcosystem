@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC on January 2017 for DNA Methylation data generated using Illumina Human Methylation 27k and 450k platforms.", 
+  "description": "Data was extracted from GDC on January 2017 for DNA Methylation data generated using Illumina Human Methylation 27k and 450k platforms. This table is clustered on project_short_name, case_barcode, aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.", 
   "friendlyName": "TCGA HG38 DNA METHYLATION", 
   "labels": {
     "access": "open", 
