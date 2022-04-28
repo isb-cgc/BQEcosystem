@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. This table is clustered on project_short_name, case_barcode, aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.",  
+  "description": "Data was extracted from GDC legacy archive on April 2017. DNA Methylation data was generated using Illumina Human Methylation 27k and 450k platforms. This table is clustered on project_short_name, case_barcode, sample_barcode, and aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.",  
   "friendlyName": "TCGA HG19 DNA METHYLATION", 
   "labels": {
     "access": "open", 
