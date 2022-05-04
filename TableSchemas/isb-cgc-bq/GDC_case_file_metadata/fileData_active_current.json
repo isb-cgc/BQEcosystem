@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from the GDC active archive release 31, downloaded Feb 2022. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-310",
+  "description": "Data was generated from file metadata information from the GDC active archive release 32, downloaded May 2022. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-320",
   "friendlyName": "FILE METADATA GDC ACTIVE",
   "labels": {
     "access": "open",
