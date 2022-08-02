@@ -60,7 +60,6 @@
   "Amino_acids": "Amino acid substitution caused by the mutation. Only given if the variation affects the protein-coding sequence",
   "Codons": "The alternative codons with the variant base in upper case",
   "Existing_variation": "Known identifier of existing variation",
-  "ALLELE_NUM": "Allele number from input; 0 is reference, 1 is first alternate etc.",
   "DISTANCE": "Shortest distance from the variant to transcript",
   "TRANSCRIPT_STRAND": "The DNA strand (1 or -1) on which the transcript/feature lies",
   "SYMBOL": "Eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown",
