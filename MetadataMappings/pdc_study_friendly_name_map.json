@@ -103,5 +103,8 @@
   "PDC000400": "AML Ex Vivo Drug Response: Sorafenib Treatment - Proteome",
   "PDC000401": "AML Ex Vivo Drug Response: Sorafenib Treatment - Phosphoproteome",
   "PDC000402": "AML Ex Vivo Drug Response: Combination Treatment - Proteome",
-  "PDC000403": "AML Ex Vivo Drug Response: Combination Treatment - Phosphoproteome"
+  "PDC000403": "AML Ex Vivo Drug Response: Combination Treatment - Phosphoproteome",
+  "PDC000408": "PTRC TNBC - Proteome",
+  "PDC000409": "PTRC TNBC - Phosphoproteome",
+  "PDC000410": "PTRC TNBC - Phosphoproteome"
 }
