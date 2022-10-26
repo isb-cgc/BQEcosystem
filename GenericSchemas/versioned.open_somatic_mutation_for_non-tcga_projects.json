@@ -377,13 +377,7 @@
         "mode": "NULLABLE", 
         "name": "Existing_variation", 
         "type": "STRING"
-      }, 
-      {
-        "description": "Allele number from input; 0 is reference, 1 is first alternate etc.", 
-        "mode": "NULLABLE", 
-        "name": "ALLELE_NUM", 
-        "type": "STRING"
-      }, 
+      },  
       {
         "description": "Shortest distance from the variant to transcript", 
         "mode": "NULLABLE", 
@@ -457,11 +451,35 @@
         "type": "STRING"
       }, 
       {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "UNIPROT_ISOFORM", 
+        "type": ""
+      },
+      {
         "description": "RefSeq identifier for this transcript", 
         "mode": "NULLABLE", 
         "name": "RefSeq", 
         "type": "STRING"
       }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "MANE", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "APPRIS", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "FLAGS", 
+        "type": ""
+      },
       {
         "description": "The   SIFT prediction and/or score, with both given as prediction (score)", 
         "mode": "NULLABLE", 
@@ -492,60 +510,186 @@
         "name": "DOMAINS", 
         "type": "STRING"
       }, 
-      {
-        "description": "Non-reference allele and frequency of existing variant in   1000 Genomes", 
+            {
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "GMAF", 
-        "type": "FLOAT"
+        "name": "ThousG_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined African population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "AFR_MAF", 
-        "type": "FLOAT"
+        "name": "ThousG_AFR_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined American population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "AMR_MAF", 
-        "type": "FLOAT"
+        "name": "ThousG_AMR_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined Asian population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "ASN_MAF", 
-        "type": "FLOAT"
+        "name": "ThousG_EAS_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined East Asian population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "EAS_MAF", 
-        "type": "FLOAT"
+        "name": "ThousG_EUR_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined European population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "EUR_MAF", 
-        "type": "FLOAT"
+        "name": "ThousG_SAS_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined South Asian population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "SAS_MAF", 
-        "type": "FLOAT"
+        "name": "ESP_AA_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP African American population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "AA_MAF", 
-        "type": "STRING"
+        "name": "ESP_EA_AF", 
+        "type": ""
       }, 
       {
-        "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP European American population", 
+        "description": "", 
         "mode": "NULLABLE", 
-        "name": "EA_MAF", 
-        "type": "STRING"
+        "name": "gnomAD_AF", 
+        "type": ""
       }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_AFR_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_AMR_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_ASJ_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_EAS_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_FIN_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_NFE_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_OTH_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_SAS_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "MAX_AF", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "MAX_AF_POPS", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_AFR_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_AMR_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_ASJ_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_EAS_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_FIN_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_NFE_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_OTH_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_SAS_AF", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_MAX_AF_adj", 
+        "type": ""
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_MAX_AF_POPS_adj", 
+        "type": ""
+      },
       {
         "description": "Clinical significance of variant from dbSNP", 
         "mode": "NULLABLE", 
