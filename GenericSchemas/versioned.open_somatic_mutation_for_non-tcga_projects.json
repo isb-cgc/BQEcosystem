@@ -709,6 +709,12 @@
         "type": "STRING"
       }, 
       {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "TRANSCRIPTION_FACTORS", 
+        "type": ""
+      },
+      {
         "description": "The source and identifier of a transcription factor binding profile aligned at this position", 
         "mode": "NULLABLE", 
         "name": "MOTIF_NAME", 
@@ -731,6 +737,12 @@
         "mode": "NULLABLE", 
         "name": "MOTIF_SCORE_CHANGE", 
         "type": "STRING"
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "miRNA", 
+        "type": ""
       },
       {
         "description": "The impact modifier for the consequence type", 
@@ -774,114 +786,6 @@
         "name": "MINIMISED", 
         "type": "FLOAT"
       }, 
-      {
-        "description": "Global Allele Frequency from   ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Adjusted Global Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_Adj", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "African/African American Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_AFR", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "American Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_AMR", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "East Asian Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_EAS", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Finnish Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_FIN", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Non-Finnish European Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_NFE", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Other Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_OTH", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "South Asian Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "ExAC_AF_SAS", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Global Allele Frequency from   ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Adjusted Global Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_Adj", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "African/African American Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_AFR", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "American Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_AMR", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "East Asian Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_EAS", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Finnish Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_FIN", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Non-Finnish European Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_NFE", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Other Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_OTH", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "South Asian Allele Frequency from ExAC", 
-        "mode": "NULLABLE", 
-        "name": "nontcga_ExAC_AF_SAS", 
-        "type": "FLOAT"
-      },
       {
         "description": "Indicates if gene that the variant maps to is associated with a phenotype, disease or trait (0, 1, or null)", 
         "mode": "NULLABLE", 
@@ -929,6 +833,30 @@
         "mode": "NULLABLE", 
         "name": "hotspot", 
         "type": "STRING"
+      },
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "RNA_Support", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "RNA_depth", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "RNA_ref_count", 
+        "type": ""
+      }, 
+      {
+        "description": "", 
+        "mode": "NULLABLE", 
+        "name": "RNA_alt_count", 
+        "type": ""
       }, 
       {
         "description": "|-delimited list of mutation caller(s) that agreed on this particular call, always in alphabetical order: muse, mutect, somaticsniper, varscan", 
