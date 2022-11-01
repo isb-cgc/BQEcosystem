@@ -451,10 +451,10 @@
         "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Direct mappings to UniProtKB isoforms", 
         "mode": "NULLABLE", 
         "name": "UNIPROT_ISOFORM", 
-        "type": ""
+        "type": "STRING"
       },
       {
         "description": "RefSeq identifier for this transcript", 
@@ -463,25 +463,25 @@
         "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "MANE (Matched Annotation by NCBI and EMBL-EBI) Transcript", 
         "mode": "NULLABLE", 
         "name": "MANE", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Annotates alternatively spliced transcripts as primary or alternate based on a range of computational methods", 
         "mode": "NULLABLE", 
         "name": "APPRIS", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Transcript quality flags", 
         "mode": "NULLABLE", 
         "name": "FLAGS", 
-        "type": ""
+        "type": "STRINGS"
       },
       {
-        "description": "The   SIFT prediction and/or score, with both given as prediction (score)", 
+        "description": "The SIFT prediction and/or score, with both given as prediction (score)", 
         "mode": "NULLABLE", 
         "name": "SIFT", 
         "type": "STRING"
@@ -511,184 +511,196 @@
         "type": "STRING"
       }, 
             {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes", 
         "mode": "NULLABLE", 
         "name": "ThousG_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined African population", 
         "mode": "NULLABLE", 
         "name": "ThousG_AFR_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined American population", 
         "mode": "NULLABLE", 
         "name": "ThousG_AMR_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined East Asian population", 
         "mode": "NULLABLE", 
         "name": "ThousG_EAS_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined European population", 
         "mode": "NULLABLE", 
         "name": "ThousG_EUR_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined South Asian population", 
         "mode": "NULLABLE", 
         "name": "ThousG_SAS_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP African American population", 
         "mode": "NULLABLE", 
         "name": "ESP_AA_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP European American population", 
         "mode": "NULLABLE", 
         "name": "ESP_EA_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes combined population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes African/American population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_AFR_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes American population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_AMR_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes Ashkenazi Jewish population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_ASJ_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes East Asian population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_EAS_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes Finnish population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_FIN_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes Non-Finnish European population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_NFE_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes other combined population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_OTH_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of existing variant in gnomAD exomes South Asian population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_SAS_AF", 
-        "type": ""
+        "type": "FLOAT"
       }, 
       {
-        "description": "", 
+        "description": "Maximum observed allele frequency in 1000 Genomes, ESP and ExAC/gnomAD", 
         "mode": "NULLABLE", 
         "name": "MAX_AF", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Populations in which maximum allele frequency was observed", 
         "mode": "NULLABLE", 
         "name": "MAX_AF_POPS", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes combined non-cancer population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_AF", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer African/American population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_AFR_AF", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Amish population", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_AMI_AF", 
+        "type": "FLOAT"
+      },
+      {
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Latino population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_AMR_AF", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Ashkenazi Jewish population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_ASJ_AF", 
-        "type": ""
+        "type": "FLOAT"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer East Asian population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_EAS_AF", 
-        "type": ""
+        "type": "FLOAT"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Finnish population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_FIN_AF", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Middle Eastern population", 
+        "mode": "NULLABLE", 
+        "name": "gnomAD_non_cancer_MID_AF", 
+        "type": "FLOAT"
+      },
+      {
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Non-Finnish European population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_NFE_AF", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Other population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_OTH_AF", 
-        "type": ""
+        "type": "FLOAT"
       },
       {
-        "description": "", 
+        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer South Asian population", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_SAS_AF", 
-        "type": ""
+        "type": "FLOAT"
       },
       {
-        "description": "", 
+        "description": "Maximum observed allele frequency in non-cancer gnomAD genomes populations after removing subpopulations with less than 2 allele counts", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_MAX_AF_adj", 
-        "type": ""
+        "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Non-cancer gnomAD genomes populations in which the maximum allele frequency was observed after removing those with less than 2 allele counts", 
         "mode": "NULLABLE", 
         "name": "gnomAD_non_cancer_MAX_AF_POPS_adj", 
-        "type": ""
+        "type": "STRING"
       },
       {
         "description": "Clinical significance of variant from dbSNP", 
@@ -709,10 +721,10 @@
         "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "List of transcription factors which bind to the transcription factor binding profile", 
         "mode": "NULLABLE", 
         "name": "TRANSCRIPTION_FACTORS", 
-        "type": ""
+        "type": "STRING"
       },
       {
         "description": "The source and identifier of a transcription factor binding profile aligned at this position", 
@@ -739,10 +751,10 @@
         "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "SO terms of overlapped miRNA secondary structure feature(s)", 
         "mode": "NULLABLE", 
         "name": "miRNA", 
-        "type": ""
+        "type": "STRING"
       },
       {
         "description": "The impact modifier for the consequence type", 
@@ -829,7 +841,7 @@
         "type": "STRING"
       }, 
       {
-        "description": "TBD", 
+        "description": "A flag indicating if the variant is a known hotspot (Y, N, or null)", 
         "mode": "NULLABLE", 
         "name": "hotspot", 
         "type": "STRING"
