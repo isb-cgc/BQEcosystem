@@ -847,31 +847,31 @@
         "type": "STRING"
       },
       {
-        "description": "", 
+        "description": "Indicates if the variant is found and alleles (Match), simply (Overlap), or is not supported (No) by tumor RNA-Seq. If it has not been checked against RNA-Seq data, the value will be 'Unknown'.", 
         "mode": "NULLABLE", 
         "name": "RNA_Support", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Read depth at this locus if the variant is supported by tumor RNA-seq data.", 
         "mode": "NULLABLE", 
         "name": "RNA_depth", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Read depth supporting the reference allele at this locus if the variant is supported by tumor RNA-seq data.", 
         "mode": "NULLABLE", 
         "name": "RNA_ref_count", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "", 
+        "description": "Read depth supporting the variant allele at this locus if the variant is supported by tumor RNA-seq data.", 
         "mode": "NULLABLE", 
         "name": "RNA_alt_count", 
-        "type": ""
+        "type": "STRING"
       }, 
       {
-        "description": "|-delimited list of mutation caller(s) that agreed on this particular call, always in alphabetical order: muse, mutect, somaticsniper, varscan", 
+        "description": "A semicolon delimited list of supporting variant callers. If an asterisk is added to the caller name, this indicates the locus is a complex variant and this caller overlapped but did not support (e.g., not all callers can detect MNPs)", 
         "mode": "NULLABLE", 
         "name": "callers", 
         "type": "STRING"
