@@ -88,5 +88,11 @@
     "project_friendly_name": "pdac",
     "program_short_name": "ICPC",
     "program_labels": "icpc"
-  }
+  },
+  "CPTAC3 Discovery and Confirmatory": {
+    "project_short_name": "CPTAC3_discovery_and_confirmatory",
+    "project_friendly_name": "CPTAC3-DISCOVERY-AND-CONFIRMATORY",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac3"
+  },
 }
