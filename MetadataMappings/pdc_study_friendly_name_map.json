@@ -109,5 +109,9 @@
   "PDC000403": "AML Ex Vivo Drug Response: Combination Treatment - Phosphoproteome",
   "PDC000408": "PTRC TNBC - Proteome",
   "PDC000409": "PTRC TNBC - Phosphoproteome",
-  "PDC000410": "PTRC TNBC - Phosphoproteome"
+  "PDC000410": "PTRC TNBC - Phosphoproteome",
+  "PDC000460": "Broad Institute - Medulloblastoma - Acetylome",
+  "PDC000431": "Broad Institute - Medulloblastoma - Phospho-tyrosine-enrichments",
+  "PDC000432": "Broad Institute - Medulloblastoma - Phosphoproteome",
+  "PDC0004333": "Broad Institute - Medulloblastoma - Proteome"
 }
