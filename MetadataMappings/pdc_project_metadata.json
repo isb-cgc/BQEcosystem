@@ -82,5 +82,11 @@
     "project_friendly_name": "CPTAC2-Confirmatory-JHU-Ovarian",
     "program_short_name": "CPTAC",
     "program_labels": "cptac2"
+  },
+  "Proteogenomics Analysis to Develop Precision Medicine for Treatment-Resistant Pancreatic Cancer": {
+    "project_short_name": "PDAC",
+    "project_friendly_name": "pdac",
+    "program_short_name": "ICPC",
+    "program_labels": "icpc"
   }
 }
