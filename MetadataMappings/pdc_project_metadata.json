@@ -94,5 +94,11 @@
     "project_friendly_name": "CPTAC3-DISCOVERY-AND-CONFIRMATORY",
     "program_short_name": "CPTAC",
     "program_labels": "cptac3"
+  },
+  "Broad": {
+    "project_short_name": "Broad",
+    "project_friendly_name": "Broad Institute",
+    "program_short_name": "Broad",
+    "program_labels": "Broad Institute"
   }
 }
