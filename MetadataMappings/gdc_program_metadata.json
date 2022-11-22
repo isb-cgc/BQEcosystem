@@ -1,86 +1,87 @@
 {
   "BEATAML1.0": {
     "bq_dataset": "BEATAML1_0",
-    "program_label": {"beataml"}
+    "program_label": "beataml"
   },
   "CCLE": {
     "bq_dataset": "CCLE",
-    "program_label": {"ccle"}
+    "program_label": "ccle"
   },
   "CGCI": {
     "bq_dataset": "CGCI",
-    "program_label": {"cgci"}
+    "program_label": "cgci"
   },
   "CMI": {
     "bq_dataset": "CMI",
-    "program_label": {"cmi"}
+    "program_label": "cmi"
   },
   "CPTAC": {
     "bq_dataset": "CPTAC",
-    "program_label": {"cptac2", "cptac3"}
+    "program_label_0": "cptac2",
+    "prgram_label_1": "cptac3"
   },
   "CTSP": {
     "bq_dataset": "CTSP",
-    "program_label": {"ctsp"}
+    "program_label": "ctsp"
   },
   "EXCEPTIONAL_RESPONDERS": {
     "bq_dataset": "EXC_RESPONDERS",
-    "program_label": {"exceptional_responders"}
+    "program_label": "exceptional_responders"
   },
   "FM": {
     "bq_dataset": "FM",
-    "program_label": {"fm"}
+    "program_label": "fm"
   },
   "GENIE": {
     "bq_dataset": "GENIE",
-    "program_label": {"genie"}
+    "program_label": "genie"
   },
   "HCMI": {
     "bq_dataset": "HCMI",
-    "program_label": {"hcmi"}
+    "program_label": "hcmi"
   },
   "MMRF": {
     "bq_dataset": "MMRF",
-    "program_label": {"mmrf"}
+    "program_label": "mmrf"
   },
   "MP2PRT": {
     "bq_dataset": "MP2PRT",
-    "program_label": {"mp2prt"}
+    "program_label": "mp2prt"
   },
   "NCICCR": {
     "bq_dataset": "NCICCR",
-    "program_label": {"nciccr"}
+    "program_label": "nciccr"
   },
   "OHSU": {
     "bq_dataset": "OHSU",
-    "program_label": {"ohsu"}
+    "program_label": "ohsu"
   },
   "ORGANOID": {
     "bq_dataset": "ORGANOID",
-    "program_label": {"organoid"}
+    "program_label": "organoid"
   },
   "REBC": {
     "bq_dataset": "REBC",
-    "program_label": {"rebc"}
+    "program_label": "rebc"
   },
   "TARGET": {
     "bq_dataset": "TARGET",
-    "program_label": {"target"}
+    "program_label": "target"
   },
   "TCGA": {
     "bq_dataset": "TCGA",
-    "program_label": {"tcga"}
+    "program_label": "tcga"
   },
   "TRIO": {
     "bq_dataset": "TRIO",
-    "program_label": {"trio"}
+    "program_label": "trio"
   },
   "VAREPOP": {
     "bq_dataset": "VAREPOP",
-    "program_label": {"varepop"}
+    "program_label": "varepop"
   },
   "WCDT": {
     "bq_dataset": "WCDT",
-    "program_label": {"wcdt"}
+    "program_label": "wcdt"
   }
 }
