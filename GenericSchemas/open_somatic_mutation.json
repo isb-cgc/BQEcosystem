@@ -6,6 +6,7 @@
     "category": "processed_-omics_data", 
     "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
+    "program": "{---tag-program-name-lower---}",
     "program_0": "{---tag-program-name-lower-0---}",
     "program_1": "{---tag-program-name-lower-1---}",
     "source": "gdc", 
