@@ -85,7 +85,7 @@
   },
   "Proteogenomics Analysis to Develop Precision Medicine for Treatment-Resistant Pancreatic Cancer": {
     "project_short_name": "PDAC",
-    "project_friendly_name": "pdac",
+    "project_friendly_name": "PDAC",
     "program_short_name": "ICPC",
     "program_labels": "icpc"
   },
@@ -100,5 +100,12 @@
     "project_friendly_name": "BROAD INSTITUTE",
     "program_short_name": "BROAD",
     "program_labels": "broad_institute"
+  },
+  {
+  "APOLLO1": {
+    "project_short_name": "APOLLO1",
+    "project_friendly_name": "APOLLO1",
+    "program_short_name": "APOLLO1",
+    "program_labels": "apollo1"
   }
 }
