@@ -113,5 +113,8 @@
   "PDC000430": "Broad Institute - Medulloblastoma - Acetylome",
   "PDC000431": "Broad Institute - Medulloblastoma - Phospho-tyrosine-enrichments",
   "PDC000432": "Broad Institute - Medulloblastoma - Phosphoproteome",
-  "PDC000433": "Broad Institute - Medulloblastoma - Proteome"
+  "PDC000433": "Broad Institute - Medulloblastoma - Proteome",
+  "PDC000434": "APOLLO LUAD - Proteome",
+  "PDC000435": "APOLLO LUAD - Phosphoproteome - Ti02",
+  "PDC000436": "APOLLO LUAD - Phosphoproteome - FeNTA"
 }
