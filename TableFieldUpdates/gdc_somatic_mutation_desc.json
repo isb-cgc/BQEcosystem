@@ -1,7 +1,7 @@
 {
-  "project_short_name": "Project name abbreviation; the program name appended with a project name abbreviation; eg. TCGA-OV, etc.",
-  "case_barcode": "Original case barcode, eg TCGA-DX-A8BN",
-  "primary_site": "Anatomical site of the cancer under investigation or review",
+  "project_short_name": ["", "Project name abbreviation; the program name appended with a project name abbreviation; eg. TCGA-OV, etc."],
+  "case_barcode": ["", "Original case barcode, eg TCGA-DX-A8BN"],
+  "primary_site": ["", "Anatomical site of the cancer under investigation or review"],
   "Hugo_Symbol": "HUGO symbol for the gene (HUGO symbols are always in all caps). Unknown is used for regions that do not correspond to a gene",
   "Entrez_Gene_Id": "Entrez gene ID (an integer). 0 is used for regions that do not correspond to a gene region or Ensembl ID",
   "Center": "One or more genome sequencing center reporting the variant",
