@@ -72,7 +72,7 @@
   "SWISSPROT":{"exception":"","type":"STRING","description":"UniProtKB/Swiss-Prot accession"},
   "TREMBL":{"exception":"","type":"STRING","description":"UniProtKB/TrEMBL identifier of protein product"},
   "UNIPARC":{"exception":"","type":"STRING","description":"UniParc identifier of protein product"},
-  "UNIPROT_ISOFORM":{"exception":"","type":"STRING","description":"todo new field"},
+  "UNIPROT_ISOFORM":{"exception":"","type":"STRING","description":"Direct mappings to UniProtKB isoforms"},
   "RefSeq":{"exception":"","type":"STRING","description":"RefSeq identifier for this transcript"},
   "MANE":{"exception":"","type":"STRING","description":"MANE (Matched Annotation by NCBI and EMBL-EBI) Transcript"},
   "APPRIS":{"exception":"","type":"STRING","description":"Annotates alternatively spliced transcripts as primary or alternate based on a range of computational methods"},
