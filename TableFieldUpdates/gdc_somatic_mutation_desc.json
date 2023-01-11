@@ -81,7 +81,7 @@
   "PolyPhen":{"exception":"","type":"STRING","description":"The PolyPhen prediction and/or score"},
   "EXON":{"exception":"","type":"STRING","description":"The exon number (out of total number)"},
   "INTRON":{"exception":"","type":"STRING","description":"The intron number (out of total number)"},
-  "DOMAINS":{"exception":"","type":"FLOAT","description":"The source and identifier of any overlapping protein domains"},
+  "DOMAINS":{"exception":"","type":"STRING","description":"The source and identifier of any overlapping protein domains"},
   "ThousG_AF":{"exception":"","type":"FLOAT","description":"todo new field"},
   "ThousG_AFR_AF":{"exception":"","type":"FLOAT","description":"todo new field"},
   "ThousG_AMR_AF":{"exception":"","type":"FLOAT","description":"todo new field"},
