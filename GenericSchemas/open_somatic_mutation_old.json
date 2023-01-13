@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from {---tag-release---} of the active GDC archive in {---tag-release-month-year---} for {---tag-program---} somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---} Note: Some files may contain no mutation data after GDC filtering processes. They are not included in this table. Please reference the GDC documentation for more information on somatic mutation filtering processes: https://docs.gdc.cancer.gov/Data/File_Formats/MAF_Format/.", 
-  "friendlyName": "{---tag-program---} {---tag-ref-genome-0---} SOMATIC MUTATION",  
+  "friendlyName": "{---tag-program---} {---tag-ref-genome-0---} SOMATIC MUTATION {---tag-release---} VERSIONED",  
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
