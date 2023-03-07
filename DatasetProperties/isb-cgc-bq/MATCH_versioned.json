@@ -1,0 +1,4 @@
+{
+  "dataset_name": "MATCH_versioned",
+  "description": "This data set contains static data for the Molecular Analysis for Therapy Choice (MATCH Z1D) precision medcine clincal trial program extracted from the NCI GDC. See https://www.cancer.gov/about-cancer/treatment/clinical-trials/nci-supported/nci-match for more information."
+}
