@@ -84,11 +84,11 @@
     "bq_dataset": "WCDT",
     "program_label": "wcdt"
   },
-  "MATCH-Z1D": {
-    "bq_dataset": "MATCH_Z1D",
-    "program_label": "match_z1d"
+  "MATCH": {
+    "bq_dataset": "MATCH",
+    "program_label": "match"
   },
-  "CDDP-EAGLE": {
+  "CDDP_EAGLE": {
     "bq_dataset": "CDDP_EAGLE",
     "program_label": "cddp_eagle"
   }
