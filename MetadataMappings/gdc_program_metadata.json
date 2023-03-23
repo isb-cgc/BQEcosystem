@@ -83,5 +83,13 @@
   "WCDT": {
     "bq_dataset": "WCDT",
     "program_label": "wcdt"
+  },
+  "MATCH": {
+    "bq_dataset": "MATCH",
+    "program_label": "match"
+  },
+  "CDDP_EAGLE": {
+    "bq_dataset": "CDDP_EAGLE",
+    "program_label": "cddp_eagle"
   }
 }
