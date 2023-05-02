@@ -104,7 +104,7 @@
   "APOLLO1": {
     "project_short_name": "APOLLO1",
     "project_friendly_name": "APOLLO1",
-    "program_short_name": "APOLLO1",
-    "program_labels": "apollo1"
+    "program_short_name": "APOLLO",
+    "program_labels": "apollo"
   }
 }
