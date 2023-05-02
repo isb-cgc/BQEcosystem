@@ -1,4 +1,4 @@
 {
-  "dataset_name": "APOLLO1",
-  "description": "This data set contains the current APOLLO1 program data extracted from the NCI PDC. The tables within this data set are dynamic and update with new releases; for static tables use APOLLO1_versioned."
+  "dataset_name": "APOLLO",
+  "description": "This data set contains the current APOLLO1 project data extracted from the NCI PDC and APOLLO program data extracted from the NCI GDC. The tables within this data set are dynamic and update with new releases; for static tables use APOLLO_versioned."
 }
