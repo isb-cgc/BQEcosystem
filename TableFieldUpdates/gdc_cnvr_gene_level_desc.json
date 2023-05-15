@@ -10,8 +10,9 @@
   "start_pos":{"exception":"","type":"INTEGER","description":"1-based start chromosome position of isoform"},
   "end_pos":{"exception":"","type":"INTEGER","description":"1-based end chromosome position of isoform"},
   "copy_number":{"exception":"","type":"INTEGER","description":"The sum of the Major and Minor Copy Numbers"},
-  "min_copy_number":{"exception":"","type":"INTEGER","description":"TBD"},
-  "max_copy_number":{"exception":"","type":"INTEGER","description":"TBD"},
-  "start":{"exception":"","type":"","description":""},
-  "end":{"exception":"","type":"","description":""}
+  "min_copy_number":{"exception":"INTEGER","type":"INTEGER","description":"TBD"},
+  "max_copy_number":{"exception":"INTEGER","type":"INTEGER","description":"TBD"},
+  "start":{"exception":"","type":"INTEGER","description":"TBD"},
+  "end":{"exception":"","type":"INTEGER","description":"TDB"},
+  "source_file_name":{"exception":"","type":"STRING","description":"TBD"}
 }
