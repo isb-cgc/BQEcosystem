@@ -12,6 +12,6 @@
   "copy_number":{"exception":"","type":"INTEGER","description":"The sum of the Major and Minor Copy Numbers"},
   "min_copy_number":{"exception":"","type":"INTEGER","description":"TBD"},
   "max_copy_number":{"exception":"","type":"INTEGER","description":"TBD"},
-  "Start":{"exception":"","type":"","description":""},
-  "End":{"exception":"","type":"","description":""}
+  "start":{"exception":"","type":"","description":""},
+  "end":{"exception":"","type":"","description":""}
 }
