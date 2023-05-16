@@ -15,5 +15,6 @@
   "start":{"exception":"","type":"INTEGER","description":"TBD"},
   "end":{"exception":"","type":"INTEGER","description":"TDB"},
   "source_file_name":{"exception":"","type":"STRING","description":"TBD"},
-  "source_file_id":{"exception":"","type":"STRING","description":"TBD"}
+  "source_file_id":{"exception":"","type":"STRING","description":"TBD"},
+  "GDC_Aliquot":{"exception":"","type":"STRING","description":"TBD"}
 }
