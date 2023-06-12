@@ -91,5 +91,9 @@
   "CDDP_EAGLE": {
     "bq_dataset": "CDDP_EAGLE",
     "program_label": "cddp_eagle"
+  },
+  "APOLLO": {
+    "bq_dataset": "APOLLO",
+    "program_label": "apollo"
   }
 }
