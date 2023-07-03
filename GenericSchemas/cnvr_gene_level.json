@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from r{---tag-release---} of the active GDC archive in {---tag-extracted-month-year---} for {---tag-program---} copy number variation gene level data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---}", 
+  "description": "Data was extracted from release {---tag-release---} of the active GDC archive in {---tag-extracted-month-year---} for {---tag-program---} copy number variation gene level data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-{---tag-release-url-anchor---}", 
   "friendlyName": "{---tag-program---} HG38 COPY NUMBER VARIATION GENE LEVEL",  
   "labels": {
     "access": "open", 
