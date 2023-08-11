@@ -128,5 +128,12 @@
   "PDC000434": "APOLLO LUAD - Proteome",
   "PDC000435": "APOLLO LUAD - Phosphoproteome - Ti02",
   "PDC000436": "APOLLO LUAD - Phosphoproteome - FeNTA",
+  "PDC000439": "CPTAC UCEC Confirmatory Study",
+  "PDC000440": "CPTAC UCEC Confirmatory Study – CompRef Proteome",
+  "PDC000441": "CPTAC UCEC Confirmatory Study – Phosphoproteome",
+  "PDC000442": "CPTAC UCEC Confirmatory Study – CompRef Phosphoproteome",
+  "PDC000443": "CPTAC UCEC Confirmatory Study – Acetylome",
+  "PDC000444": "CPTAC UCEC Confirmatory Study – CompRef Acetylome",
+  "PDC000445": "CPTAC UCEC Confirmatory Study – Glycoproteome",
   "PDC000471": "CPTAC CCRCC Discovery Study - Intact Glycoproteome"
 }
