@@ -1,0 +1,11 @@
+{
+  "description": "Data was generated from file metadata information from the GDC release {---tag-version---}, downloaded {---tag-extracted-month-year---}. Image slides are mapped to case information.\nMore details: {---tag-release-notes-url---}",
+  "friendlyName": "SLIDE IMAGES TO CASE IDS MAP",
+  "labels": {
+    "access": "open",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "source": "gdc",
+    "status": "current"
+  }
+}

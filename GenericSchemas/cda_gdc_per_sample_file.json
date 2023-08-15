@@ -1,0 +1,13 @@
+{
+  "description": "Data was generated from file metadata for {---tag-project-name---} data in the GDC active archive for release {---tag-version---} from {---tag-extracted-month-year---}. More details: {---tag-release-notes-url---}",
+  "friendlyName": "{---tag-friendly-project-name-upper---} hg38 PER SAMPLE FILE METADATA",
+  "labels": {
+    "access": "open",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "program": "{---tag-program-name-lower---}",
+    "reference_genome_0": "hg38",
+    "source": "gdc",
+    "status": "current"
+  }
+}
