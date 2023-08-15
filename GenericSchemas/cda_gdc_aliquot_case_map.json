@@ -1,0 +1,11 @@
+{
+  "description": "Data was generated from file metadata information from the GDC release {---tag-version---}, downloaded {---tag-extracted-month-year---}. Aliquot barcodes are mapped to case information.\nMore details: {---tag-release-notes-url---}",
+  "friendlyName": "ALIQUOT IDS TO CASE IDS",
+  "labels": {
+    "access": "open",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "source": "gdc",
+    "status": "current"
+  }
+}
