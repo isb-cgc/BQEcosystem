@@ -5,7 +5,8 @@
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "program": "{---tag-program-label---}",
+    "program_0": "{---tag-program-label-0---}",
+    "program_1": "{---tag-program-label-1---}",
     "reference_genome_0": "hg38",
     "source": "gdc",
     "status": "current"
