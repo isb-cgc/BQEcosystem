@@ -55,6 +55,7 @@
   "project_id": "ID of the Project, e.g. TCGA-BRCA, TARGET-AML, etc.",
   "project_name": "Project Name; frequently the same as or similar to the project disease type, e.g. Acute Lymphoblastic Leukemia - Phase II, Breast Invasive Carcinoma, etc.",
   "project_short_name": "Project name abbreviation; the program name appended with a project name abbreviation, eg. TCGA-OV, etc.",
+  "project_short_name_suffix": "The code representing a project within a program. For some programs, this can be a disease code.",
   "sample_barcode": "Original/submitter sample ID",
   "sample_gdc_id": "Unique GDC identifier for this sample (corresponds to the sample_barcode), e.g. a1ec9279-c1a6-4e58-97ed-9ec1f36187c5--this can be used to access more information from the GDC data portal",
   "sample_is_ffpe": "Whether a sample is FFPE; either False, None, True, or null",
