@@ -18,12 +18,6 @@
     "program_label_0": "cptac2",
     "program_label_1": "tcga"
   },
-  "CPTAC3-Discovery": {
-    "project_short_name": "CPTAC3_discovery",
-    "project_friendly_name": "CPTAC3-DISCOVERY",
-    "program_short_name": "CPTAC",
-    "program_label": "cptac3"
-  },
   "CPTAC2-Other": {
     "project_short_name": "CPTAC2_other",
     "project_friendly_name": "CPTAC2-OTHER",
