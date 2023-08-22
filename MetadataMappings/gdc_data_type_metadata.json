@@ -1,0 +1,50 @@
+{
+  "gene_level_cnvr": {
+    "data_type": "Gene Level Copy Number",
+    "data_category": "Copy Number Variation",
+    "analysis_workflow_type": "",
+    "experimental_strategy": "",
+    "data_format": "",
+    "platform": ""
+  },
+  "rna_seq": {
+    "data_type": "Gene Expression Quantification",
+    "data_category": "Transcriptome Profiling",
+    "analysis_workflow_type": "STAR - Counts",
+    "experimental_strategy": "RNA-Seq",
+    "data_format": "TSV",
+    "platform": ""
+  },
+  "open_somatic_mut": {
+    "data_type": "Masked Somatic Mutation",
+    "data_category": "Simple Nucleotide Variation",
+    "analysis_workflow_type": "",
+    "experimental_strategy": "",
+    "data_format": "MAF",
+    "platform": ""
+  },
+  "cnvr": {
+    "data_type": "Copy Number Segment",
+    "data_category": "Copy Number Variation",
+    "analysis_workflow_type": "",
+    "experimental_strategy": "",
+    "data_format": "TXT",
+    "platform": "Illumia"
+  },
+  "miRNA": {
+    "data_type": "miRNA Expression Quantification",
+    "data_category": "Transcriptome Profiling",
+    "analysis_workflow_type": "BCGSC miRNA Profiling",
+    "experimental_strategy": "miRNA-Seq",
+    "data_format": "TXT",
+    "platform": ""
+  },
+  "miRNA_iso": {
+    "data_type": "Isoform Expression Quantification",
+    "data_category": "Transcriptome Profiling",
+    "analysis_workflow_type": "BCGSC miRNA Profiling",
+    "experimental_strategy": "miRNA-Seq",
+    "data_format": "TXT",
+    "platform": ""
+  }
+}
