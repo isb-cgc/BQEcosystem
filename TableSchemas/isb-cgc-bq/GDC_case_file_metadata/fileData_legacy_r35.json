@@ -1,23 +1,25 @@
 {
-  "description": "Data was generated from file metadata information from the GDC active archive release 37, downloaded April 2023. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-370",
-  "friendlyName": "FILE METADATA GDC ACTIVE",
+  "description": "Data was generated from file metadata information from the GDC legacy archive release 35, downloaded Sept 2022. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-350",
+  "friendlyName": "FILE METADATA GDC LEGACY REL35 VERSIONED",
+  "id": "isb-cgc-bq:GDC_case_file_metadata_versioned.fileData_legacy_r35",
+  "kind": "bigquery#table",
   "labels": {
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
     "source": "gdc",
-    "status": "current"
+    "status": "archived"
   },
   "schema": {
     "fields": [
       {
-        "description": "Referring to the default/main database at the GDC. In this table, this field is always current.",
+        "description": "Referring to the default/main database at the GDC. In this table, this field is always legacy.",
         "mode": "NULLABLE",
         "name": "dbName",
         "type": "STRING"
       },
       {
-        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba4",
+        "description": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba5",
         "mode": "NULLABLE",
         "name": "file_gdc_id",
         "type": "STRING"
@@ -32,24 +34,6 @@
         "description": "Access Control List -- if access is controlled, this field contains the dbGaP accession, eg phs000179",
         "mode": "NULLABLE",
         "name": "acl",
-        "type": "STRING"
-      },
-      {
-        "description": "GDC file UUIDs for input file(s)",
-        "mode": "NULLABLE",
-        "name": "analysis_input_file_gdc_ids",
-        "type": "STRING"
-      },
-      {
-        "description": "Link to GDC workflow on github",
-        "mode": "NULLABLE",
-        "name": "analysis_workflow_link",
-        "type": "STRING"
-      },
-      {
-        "description": "Workflow name eg  STAR 2-Pass  ",
-        "mode": "NULLABLE",
-        "name": "analysis_workflow_type",
         "type": "STRING"
       },
       {
@@ -71,7 +55,7 @@
         "type": "STRING"
       },
       {
-        "description": "Original archive submitter name, eg  nationwidechildrens.org_BRCA.bio.Level_1.56",
+        "description": "Original archive sumbitter name, eg  nationwidechildrens.org_BRCA.bio.Level_1.56",
         "mode": "NULLABLE",
         "name": "archive_submitter_id",
         "type": "STRING"
@@ -107,13 +91,13 @@
         "type": "STRING"
       },
       {
-        "description": "Program dbGaP accession number, eg phs000188",
+        "description": "Program dbGaP accession number, eg phs000189",
         "mode": "NULLABLE",
         "name": "project_dbgap_accession_number",
         "type": "STRING"
       },
       {
-        "description": "The type of disease studied by the project; eg. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
+        "description": "The type of disease studied by the project; e.g. Sarcoma,  Breast Invasive Carcinoma,Acute Lymphoblastic Leukemia, etc",
         "mode": "NULLABLE",
         "name": "project_disease_type",
         "type": "STRING"
@@ -143,7 +127,31 @@
         "type": "STRING"
       },
       {
-        "description": "Timestamp of creation, eg 2016-10-27T21:58:12.297090-05:10",
+        "description": "One of CGC, GSC, BCR, COM (or null)",
+        "mode": "NULLABLE",
+        "name": "center_type",
+        "type": "STRING"
+      },
+      {
+        "description": "TCGA codes for the Professional Organization or Group (Center) which has submitted the data, more info: https://gdc.cancer.gov/resources-TCGA-users/TCGA-code-tables/center-codes",
+        "mode": "NULLABLE",
+        "name": "center_code",
+        "type": "STRING"
+      },
+      {
+        "description": "Center name, eg BCM, BI, WUGSC ",
+        "mode": "NULLABLE",
+        "name": "center_name",
+        "type": "STRING"
+      },
+      {
+        "description": "Center abbreviation, eg WUSM",
+        "mode": "NULLABLE",
+        "name": "center_short_name",
+        "type": "STRING"
+      },
+      {
+        "description": "Timestamp of creation, eg 2016-10-27T21:58:12.297090-05:11",
         "mode": "NULLABLE",
         "name": "created_datetime",
         "type": "STRING"
@@ -164,24 +172,6 @@
         "description": "Experimental source of the data type, eg Tissue slide image, RNA-Seq",
         "mode": "NULLABLE",
         "name": "data_type",
-        "type": "STRING"
-      },
-      {
-        "description": "Semicolon-separated list of GDC file UUIDs",
-        "mode": "NULLABLE",
-        "name": "downstream_analyses__output_file_gdc_ids",
-        "type": "STRING"
-      },
-      {
-        "description": "Name of GDC workflow, eg VarScan2 Annotation (if applicable, NULL where no information is available)",
-        "mode": "NULLABLE",
-        "name": "downstream_analyses__workflow_link",
-        "type": "STRING"
-      },
-      {
-        "description": "Name of GDC workflow, eg VarScan2 Annotation (if applicable, NULL where no information is available)",
-        "mode": "NULLABLE",
-        "name": "downstream_analyses__workflow_type",
         "type": "STRING"
       },
       {
@@ -233,7 +223,31 @@
         "type": "STRING"
       },
       {
-        "description": "Platform used to generate this data, eg  Illumina  , or  Affymetrix SNP 6.10",
+        "description": "GDC file UUID for metadata (eg mage-tab) file",
+        "mode": "NULLABLE",
+        "name": "metadata_file_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Name of GDC metadata file",
+        "mode": "NULLABLE",
+        "name": "metadata_file_name",
+        "type": "STRING"
+      },
+      {
+        "description": "Size of metadata file",
+        "mode": "NULLABLE",
+        "name": "metadata_file_size",
+        "type": "STRING"
+      },
+      {
+        "description": "Type of metadata file, eg mage-tab",
+        "mode": "NULLABLE",
+        "name": "metadata_file_type",
+        "type": "STRING"
+      },
+      {
+        "description": "Platform used to generate this data, eg  Illumina  , or  Affymetrix SNP 6.11",
         "mode": "NULLABLE",
         "name": "platform",
         "type": "STRING"
@@ -245,9 +259,15 @@
         "type": "STRING"
       },
       {
-        "description": "Original submitter file id (eg CGHub analysis_id)",
+        "description": "Original submitter file ID (eg CGHub analysis_id)",
         "mode": "NULLABLE",
         "name": "file_submitter_id",
+        "type": "STRING"
+      },
+      {
+        "description": "Semicolon-delimited list of file tags, eg  coverage  , or  hg19;nocnv  , etc",
+        "mode": "NULLABLE",
+        "name": "file_tags",
         "type": "STRING"
       },
       {
@@ -263,5 +283,6 @@
         "type": "STRING"
       }
     ]
-  }
+  },
+  "type": "TABLE"
 }

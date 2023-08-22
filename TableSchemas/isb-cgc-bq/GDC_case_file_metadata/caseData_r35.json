@@ -1,12 +1,13 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 37, downloaded April 2023. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-370",
-  "friendlyName": "CASE METADATA", 
+  "description": "Data was generated from file metadata information from the GDC release 35, downloaded September 2022. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-350",
+  "friendlyName": "CASE METADATA REL35 VERSIONED",
+  "kind": "bigquery#table",
   "labels": {
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
     "source": "gdc",
-    "status": "current"
+    "status": "archived"
   },
   "schema": {
     "fields": [
@@ -77,5 +78,6 @@
         "type": "INTEGER"
       }
     ]
-  }
+  },
+  "type": "TABLE"
 }

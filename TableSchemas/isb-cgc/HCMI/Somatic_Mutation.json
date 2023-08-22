@@ -1,14 +1,13 @@
 {
-  "description": "Data was extracted from {---tag-release---} of the active GDC archive in {---tag-release-month-year---} for {---tag-program---} somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#{---tag-release-url-anchor---} /n/n Note: Some files may contain no mutation data after GDC filtering processes. They are not included in this table. Please reference the GDC documentation for more information on somatic mutation filtering processes: https://docs.gdc.cancer.gov/Data/File_Formats/MAF_Format/.", 
-  "friendlyName": "{---tag-program---} {---tag-ref-genome-0---} SOMATIC MUTATION {---tag-release---} VERSIONED",  
+  "description": "Data was extracted from release 23 of the active GDC archive on July 2020 for somatic mutation data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-231", 
+  "friendlyName": "HCMI SOMATIC MUTATION",  
   "labels": {
-    "access": "open", 
-    "category": "processed_-omics_data", 
-    "data_type": "somatic_mutation", 
-    "reference_genome_0": "{---tag-ref-genome-0---}", 
-    "program_0": "{---tag-source-0---}", 
-    "program_1": "{---tag-source-1---}", 
-    "source": "gdc", 
+    "access": "open",
+    "category": "processed_-omics_data",
+    "data_type": "somatic_mutations",
+    "program": "hcmi",
+    "reference_genome_0": "hg38",
+    "source": "gdc",
     "status": "current"
   }, 
   "schema": {
@@ -20,17 +19,35 @@
         "type": "STRING"
       }, 
       {
-        "description": "Original case barcode, eg TCGA-DX-A8BN", 
+        "description": "Original TCGA case barcode, eg TCGA-DX-A8BN", 
         "mode": "NULLABLE", 
         "name": "case_barcode", 
         "type": "STRING"
-      },
+      }, 
       {
-        "description": "Anatomical site of the cancer under investigation or review",
-        "mode": "NULLABLE",
-        "name": "primary_site",
+        "description": "TCGA sample barcode for the tumor, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode_tumor", 
         "type": "STRING"
-      },
+      }, 
+      {
+        "description": "TCGA sample barcode for the normal control, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
+        "mode": "NULLABLE", 
+        "name": "sample_barcode_normal", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode for the tumor, eg TCGA-12-1089-01A-01D-0517-01", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode_tumor", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "TCGA aliquot barcode for the normal control, eg TCGA-12-1089-01A-01D-0517-01", 
+        "mode": "NULLABLE", 
+        "name": "aliquot_barcode_normal", 
+        "type": "STRING"
+      }, 
       {
         "description": "HUGO symbol for the gene (HUGO symbols are always in all caps). Unknown is used for regions that do not correspond to a gene", 
         "mode": "NULLABLE", 
@@ -122,30 +139,6 @@
         "type": "STRING"
       }, 
       {
-        "description": "Aliquot barcode for the tumor sample", 
-        "mode": "NULLABLE", 
-        "name": "Tumor_Aliquot_Barcode", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Aliquot barcode for the matched normal sample", 
-        "mode": "NULLABLE", 
-        "name": "Matched_Norm_Aliquot_Barcode", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Primary data genotype. Matched normal sequencing allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
-        "mode": "NULLABLE", 
-        "name": "Match_Norm_Seq_Allele1", 
-        "type": "STRING"
-      },
-      {
-        "description": "Matched normal sequencing allele 2", 
-        "mode": "NULLABLE", 
-        "name": "Match_Norm_Seq_Allele2", 
-        "type": "STRING"
-      },
-      {
         "description": "Secondary data from orthogonal technology. Tumor genotyping (validation) for allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases", 
         "mode": "NULLABLE", 
         "name": "Tumor_Validation_Allele1", 
@@ -156,31 +149,7 @@
         "mode": "NULLABLE", 
         "name": "Tumor_Validation_Allele2", 
         "type": "STRING"
-      },  
-      {
-        "description": "Secondary data from orthogonal technology. Matched normal genotyping (validation) for allele 1. A - symbol for a deletion represents a variant. A - symbol for an insertion represents wild-type allele. Novel inserted sequence for insertion does not include flanking reference bases (cleared in somatic MAF)", 
-        "mode": "NULLABLE", 
-        "name": "Match_Norm_Validation_Allele1", 
-        "type": "STRING"
-      },  
-      {
-        "description": "Secondary data from orthogonal technology. Matched normal genotyping (validation) for allele 2 (cleared in somatic MAF)", 
-        "mode": "NULLABLE", 
-        "name": "Match_Norm_Validation_Allele2", 
-        "type": "STRING"
-      },  
-      {
-        "description": "Second pass results from independent attempt using same methods as primary data source. Generally reserved for 3730 Sanger Sequencing", 
-        "mode": "NULLABLE", 
-        "name": "Verification_Status", 
-        "type": "STRING"
-      },  
-      {
-        "description": "Second pass results from orthogonal technology", 
-        "mode": "NULLABLE", 
-        "name": "Validation_Status", 
-        "type": "STRING"
-      },  
+      }, 
       {
         "description": "An assessment of the mutation as somatic, germline, LOH, post transcriptional modification, unknown, or none. The values allowed in this field are constrained by the value in the Validation_Status field", 
         "mode": "NULLABLE", 
@@ -188,33 +157,9 @@
         "type": "STRING"
       }, 
       {
-        "description": "TCGA sequencing phase (if applicable). Phase should change under any circumstance that the targets under consideration change", 
-        "mode": "NULLABLE", 
-        "name": "Sequencing_Phase", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Molecular assay type used to produce the analytes used for sequencing. Allowed values are a subset of the SRA 1.5 library_strategy field values. This subset matches those used at CGHub", 
-        "mode": "NULLABLE", 
-        "name": "Sequence_Source", 
-        "type": "STRING"
-      }, 
-      {
         "description": "The assay platforms used for the validation call", 
         "mode": "NULLABLE", 
         "name": "Validation_Method", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Not in use", 
-        "mode": "NULLABLE", 
-        "name": "Score", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Not in use", 
-        "mode": "NULLABLE", 
-        "name": "BAM_File", 
         "type": "STRING"
       }, 
       {
@@ -226,13 +171,13 @@
       {
         "description": "Unique GDC identifier for tumor aliquot (10189 unique)", 
         "mode": "NULLABLE", 
-        "name": "Tumor_Aliquot_UUID", 
+        "name": "Tumor_Sample_UUID", 
         "type": "STRING"
       }, 
       {
         "description": "Unique GDC identifier for normal aliquot (10189 unique)", 
         "mode": "NULLABLE", 
-        "name": "Matched_Norm_Aliquot_UUID", 
+        "name": "Matched_Norm_Sample_UUID", 
         "type": "STRING"
       }, 
       {
@@ -269,38 +214,26 @@
         "description": "Read depth across this locus in tumor BAM", 
         "mode": "NULLABLE", 
         "name": "t_depth", 
-        "type": "INTEGER"
+        "type": "STRING"
       }, 
       {
         "description": "Read depth supporting the reference allele in tumor BAM", 
         "mode": "NULLABLE", 
         "name": "t_ref_count", 
-        "type": "INTEGER"
+        "type": "STRING"
       }, 
       {
         "description": "Read depth supporting the variant allele in tumor BAM", 
         "mode": "NULLABLE", 
         "name": "t_alt_count", 
-        "type": "INTEGER"
+        "type": "STRING"
       }, 
       {
         "description": "Read depth across this locus in normal BAM", 
         "mode": "NULLABLE", 
         "name": "n_depth", 
-        "type": "INTEGER"
-      }, 
-      {
-        "description": "Read depth supporting the reference allele in normal BAM (cleared in somatic MAF)", 
-        "mode": "NULLABLE", 
-        "name": "n_ref_count", 
         "type": "STRING"
       }, 
-      {
-        "description": "Read depth supporting the variant allele in normal BAM (cleared in somatic MAF)", 
-        "mode": "NULLABLE", 
-        "name": "n_alt_count", 
-        "type": "STRING"
-      },
       {
         "description": "A semicolon delimited list of all possible variant effects, sorted by priority ([Symbol,Consequence,HGVSp_Short,Transcript_ID,RefSeq,HGVSc,Impact,Canonical,Sift,PolyPhen,Strand])", 
         "mode": "NULLABLE", 
@@ -378,7 +311,13 @@
         "mode": "NULLABLE", 
         "name": "Existing_variation", 
         "type": "STRING"
-      },  
+      }, 
+      {
+        "description": "Allele number from input; 0 is reference, 1 is first alternate etc.", 
+        "mode": "NULLABLE", 
+        "name": "ALLELE_NUM", 
+        "type": "STRING"
+      }, 
       {
         "description": "Shortest distance from the variant to transcript", 
         "mode": "NULLABLE", 
@@ -389,7 +328,7 @@
         "description": "The DNA strand (1 or -1) on which the transcript/feature lies", 
         "mode": "NULLABLE", 
         "name": "TRANSCRIPT_STRAND", 
-        "type": "STRING"
+        "type": "INTEGER"
       }, 
       {
         "description": "Eg TP53, LRP1B, etc (same as Hugo_Symbol field except blank instead of Unknown", 
@@ -452,37 +391,13 @@
         "type": "STRING"
       }, 
       {
-        "description": "Direct mappings to UniProtKB isoforms", 
-        "mode": "NULLABLE", 
-        "name": "UNIPROT_ISOFORM", 
-        "type": "STRING"
-      },
-      {
         "description": "RefSeq identifier for this transcript", 
         "mode": "NULLABLE", 
         "name": "RefSeq", 
         "type": "STRING"
       }, 
       {
-        "description": "MANE (Matched Annotation by NCBI and EMBL-EBI) Transcript", 
-        "mode": "NULLABLE", 
-        "name": "MANE", 
-        "type": "STRING"
-      },
-      {
-        "description": "Annotates alternatively spliced transcripts as primary or alternate based on a range of computational methods", 
-        "mode": "NULLABLE", 
-        "name": "APPRIS", 
-        "type": "STRING"
-      },
-      {
-        "description": "Transcript quality flags", 
-        "mode": "NULLABLE", 
-        "name": "FLAGS", 
-        "type": "STRINGS"
-      },
-      {
-        "description": "The SIFT prediction and/or score, with both given as prediction (score)", 
+        "description": "The   SIFT prediction and/or score, with both given as prediction (score)", 
         "mode": "NULLABLE", 
         "name": "SIFT", 
         "type": "STRING"
@@ -511,198 +426,54 @@
         "name": "DOMAINS", 
         "type": "STRING"
       }, 
-            {
-        "description": "Non-reference allele and frequency of existing variant in 1000 Genomes", 
+      {
+        "description": "Non-reference allele and frequency of existing variant in   1000 Genomes", 
         "mode": "NULLABLE", 
-        "name": "ThousG_AF", 
+        "name": "GMAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined African population", 
         "mode": "NULLABLE", 
-        "name": "ThousG_AFR_AF", 
+        "name": "AFR_MAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined American population", 
         "mode": "NULLABLE", 
-        "name": "ThousG_AMR_AF", 
+        "name": "AMR_MAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined East Asian population", 
         "mode": "NULLABLE", 
-        "name": "ThousG_EAS_AF", 
+        "name": "EAS_MAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined European population", 
         "mode": "NULLABLE", 
-        "name": "ThousG_EUR_AF", 
+        "name": "EUR_MAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in 1000 Genomes combined South Asian population", 
         "mode": "NULLABLE", 
-        "name": "ThousG_SAS_AF", 
+        "name": "SAS_MAF", 
         "type": "FLOAT"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP African American population", 
         "mode": "NULLABLE", 
-        "name": "ESP_AA_AF", 
-        "type": "FLOAT"
+        "name": "AA_MAF", 
+        "type": "STRING"
       }, 
       {
         "description": "Non-reference allele and frequency of existing variant in NHLBI-ESP European American population", 
         "mode": "NULLABLE", 
-        "name": "ESP_EA_AF", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes combined population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_AF", 
+        "name": "EA_MAF", 
         "type": "STRING"
       }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes African/American population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_AFR_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes American population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_AMR_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes Ashkenazi Jewish population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_ASJ_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes East Asian population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_EAS_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes Finnish population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_FIN_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes Non-Finnish European population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_NFE_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes other combined population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_OTH_AF", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Frequency of existing variant in gnomAD exomes South Asian population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_SAS_AF", 
-        "type": "FLOAT"
-      }, 
-      {
-        "description": "Maximum observed allele frequency in 1000 Genomes, ESP and ExAC/gnomAD", 
-        "mode": "NULLABLE", 
-        "name": "MAX_AF", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Populations in which maximum allele frequency was observed", 
-        "mode": "NULLABLE", 
-        "name": "MAX_AF_POPS", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes combined non-cancer population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_AF", 
-        "type": "STRING"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer African/American population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_AFR_AF", 
-        "type": "STRING"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Amish population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_AMI_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Latino population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_AMR_AF", 
-        "type": "STRING"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Ashkenazi Jewish population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_ASJ_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer East Asian population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_EAS_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Finnish population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_FIN_AF", 
-        "type": "STRING"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Middle Eastern population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_MID_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Non-Finnish European population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_NFE_AF", 
-        "type": "STRING"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer Other population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_OTH_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Frequency of exisiting variant in gnomAD genomes non-cancer South Asian population", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_SAS_AF", 
-        "type": "FLOAT"
-      },
-      {
-        "description": "Maximum observed allele frequency in non-cancer gnomAD genomes populations after removing subpopulations with less than 2 allele counts", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_MAX_AF_adj", 
-        "type": "STRING"
-      },
-      {
-        "description": "Non-cancer gnomAD genomes populations in which the maximum allele frequency was observed after removing those with less than 2 allele counts", 
-        "mode": "NULLABLE", 
-        "name": "gnomAD_non_cancer_MAX_AF_POPS_adj", 
-        "type": "STRING"
-      },
       {
         "description": "Clinical significance of variant from dbSNP", 
         "mode": "NULLABLE", 
@@ -721,42 +492,6 @@
         "name": "PUBMED", 
         "type": "STRING"
       }, 
-      {
-        "description": "List of transcription factors which bind to the transcription factor binding profile", 
-        "mode": "NULLABLE", 
-        "name": "TRANSCRIPTION_FACTORS", 
-        "type": "STRING"
-      },
-      {
-        "description": "The source and identifier of a transcription factor binding profile aligned at this position", 
-        "mode": "NULLABLE", 
-        "name": "MOTIF_NAME", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "The relative position of the variation in the aligned TFBP", 
-        "mode": "NULLABLE", 
-        "name": "MOTIF_POS", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "A flag indicating if the variant falls in a high information position of a transcription factor binding profile (TFBP) (Y, N, or null)", 
-        "mode": "NULLABLE", 
-        "name": "HIGH_INF_POS", 
-        "type": "STRING"
-      },
-      {
-        "description": "The difference in motif score of the reference and variant sequences for the TFBP", 
-        "mode": "NULLABLE", 
-        "name": "MOTIF_SCORE_CHANGE", 
-        "type": "STRING"
-      },
-      {
-        "description": "SO terms of overlapped miRNA secondary structure feature(s)", 
-        "mode": "NULLABLE", 
-        "name": "miRNA", 
-        "type": "STRING"
-      },
       {
         "description": "The impact modifier for the consequence type", 
         "mode": "NULLABLE", 
@@ -797,12 +532,66 @@
         "description": "Alleles in this variant have been converted to minimal representation before consequence calculation (1 or null)", 
         "mode": "NULLABLE", 
         "name": "MINIMISED", 
-        "type": "FLOAT"
+        "type": "STRING"
       }, 
       {
-        "description": "Indicates if gene that the variant maps to is associated with a phenotype, disease or trait (0, 1, or null)", 
+        "description": "Global Allele Frequency from   ExAC", 
         "mode": "NULLABLE", 
-        "name": "GENE_PHENO", 
+        "name": "ExAC_AF", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Adjusted Global Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_Adj", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "African/African American Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_AFR", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "American Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_AMR", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "East Asian Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_EAS", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Finnish Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_FIN", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Non-Finnish European Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_NFE", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Other Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_OTH", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "South Asian Allele Frequency from ExAC", 
+        "mode": "NULLABLE", 
+        "name": "ExAC_AF_SAS", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Copied from input VCF. This includes filters implemented directly by the variant caller and other external software used in the DNA-Seq pipeline. See below for additional details.", 
+        "mode": "NULLABLE", 
+        "name": "FILTER", 
         "type": "STRING"
       }, 
       {
@@ -810,17 +599,23 @@
         "mode": "NULLABLE", 
         "name": "CONTEXT", 
         "type": "STRING"
-      },  
+      }, 
       {
-        "description": "Unique GDC identifier for the tumor file submitter", 
+        "description": "|-delimited list of GDC VCF file identifiers", 
         "mode": "NULLABLE", 
-        "name": "tumor_submitter_uuid", 
+        "name": "src_vcf_id", 
         "type": "STRING"
       }, 
       {
-        "description": "Unique GDC identifier for the normal file submitter", 
+        "description": "Unique GDC identifier for the underlying bam file", 
         "mode": "NULLABLE", 
-        "name": "normal_submitter_uuid", 
+        "name": "tumor_bam_uuid", 
+        "type": "STRING"
+      }, 
+      {
+        "description": "Unique GDC identifier for the underlying normal bam file", 
+        "mode": "NULLABLE", 
+        "name": "normal_bam_uuid", 
         "type": "STRING"
       }, 
       {
@@ -842,99 +637,33 @@
         "type": "STRING"
       }, 
       {
-        "description": "A flag indicating if the variant is a known hotspot (Y, N, or null)", 
+        "description": "Indicates whether this region overlaps with an MC3 variant for the same sample pair", 
         "mode": "NULLABLE", 
-        "name": "hotspot", 
-        "type": "STRING"
-      },
-      {
-        "description": "Indicates if the variant is found and alleles (Match), simply (Overlap), or is not supported (No) by tumor RNA-Seq. If it has not been checked against RNA-Seq data, the value will be 'Unknown'.", 
-        "mode": "NULLABLE", 
-        "name": "RNA_Support", 
+        "name": "MC3_Overlap", 
         "type": "STRING"
       }, 
       {
-        "description": "Read depth at this locus if the variant is supported by tumor RNA-seq data.", 
+        "description": "GDC implementation of validation checks. See notes section (#5) below for details", 
         "mode": "NULLABLE", 
-        "name": "RNA_depth", 
+        "name": "GDC_Validation_Status", 
         "type": "STRING"
       }, 
       {
-        "description": "Read depth supporting the reference allele at this locus if the variant is supported by tumor RNA-seq data.", 
+        "description": "|-delimited list of mutation caller(s) that agreed on this particular call, always in alphabetical order: muse, mutect, somaticsniper, varscan", 
         "mode": "NULLABLE", 
-        "name": "RNA_ref_count", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Read depth supporting the variant allele at this locus if the variant is supported by tumor RNA-seq data.", 
-        "mode": "NULLABLE", 
-        "name": "RNA_alt_count", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "A semicolon delimited list of supporting variant callers. If an asterisk is added to the caller name, this indicates the locus is a complex variant and this caller overlapped but did not support (e.g., not all callers can detect MNPs)", 
-        "mode": "NULLABLE", 
-        "name": "callers", 
+        "name": "callerName", 
         "type": "STRING"
       }, 
       {
         "description": "|-delimited list of unique GDC identifiers for underlying MAF file", 
         "mode": "NULLABLE", 
-        "name": "file_gdc_id", 
+        "name": "fileUUID", 
         "type": "STRING"
       }, 
       {
-        "description": "Muse caller identified the variant at this position", 
+        "description": "|-delimited list of name of underlying MAF file", 
         "mode": "NULLABLE", 
-        "name": "muse", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Mutect2 caller identified the variant at this position", 
-        "mode": "NULLABLE", 
-        "name": "mutect2", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "pindel caller identified the variant at this position", 
-        "mode": "NULLABLE", 
-        "name": "pindel", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Somaticsniper caller identified the variant at this position", 
-        "mode": "NULLABLE", 
-        "name": "somaticsniper", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "Varscan2 caller identified the variant at this position", 
-        "mode": "NULLABLE", 
-        "name": "varscan2", 
-        "type": "STRING"
-      },
-      {
-        "description": "TCGA sample barcode for the tumor, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
-        "mode": "NULLABLE", 
-        "name": "sample_barcode_tumor", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA sample barcode for the normal control, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
-        "mode": "NULLABLE", 
-        "name": "sample_barcode_normal", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA aliquot barcode for the tumor, eg TCGA-12-1089-01A-01D-0517-01", 
-        "mode": "NULLABLE", 
-        "name": "aliquot_barcode_tumor", 
-        "type": "STRING"
-      }, 
-      {
-        "description": "TCGA aliquot barcode for the normal control, eg TCGA-12-1089-01A-01D-0517-01", 
-        "mode": "NULLABLE", 
-        "name": "aliquot_barcode_normal", 
+        "name": "fileName", 
         "type": "STRING"
       }
     ]

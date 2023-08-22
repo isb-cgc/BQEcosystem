@@ -1,6 +1,8 @@
 {
-  "description": "Data was generated from file metadata information from the GDC release 37, downloaded April 2023. Aliquot barcodes are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-370",
-  "friendlyName": "ALIQUOT IDS TO CASE IDS",
+  "description": "Data was generated from file metadata information from the GDC release 36, downloaded Dec 2022. Image slides are mapped to case information.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-360",
+  "friendlyName": "SLIDE IMAGES TO CASE IDS REL36 VERSIONED",
+  "id": "isb-cgc-bq:GDC_case_file_metadata_versioned.slide2caseIDmap_r36",
+  "kind": "bigquery#table",
   "labels": {
     "access": "open",
     "category": "file_metadata",
@@ -47,7 +49,7 @@
         "type": "STRING"
       },
       {
-        "description": "Two-digit sample_type code which forms part of the sample barcode eg. 01,11,06, etc.",
+        "description": "Two-digit sample_type code which forms part of the sample barcode eg. 01,11,06, etc. (OR NA)",
         "mode": "NULLABLE",
         "name": "sample_type",
         "type": "STRING"
@@ -59,19 +61,7 @@
         "type": "STRING"
       },
       {
-        "description": "Whether a smaple is FFPE, either  False,  None ,  True, or null",
-        "mode": "NULLABLE",
-        "name": "sample_is_ffpe",
-        "type": "STRING"
-      },
-      {
-        "description": "Sample Preservation Method, usually null or  FFPE, also Snap Frozen or Frozen",
-        "mode": "NULLABLE",
-        "name": "sample_preservation_method",
-        "type": "STRING"
-      },
-      {
-        "description": "Portion GDC ID",
+        "description": "Original/submitter portion ID",
         "mode": "NULLABLE",
         "name": "portion_gdc_id",
         "type": "STRING"
@@ -83,29 +73,18 @@
         "type": "STRING"
       },
       {
-        "description": "Analyte GDC ID",
+        "description": "Slide GDC uuid",
         "mode": "NULLABLE",
-        "name": "analyte_gdc_id",
+        "name": "slide_gdc_id",
         "type": "STRING"
       },
       {
-        "description": "Original/submitter analyte ID",
+        "description": "Slide submitter ID",
         "mode": "NULLABLE",
-        "name": "analyte_barcode",
-        "type": "STRING"
-      },
-      {
-        "description": "Unique GDC identifier for this aliquot (corresponds to the aliquot_barcode), eg 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844  --  this can be used to access more information from the GDC data portal",
-        "mode": "NULLABLE",
-        "name": "aliquot_gdc_id",
-        "type": "STRING"
-      },
-      {
-        "description": "Original TCGA aliquot barcode, eg TCGA-12-1089-01A-01D-0517-01",
-        "mode": "NULLABLE",
-        "name": "aliquot_barcode",
+        "name": "slide_barcode",
         "type": "STRING"
       }
     ]
-  }
+  },
+  "type": "TABLE"
 }
