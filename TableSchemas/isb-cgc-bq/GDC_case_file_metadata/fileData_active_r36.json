@@ -1,6 +1,8 @@
 {
-  "description": "Data was generated from file metadata information from the GDC active archive release 37, downloaded April 2023. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-370",
-  "friendlyName": "FILE METADATA GDC ACTIVE",
+  "description": "Data was generated from file metadata information from the GDC active archive release 36, downloaded Dec 2022. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-360",
+  "friendlyName": "FILE METADATA GDC ACTIVE REL36 VERSIONED",
+  "id": "isb-cgc-bq:GDC_case_file_metadata_versioned.fileData_active_r36",
+  "kind": "bigquery#table",
   "labels": {
     "access": "open",
     "category": "file_metadata",
@@ -263,5 +265,6 @@
         "type": "STRING"
       }
     ]
-  }
+  },
+  "type": "TABLE"
 }
