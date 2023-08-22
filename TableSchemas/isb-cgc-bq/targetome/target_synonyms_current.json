@@ -1,0 +1,17 @@
+{
+  "friendlyName": "TARGETOME TARGET SYNONYMS",
+  "description": "Synonyms for targets involved in Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://github.com/ablucher/The-Cancer-Targetome) in July 2021.",
+  "labels": {
+    "access": "open",
+    "source": "targetome",
+    "category": "reference_database",
+    "data_type": "drug_target_interactions",
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {"name": "targetID", "type": "integer", "mode": "nullable", "description": "ID for Targetome target"},
+      {"name": "synonym", "type": "string", "mode": "nullable", "description": "Synonym or alias for Targetome target"}
+    ]
+  }
+}

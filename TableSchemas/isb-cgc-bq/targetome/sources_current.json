@@ -1,0 +1,21 @@
+{
+  "friendlyName": "TARGETOME SOURCES",
+  "description": "Targetome literature evidence table, providing support for Targetome interactions. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/. Data was downloaded from the Targetome Git repository (https://github.com/ablucher/The-Cancer-Targetome) in July 2021.",
+  "labels": {
+    "access": "open",
+    "source": "targetome",
+    "category": "reference_database",
+    "data_type": "drug_target_interactions",
+    "status": "current"
+  },
+  "schema": {
+    "fields": [
+      {"name": "sourceID", "type": "integer", "mode": "nullable", "description": "ID for source supporting Targetome interaction"},
+      {"name": "PubMedID", "type": "string", "mode": "nullable", "description": "PubMedID identifying literature"},
+      {"name": "databaseName", "type": "string", "mode": "nullable", "description": "Name of database from which supporting evidence and literature are obtained"},
+      {"name": "db_version", "type": "string", "mode": "nullable", "description": "Database version"},
+      {"name": "db_downloadURL", "type": "string", "mode": "nullable", "description": "URL from which database was downloaded"},
+      {"name": "db_downloadDate", "type": "string", "mode": "nullable", "description": "Date on which database was downloaded"}
+    ]
+  }
+}

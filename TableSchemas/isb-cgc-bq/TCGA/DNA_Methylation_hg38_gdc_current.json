@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from GDC on January 2017 for DNA Methylation data generated using Illumina Human Methylation 27k and 450k platforms.", 
+  "description": "Data was extracted from GDC on January 2017 for DNA Methylation data generated using Illumina Human Methylation 27k and 450k platforms. This table is clustered on case_barcode, sample_barcode, and aliquot_barcode and can be queried more cheaply by subsetting on any of those fields.", 
   "friendlyName": "TCGA HG38 DNA METHYLATION", 
   "labels": {
     "access": "open", 
@@ -17,7 +17,7 @@
         "mode": "NULLABLE", 
         "name": "case_barcode", 
         "type": "STRING"
-      }, 
+      },
       {
         "description": "TCGA sample barcode, eg TCGA-12-1089-01A. One sample may have multiple sets of CN segmentations corresponding to multiple aliquots; use GROUP BY appropriately in queries", 
         "mode": "NULLABLE", 

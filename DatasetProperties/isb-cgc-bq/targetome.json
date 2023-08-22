@@ -1,0 +1,4 @@
+{
+  "dataset_name": "targetome",
+  "description": "This dataset contains the current Cancer Targetome downloaded from https://github.com/ablucher/The-Cancer-Targetome. The tables within this dataset are dynamic and update with new releases; for static tables use targetome_versioned. This dataset aggregates drug-target interaction and bioactivity information for FDA-approved antineoplastic drugs across four publicly available resources. It includes putative target interactions encompassing multiple targets for each antineoplastic drug and introduces a framework for categorizing the supporting evidence behind each drug-target interaction. More information can be found here: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5759325/."
+}

@@ -1,0 +1,105 @@
+{
+  "Academia Sinica LUAD-100": {
+    "project_short_name": "academia_sinica_LUAD_100",
+    "project_friendly_name": "ACADEMIA SINICA LUAD-100",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "CPTAC-2": {
+    "project_short_name": "CPTAC_2",
+    "project_friendly_name": "CPTAC2",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac2"
+  },
+  "CPTAC-TCGA": {
+    "project_short_name": "CPTAC_TCGA",
+    "project_friendly_name": "CPTAC-TCGA",
+    "program_short_name": "TCGA",
+    "program_label_0": "cptac2",
+    "program_label_1": "tcga"
+  },
+  "CPTAC2-Other": {
+    "project_short_name": "CPTAC2_other",
+    "project_friendly_name": "CPTAC2-OTHER",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac2"
+  },
+  "CPTAC3-Other": {
+    "project_short_name": "CPTAC3_other",
+    "project_friendly_name": "CPTAC3-OTHER",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac3"
+  },
+  "Georgetown Lung Cancer Proteomics Study": {
+    "project_short_name": "georgetown_lung_cancer",
+    "project_friendly_name": "GEORGETOWN LUNG CANCER",
+    "program_short_name": "GPRP",
+    "program_label": "georgetown_proteomics"
+  },
+  "Human Early-Onset Gastric Cancer - Korea University": {
+    "project_short_name": "human_early_onset_gastric_cancer",
+    "project_friendly_name": "HUMAN EARLY-ONSET GASTRIC CANCER",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "Integrated Proteogenomic Characterization of HBV-related Hepatocellular carcinoma": {
+    "project_short_name": "HBV_related_hepatocellular_carcinoma",
+    "project_friendly_name": "HEPATITIS B VIRUS (HBV) RELATED HEPATOCELLULAR CARCINOMA",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "Oral Squamous Cell Carcinoma - Chang Gung University": {
+    "project_short_name": "oral_squamous_cell_carcinoma",
+    "project_friendly_name": "ORAL SQUAMOUS CELL CARCINOMA",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "PJ25730263": {
+    "project_short_name": "pct_swath_kidney",
+    "project_friendly_name": "QUANT MAPS TISSUE BIOPSIES KIDNEY",
+    "program_short_name": "Quant_Maps_Tissue_Biopsies",
+    "program_label": "quant_maps_tissue_biopsies"
+  },
+  "Proteogenomic Analysis of Pediatric Brain Cancer Tumors Pilot Study": {
+    "project_short_name": "pediatric_brain_cancer",
+    "project_friendly_name": "PEDIATRIC BRAIN CANCER",
+    "program_short_name": "CBTTC",
+    "program_label": "cbttc"
+  },
+  "Proteogenomic Translational Research Centers (PTRC)": {
+    "project_short_name": "proteogenomic_translational_research_centers",
+    "project_friendly_name": "PROTEOGENOMIC TRANSLATIONAL RESEARCH CENTERS (PTRC)",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac3"
+  },
+  "CPTAC2-Confirmatory-JHU-Ovarian": {
+    "project_short_name": "CPTAC2_Confirmatory_JHU_Ovarian",
+    "project_friendly_name": "CPTAC2-Confirmatory-JHU-Ovarian",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac2"
+  },
+  "Proteogenomics Analysis to Develop Precision Medicine for Treatment-Resistant Pancreatic Cancer": {
+    "project_short_name": "PDAC",
+    "project_friendly_name": "PDAC",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "CPTAC3 Discovery and Confirmatory": {
+    "project_short_name": "CPTAC3_discovery_and_confirmatory",
+    "project_friendly_name": "CPTAC3-DISCOVERY-AND-CONFIRMATORY",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac3"
+  },
+  "Broad": {
+    "project_short_name": "Broad",
+    "project_friendly_name": "BROAD INSTITUTE",
+    "program_short_name": "BROAD",
+    "program_label": "broad_institute"
+  },
+  "APOLLO1": {
+    "project_short_name": "APOLLO1",
+    "project_friendly_name": "APOLLO1",
+    "program_short_name": "APOLLO",
+    "program_label": "apollo"
+  }
+}

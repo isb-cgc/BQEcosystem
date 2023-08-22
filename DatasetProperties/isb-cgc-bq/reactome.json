@@ -1,0 +1,4 @@
+{
+  "dataset_name": "reactome",
+  "description": "This data set contains the current Reactome pathway data extracted from https://reactome.org/. The tables within this data set are dynamic and update with new releases; for static tables use reactome_versioned."
+}

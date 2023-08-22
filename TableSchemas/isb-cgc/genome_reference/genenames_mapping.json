@@ -1,22 +1,13 @@
 {
-  "creationTime": "1519364899562", 
   "description": "Data was loaded from multiple sources including NCBI, HGNC, ENSEMBL in Feb 2018 to simplify mapping between HGNC IDs, HGNC symbols, Entrez Gene IDs, Ensembl Gene IDs, Pubmed IDs,and RefSeq IDs.", 
-  "etag": "HEqwX8tAInoVCpuCj3Ck9Q==", 
   "friendlyName": "GENENAMES MAPPING", 
-  "id": "isb-cgc:genome_reference.genenames_mapping", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
-    "data_type_0": "genome_annotations", 
-    "source_0": "isb_cgc", 
+    "category": "reference_database",
+    "data_type_0": "genome_annotation", 
+    "source_0": "isb-cgc", 
     "status": "current"
-  }, 
-  "lastModifiedTime": "1580324989975", 
-  "location": "US", 
-  "numBytes": "6297718", 
-  "numLongTermBytes": "6297718", 
-  "numRows": "45740", 
+  },
   "schema": {
     "fields": [
       {
@@ -98,12 +89,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/genome_reference/tables/genenames_mapping", 
-  "tableReference": {
-    "datasetId": "genome_reference", 
-    "projectId": "isb-cgc", 
-    "tableId": "genenames_mapping"
-  }, 
-  "type": "TABLE"
+  }
 }

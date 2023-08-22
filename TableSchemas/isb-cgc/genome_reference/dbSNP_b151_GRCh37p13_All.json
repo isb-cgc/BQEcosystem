@@ -3,7 +3,7 @@
   "friendlyName": "DBSNP B151 GRCH37P13 ALL", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "somatic_mutation", 
     "reference_genome_0": "hg19", 
     "source": "dbsnp_database", 

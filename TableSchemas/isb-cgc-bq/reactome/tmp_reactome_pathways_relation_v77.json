@@ -1,0 +1,11 @@
+{
+    "friendlyName": "REACTOME PATHWAYS RELATION",
+    "description": "",
+    "labels": {},
+    "schema": {
+        "fields": [
+            {"name": "parent_id", "type": "string", "mode": "nullable", "description": "<add description here>"},
+            {"name": "child_id", "type": "string", "mode": "nullable", "description": "<add description here>"}
+        ]
+    }
+}

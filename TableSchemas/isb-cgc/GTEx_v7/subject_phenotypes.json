@@ -1,23 +1,14 @@
 {
-  "creationTime": "1511833088981", 
   "description": "Data was loaded from Genotype-Tissue Expression (GTEx) Project on November 2017. Subject Phenotype data was loaded using GTEx Data Portal. More details: gtexportal.org", 
-  "etag": "+tZqOvAWODsTXslvGuIA6A==", 
   "friendlyName": "GTEX V7 SUBJECT PHENOTYPES", 
-  "id": "isb-cgc:GTEx_v7.subject_phenotypes", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
-    "data_type_0": "clinical", 
+    "category": "reference_database",
+    "data_type_0": "clinical_data", 
     "reference_genome_0": "hg19", 
     "source_0": "genotype_tissue_expression_gtex_project", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325009691", 
-  "location": "US", 
-  "numBytes": "25857", 
-  "numLongTermBytes": "25857", 
-  "numRows": "752", 
   "schema": {
     "fields": [
       {
@@ -45,12 +36,5 @@
         "type": "INTEGER"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/GTEx_v7/tables/subject_phenotypes", 
-  "tableReference": {
-    "datasetId": "GTEx_v7", 
-    "projectId": "isb-cgc", 
-    "tableId": "subject_phenotypes"
-  }, 
-  "type": "TABLE"
+  }
 }

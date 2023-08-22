@@ -70,5 +70,41 @@
     "project_friendly_name": "PEDIATRIC BRAIN CANCER",
     "program_short_name": "CBTTC",
     "program_labels": "cbttc"
+  },
+  "Proteogenomic Translational Research Centers (PTRC)": {
+    "project_short_name": "proteogenomic_translational_research_centers",
+    "project_friendly_name": "PROTEOGENOMIC TRANSLATIONAL RESEARCH CENTERS (PTRC)",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac3"
+  },
+  "CPTAC2-Confirmatory-JHU-Ovarian": {
+    "project_short_name": "CPTAC2_Confirmatory_JHU_Ovarian",
+    "project_friendly_name": "CPTAC2-Confirmatory-JHU-Ovarian",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac2"
+  },
+  "Proteogenomics Analysis to Develop Precision Medicine for Treatment-Resistant Pancreatic Cancer": {
+    "project_short_name": "PDAC",
+    "project_friendly_name": "PDAC",
+    "program_short_name": "ICPC",
+    "program_labels": "icpc"
+  },
+  "CPTAC3 Discovery and Confirmatory": {
+    "project_short_name": "CPTAC3_discovery_and_confirmatory",
+    "project_friendly_name": "CPTAC3-DISCOVERY-AND-CONFIRMATORY",
+    "program_short_name": "CPTAC",
+    "program_labels": "cptac3"
+  },
+  "Broad": {
+    "project_short_name": "Broad",
+    "project_friendly_name": "BROAD INSTITUTE",
+    "program_short_name": "BROAD",
+    "program_labels": "broad_institute"
+  },
+  "APOLLO1": {
+    "project_short_name": "APOLLO1",
+    "project_friendly_name": "APOLLO1",
+    "program_short_name": "APOLLO",
+    "program_labels": "apollo"
   }
 }

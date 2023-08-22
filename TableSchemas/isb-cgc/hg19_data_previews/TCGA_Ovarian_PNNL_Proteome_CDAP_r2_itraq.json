@@ -1,23 +1,16 @@
 {
-  "creationTime": "1495165699031", 
   "description": "Data was extracted .tsv files now found at https://cptc-xfer.uis.georgetown.edu/publicData/Phase_II_Data/TCGA_Ovarian_Cancer/ derived from the following publication in Nature in 2017: \"Proteogenomics connects somatic mutations to signalling in breast cancer\". Proteome quantitations was generated using the CPTAC iTRAQ protein quantitations for a set of ovarian cancer samples. The samples are identified using the same TCGA barcodes that are used in other available TCGA tables in BigQuery, allowing for convenient integrative analyses. \nMore details: https://www.ncbi.nlm.nih.gov/pubmed/27251275", 
-  "etag": "WhfRrjtfTfWt/blTgz4r2A==", 
   "friendlyName": "TCGA-OV ITRAQ PNNL PROTEOME QUANTITATION REPORT ", 
-  "id": "isb-cgc:hg19_data_previews.TCGA_Ovarian_PNNL_Proteome_CDAP_r2_itraq", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
     "category": "processed_-omics_data", 
-    "data_type_0": "protein_quantification", 
+    "data_type_0": "protein_expression",
+    "program_0": "cptac2",
+    "program_1": "tcga",
     "reference_genome_0": "hg19", 
-    "source_0": "cptac", 
+    "source_0": "literature", 
     "status": "current"
   }, 
-  "lastModifiedTime": "1580325301117", 
-  "location": "US", 
-  "numBytes": "76769888", 
-  "numLongTermBytes": "76769888", 
-  "numRows": "500239", 
   "schema": {
     "fields": [
       {
@@ -111,12 +104,5 @@
         "type": "FLOAT"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/hg19_data_previews/tables/TCGA_Ovarian_PNNL_Proteome_CDAP_r2_itraq", 
-  "tableReference": {
-    "datasetId": "hg19_data_previews", 
-    "projectId": "isb-cgc", 
-    "tableId": "TCGA_Ovarian_PNNL_Proteome_CDAP_r2_itraq"
-  }, 
-  "type": "TABLE"
+  }
 }

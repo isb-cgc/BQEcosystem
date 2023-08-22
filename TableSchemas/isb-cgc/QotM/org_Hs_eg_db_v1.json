@@ -1,22 +1,13 @@
 {
-  "creationTime": "1518482011098", 
   "description": "Data was loaded from multiple sources including NCBI, ENSEMBL, UniProtKB, UCSC and Reactome in Feb 2018 to simplify mapping between Entrez, RefSeq, ENSEMBL, Unigene, Uniprot, UCSC, OMIM Accession identifiers and Reactome pathway IDs.", 
-  "etag": "5OhXm4ylcHccCCYaOGn0bA==", 
   "friendlyName": "FEB2018 QUERY OF THE MONTH TABLE 3", 
-  "id": "isb-cgc:QotM.org_Hs_eg_db_v1", 
-  "kind": "bigquery#table", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
-    "data_type_0": "genome_annotations", 
+    "category": "reference_database",
+    "data_type_0": "genome_annotation", 
     "source_0": "isb_cgc-qotm", 
     "status": "deprecated"
   }, 
-  "lastModifiedTime": "1580325322853", 
-  "location": "US", 
-  "numBytes": "5571472773", 
-  "numLongTermBytes": "5571472773", 
-  "numRows": "56818478", 
   "schema": {
     "fields": [
       {
@@ -80,12 +71,5 @@
         "type": "STRING"
       }
     ]
-  }, 
-  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/isb-cgc/datasets/QotM/tables/org_Hs_eg_db_v1", 
-  "tableReference": {
-    "datasetId": "QotM", 
-    "projectId": "isb-cgc", 
-    "tableId": "org_Hs_eg_db_v1"
-  }, 
-  "type": "TABLE"
+  }
 }

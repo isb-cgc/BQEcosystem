@@ -3,7 +3,7 @@
   "friendlyName": "KAVIAR PUBLIC HG38 2016", 
   "labels": {
     "access": "open", 
-    "category": "genomic_reference_database", 
+    "category": "reference_database",
     "data_type": "somatic_mutation", 
     "reference_genome_0": "hg38", 
     "source": "kaviar_genomic_variant_database", 

@@ -1,0 +1,4 @@
+{
+  "dataset_name": "CDDP_EAGLE",
+  "description": "This data set contains the current data for the  Environment And Genetics in Lung cancer Etiology (EAGLE) program extracted from the NCI GDC. See https://dceg.cancer.gov/research/who-we-study/cancer-cases-controls/eagle-study for more information. The tables within this data set are dynamic and update with new releases; for static tables use CDDP_EAGLE_versioned."
+}

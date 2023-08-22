@@ -1,13 +1,14 @@
 {
   "description": "Data loaded from the PanCancer Atlas initiative on the GDC in April 2018. Contains A curated resource of the clinical annotations for TCGA data and provides recommendations for use of clinical endpoints. It is strongly recommended that this file be used for clinical elements and survival outcome data first.\nMore details: \nhttps://gdc.cancer.gov/about-data/publications/PanCan-Clinical-2018 https://gdc.cancer.gov/about-data/publications/pancanatlas. This table has been deprecated. It has been copied to isb-cgc-bq.pancancer_atlas.TCGA_CDR.", 
-  "friendlyName": "PanCancer Clinical Data Resource (CDR) Outcome DEPRECATED", 
+  "friendlyName": "PanCancer Clinical Data Resource (CDR) Outcome and Survival Data DEPRECATED", 
   "labels": {
     "program": "pancancer_atlas",
     "category": "clinical_biospecimen_data",
     "access": "open", 
     "data_type": "clinical_supplement", 
     "reference_genome": "hg19", 
-    "source": "gdc", 
+    "source_0": "gdc",  
+    "source_1": "literature",
     "status": "deprecated"
   }, 
   "schema": {
