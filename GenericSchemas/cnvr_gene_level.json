@@ -1,0 +1,15 @@
+{
+  "description": "Data was extracted from release {---tag-release---} of the active GDC archive in {---tag-extracted-month-year---} for {---tag-program---} copy number variation gene level data. More details:https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-{---tag-release-url-anchor---}", 
+  "friendlyName": "{---tag-program---} HG38 COPY NUMBER VARIATION GENE LEVEL",  
+  "labels": {
+    "access": "open", 
+    "category": "processed_-omics_data", 
+    "data_type": "cnvr_gene_level", 
+    "reference_genome_0": "hg38", 
+    "program": "{---tag-program-name-lower---}",
+    "program_0": "{---tag-program-name-lower-0---}",
+    "program_1": "{---tag-program-name-lower-1---}",
+    "source": "gdc", 
+    "status": "current"
+  }
+}

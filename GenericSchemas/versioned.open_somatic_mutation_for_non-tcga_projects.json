@@ -6,7 +6,8 @@
     "category": "processed_-omics_data", 
     "data_type": "somatic_mutation", 
     "reference_genome_0": "{---tag-ref-genome-0---}", 
-    "program": "{---tag-source-0---}", 
+    "program_0": "{---tag-source-0---}", 
+    "program_1": "{---tag-source-1---}", 
     "source": "gdc", 
     "status": "current"
   }, 
