@@ -5,7 +5,7 @@
     "access": "open",
     "source": "pdc",
     "status": "current",
-    "category": "file_metadata",
+    "category": "metadata",
     "data_type": "file_metadata",
     "program": "{---tag-program-name-lower---}"
   }
