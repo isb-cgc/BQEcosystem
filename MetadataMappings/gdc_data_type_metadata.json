@@ -5,7 +5,9 @@
     "analysis_workflow_type": "",
     "experimental_strategy": "",
     "data_format": "",
-    "platform": ""
+    "platform": "",
+    "table_desc_file": "GenericSchemas/cnvr_gene_level.json",
+    "field_desc_file": ""
   },
   "rna_seq": {
     "data_type": "Gene Expression Quantification",
@@ -13,7 +15,9 @@
     "analysis_workflow_type": "STAR - Counts",
     "experimental_strategy": "RNA-Seq",
     "data_format": "TSV",
-    "platform": ""
+    "platform": "",
+    "table_desc_file": "",
+    "field_desc_file": ""
   },
   "open_somatic_mut": {
     "data_type": "Masked Somatic Mutation",
@@ -21,7 +25,9 @@
     "analysis_workflow_type": "",
     "experimental_strategy": "",
     "data_format": "MAF",
-    "platform": ""
+    "platform": "",
+    "table_desc_file": "",
+    "field_desc_file": ""
   },
   "cnvr": {
     "data_type": "Copy Number Segment",
@@ -29,7 +35,9 @@
     "analysis_workflow_type": "",
     "experimental_strategy": "",
     "data_format": "TXT",
-    "platform": "Illumia"
+    "platform": "Illumia",
+    "table_desc_file": "",
+    "field_desc_file": ""
   },
   "miRNA": {
     "data_type": "miRNA Expression Quantification",
@@ -37,7 +45,9 @@
     "analysis_workflow_type": "BCGSC miRNA Profiling",
     "experimental_strategy": "miRNA-Seq",
     "data_format": "TXT",
-    "platform": ""
+    "platform": "",
+    "table_desc_file": "",
+    "field_desc_file": ""
   },
   "miRNA_iso": {
     "data_type": "Isoform Expression Quantification",
@@ -45,6 +55,8 @@
     "analysis_workflow_type": "BCGSC miRNA Profiling",
     "experimental_strategy": "miRNA-Seq",
     "data_format": "TXT",
-    "platform": ""
+    "platform": "",
+    "table_desc_file": "",
+    "field_desc_file": ""
   }
 }
