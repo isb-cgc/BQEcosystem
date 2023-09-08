@@ -1,49 +1,55 @@
 {
   "gene_level_cnvr": {
-    "data_type": "Gene Level Copy Number",
-    "data_category": "Copy Number Variation",
+    "filters": {
+      "data_type": "Gene Level Copy Number",
+      "data_category": "Copy Number Variation"},
     "table_desc_file": "GenericSchemas/cnvr_gene_level.json",
     "field_desc_file": ""
   },
   "rna_seq": {
-    "data_type": "Gene Expression Quantification",
-    "data_category": "Transcriptome Profiling",
-    "analysis_workflow_type": "STAR - Counts",
-    "experimental_strategy": "RNA-Seq",
-    "data_format": "TSV",
+    "filters": {
+      "data_type": "Gene Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "STAR - Counts",
+      "experimental_strategy": "RNA-Seq",
+      "data_format": "TSV"},
     "table_desc_file": "",
     "field_desc_file": ""
   },
   "open_somatic_mut": {
-    "data_type": "Masked Somatic Mutation",
-    "data_category": "Simple Nucleotide Variation",
-    "data_format": "MAF",
+    "filters": {
+      "data_type": "Masked Somatic Mutation",
+      "data_category": "Simple Nucleotide Variation",
+      "data_format": "MAF"},
     "table_desc_file": "",
     "field_desc_file": ""
   },
   "cnvr": {
-    "data_type": "Copy Number Segment",
-    "data_category": "Copy Number Variation",
-    "data_format": "TXT",
-    "platform": "Illumia",
+    "filters": {
+      "data_type": "Copy Number Segment",
+      "data_category": "Copy Number Variation",
+      "data_format": "TXT",
+      "platform": "Illumia"},
     "table_desc_file": "",
     "field_desc_file": ""
   },
   "miRNA": {
-    "data_type": "miRNA Expression Quantification",
-    "data_category": "Transcriptome Profiling",
-    "analysis_workflow_type": "BCGSC miRNA Profiling",
-    "experimental_strategy": "miRNA-Seq",
-    "data_format": "TXT",
+    "filters": {
+      "data_type": "miRNA Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "BCGSC miRNA Profiling",
+      "experimental_strategy": "miRNA-Seq",
+      "data_format": "TXT"},
     "table_desc_file": "",
     "field_desc_file": ""
   },
   "miRNA_iso": {
-    "data_type": "Isoform Expression Quantification",
-    "data_category": "Transcriptome Profiling",
-    "analysis_workflow_type": "BCGSC miRNA Profiling",
-    "experimental_strategy": "miRNA-Seq",
-    "data_format": "TXT",
+    "filters": {
+      "data_type": "Isoform Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "BCGSC miRNA Profiling",
+      "experimental_strategy": "miRNA-Seq",
+      "data_format": "TXT"},
     "table_desc_file": "",
     "field_desc_file": ""
   }
