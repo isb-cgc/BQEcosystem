@@ -190,6 +190,7 @@
   "diag__treat__treatment_outcome": "Text term that describes the patient's final outcome after the treatment was administered.",
   "diag__treat__treatment_type": "Text term that describes the kind of treatment administered.",
   "diag__treat__updated_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+  "diag__path__additional_pathology_findings": "A section header that includes additional pathologic findings.",
   "diag__path__anaplasia_present": "Yes/no/unknown/not reported indicator used to describe whether anaplasia was present at the time of diagnosis.",
   "diag__path__anaplasia_present_type": "The text term used to describe the morphologic findings indicating the presence of a malignant cellular infiltrate characterized by the presence of large pleomorphic cells necrosis and high mitotic activity in a tissue sample.",
   "diag__path__bone_marrow_malignant_cells": "The text term used to indicate whether there are malignant cells in the bone marrow.",
