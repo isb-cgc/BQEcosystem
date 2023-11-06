@@ -220,6 +220,7 @@
   "diag__path__breslow_thickness": "The number that describes the distance in millimeters between the upper layer of the epidermis and the deepest point of tumor penetration.",
   "diag__path__circumferential_resection_margin": "Numeric value used to describe the non-peritonealised bare area of rectum comprising anterior and posterior segments when submitted as a surgical specimen resulting from excision of cancer of the rectum.",
   "diag__path__columnar_mucosa_present": "Indicator noting whether columnar mucosa was present within the tissue.",
+  "diag__path__consistent_pathology_review": "Indicator noting whether a recent review of tissue is consistent with a prior pathology review.",
   "diag__path__count": "Total record count in clinical__diag__path mapping table.",
   "diag__path__created_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
   "diag__path__dysplasia_degree": "The degree to which dysplasia was involved.",
