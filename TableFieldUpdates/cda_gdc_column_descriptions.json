@@ -236,6 +236,7 @@
   "diag__path__margin_status": "The determination of the presence of actual or potential neoplastic tissue which has been left outside the boundary of a resected specimen within the patient.",
   "diag__path__metaplasia_present": "Indicator noting whether metaplasia was present.",
   "diag__path__morphologic_architectural_pattern": "A specific morphologic or pathologic architectural pattern was discovered within the sample studied.",
+  "diag__path__necrosis_present": "Indicator describing whether the presence of necrosis was confirmed.",
   "diag__path__non_nodal_regional_disease": "The text term used to describe whether the patient had non-nodal regional disease.",
   "diag__path__non_nodal_tumor_deposits": "The yes/no/unknown indicator used to describe the presence of tumor deposits in the pericolic or perirectal fat or in adjacent mesentery away from the leading edge of the tumor.",
   "diag__path__number_proliferating_cells": "Numeric value that represents the count of proliferating cells determined during pathologic review of the sample slide(s).",
