@@ -1,9 +1,10 @@
 {
-  "description": "Aliquot data was generated from PDC data release {---tag-version---}, downloaded {---tag-extracted-month-year---}.",
+  "description": "Aliquot data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the PDC release {---tag-version---}.",
   "friendlyName": "PDC ALIQUOT IDS TO CASE IDS MAP",
   "labels": {
     "access": "open",
-    "source": "pdc",
+    "source_0": "cda",
+    "source_1": "pdc",
     "status": "current",
     "category": "file_metadata",
     "data_type": "file_metadata"

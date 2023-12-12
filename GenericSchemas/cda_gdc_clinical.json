@@ -6,7 +6,8 @@
     "category": "clinical_biospecimen_data",
     "data_type": "clinical_data",
     "program": "{---tag-program-label---}",
-    "source": "gdc",
+    "source_0": "cda",
+    "source_1": "gdc",
     "status": "current"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata for {---tag-program-name---} data in the GDC active archive for release {---tag-version---} from {---tag-extracted-month-year---}. More details: {---tag-release-notes-url---}",
+  "description": "Data was extracted from file metadata information for {---tag-program-name---} provided by CDA in {---tag-extracted-month-year---} from the GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}",
   "friendlyName": "{---tag-friendly-name---} hg38 PER SAMPLE FILE METADATA",
   "labels": {
     "access": "open",
@@ -7,7 +7,8 @@
     "data_type": "file_metadata",
     "program": "{---tag-program-label---}",
     "reference_genome_0": "hg38",
-    "source": "gdc",
+    "source_0": "cda",
+    "source_1": "gdc",
     "status": "current"
   }
 }
