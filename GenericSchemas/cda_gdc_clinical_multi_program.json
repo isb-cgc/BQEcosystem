@@ -7,7 +7,8 @@
     "data_type": "clinical_data",
     "program_0": "{---tag-program-label-0---}",
     "program_1": "{---tag-program-label-1---}",
-    "source": "gdc",
+    "source_0": "cda",
+    "source_1": "gdc",
     "status": "current"
   }
 }

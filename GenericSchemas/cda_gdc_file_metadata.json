@@ -1,5 +1,5 @@
 {
-  "description": "Data was generated from file metadata information from the GDC active archive release {---tag-version---}, downloaded {---tag-extracted-month-year---}.\nMore details: {---tag-release-notes-url---}",
+  "description": "Data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}",
   "friendlyName": "FILE METADATA GDC ACTIVE",
   "labels": {
     "access": "open",

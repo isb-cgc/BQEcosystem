@@ -1,10 +1,11 @@
 {
-  "description": "Data for the {---tag-project-name---} project was extracted using PDC API {---tag-version---} in {---tag-extracted-month-year---}. This table contains information about patient cases and their clinical information. More details: see https://pdc.cancer.gov/data-dictionary/dictionary.html",
+  "description": "Clinical data was extracted from file metadata information for {---tag-project-name---} provided by CDA in {---tag-extracted-month-year---} from the PDC release {---tag-version---}.",
   "friendlyName": "{---tag-friendly-project-name-upper---} CLINICAL {---tag-mapping-name---}DATA",
   "labels": {
     "access": "open",
     "data_type": "clinical_data",
-    "source": "pdc",
+    "source_0": "cda",
+    "source_1": "pdc",
     "category": "clinical_biospecimen_data",
     "status": "current",
     "program": "{---tag-program-name-lower---}"
