@@ -274,6 +274,7 @@
   "exp__created_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
   "exp__environmental_tobacco_smoke_exposure": "The yes/no/unknown indicator used to describe whether a patient was exposed to smoke that is emitted from burning tobacco, including cigarettes, pipes, and cigars. This includes tobacco smoke exhaled by smokers.",
   "exp__exposure_duration": "Text term used to describe the length of time the patient was exposed to an environmental factor.",
+  "exp__exposure_duration_years": "The period of time from start to finish of exposure, in years.",
   "exp__exposure_id": "GDC-assigned identifier for a case's exposure data.",
   "exp__exposure_type": "The text term used to describe the type of environmental exposure.",
   "exp__height": "The height of the patient in centimeters.",
