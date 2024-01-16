@@ -163,5 +163,5 @@
   "vital_status": "The survival state of the person registered on the protocol",
   "year_of_birth": "Numeric value to represent the calendar year in which an individual was born",
   "year_of_death": "Numeric value to represent the year of the death of an individual",
-  "year_of_diagnosis": "Numeric value to represent the year of an individual's initial pathologic diagnosis of cancer",
+  "year_of_diagnosis": "Numeric value to represent the year of an individual's initial pathologic diagnosis of cancer"
 }
