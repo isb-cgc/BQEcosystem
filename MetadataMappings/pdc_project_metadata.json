@@ -106,5 +106,11 @@
     "project_friendly_name": "APOLLO1",
     "program_short_name": "APOLLO",
     "program_labels": "apollo"
+  },
+  "National Cancer Center Korea": {
+    "project_short_name": "NCC_iCC",
+    "project_friendly_name": "NATIONAL CANCER CENTER KOREA",
+    "program_short_name": "ICPC",
+    "program_labels": "icpc"
   }
 }
