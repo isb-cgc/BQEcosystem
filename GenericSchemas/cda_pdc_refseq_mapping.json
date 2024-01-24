@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from UniProtKB REST API version {---tag-uniprot-version---}, downloaded from https://www.uniprot.org/uniprot/ in {---tag-uniprot-extracted-month-year---} ",
+  "description": "Data was extracted from UniProtKB REST API version {---tag-uniprot-version---}, downloaded from https://rest.uniprot.org/uniprotkb/ in {---tag-uniprot-extracted-month-year---}.",
   "friendlyName": "REFSEQ UNIPROT MAPPING",
   "labels": {
     "access": "open",
