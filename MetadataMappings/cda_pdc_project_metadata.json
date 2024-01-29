@@ -63,8 +63,8 @@
   "Proteogenomic Analysis of Pediatric Brain Cancer Tumors Pilot Study": {
     "project_short_name": "pediatric_brain_cancer",
     "project_friendly_name": "PEDIATRIC BRAIN CANCER",
-    "program_short_name": "CBTTC",
-    "program_label": "cbttc"
+    "program_short_name": "CBTN",
+    "program_label": "cbttc; cbtn"
   },
   "Proteogenomic Translational Research Centers (PTRC)": {
     "project_short_name": "proteogenomic_translational_research_centers",
@@ -101,5 +101,12 @@
     "project_friendly_name": "APOLLO1",
     "program_short_name": "APOLLO",
     "program_label": "apollo"
+  },
+  "Proteogenomics Analysis of Glioma across Pediatric Adolescent and Young Adult age groups": {
+    "project_short_name": "Proteogenomics_Analysis_of_Glioma",
+    "project_friendly_name": "PROTEOGENOMICS ANALYSIS OF GLIOMA ACROSS PEDIATRIC ADOLESCENT AND YOUNG ADULT AGE GROUPS",
+    "program_short_name": "CBTN",
+    "program_label": "cbttc; cbtn"
   }
+
 }
