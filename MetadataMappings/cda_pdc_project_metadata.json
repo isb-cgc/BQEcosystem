@@ -15,8 +15,13 @@
     "project_short_name": "CPTAC_TCGA",
     "project_friendly_name": "CPTAC-TCGA",
     "program_short_name": "TCGA",
-    "program_label_0": "cptac2",
-    "program_label_1": "tcga"
+    "program_label": "cptac2; tcga"
+  },
+  "CPTAC3-Discovery": {
+    "project_short_name": "CPTAC3_discovery",
+    "project_friendly_name": "CPTAC3-DISCOVERY",
+    "program_short_name": "CPTAC",
+    "program_label": "cptac3"
   },
   "CPTAC2-Other": {
     "project_short_name": "CPTAC2_other",
@@ -74,7 +79,7 @@
   },
   "CPTAC2-Confirmatory-JHU-Ovarian": {
     "project_short_name": "CPTAC2_Confirmatory_JHU_Ovarian",
-    "project_friendly_name": "CPTAC2-Confirmatory-JHU-Ovarian",
+    "project_friendly_name": "CPTAC2-CONFIRMATORY JHU OVARIAN",
     "program_short_name": "CPTAC",
     "program_label": "cptac2"
   },
@@ -102,11 +107,16 @@
     "program_short_name": "APOLLO",
     "program_label": "apollo"
   },
+  "National Cancer Center Korea - iCC": {
+    "project_short_name": "NCC_iCC",
+    "project_friendly_name": "NATIONAL CANCER CENTER KOREA",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
   "Proteogenomics Analysis of Glioma across Pediatric Adolescent and Young Adult age groups": {
     "project_short_name": "Proteogenomics_Analysis_of_Glioma",
     "project_friendly_name": "PROTEOGENOMICS ANALYSIS OF GLIOMA ACROSS PEDIATRIC ADOLESCENT AND YOUNG ADULT AGE GROUPS",
     "program_short_name": "CBTN",
     "program_label": "cbttc; cbtn"
   }
-
 }
