@@ -153,5 +153,6 @@
   "aliquot_barcode_tumor":{"exception":"","type":"STRING","description":"TCGA aliquot barcode for the tumor, eg TCGA-12-1089-01A-01D-0517-01"},
   "aliquot_barcode_normal":{"exception":"","type":"STRING","description":"TCGA aliquot barcode for the normal control, eg TCGA-12-1089-01A-01D-0517-01]"},
   "Tumor_Sample_Barcode":{"exception":"","type":"STRING","description":"column changes name during ETL"},
-  "Matched_Norm_Sample_Barcode":{"exception":"","type":"STRING","description":"column changes name during ETL"}
+  "Matched_Norm_Sample_Barcode":{"exception":"","type":"STRING","description":"column changes name during ETL"},
+  "Tumor_Sample_UUID":{"exception":"","type":"STRING","description":"column changes name during ETL"}
 }
