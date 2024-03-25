@@ -4,7 +4,8 @@
       "data_type": "Gene Level Copy Number",
       "data_category": "Copy Number Variation"},
     "table_desc_file": "GenericSchemas/cnvr_gene_level.json",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {}
   },
   "rna_seq": {
     "filters": {
@@ -14,7 +15,8 @@
       "experimental_strategy": "RNA-Seq",
       "data_format": "TSV"},
     "table_desc_file": "",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {}
   },
   "open_somatic_mut": {
     "filters": {
@@ -22,7 +24,19 @@
       "data_category": "Simple Nucleotide Variation",
       "data_format": "MAF"},
     "table_desc_file": "",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {"Tumor_Sample_UUID": "Tumor_Aliquot_UUID",
+                    "Matched_Norm_Sample_UUID": "Matched_Norm_Aliquot_UUID",
+                    "Tumor_Sample_Barcode": "Tumor_Aliquot_Barcode",
+                    "Matched_Norm_Sample_Barcode": "Matched_Norm_Aliquot_Barcode",
+                    "tumor_bam_uuid": "tumor_submitter_uuid",
+                    "normal_bam_uuid": "normal_submitter_uuid",
+                    "1000G_AF": "ThousG_AF",
+                    "1000G_AFR_AF": "ThousG_AFR_AF",
+                    "1000G_AMR_AF": "ThousG_AMR_AF",
+                    "1000G_EAS_AF": "ThousG_EAS_AF",
+                    "1000G_EUR_AF": "ThousG_EUR_AF",
+                    "1000G_SAS_AF": "ThousG_SAS_AF"}
   },
   "cnvr": {
     "filters": {
@@ -31,7 +45,8 @@
       "data_format": "TXT",
       "platform": "Illumia"},
     "table_desc_file": "",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {}
   },
   "miRNA": {
     "filters": {
@@ -41,7 +56,8 @@
       "experimental_strategy": "miRNA-Seq",
       "data_format": "TXT"},
     "table_desc_file": "",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {}
   },
   "miRNA_iso": {
     "filters": {
@@ -51,6 +67,7 @@
       "experimental_strategy": "miRNA-Seq",
       "data_format": "TXT"},
     "table_desc_file": "",
-    "field_desc_file": ""
+    "field_desc_file": "",
+    "raw_headers": {}
   }
 }
