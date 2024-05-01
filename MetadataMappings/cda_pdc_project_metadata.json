@@ -118,5 +118,11 @@
     "project_friendly_name": "PROTEOGENOMICS ANALYSIS OF GLIOMA ACROSS PEDIATRIC ADOLESCENT AND YOUNG ADULT AGE GROUPS",
     "program_short_name": "CBTN",
     "program_label": "cbttc; cbtn"
+  },
+  "Cancer Proteogenomics  Group of National Cancer Center Korea": {
+    "project_short_name": "KNCC_Cancer_Proteogenomics_Group",
+    "project_friendly_name": "CANCER PROTEOGENOMICS GROUP OF NATIONAL CANCER CENTER KOREA",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
   }
 }
