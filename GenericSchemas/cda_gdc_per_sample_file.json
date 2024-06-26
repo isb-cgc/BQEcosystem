@@ -3,7 +3,7 @@
   "friendlyName": "{---tag-friendly-name---} hg38 PER SAMPLE FILE METADATA",
   "labels": {
     "access": "open",
-    "category": "file_metadata",
+    "category": "metadata",
     "data_type": "file_metadata",
     "program": "{---tag-program-label---}",
     "reference_genome_0": "hg38",
