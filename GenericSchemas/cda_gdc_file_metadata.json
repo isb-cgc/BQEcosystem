@@ -3,7 +3,7 @@
   "friendlyName": "FILE METADATA GDC ACTIVE",
   "labels": {
     "access": "open",
-    "category": "file_metadata",
+    "category": "metadata",
     "data_type": "file_metadata",
     "source": "gdc",
     "status": "current"
