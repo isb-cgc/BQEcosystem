@@ -3,7 +3,7 @@
   "friendlyName": "SLIDE IMAGES TO CASE IDS MAP",
   "labels": {
     "access": "open",
-    "category": "file_metadata",
+    "category": "metadata",
     "data_type": "file_metadata",
     "source_0": "cda",
     "source_1": "gdc",
