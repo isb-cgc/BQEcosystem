@@ -3,8 +3,6 @@
     "filters": {
       "data_type": "Gene Level Copy Number",
       "data_category": "Copy Number Variation"},
-    "table_desc_file": "GenericSchemas/cnvr_gene_level.json",
-    "field_desc_file": "",
     "headers_to_switch": {},
     "headers_to_add": []
   },
@@ -15,8 +13,6 @@
       "analysis_workflow_type": "STAR - Counts",
       "experimental_strategy": "RNA-Seq",
       "data_format": "TSV"},
-    "table_desc_file": "",
-    "field_desc_file": "",
     "headers_to_switch": {},
     "headers_to_add": []
   },
@@ -25,8 +21,6 @@
       "data_type": "Masked Somatic Mutation",
       "data_category": "Simple Nucleotide Variation",
       "data_format": "MAF"},
-    "table_desc_file": "",
-    "field_desc_file": "",
     "headers_to_switch": {"Tumor_Sample_UUID": "Tumor_Aliquot_UUID",
                           "Matched_Norm_Sample_UUID": "Matched_Norm_Aliquot_UUID",
                           "Tumor_Sample_Barcode": "Tumor_Aliquot_Barcode",
@@ -47,8 +41,6 @@
       "data_category": "Copy Number Variation",
       "data_format": "TXT",
       "platform": "Illumia"},
-    "table_desc_file": "",
-    "field_desc_file": "",
     "headers_to_switch": {},
     "headers_to_add": []
   },
@@ -59,8 +51,6 @@
       "analysis_workflow_type": "BCGSC miRNA Profiling",
       "experimental_strategy": "miRNA-Seq",
       "data_format": "TXT"},
-    "table_desc_file": "",
-    "field_desc_file": "",
     "headers_to_switch": {},
     "headers_to_add": []
   },
@@ -71,8 +61,6 @@
       "analysis_workflow_type": "BCGSC miRNA Profiling",
       "experimental_strategy": "miRNA-Seq",
       "data_format": "TXT"},
-    "table_desc_file": "",
-    "field_desc_file": "",
     "headers_to_switch": {},
     "headers_to_add": []
   }
