@@ -1,0 +1,654 @@
+{
+  "PDC000109": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE COLON VU PROTEOME",
+    "study_grouping": "Prospective Colon VU"
+  },
+  "PDC000110": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE OVARIAN JHU PROTEOME",
+    "study_grouping": "Prospective Ovarian JHU"
+  },
+  "PDC000111": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA COLON CANCER PROTEOME",
+    "study_grouping": "TCGA Colon Cancer"
+  },
+  "PDC000112": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN JHU GLYCOPROTEOME",
+    "study_grouping": "TCGA Ovarian JHU"
+  },
+  "PDC000113": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN JHU PROTEOME",
+    "study_grouping": "TCGA Ovarian JHU"
+  },
+  "PDC000114": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN PNNL PROTEOME",
+    "study_grouping": "TCGA Ovarian PNNL"
+  },
+  "PDC000115": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN PNNL PHOSPHOPROTEOME VELOS QEXACTIVE",
+    "study_grouping": "TCGA Ovarian PNNL"
+  },
+  "PDC000116": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE COLON PNNL PROTEOME QEPLUS",
+    "study_grouping": "Prospective Colon PNNL"
+  },
+  "PDC000117": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE COLON PNNL PHOSPHOPROTEOME LUMOS",
+    "study_grouping": "Prospective Colon PNNL"
+  },
+  "PDC000118": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE OVARIAN PNNL PROTEOME QEPLUS",
+    "study_grouping": "Prospective Ovarian PNNL"
+  },
+  "PDC000119": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE OVARIAN PNNL PHOSPHOPROTEOME LUMOS",
+    "study_grouping": "Prospective Ovarian PNNL"
+  },
+  "PDC000120": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE PROTEOME",
+    "study_grouping": "Prospective Breast BI"
+  },
+  "PDC000121": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE PHOSPHOPROTEOME",
+    "study_grouping": "Prospective Breast BI"
+  },
+  "PDC000123": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC UCEC Discovery Study CompRef"
+  },
+  "PDC000124": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) COMPREF PROTEOME",
+    "study_grouping": "CPTAC UCEC Discovery Study CompRef"
+  },
+  "PDC000125": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) PROTEOME",
+    "study_grouping": "CPTAC UCEC Discovery Study"
+  },
+  "PDC000126": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC UCEC Discovery Study"
+  },
+  "PDC000127": {
+    "study_friendly_name": "CPTAC3-DISCOVERY CLEAR CELL RENAL CELL CARCINOMA (CCRCC) PROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study"
+  },
+  "PDC000128": {
+    "study_friendly_name": "CPTAC3-DISCOVERY CLEAR CELL RENAL CELL CARCINOMA (CCRCC) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study"
+  },
+  "PDC000129": {
+    "study_friendly_name": "CPTAC3-DISCOVERY CLEAR CELL RENAL CELL CARCINOMA (CCRCC) COMPREF PROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study CompRef"
+  },
+  "PDC000130": {
+    "study_friendly_name": "CPTAC3-DISCOVERY CLEAR CELL RENAL CELL CARCINOMA (CCRCC) COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study CompRef"
+  },
+  "PDC000149": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC LUAD Discovery Study"
+  },
+  "PDC000152": {
+    "study_friendly_name": "QUANT MAPS TISSUE BIOPSIES KIDNEY PROTEOME",
+    "study_grouping": "PCT SWATH Kidney"
+  },
+  "PDC000153": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) PROTEOME",
+    "study_grouping": "CPTAC LUAD Discovery Study"
+  },
+  "PDC000154": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) COMPREF PROTEOME",
+    "study_grouping": "CPTAC LUAD Discovery Study CompRef"
+  },
+  "PDC000155": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC LUAD Discovery Study CompRef"
+  },
+  "PDC000173": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA BREAST CANCER PROTEOME",
+    "study_grouping": "TCGA Breast Cancer"
+  },
+  "PDC000174": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA BREAST CANCER PHOSPHOPROTEOME",
+    "study_grouping": "TCGA Breast Cancer"
+  },
+  "PDC000176": {
+    "study_friendly_name": "PEDIATRIC BRAIN CANCER PILOT STUDY PHOSPHOPROTEOME",
+    "study_grouping": "Pediatric Brain Cancer Pilot Study"
+  },
+  "PDC000180": {
+    "study_friendly_name": "PEDIATRIC BRAIN CANCER PILOT STUDY PROTEOME",
+    "study_grouping": "Pediatric Brain Cancer Pilot Study"
+  },
+  "PDC000198": {
+    "study_friendly_name": "HEPATITIS B VIRUS (HBV) RELATED HEPATOCELLULAR CARCINOMA PROTEOME",
+    "study_grouping": "HBV-Related Hepatocellular Carcinoma"
+  },
+  "PDC000199": {
+    "study_friendly_name": "HEPATITIS B VIRUS (HBV) RELATED HEPATOCELLULAR CARCINOMA PHOSPHOPROTEOME",
+    "study_grouping": "HBV-Related Hepatocellular Carcinoma"
+  },
+  "PDC000200": {
+    "study_friendly_name": "CPTAC3-DISCOVERY CLEAR CELL RENAL CELL CARCINOMA (CCRCC) DIA PROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study"
+  },
+  "PDC000203": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) COMPREF PROTEOME",
+    "study_grouping": "CPTAC GBM Discovery Study CompRef"
+  },
+  "PDC000204": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) PROTEOME",
+    "study_grouping": "CPTAC GBM Discovery Study"
+  },
+  "PDC000205": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC GBM Discovery Study"
+  },
+  "PDC000206": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC GBM Discovery Study CompRef"
+  },
+  "PDC000214": {
+    "study_friendly_name": "PROTEOGENOMICS OF GASTRIC CANCER PROTEOME",
+    "study_grouping": "Proteogenomics of Gastric Cancer"
+  },
+  "PDC000215": {
+    "study_friendly_name": "PROTEOGENOMICS OF GASTRIC CANCER PHOSPHOPROTEOME",
+    "study_grouping": "Proteogenomics of Gastric Cancer"
+  },
+  "PDC000216": {
+    "study_friendly_name": "PROTEOGENOMICS OF GASTRIC CANCER GLYCOPROTEOME",
+    "study_grouping": "Proteogenomics of Gastric Cancer"
+  },
+  "PDC000219": {
+    "study_friendly_name": "ACADEMIA SINICA LUAD-100 (LUNG ADENOCARCINOMA) PROTEOME",
+    "study_grouping": "Academia Sinica LUAD100"
+  },
+  "PDC000220": {
+    "study_friendly_name": "ACADEMIA SINICA LUAD-100 (LUNG ADENOCARCINOMA) PHOSPHOPROTEOME",
+    "study_grouping": "Academia Sinica LUAD100"
+  },
+  "PDC000221": {
+    "study_friendly_name": "CPTAC3-DISCOVERY HEAD AND NECK SQUAMOUS CELL CARCINOMA (HNSCC) PROTEOME",
+    "study_grouping": "CPTAC HNSCC Discovery Study"
+  },
+  "PDC000222": {
+    "study_friendly_name": "CPTAC3-DISCOVERY HEAD AND NECK SQUAMOUS CELL CARCINOMA (HNSCC) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC HNSCC Discovery Study"
+  },
+  "PDC000224": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) ACETYLOME",
+    "study_grouping": "CPTAC LUAD Discovery Study"
+  },
+  "PDC000225": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) COMPREF ACETYLOME",
+    "study_grouping": "CPTAC LUAD Discovery Study CompRef"
+  },
+  "PDC000226": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) ACETYLOME",
+    "study_grouping": "CPTAC UCEC Discovery Study"
+  },
+  "PDC000227": {
+    "study_friendly_name": "CPTAC3-DISCOVERY UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) COMPREF ACETYLOME",
+    "study_grouping": "CPTAC UCEC Discovery Study CompRef"
+  },
+  "PDC000231": {
+    "study_friendly_name": "GEORGETOWN LUNG CANCER PROTEOME",
+    "study_grouping": "Georgetown Lung Cancer Proteomics Study"
+  },
+  "PDC000232": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG SQUAMOUS CELL CARCINOMA (LSCC) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC LSCC Discovery Study"
+  },
+  "PDC000233": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG SQUAMOUS CELL CARCINOMA (LSCC) ACETYLOME",
+    "study_grouping": "CPTAC LSCC Discovery Study"
+  },
+  "PDC000234": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG SQUAMOUS CELL CARCINOMA (LSCC) PROTEOME",
+    "study_grouping": "CPTAC LSCC Discovery Study"
+  },
+  "PDC000237": {
+    "study_friendly_name": "CPTAC3-DISCOVERY LUNG SQUAMOUS CELL CARCINOMA (LSCC) UBIQUITYLOME",
+    "study_grouping": "CPTAC LSCC Discovery Study"
+  },
+  "PDC000239": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE ACETYLOME",
+    "study_grouping": "Prospective Breast BI"
+  },
+  "PDC000240": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE COMPREF ACETYLOME",
+    "study_grouping": "Prospective Breast BI CompRef"
+  },
+  "PDC000242": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE COMPREF PROTEOME",
+    "study_grouping": "Prospective Breast BI CompRef"
+  },
+  "PDC000244": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE BREAST INVASIVE COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "Prospective Breast BI CompRef"
+  },
+  "PDC000245": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) ACETYLOME",
+    "study_grouping": "CPTAC GBM Discovery Study"
+  },
+  "PDC000246": {
+    "study_friendly_name": "CPTAC3-DISCOVERY GLIOBLASTOMA MULTIFORME (GBM) COMPREF ACETYLOME",
+    "study_grouping": "CPTAC GBM Discovery Study CompRef"
+  },
+  "PDC000248": {
+    "study_friendly_name": "KU PDAC DISCOVERY STUDY GLOBAL PROTEOME",
+    "study_grouping": "KU PDAC Discovery Study"
+  },
+  "PDC000249": {
+    "study_friendly_name": "KU PDAC DISCOVERY STUDY PHOSPHOPROTEOME",
+    "study_grouping": "KU PDAC Discovery Study"
+  },
+  "PDC000250": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE OVARIAN JHU INTACT GLYCOPROTEOME",
+    "study_grouping": "Prospective Ovarian JHU"
+  },
+  "PDC000251": {
+    "study_friendly_name": "CPTAC2-CONFIRMATORY PROSPECTIVE OVARIAN JHU N-LINKED GLYCOSITE-CONTAINING PEPTIDE",
+    "study_grouping": "Prospective Ovarian JHU"
+  },
+  "PDC000262": {
+    "study_friendly_name": "ORAL SQUAMOUS CELL CARCINOMA PROTEOME",
+    "study_grouping": "Oral Squamous Cell Carcinoma Study"
+  },
+  "PDC000270": {
+    "study_friendly_name": "CPTAC3-DISCOVERY PANCREATIC DUCTAL ADENOCARCINOMA (PDA) PROTEOME",
+    "study_grouping": "CPTAC PDA Discovery Study"
+  },
+  "PDC000271": {
+    "study_friendly_name": "CPTAC3-DISCOVERY PANCREATIC DUCTAL ADENOCARCINOMA (PDA) PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC PDA Discovery Study"
+  },
+  "PDC000272": {
+    "study_friendly_name": "CPTAC3-DISCOVERY PANCREATIC DUCTAL ADENOCARCINOMA (PDA) INTACT GLYCOPROTEOME",
+    "study_grouping": "CPTAC PDA Discovery Study"
+  },
+  "PDC000278": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE VU NORMAL COLON EPITHELIUM PROTEOME",
+    "study_grouping": "VU Normal Colon Epithelium"
+  },
+  "PDC000289": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA COLORECTAL CANCER COMPREF SAMPLES PROTEOME",
+    "study_grouping": "TCGA Colorectal Cancer CompRef"
+  },
+  "PDC000290": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA BREAST CANCER COMPREF SAMPLES PROTEOME",
+    "study_grouping": "TCGA Breast Cancer CompRef"
+  },
+  "PDC000291": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA BREAST CANCER COMPREF SAMPLES PHOSPHOPROTEOME",
+    "study_grouping": "TCGA Breast Cancer CompRef"
+  },
+  "PDC000292": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN JHU COMPREF SAMPLES PROTEOME",
+    "study_grouping": "TCGA Ovarian JHU CompRef"
+  },
+  "PDC000293": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN PNNL COMPREF SAMPLES PROTEOME",
+    "study_grouping": "TCGA Ovarian PNNL CompRef"
+  },
+  "PDC000294": {
+    "study_friendly_name": "CPTAC2-RETROSPECTIVE TCGA OVARIAN PNNL COMPREF SAMPLES PHOSPHOPROTEOME VELOS QEXACTIVE",
+    "study_grouping": "TCGA Ovarian PNNL CompRef"
+  },
+  "PDC000295": {
+    "study_friendly_name": "CPTAC3-OTHER NCI-7 CELL LINE PANEL PROTEOME",
+    "study_grouping": "NCI-7 Cell Line Panel"
+  },
+  "PDC000296": {
+    "study_friendly_name": "CPTAC3-OTHER NCI-7 CELL LINE PANEL EXPERIMENTAL APPLICATION PROTEOME",
+    "study_grouping": "NCI-7 Cell Line Panel"
+  },
+  "PDC000297": {
+    "study_friendly_name": "CPTAC3-OTHER NCI-7 CELL LINE PANEL PHOSPHOPROTEOME",
+    "study_grouping": "NCI-7 Cell Line Panel"
+  },
+  "PDC000303": {
+    "study_friendly_name": "CPTAC2-OTHER THERAPEUTIC TARGETS IN BREAST CANCER XENOGRAFTS PROTEOME",
+    "study_grouping": "Therapeutic Targets in Breast Cancer Xenografts"
+  },
+  "PDC000304": {
+    "study_friendly_name": "CPTAC2-OTHER THERAPEUTIC TARGETS IN BREAST CANCER XENOGRAFTS PHOSPHOPROTEOME",
+    "study_grouping": "Therapeutic Targets in Breast Cancer Xenografts"
+  },
+  "PDC000307": {
+    "study_friendly_name": "CPTAC2-OTHER BUPARLISIB TREATED XENOGRAFT TUMORS OF TRIPLE-NEGATIVE BREAST CANCER (TNBC) PROTEOME",
+    "study_grouping": "Buparlisib Treated Xenograft Tumors of TNBC"
+  },
+  "PDC000308": {
+    "study_friendly_name": "CPTAC2-OTHER BUPARLISIB TREATED XENOGRAFT TUMORS OF TRIPLE-NEGATIVE BREAST CANCER (TNBC) PHOSPHOPROTEOME",
+    "study_grouping": "Buparlisib Treated Xenograft Tumors of TNBC"
+  },
+  "PDC000309": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW BREAST INVASIVE PROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow BI"
+  },
+  "PDC000310": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW PNNL PROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow PNNL"
+  },
+  "PDC000311": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW JHU PROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow JHU"
+  },
+  "PDC000312": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW BREAST INVASIVE PHOSPHOPROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow BI"
+  },
+  "PDC000313": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW JHU PHOSPHOPROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow JHU"
+  },
+  "PDC000314": {
+    "study_friendly_name": "CPTAC3-OTHER REPRODUCIBLE WORKFLOW PNNL PHOSPHOPROTEOME",
+    "study_grouping": "Reproducible Proteome and Phosphoproteome Workflow PNNL"
+  },
+  "PDC000315": {
+    "study_friendly_name": "AML GILTERITINIB RESISTANCE PROTEOME",
+    "study_grouping": "AML Gilteritinib Resistance"
+  },
+  "PDC000316": {
+    "study_friendly_name": "AML GILTERITINIB TIMECOURSE PROTEOME",
+    "study_grouping": "AML Gilteritinib TimeCourse"
+  },
+  "PDC000317": {
+    "study_friendly_name": "AML QUIZARTINIB RESISTANCE PROTEOME",
+    "study_grouping": "AML Quizartinib Resistance"
+  },
+  "PDC000318": {
+    "study_friendly_name": "AML GILTERITINIB RESISTANCE PHOSPHOPROTEOME",
+    "study_grouping": "AML Gilteritinib Resistance"
+  },
+  "PDC000319": {
+    "study_friendly_name": "AML GILTERITINIB TIMECOURSE PHOSPHOPROTEOME",
+    "study_grouping": "AML Gilteritinib TimeCourse"
+  },
+  "PDC000320": {
+    "study_friendly_name": "AML QUIZARTINIB RESISTANCE PHOSPHOPROTEOME",
+    "study_grouping": "AML Quizartinib Resistance"
+  },
+  "PDC000325": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY DP1 CLINICAL TRIAL PROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology DP1 Clinical Trial"
+  },
+  "PDC000326": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY DP1 CLINICAL TRIAL PHOSPHOPROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology DP1 Clinical Trial"
+  },
+  "PDC000327": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY PDX BULK PROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology PDX bulk"
+  },
+  "PDC000328": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY PDX BULK PHOSPHOPROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology PDX bulk"
+  },
+  "PDC000329": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY PDX CORES PROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology PDX cores"
+  },
+  "PDC000330": {
+    "study_friendly_name": "MICROSCALED PROTEOGENOMIC METHODS FOR PRECISION ONCOLOGY PDX CORES PHOSPHOPROTEOME",
+    "study_grouping": "Microscaled Proteogenomic Methods for Precision Oncology PDX cores"
+  },
+  "PDC000341": {
+    "study_friendly_name": "CPTAC3-DISCOVERY PANCREATIC DUCTAL ADENOCARCINOMA (PDA) DIA PROTEOME",
+    "study_grouping": "CPTAC PDA Discovery Study"
+  },
+  "PDC000351": {
+    "study_friendly_name": "CPTAC3-OTHER DEEP PROTEOMICS 2D-DIA",
+    "study_grouping": "CPTAC Deep Proteomics 2D-DIA"
+  },
+  "PDC000356": {
+    "study_friendly_name": "NCC iCC PROTEOME",
+    "study_grouping": "NCC iCC"
+  },
+  "PDC000357": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FFPE VALIDATION PHOSPHOPROTEOME",
+    "study_grouping": "PTRC HGSOC FFPE Validation"
+  },
+  "PDC000358": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FFPE VALIDATION PROTEOME",
+    "study_grouping": "PTRC HGSOC FFPE Validation"
+  },
+  "PDC000359": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FFPE DISCOVERY PHOSPHOPROTEOME",
+    "study_grouping": "PTRC HGSOC FFPE Discovery"
+  },
+  "PDC000360": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FFPE DISCOVERY PROTEOME",
+    "study_grouping": "PTRC HGSOC FFPE Discovery"
+  },
+  "PDC000361": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FROZEN VALIDATION PHOSPHOPROTEOME",
+    "study_grouping": "PTRC HGSOC Frozen Validation"
+  },
+  "PDC000362": {
+    "study_friendly_name": "PTRC HIGH GRADE SEROUS OVARIAN CANCER (HGSOC) FROZEN VALIDATION PROTEOME",
+    "study_grouping": "PTRC HGSOC Frozen Validation"
+  },
+  "PDC000363": {
+    "study_friendly_name": "NCC iCC PHOSPHOPROTEOME",
+    "study_grouping": "NCC iCC"
+  },
+  "PDC000393": {
+    "study_friendly_name": "SAMPLING TECHNIQUES FOR ENRICHMENT OF PDAC",
+    "study_grouping": "Sampling techniques for enrichment of PDAC"
+  },
+  "PDC000398": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE PRIMARY COHORT PROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Primary Cohort"
+  },
+  "PDC000399": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE PRIMARY COHORT PHOSPHOPROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Primary Cohort"
+  },
+  "PDC000400": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE SORAFENIB TREATMENT PROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Sorafenib Treatment"
+  },
+  "PDC000401": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE SORAFENIB TREATMENT PHOSPHOPROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Sorafenib Treatment"
+  },
+  "PDC000402": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE COMBINATION TREATMENT PROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Combination Treatment"
+  },
+  "PDC000403": {
+    "study_friendly_name": "AML EX VIVO DRUG RESPONSE COMBINATION TREATMENT PHOSPHOPROTEOME",
+    "study_grouping": "AML Ex Vivo Drug Response - Combination Treatment"
+  },
+  "PDC000408": {
+    "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER (TNBC) PROTEOME",
+    "study_grouping": "PTRC TNBC"
+  },
+  "PDC000409": {
+    "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER (TNBC) PHOSPHOPROTEOME",
+    "study_grouping": "PTRC TNBC"
+  },
+  "PDC000410": {
+    "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER (TNBC) PDX PROTEOME",
+    "study_grouping": "PTRC TNBC PDX"
+  },
+  "PDC000411": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study"
+  },
+  "PDC000412": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY DIA PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study"
+  },
+  "PDC000413": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY DIA INTACT GLYCOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study"
+  },
+  "PDC000414": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY INTRATUMOR HETEROGENEITY",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study - Intratumor Heterogeneity"
+  },
+  "PDC000415": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY KINASE INHIBITION DIA PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study - Kinase Inhibition"
+  },
+  "PDC000430": {
+    "study_friendly_name": "BROAD INSTITUTE MEDULLOBLASTOMA ACETYLOME",
+    "study_grouping": "Broad Institute - Medulloblastoma"
+  },
+  "PDC000431": {
+    "study_friendly_name": "BROAD INSTITUTE MEDULLOBLASTOMA PHOSPHO-TYROSINE-ENRICHMENTS",
+    "study_grouping": "Broad Institute - Medulloblastoma"
+  },
+  "PDC000432": {
+    "study_friendly_name": "BROAD INSTITUTE MEDULLOBLASTOMA PHOSPHOPROTEOME",
+    "study_grouping": "Broad Institute - Medulloblastoma"
+  },
+  "PDC000433": {
+    "study_friendly_name": "BROAD INSTITUTE MEDULLOBLASTOMA PROTEOME",
+    "study_grouping": "Broad Institute - Medulloblastoma"
+  },
+  "PDC000434": {
+    "study_friendly_name": "APOLLO LUNG ADENOCARCINOMA (LUAD) PROTEOME",
+    "study_grouping": "APOLLO LUAD"
+  },
+  "PDC000435": {
+    "study_friendly_name": "APOLLO LUNG ADENOCARCINOMA (LUAD) PHOSPHOPROTEOME Ti02",
+    "study_grouping": "APOLLO LUAD"
+  },
+  "PDC000436": {
+    "study_friendly_name": "APOLLO LUNG ADENOCARCINOMA (LUAD) PHOSPHOPROTEOME FeNTA",
+    "study_grouping": "APOLLO LUAD"
+  },
+  "PDC000439": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY PROTEOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study"
+  },
+  "PDC000440": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY COMPREF PROTEOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study CompRef"
+  },
+  "PDC000441": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study"
+  },
+  "PDC000442": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study CompRef"
+  },
+  "PDC000443": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY ACETYLOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study"
+  },
+  "PDC000444": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY COMPREF ACETYLOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study CompRef"
+  },
+  "PDC000445": {
+    "study_friendly_name": "CPTAC UTERINE CORPUS ENDOMETRIAL CARCINOMA (UCEC) CONFIRMATORY STUDY GLYCOPROTEOME",
+    "study_grouping": "CPTAC UCEC Confirmatory Study"
+  },
+  "PDC000446": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY PROTEOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000447": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY COMPREF PROTEOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study CompRef"
+  },
+  "PDC000448": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000449": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY COMPREF PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study CompRef"
+  },
+  "PDC000450": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY ACETYLOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000451": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY COMPREF ACETYLOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study CompRef"
+  },
+  "PDC000454": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY GLYCOPROTEOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000464": {
+    "study_friendly_name": "CPTAC NON-CLEAR CELL RENAL CELL CARCINOMA (NON-CCRCC) STUDY PROTEOME",
+    "study_grouping": "CPTAC non-ccRCC Study"
+  },
+  "PDC000465": {
+    "study_friendly_name": "CPTAC NON-CLEAR CELL RENAL CELL CARCINOMA (NON-CCRCC) STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC non-ccRCC Study"
+  },
+  "PDC000466": {
+    "study_friendly_name": "CPTAC NON-CLEAR CELL RENAL CELL CARCINOMA (NON-CCRCC) STUDY INTACT GLYCOPROTEOME",
+    "study_grouping": "CPTAC non-ccRCC Study"
+  },
+  "PDC000471": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) DISCOVERY STUDY INTACT GLYCOPROTEOME",
+    "study_grouping": "CPTAC CCRCC Discovery Study"
+  },
+  "PDC000477": {
+    "study_friendly_name": "BEAT AML BASELINE CLINICAL PROTEOME",
+    "study_grouping": "Beat AML Baseline Clinical"
+  },
+  "PDC000478": {
+    "study_friendly_name": "BEAT AML BASELINE CLINICAL PHOSPHOPROTEOME",
+    "study_grouping": "Beat AML Baseline Clinical"
+  },
+  "PDC000504": {
+    "study_friendly_name": "CPTAC PDAC BioTExt PROTEOME",
+    "study_grouping": "CPTAC PDAC BioTExt"
+  },
+  "PDC000514": {
+    "study_friendly_name": "KNCC GLIOBLASTOMA EVOLUTION PROTEOME",
+    "study_grouping": "KNCC Glioblastoma Evolution"
+  },
+  "PDC000515": {
+    "study_friendly_name": "KNCC GLIOBLASTOMA EVOLUTION PHOSPHOPROTEOME",
+    "study_grouping": "KNCC Glioblastoma Evolution"
+  },
+  "PDC000526": {
+    "study_friendly_name": "CPTAC PDAC PROTEINS IN SERUM PROTEOME",
+    "study_grouping": "CPTAC PDAC Proteins in Serum"
+  },
+  "PDC000527": {
+    "study_friendly_name": "CPTAC PDAC PROTEINS IN SERUM PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC PDAC Proteins in Serum"
+  },
+  "PDC000534": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY TRAINING METABOLOME",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study - Training"
+  },
+  "PDC000535": {
+    "study_friendly_name": "CPTAC CLEAR CELL RENAL CELL CARCINOMA (CCRCC) CONFIRMATORY STUDY VALIDATION METABOLOME",
+    "study_grouping": "CPTAC CCRCC Confirmatory Study - Validation"
+  },
+  "PDC000544": {
+    "study_friendly_name": "CPTAC NON-CLEAR CELL RENAL CELL CARCINOMA (NON-CCRCC) STUDY METABOLOME",
+    "study_grouping": "CPTAC non-ccRCC Study"
+  },
+  "PDC000546": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY METABOLOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000547": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) CONFIRMATORY STUDY LIPIDOME",
+    "study_grouping": "CPTAC GBM Confirmatory Study"
+  },
+  "PDC000552": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY METABOLOME",
+    "study_grouping": "CPTAC GBM Discovery Study"
+  },
+  "PDC000553": {
+    "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY LIPIDOME",
+    "study_grouping": "CPTAC GBM Discovery Study"
+  }
+}
