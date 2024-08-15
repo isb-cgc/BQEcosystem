@@ -1,0 +1,11 @@
+{
+  "description": "Data was generated from file metadata information from the GDC release {---tag-version---}, {---tag-extracted-month-year---}. Current google cloud storage paths are mapped to file gdc ids.\nMore details: {---tag-release-notes-url---}",
+  "friendlyName": "GDC FILE ID TO GCS URLS",
+  "labels": {
+    "access": "open",
+    "category": "file_metadata",
+    "data_type": "file_metadata",
+    "source": "gdc",
+    "status": "current"
+  }
+ }
