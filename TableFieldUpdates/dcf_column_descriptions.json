@@ -1,0 +1,6 @@
+{
+  "file_gdc_id": "Unique GDC identifier for this file (corresponds to the file_barcode)  --  this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba1",
+  "gdc_file_url_aws": "GDC AWS (s3://) file location",
+  "gdc_file_url_gcs": "GDC GCS (gs://) file location",
+  "gdc_file_url_web": "GDC API (https://) file location"
+}
