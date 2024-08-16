@@ -1,0 +1,98 @@
+{
+    "description":"Data was compiled from the original publications used in the Mitelman database. Various fields of data were assigned a unique code to be used as a reference in other database tables.",
+    "friendlyName":"CLINICAL CODE MAP",
+    "labels": {
+        "access":"open",
+        "category":"CLINICAL BIOSPECIMEN DATA",
+        "data_type":"CLINICAL_SUPPLEMENT",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Whether or not the code is active. \"J\" is \"yes\" and \"N\" is no.",
+                "mode":"NULLABLE",
+                "name":"Aktiv",
+                "type":"STRING"
+            },
+            {
+                "description":"The 'long' name corresponding to this code, eg 'Vascular and perivascular tumors (all subtypes)'",
+                "mode":"NULLABLE",
+                "name":"Benamning",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated",
+                "mode":"NULLABLE",
+                "name":"Flagga1",
+                "type":"STRING"
+            },{
+                "description":"Deprecated",
+                "mode":"NULLABLE",
+                "name":"Flagga2",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated",
+                "mode":"NULLABLE",
+                "name":"Flagga3",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated",
+                "mode":"NULLABLE",
+                "name":"Flagga4",
+                "type":"STRING"
+            },
+            {
+                "description":"Valid from date",
+                "mode":"NULLABLE",
+                "name":"GiltigFran",
+                "type":"STRING"
+            },
+            {
+                "description":"Valid to date",
+                "mode":"NULLABLE",
+                "name":"GiltigTill",
+                "type":"STRING"
+            },
+            {
+                "description":"Registration date",
+                "mode":"NULLABLE",
+                "name":"Inregdatum",
+                "type":"STRING"
+            },
+            {
+                "description":"Indicates whether or not the code is internal",
+                "mode":"NULLABLE",
+                "name":"Intern",
+                "type":"STRING"
+            },
+            {
+                "description":"Code number which depends on the KodTyp",
+                "mode":"NULLABLE",
+                "name":"Kod",
+                "type":"STRING"
+            },
+            {
+                "description":"This field indicates the type of the code -- there are 7 types: 'MORPH' (morphology), 'GEO' (geography), 'TOP' (topography), 'HER' (heredity), 'TISSUE', 'TREAT' (treatment), and 'RACE'",
+                "mode":"NULLABLE",
+                "name":"KodTyp",
+                "type":"STRING"
+            },
+            {
+                "description":"Abbreviation for the Benamning field",
+                "mode":"NULLABLE",
+                "name":"Kortnamn",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated field",
+                "mode":"NULLABLE",
+                "name":"Notering",
+                "type":"STRING"
+            }
+        ]
+    }
+}

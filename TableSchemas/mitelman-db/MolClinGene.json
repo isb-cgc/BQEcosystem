@@ -1,0 +1,56 @@
+{
+    "description":"Data was compiled from the original publications used in the Mitelman database. Gene fusions were manually curated for each reference.",
+    "friendlyName":"GENE FUSIONS",
+    "labels": {
+        "access":"open",
+        "category":"CLINICAL BIOSPECIMEN DATA",
+        "data_type":"GENE FUSION",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"HGNC gene symbol",
+                "mode":"NULLABLE",
+                "name":"Gene",
+                "type":"STRING"
+            },
+            {
+                "description":"Investigation number",
+                "mode":"NULLABLE",
+                "name":"InvNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"This flag indicates whether this row describes a molecular 'M' or clinical 'C' association",
+                "mode":"NULLABLE",
+                "name":"MolClin",
+                "type":"STRING"
+            },{
+                "description":"Order number",
+                "mode":"NULLABLE",
+                "name":"OrderNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Prefix, if present on Gene entry",
+                "mode":"NULLABLE",
+                "name":"Prefix",
+                "type":"STRING"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Suffix, if present on Gene entry",
+                "mode":"NULLABLE",
+                "name":"Suffix",
+                "type":"STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "description":"Data was aggregated from the separated chromosomal abnormalities. Frequency counts of each numerical abnormality are recorded.",
+    "friendlyName":"COUNTS OF NUMERICAL ABNORMALITIES",
+    "labels": {
+        "access":"open",
+        "category":"PROCESSED -OMICS DATA",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Numerical chromosomal abnormality , eg '-22', or '-X', or '+15', etc",
+                "mode":"NULLABLE",
+                "name":"Abnormality",
+                "type":"STRING"
+            },
+            {
+                "description":"Chromosome number (1- 22, X or Y)",
+                "mode":"NULLABLE",
+                "name":"Chromosome",
+                "type":"STRING"
+            },
+            {
+                "description":"Numeric order of the chromosome",
+                "mode":"NULLABLE",
+                "name":"ChrOrder",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Unique code indicating the morphology type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"Morph",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating the topography type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"Topo",
+                "type":"STRING"
+            },
+            {
+                "description":"Total number of cases",
+                "mode":"NULLABLE",
+                "name":"TotalCases",
+                "type":"STRING"
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "description":"Data was compiled from the original publications used in the Mitelman database. Gene fusions associated with karyotype nomenclature were manually curated for each reference.",
+    "friendlyName":"KARYOTYPE NOMENCLATURE AND GENE FUSIONS",
+    "labels": {
+        "access":"open",
+        "category":"CLINICAL BIOSPECIMEN DATA",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Gene symbol string length",
+                "mode":"NULLABLE",
+                "name":"GeneLength",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated",
+                "mode":"NULLABLE",
+                "name":"GeneLong",
+                "type":"STRING"
+            },
+            {
+                "description":"HGNC gene symbol",
+                "mode":"NULLABLE",
+                "name":"GeneShort",
+                "type":"STRING"
+            },
+            {
+                "description":"Immunology flag which can be 'B', 'T', or null",
+                "mode":"NULLABLE",
+                "name":"Immunology",
+                "type":"STRING"
+            },
+            {
+                "description":"Investigation number",
+                "mode":"NULLABLE",
+                "name":"InvNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Number of characters in karyotype nomenclature string",
+                "mode":"NULLABLE",
+                "name":"KaryLength",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Karyotype description if it exceeds a certain length",
+                "mode":"NULLABLE",
+                "name":"KaryLong",
+                "type":"STRING"
+            },
+            {
+                "description":"Short (possibly truncated) karyotype description",
+                "mode":"NULLABLE",
+                "name":"KaryShort",
+                "type":"STRING"
+            },
+            {
+                "description":"This flag indicates whether this row describes a molecular 'M' or clinical 'C' association",
+                "mode":"NULLABLE",
+                "name":"MolClin",
+                "type":"STRING"
+            },
+            {
+                "description":"Morphology code from Koder table field Kod for the rows with 'MORPH' in the KodType field.",
+                "mode":"NULLABLE",
+                "name":"Morph",
+                "type":"STRING"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Unique code indicating the topography type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"Topo",
+                "type":"STRING"
+            }
+        ]
+    }
+}

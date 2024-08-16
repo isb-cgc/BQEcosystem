@@ -1,0 +1,45 @@
+{
+    "description":"Data was generated using the MolBiolClinAssoc table. Karyotype nomenclature was split into individual abnormalities.",
+    "friendlyName":"KARYOTYPE ABNORMALITIES",
+    "labels": {
+        "access":"open",
+        "category":"CLINICAL BIOSPECIMEN DATA",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Abnormality description, eg 't(19;19)(p13;p13)', del(7)(q?)', '+12', etc",
+                "mode":"NULLABLE",
+                "name":"Abnormality",
+                "type":"STRING"
+            },
+            {
+                "description":"Investigation number",
+                "mode":"NULLABLE",
+                "name":"InvNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"This flag indicates whether this row describes a molecular 'M' or clinical 'C' association",
+                "mode":"NULLABLE",
+                "name":"MolClin",
+                "type":"STRING"
+            },
+            {
+                "description":"Order number",
+                "mode":"NULLABLE",
+                "name":"OrderNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            }
+        ]
+    }
+}

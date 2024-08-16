@@ -1,0 +1,51 @@
+{
+    "description":"Data was generated using the CytogenInv table. Includes all elements of karyotype nomenclature when split on commas.",
+    "friendlyName":"SEPARATED KARYOTYPE NOMENCLATURE",
+    "labels": {
+        "access":"open",
+        "category":"PROCESSED -OMICS DATA",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Individual element of comma-split karyotype string",
+                "mode":"NULLABLE",
+                "name":"Bit",
+                "type":"STRING"
+            },
+            {
+                "description":"Case number",
+                "mode":"NULLABLE",
+                "name":"CaseNo",
+                "type":"STRING"
+            },
+            {
+                "description":"Clone number",
+                "mode":"NULLABLE",
+                "name":"CloneNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Investigation number",
+                "mode":"NULLABLE",
+                "name":"InvNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Order number",
+                "mode":"NULLABLE",
+                "name":"OrderNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            }
+        ]
+    }
+}

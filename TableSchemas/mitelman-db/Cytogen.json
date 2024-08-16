@@ -1,0 +1,147 @@
+{
+    "description":"Data was compiled from the original publications used in the Mitelman database. Patient demographics and disease data were manually curated for each assigned reference and case number.",
+    "friendlyName":"MITELMAN CLINICAL DATA",
+    "labels": {
+        "access":"open",
+        "category":"CLINICAL BIOSPECIMEN DATA",
+        "data_type":"CLINICAL DATA",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Age of subject. Often blank but can be a number between 0 and 100",
+                "mode":"NULLABLE",
+                "name":"Age",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Case number",
+                "mode":"NULLABLE",
+                "name":"CaseNo",
+                "type":"STRING"
+            },
+            {
+                "description":"Numeric ID given to each CaseNo",
+                "mode":"NULLABLE",
+                "name":"CaseOrder",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Country code",
+                "mode":"NULLABLE",
+                "name":"Country",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating hereditary disease type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"HerDis",
+                "type":"STRING"
+            },
+            {
+                "description":"Immunology flag which can be 'B', 'T', or null",
+                "mode":"NULLABLE",
+                "name":"Immunology",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating the morphology type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"Morph",
+                "type":"STRING"
+            },
+            {
+                "description":"Location where the case was created and recorded.",
+                "mode":"NULLABLE",
+                "name":"Origin",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated field",
+                "mode":"NULLABLE",
+                "name":"PatientID",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated field",
+                "mode":"NULLABLE",
+                "name":"PatientName",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating the morphology type of the previous tumor as present in the Koder table.",
+                "mode":"NULLABLE",
+                "name":"PrevMorph",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating the topography type of the previous tumor as present in the Koder table.",
+                "mode":"NULLABLE",
+                "name":"PrevTopo",
+                "type":"STRING"
+            },
+            {
+                "description":"One or more characters indicating previous treatment type(s) separated by commas. \"C\" means Chemotherapy, \"O\" means Other/Unknown, \"R\" menas Radiotherapy, and \"S\" means Surgery",
+                "mode":"NULLABLE",
+                "name":"PrevTreat",
+                "type":"STRING"
+            },
+            {
+                "description":"If the patient had a previous tumor (Y or null)",
+                "mode":"NULLABLE",
+                "name":"PrevTum",
+                "type":"STRING"
+            },
+            {
+                "description":"The race of a participant. \"W\" means White. \"A\" means Asian, \"B\" means Black, \"O\" means Other",
+                "mode":"NULLABLE",
+                "name":"Race",
+                "type":"STRING"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"A case is categorized as 'Selected' (S) when reported because of a specific/unusual karyotypic feature; otherwise, the case is classified as 'Unselected' (U). \"D\" is possibly a typo.",
+                "mode":"NULLABLE",
+                "name":"Series",
+                "type":"STRING"
+            },
+            {
+                "description":"Patient sex",
+                "mode":"NULLABLE",
+                "name":"Sex",
+                "type":"STRING"
+            },
+            {
+                "description":"Specific hereditary disorder",
+                "mode":"NULLABLE",
+                "name":"SpecHerDis",
+                "type":"STRING"
+            },
+            {
+                "description":"Specific morphology",
+                "mode":"NULLABLE",
+                "name":"SpecMorph",
+                "type":"STRING"
+            },
+            {
+                "description":"Deprecated field",
+                "mode":"NULLABLE",
+                "name":"SpecObs",
+                "type":"STRING"
+            },
+            {
+                "description":"Unique code indicating the topography type as present in Koder table.",
+                "mode":"NULLABLE",
+                "name":"Topo",
+                "type":"STRING"
+            }
+        ]
+    }
+}

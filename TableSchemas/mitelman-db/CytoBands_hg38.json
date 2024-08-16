@@ -1,0 +1,39 @@
+{
+    "description":"Data was extracted from the UCSC database. Start and end coordinates of each cytoband were obtained for all chromosomes based on genome build hg38.",
+    "friendlyName":"HG38 CYTOBANDS",
+    "labels": {
+        "access":"open",
+        "category":"REFERENCE DATABASE",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Chromosome number (1- 22, X or Y)",
+                "mode":"NULLABLE",
+                "name":"chromosome",
+                "type":"STRING"
+            },
+            {
+                "description":"Cytoband region",
+                "mode":"NULLABLE",
+                "name":"cytoband_name",
+                "type":"STRING"
+            },
+            {
+                "description":"Cytoband start position in reference genome hg38",
+                "mode":"NULLABLE",
+                "name":"hg38_start",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Cytoband stop position in reference genome hg38",
+                "mode":"NULLABLE",
+                "name":"hg38_stop",
+                "type":"INTEGER"
+            }
+        ]
+    }
+}

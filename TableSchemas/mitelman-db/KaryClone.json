@@ -1,0 +1,75 @@
+{
+    "description":"Data was generated using the CytogenInv table. Contains separated clones from karyotype nomenclature.",
+    "friendlyName":"SEPARATED KARYOTYPE CLONES",
+    "labels": {
+        "access":"open",
+        "category":"PROCESSED -OMICS DATA",
+        "data_type":"CYTOGENETIC",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Case number",
+                "mode":"NULLABLE",
+                "name":"CaseNo",
+                "type":"STRING"
+            },
+            {
+                "description":"The maximum modal number present in the karyotype nomenclature.",
+                "mode":"NULLABLE",
+                "name":"ChromoMax",
+                "type":"INTEGER"
+            },
+            {
+                "description":"The minimum modal number present in the karyotype nomenclature.",
+                "mode":"NULLABLE",
+                "name":"ChromoMin",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Length of clone string",
+                "mode":"NULLABLE",
+                "name":"CloneLength",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Full clone description",
+                "mode":"NULLABLE",
+                "name":"CloneLong",
+                "type":"STRING"
+            },
+            {
+                "description":"Clone number",
+                "mode":"NULLABLE",
+                "name":"CloneNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Truncated clone description, eg '45,X,-Y' or '46,Xy,t(8;21)(q22;q22)'",
+                "mode":"NULLABLE",
+                "name":"CloneShort",
+                "type":"STRING"
+            },
+            {
+                "description":"Investigation number",
+                "mode":"NULLABLE",
+                "name":"InvNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"RefNo",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Sole Abnormality: T/F flag indicating whether or not this is the sole abnormality",
+                "mode":"NULLABLE",
+                "name":"Sole",
+                "type":"STRING"
+            }
+        ]
+    }
+}
