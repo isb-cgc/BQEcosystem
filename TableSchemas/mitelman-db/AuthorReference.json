@@ -1,0 +1,33 @@
+{
+    "description":"Data was compiled from the original publications used in the Mitelman database. Author names were manually curated for each assigned reference number. The order of the names in the list of authors for the given reference is recorded.",
+    "friendlyName":"AUTHOR LIST",
+    "labels": {
+        "access":"open",
+        "category":"REFERENCE DATABASE",
+        "data_type":"LITERATURE",
+        "source":"MITELMAN DATABASE",
+        "status":"current"
+    },
+    "schema": {
+        "fields": [
+            {
+                "description":"Author name",
+                "mode":"NULLABLE",
+                "name":"Name",
+                "type":"STRING"
+            },
+            {
+                "description":"An integer indicating the position of this author's name in the list of authors for this reference",
+                "mode":"NULLABLE",
+                "name":"NameOrder",
+                "type":"INTEGER"
+            },
+            {
+                "description":"Reference number",
+                "mode":"NULLABLE",
+                "name":"Refno",
+                "type":"INTEGER"
+            }
+        ]
+    }
+}
