@@ -44,7 +44,7 @@
     "headers_to_switch": {},
     "headers_to_add": []
   },
-  "miRNAseq": {
+  "miRNA_expr": {
     "filters": {
       "data_type": "miRNA Expression Quantification",
       "data_category": "Transcriptome Profiling",
