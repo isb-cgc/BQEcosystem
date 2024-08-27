@@ -18,5 +18,6 @@
   "sample_gdc_id":                   {"exception":"", "type":"STRING",   "description":"Unique GDC identifier for this sample (corresponds to the sample_barcode), eg a1ec9279-c1a6-4e58-97ed-9ec1f36187c5 -- this can be used to access more information from the GDC data portal"},
   "aliquot_gdc_id":                  {"exception":"", "type":"STRING",   "description":"Unique GDC identifier for this aliquot (corresponds to the aliquot_barcode), eg 7fbfdb3e-1fd2-4206-8d2e-7f68e4a15844 -- this can be used to access more information from the GDC data portal"},
   "file_gdc_id":                     {"exception":"", "type":"STRING",   "description":"Unique GDC identifier for this file (corresponds to the file_barcode) -- this can be used to access more information from the GDC data portal like this: https://portal.gdc.cancer.gov/files/c21b332c-06c6-4403-9032-f91c8f407ba13"},
-  "miRNA_ID":                        {"exception":"", "type":"STRING",   "description":""}
+  "miRNA_ID":                        {"exception":"", "type":"STRING",   "description":""},
+  "isoform_coords":                  {"exception":"", "type":"STRING",   "description":""}
 }
