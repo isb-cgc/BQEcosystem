@@ -21,5 +21,6 @@
   "miRNA_ID":                        {"exception":"", "type":"STRING",   "description":""},
   "isoform_coords":                  {"exception":"", "type":"STRING",   "description":""},
   "cross-mapped":                    {"exception":"", "type":"STRING",   "description":""},
-  "miRNA_region":                    {"exception":"", "type":"STRING",   "description":""}
+  "miRNA_region":                    {"exception":"", "type":"STRING",   "description":""},
+  "file_name":                       {"exception":"", "type":"STRING",   "description":""}
 }
