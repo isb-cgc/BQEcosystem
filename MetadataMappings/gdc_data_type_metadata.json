@@ -35,7 +35,7 @@
                           "1000G_SAS_AF": "ThousG_SAS_AF"},
     "headers_to_add": ["muse", "mutect2", "pindel","varscan2"]
   },
-  "cnvr": {
+  "copy_number_segment": {
     "filters": {
       "data_type": "Allele-specific Copy Number Segment",
       "data_category": "Copy Number Variation",
