@@ -37,10 +37,10 @@
   },
   "cnvr": {
     "filters": {
-      "data_type": "Copy Number Segment",
+      "data_type": "Allele-specific Copy Number Segment",
       "data_category": "Copy Number Variation",
       "data_format": "TXT",
-      "platform": "Illumia"},
+      "platform": "Affymetrix SNP 6.0"},
     "headers_to_switch": {},
     "headers_to_add": []
   },
