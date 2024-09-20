@@ -5,7 +5,7 @@
     "program": "pancancer_atlas",
     "category": "processed_-omics_data",
     "access": "open", 
-    "data_type": "mirna_expression", 
+    "data_type": "gene_expression", 
     "reference_genome": "hg19", 
     "source_0": "gdc",  
     "source_1": "literature",
