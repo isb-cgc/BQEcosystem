@@ -5,7 +5,7 @@
       "clinical_follow_ups_gdc_": "isb-cgc-bq:APOLLO.clinical_follow_up_gdc_"
     },
     "CDDP_EAGLE_versioned": {
-      "clinical_diagnoses_treatment_gdc_": "isb-cgc-bq:CDDP_EAGLE.clinical_diagnosis_treatment_gdc_"
+      "clinical_diagnoses_treatments_gdc_": "isb-cgc-bq:CDDP_EAGLE.clinical_diagnosis_treatment_gdc_"
     },
     "CPTAC_versioned": {
       "clinical_CPTAC3_discovery_pdc_": "isb-cgc-bq:CPTAC.clinical_CPTAC3_discovery_and_confirmatory_pdc_",
