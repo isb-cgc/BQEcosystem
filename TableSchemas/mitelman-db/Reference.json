@@ -23,7 +23,7 @@
                 "type":"STRING"
             },
             {
-                "description":"Full author string if the author sting has been shorten",
+                "description":"Full author string if the author string has been shortened",
                 "mode":"NULLABLE",
                 "name":"AuthorsLong",
                 "type":"STRING"
