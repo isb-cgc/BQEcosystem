@@ -1,0 +1,65 @@
+{
+  "copy_number_gene_level": {
+    "filters": {
+      "data_type": "Gene Level Copy Number",
+      "data_category": "Copy Number Variation"},
+    "headers_to_switch": {},
+    "headers_to_add": []
+  },
+  "RNAseq": {
+    "filters": {
+      "data_type": "Gene Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "STAR - Counts",
+      "experimental_strategy": "RNA-Seq",
+      "data_format": "TSV"},
+    "headers_to_switch": {},
+    "headers_to_add": []
+  },
+  "masked_somatic_mutation": {
+    "filters": {
+      "data_type": "Masked Somatic Mutation",
+      "data_category": "Simple Nucleotide Variation",
+      "data_format": "MAF"},
+    "headers_to_switch": {"Tumor_Sample_UUID": "Tumor_Aliquot_UUID",
+                          "Matched_Norm_Sample_UUID": "Matched_Norm_Aliquot_UUID",
+                          "Tumor_Sample_Barcode": "Tumor_Aliquot_Barcode",
+                          "Matched_Norm_Sample_Barcode": "Matched_Norm_Aliquot_Barcode",
+                          "tumor_bam_uuid": "tumor_submitter_uuid",
+                          "normal_bam_uuid": "normal_submitter_uuid",
+                          "1000G_AF": "ThousG_AF",
+                          "1000G_AFR_AF": "ThousG_AFR_AF",
+                          "1000G_AMR_AF": "ThousG_AMR_AF",
+                          "1000G_EAS_AF": "ThousG_EAS_AF",
+                          "1000G_EUR_AF": "ThousG_EUR_AF",
+                          "1000G_SAS_AF": "ThousG_SAS_AF"},
+    "headers_to_add": ["muse", "mutect2", "pindel","varscan2"]
+  },
+  "copy_number_segment": {
+    "filters": {
+      "data_type": "Allele-specific Copy Number Segment",
+      "data_category": "Copy Number Variation",
+      "data_format": "TXT",
+      "platform": "Affymetrix SNP 6.0"},
+    "headers_to_switch": {},
+    "headers_to_add": []
+  },
+  "miRNA_expr": {
+    "filters": {
+      "data_type": "miRNA Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "BCGSC miRNA Profiling",
+      "experimental_strategy": "miRNA-Seq"},
+    "headers_to_switch": {},
+    "headers_to_add": []
+  },
+  "miRNA_isoform_expr": {
+    "filters": {
+      "data_type": "Isoform Expression Quantification",
+      "data_category": "Transcriptome Profiling",
+      "analysis_workflow_type": "BCGSC miRNA Profiling",
+      "experimental_strategy": "miRNA-Seq"},
+    "headers_to_switch": {},
+    "headers_to_add": []
+  }
+}
