@@ -2,7 +2,6 @@
   "age_at_diagnosis": "Age, in years, at which a condition or disease was first diagnosed.",
   "age_began_smoking_in_years": "Age, in years, that the participant began smoking.",
   "anatomic_neoplasm_subdivision": "The spatial location, subdivisions and/or atomic site name of a tumor; e.g. Rectum, Larynx, Tonsil, etc.",
-  "bmi": "Body Mass Index of participant.",
   "case_barcode": "TCGA patient/case barcode; e.g. TCGA-06-0119.",
   "case_gdc_id": "GDC unique identifer for this case; e.g. 7b4ce492-ff40-4bf1-b3e8-75ff83e8746d. This identifier can be used to find more information at the GDC Data Portal ( https://portal.gdc.cancer.gov/cases/7b4ce492-ff40-4bf1-b3e8-75ff83e8746d ).",
   "clinical_M": "The clinical M score is a rating of metastasis, that is, how much cancer has spread to distant sites. It is based on results of tests done before surgery, such as physical exams and imaging scans; e.g. MX, M0, M1.",
