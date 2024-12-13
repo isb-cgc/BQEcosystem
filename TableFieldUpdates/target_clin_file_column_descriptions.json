@@ -97,6 +97,7 @@
   "primary_cytogenetic_code": "Text term that represents the categorical classification of cytogenetic abnormalities in diagnostic sample.",
   "primary_site_progression": "Indicator to signify whether or not there progression is present at the primary tumor site at the time of the first recurrent disease diagnosis.",
   "primary_tumor_site": "Text term to describe the anatomic site of the primary osteosarcoma.",
+  "program_name": "Program name, always TARGET (Therapeutically Applicable Research to Generate Effective Treatments) in this table.",
   "project_short_name": "Project name abbreviation; the TARGET program is composed of multiple projects, with abbreviations such as TARGET-ALL-P2, TARGET-AML, TARGET-WT, etc.",
   "protocol": "Cooperative group protocol on which the patient was registered.",
   "race": "The text for reporting information about race based on the Office of Management and Budget (OMB) categories.",

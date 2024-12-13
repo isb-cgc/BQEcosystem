@@ -55,7 +55,7 @@
   "pregnant_at_diagnosis": "The text term used to indicate whether the patient was pregnant at the time they were diagnosed.",
   "primary_neoplasm_melanoma_dx": "Indicates whether a person had a primary diagnosis of melanoma; e.g. Yes, No.",
   "primary_therapy_outcome_success": "Kind of outcome achieved after the completion of the initial course of treatment; e.g. Complete Remission/Response, Progressive Disease, etc.",
-  "program_name": "Program Name, always TCGA (The Cancer Genome Atlas) in this table.",
+  "program_name": "Program name, always TCGA (The Cancer Genome Atlas) in this table.",
   "project_short_name": "Project name abbreviation; the program name appended with a project name abbreviation; e.g. TCGA-OV, etc.",
   "psa_value": "A male participant's Prostrate-Specific Antigen (PSA) value.",
   "race": "The race of a participant, independent from ethnicity; e.g. White, Black or African American, Asian, Native Hawaiian or other Pacific Islander, American Indian or Alaska Native.",
