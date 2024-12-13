@@ -1,0 +1,12 @@
+{
+  "description": "Data was extracted from the TCGA program in {---tag-extracted-month-year---}. This clinical information about patient cases was generated from a set of files downloaded from GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}.",
+  "friendlyName": "TCGA CLINICAL FROM FILE",
+  "labels": {
+    "access": "open",
+    "source": "gdc",
+    "program": "tcga",
+    "status": "current",
+    "category": "clinical_biospecimen_data",
+    "data_type": "clinical_data"
+  }
+}
