@@ -1,12 +1,14 @@
 {
-  "description": "Data was generated from file metadata information from the GDC active archive release 37, downloaded April 2023. \nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-370",
+  "description": "Data was extracted from file metadata information provided by CDA in November 2024 from the GDC release 41.\nMore details: https://docs.gdc.cancer.gov/Data/Release_Notes/Data_Release_Notes/#data-release-410",
   "friendlyName": "FILE METADATA GDC ACTIVE",
   "labels": {
     "access": "open",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "source": "gdc",
-    "status": "current"
+    "source_0": "cda",
+    "source_1": "gdc",
+    "status": "current",
+    "version": "r41"
   },
   "schema": {
     "fields": [
