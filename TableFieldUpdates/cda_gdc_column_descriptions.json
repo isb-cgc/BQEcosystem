@@ -299,7 +299,7 @@
   "exp__pack_years_smoked": "Numeric computed value to represent lifetime tobacco exposure defined as number of cigarettes smoked per day x number of years smoked divided by 20.",
   "exp__parent_with_radiation_exposure": "Indicates whether the patient's parent(s) were exposed to radiation.",
   "exp__radon_exposure": "The yes/no/unknown indicator used to describe whether the patient was exposed to radon.",
-  "exp__respirable_crystalline_silica_exposure": "The yes/no/unknown indicator used to describe whether a patient was exposured to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.",
+  "exp__respirable_crystalline_silica_exposure": "The yes/no/unknown indicator used to describe whether a patient was exposed to respirable crystalline silica, a widespread, naturally occurring, crystalline metal oxide that consists of different forms including quartz, cristobalite, tridymite, tripoli, ganister, chert and novaculite.",
   "exp__secondhand_smoke_as_child": "The text term used to indicate whether the patient was exposed to secondhand smoke as a child.",
   "exp__smoking_frequency": "The text term used to generally decribe how often the patient smokes.",
   "exp__state": "The current state of the object.",
