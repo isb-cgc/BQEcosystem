@@ -10,6 +10,7 @@
     "reference_genome_0": "hg38",
     "source_0": "cda",
     "source_1": "gdc",
-    "status": "current"
+    "status": "current",
+    "version": "r{---tag-version---}"
   }
 }

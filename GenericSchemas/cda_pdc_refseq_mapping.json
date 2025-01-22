@@ -6,6 +6,7 @@
     "source": "uniprot",
     "status": "current",
     "category": "reference_database",
-    "data_type": "proteome_annotation"
+    "data_type": "proteome_annotation",
+    "version": "{---tag-uniprot-version---}"
   }
 }

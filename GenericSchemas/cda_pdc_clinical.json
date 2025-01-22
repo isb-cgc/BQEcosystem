@@ -8,6 +8,7 @@
     "source_1": "pdc",
     "category": "clinical_biospecimen_data",
     "status": "current",
-    "program": "{---tag-program-name-lower---}"
+    "program": "{---tag-program-name-lower---}",
+    "version": "{---tag-underscore-version---}"
   }
 }
