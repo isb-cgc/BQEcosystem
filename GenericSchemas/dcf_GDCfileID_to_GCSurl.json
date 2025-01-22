@@ -6,6 +6,7 @@
     "category": "file_metadata",
     "data_type": "file_metadata",
     "source": "gdc",
-    "status": "current"
+    "status": "current",
+    "version": "r{---tag-version---}"
   }
  }
