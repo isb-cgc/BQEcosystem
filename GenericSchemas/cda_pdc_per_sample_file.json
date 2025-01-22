@@ -8,6 +8,7 @@
     "status": "current",
     "category": "metadata",
     "data_type": "file_metadata",
-    "program": "{---tag-program-name-lower---}"
+    "program": "{---tag-program-name-lower---}",
+    "version": "{---tag-underscore-version---}"
   }
 }

@@ -271,7 +271,6 @@
   "diag__path__vascular_invasion_present": "The yes/no indicator to ask if large vessel or venous invasion was detected by surgery or presence in a tumor specimen.",
   "diag__path__vascular_invasion_type": "Text term that represents the type of vascular tumor invasion.",
   "diag__pediatric_kidney_staging": "A modified version of the Children's Oncology Group (COG) National Wilms Tumor Study Group (NWTS) staging system.",
-  "diagnosis_is_primary_disease": "Indicates whether this specific diagnosis represents the disease that was the primary focus of the study. Additionally, this diagnosis is reflected at the case level, which is captured using the case.disease_type property.",
   "disease_code": "A code representing the type of cancer, e.g. OV, GBM, LUAD; values can be found at https://gdc.cancer.gov/resources-TCGA-users/TCGA-code-tables/TCGA-study-abbreviations",
   "disease_type": "The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).",
   "downstream_analyses__output_file_gdc_ids": "Semicolon-separated list of GDC file UUIDs",

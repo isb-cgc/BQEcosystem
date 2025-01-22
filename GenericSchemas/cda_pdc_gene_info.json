@@ -7,6 +7,7 @@
     "status": "current",
     "category": "reference_database",
     "data_type_0": "genome_annotation",
-    "data_type_1": "proteome_annotation"
+    "data_type_1": "proteome_annotation",
+    "version": "{---tag-underscore-version---}"
   }
 }
