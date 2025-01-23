@@ -3,10 +3,10 @@
   "friendlyName": "GDC FILE ID TO GCS URLS",
   "labels": {
     "access": "open",
+    "version": "r{---tag-version---}",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "source": "gdc",
-    "status": "current",
-    "version": "r{---tag-version---}"
+    "source": "gdc2",
+    "status": "current"
   }
  }
