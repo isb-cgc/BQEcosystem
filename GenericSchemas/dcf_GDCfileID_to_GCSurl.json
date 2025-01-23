@@ -6,7 +6,7 @@
     "version": "r{---tag-version---}",
     "category": "file_metadata",
     "data_type": "file_metadata",
-    "source": "gdc2",
+    "source": "gdc",
     "status": "current"
   }
  }
