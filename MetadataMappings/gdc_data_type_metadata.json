@@ -44,7 +44,7 @@
     "headers_to_switch": {},
     "headers_to_add": []
   },
-  "miRNA_expr": {
+  "miRNAseq": {
     "filters": {
       "data_type": "miRNA Expression Quantification",
       "data_category": "Transcriptome Profiling",
@@ -53,7 +53,7 @@
     "headers_to_switch": {},
     "headers_to_add": []
   },
-  "miRNA_isoform_expr": {
+  "miRNAseq_isoform": {
     "filters": {
       "data_type": "Isoform Expression Quantification",
       "data_category": "Transcriptome Profiling",
