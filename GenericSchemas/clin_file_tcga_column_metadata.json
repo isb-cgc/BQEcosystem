@@ -1,0 +1,13 @@
+{
+  "description": "",
+  "friendlyName": "TCGA CLINICAL FROM FILE COLUMN METADATA",
+  "labels": {
+    "access": "open",
+    "source": "gdc",
+    "program": "tcga",
+    "status": "current",
+    "category": "clinical_biospecimen_data",
+    "data_type": "clinical_data",
+    "version": "r{---tag-version---}"
+  }
+}
