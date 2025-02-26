@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from the TCGA program in {---tag-extracted-month-year---}. This clinical information about patient cases was generated from a set of files downloaded from GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}.",
+  "description": "Data was extracted from the TCGA program in {---tag-extracted-month-year---}. This clinical ablation information about patient cases was generated from a set of files downloaded from GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}.",
   "friendlyName": "TCGA CLINICAL FROM FILE ABLATION",
   "labels": {
     "access": "open",
