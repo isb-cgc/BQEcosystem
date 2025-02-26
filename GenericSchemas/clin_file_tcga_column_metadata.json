@@ -1,5 +1,5 @@
 {
-  "description": "",
+  "description": "This table offers an overview and metadata analysis of the columns available in ISB-CGC’s TCGA clinical from file tables. Data was generated based on data extracted from the TCGA program in {---tag-extracted-month-year---}.",
   "friendlyName": "TCGA CLINICAL FROM FILE COLUMN METADATA",
   "labels": {
     "access": "open",
