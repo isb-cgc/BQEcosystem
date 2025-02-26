@@ -7,6 +7,7 @@
     "program": "target",
     "status": "current",
     "category": "clinical_biospecimen_data",
-    "data_type": "clinical_data"
+    "data_type": "clinical_data",
+    "version": "r{---tag-version---}"
   }
 }
