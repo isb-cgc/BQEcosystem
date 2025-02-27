@@ -67,6 +67,7 @@
   "residual_tumor": "Status of the tissue margin following surgical resection; e.g. R0, R1, R2, RX.",
   "stopped_smoking_year": "Four-digit year that the participant stopped smoking; e.g. 2010.",
   "supratentorial_localization": "Text term to specify the location of the supratentorial tumor.",
+  "table_type": "Table type in which the column is located (e.g. patient, drug).",
   "tobacco_smoking_history": "Category describing current smoking status and smoking history as self-reported by a participant.; e.g. 1, 2, etc.",
   "tissue_source_site": "Tissue Source Site Code; see https://gdc.cancer.gov/resources-TCGA-users/TCGA-code-tables/tissue-source-site-codes for explanation of codes.",
   "tumor_basal_diameter": "Numeric value in millimeters for the lowest layer of a tumor.",
