@@ -615,6 +615,18 @@
     "study_friendly_name": "KNCC GLIOBLASTOMA EVOLUTION PHOSPHOPROTEOME",
     "study_grouping": "KNCC Glioblastoma Evolution"
   },
+  "PDC000519": {
+    "study_friendly_name": "CGU OSCC APOBEC3A PROTEOME",
+    "study_grouping": "CGU OSCC APOBEC3A"
+  },
+  "PDC000520": {
+    "study_friendly_name": "CGU OSCC APOBEC3A GLOBAL PHOSPHOPROTEOME",
+    "study_grouping": "CGU OSCC APOBEC3A"
+  },
+  "PDC000521": {
+    "study_friendly_name": "CGU OSCC APOBEC3A MULTIPLE PHOSPHOPROTEOME",
+    "study_grouping": "CGU OSCC APOBEC3A"
+  },
   "PDC000526": {
     "study_friendly_name": "CPTAC PDAC PROTEINS IN SERUM PROTEOME",
     "study_grouping": "CPTAC PDAC Proteins in Serum"
@@ -650,5 +662,37 @@
   "PDC000553": {
     "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY LIPIDOME",
     "study_grouping": "CPTAC GBM Discovery Study"
+  },
+  "PDC000582": {
+    "study_friendly_name": "PTRC BRCA CALGB40601 NEOADJUVANT TRIAL PROTEOME",
+    "study_grouping": "PTRC BRCA CALGB40601 Neoadjuvant Trial"
+  },
+  "PDC000583": {
+    "study_friendly_name": "PTRC BRCA CALGB40601 NEOADJUVANT TRIAL PHOSPHOPROTEOME",
+    "study_grouping": "PTRC BRCA CALGB40601 Neoadjuvant Trial"
+  },
+  "PDC000585": {
+    "study_friendly_name": "APOLLO-OV PROTEOME",
+    "study_grouping": "APOLLO-OV"
+  },
+  "PDC000588": {
+    "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) DISCOVERY STUDY PROTEOME PHASE II",
+    "study_grouping": "NF-PNET Discovery Study"
+  },
+  "PDC000589": {
+    "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) DISCOVERY STUDY PHOSPHOPROTEOME PHASE II",
+    "study_grouping": "NF-PNET Discovery Study"
+  },
+  "PDC000590": {
+    "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) DISCOVERY STUDY PROTEOME PHASE I",
+    "study_grouping": "NF-PNET Discovery Study"
+  },
+  "PDC000591": {
+    "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) DISCOVERY STUDY PHOSPHOPROTEOME PHASE I",
+    "study_grouping": "NF-PNET Discovery Study"
+  },
+  "PDC000592": {
+    "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) VALIDATION STUDY DIA",
+    "study_grouping": "NF-PNET Validation Study"
   }
 }
