@@ -124,5 +124,11 @@
     "project_friendly_name": "CANCER PROTEOGENOMICS GROUP OF NATIONAL CANCER CENTER KOREA",
     "program_short_name": "ICPC",
     "program_label": "icpc"
+  },
+  "International Cancer Proteogenome Consortium (ICPC): Proteogenomics of Oral Squamous Cell Carcinoma in Taiwan": {
+    "project_short_name": "Proteogenomics_Oral_Squamous_Cell_Carcinoma",
+    "project_friendly_name": "PROTEOGENOMICS ORAL SQUAMOUS CELL CARCINOMA TAIWAN",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
   }
 }
