@@ -136,5 +136,11 @@
     "project_friendly_name": "PROTEOGENOMIC CHARACTERIZATION OF NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMORS",
     "program_short_name": "ICPC",
     "program_label": "icpc"
+  },
+    "APOLLO-OV": {
+    "project_short_name": "APOLLO_OV",
+    "project_friendly_name": "APOLLO-OV",
+    "program_short_name": "APOLLO",
+    "program_label": "apollo"
   }
 }
