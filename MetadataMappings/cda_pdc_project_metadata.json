@@ -127,7 +127,13 @@
   },
   "International Cancer Proteogenome Consortium (ICPC): Proteogenomics of Oral Squamous Cell Carcinoma in Taiwan": {
     "project_short_name": "Proteogenomics_Oral_Squamous_Cell_Carcinoma",
-    "project_friendly_name": "PROTEOGENOMICS ORAL SQUAMOUS CELL CARCINOMA TAIWAN",
+    "project_friendly_name": "PROTEOGENOMICS OF ORAL SQUAMOUS CELL CARCINOMA TAIWAN",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "Proteogenomic characterization of non-functional pancreatic neuroendocrine tumors": {
+    "project_short_name": "Proteogenomic_characterization_non_functional_pancreatic_neuroendocrine_tumors",
+    "project_friendly_name": "PROTEOGENOMIC CHARACTERIZATION OF NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMORS",
     "program_short_name": "ICPC",
     "program_label": "icpc"
   }
