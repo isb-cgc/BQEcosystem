@@ -4,7 +4,7 @@
   "labels": {
     "access": "open",
     "version": "r{---tag-version---}",
-    "category": "file_metadata",
+    "category": "metadata",
     "data_type": "file_metadata",
     "source": "gdc",
     "status": "current"
