@@ -663,6 +663,14 @@
     "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY LIPIDOME",
     "study_grouping": "CPTAC GBM Discovery Study"
   },
+  "PDC000579": {
+    "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER MITOTIC VULNERABILITY STUDY PROTEOME",
+    "study_grouping": "PTRC Triple-negative Breast Cancer Mitotic Vulnerability Study"
+  },
+  "PDC000580": {
+    "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER MITOTIC VULNERABILITY STUDY PHOSPHOPROTEOME",
+    "study_grouping": "PTRC Triple-negative Breast Cancer Mitotic Vulnerability Study"
+  },
   "PDC000582": {
     "study_friendly_name": "PTRC BRCA CALGB40601 NEOADJUVANT TRIAL PROTEOME",
     "study_grouping": "PTRC BRCA CALGB40601 Neoadjuvant Trial"
