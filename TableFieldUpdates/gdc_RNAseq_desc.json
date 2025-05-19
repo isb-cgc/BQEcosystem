@@ -29,5 +29,5 @@
   "file_gdc_id_fpkm_uq":{"exception":"", "type":"STRING",  "description":"Unique GDC identifier for the file containing FPKM UQ values (corresponds to the file_barcode)"}, 
   "platform":           {"exception":"", "type":"STRING",  "description":"Platform used to generate data; eg. IlluminaHiSeq or IlluminaGA"},
   "program":            {"exception":"", "type":"STRING",  "description":"GDC program name, eg TCGA or TARGET"},
-  "file_name":{"exception":"","type":"STRING","description":"file name"}
+  "file_name":          {"exception":"", "type":"STRING",  "description":"file name"}
 }
