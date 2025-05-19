@@ -11,6 +11,7 @@
     "program_1": "{---tag-program-name-lower-1---}",
     "reference_genome_0": "hg38",
     "source": "gdc",
-    "status": "current"
+    "status": "current",
+    "release": "{---tag-release---}"
   }
 }
