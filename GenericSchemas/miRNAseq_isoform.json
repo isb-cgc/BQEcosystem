@@ -10,6 +10,7 @@
     "program_0": "{---tag-program-name-lower-0---}",
     "program_1": "{---tag-program-name-lower-1---}",
     "source": "gdc", 
-    "status": "current"
+    "status": "current",
+    "release": "{---tag-release---}"
   }
 }
