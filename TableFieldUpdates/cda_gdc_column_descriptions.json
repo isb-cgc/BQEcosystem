@@ -270,6 +270,7 @@
   "diag__path__updated_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
   "diag__path__vascular_invasion_present": "The yes/no indicator to ask if large vessel or venous invasion was detected by surgery or presence in a tumor specimen.",
   "diag__path__vascular_invasion_type": "Text term that represents the type of vascular tumor invasion.",
+  "diag__path__rhabdoid_present": "Indicator describing whether rhabdoid features were present.",
   "diag__pediatric_kidney_staging": "A modified version of the Children's Oncology Group (COG) National Wilms Tumor Study Group (NWTS) staging system.",
   "disease_code": "A code representing the type of cancer, e.g. OV, GBM, LUAD; values can be found at https://gdc.cancer.gov/resources-TCGA-users/TCGA-code-tables/TCGA-study-abbreviations",
   "disease_type": "The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O).",
