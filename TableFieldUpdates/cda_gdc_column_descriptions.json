@@ -263,6 +263,7 @@
   "diag__path__prostatic_chips_positive_count": "The text term used to describe the number of positive prostatic chips which are generated from transurethral resection of the prostate (TURP) procedures and are generally used for relieving urinary obstruction due to nodular hyperplasia of the prostate (benign prostatic hyperplasia).",
   "diag__path__prostatic_chips_total_count": "The text term used to describe the total number of prostatic chips which are generated from transurethral resection of the prostate (TURP) procedures and are generally used for relieving urinary obstruction due to nodular hyperplasia of the prostate (benign prostatic hyperplasia).",
   "diag__path__prostatic_involvement_percent": "Numeric value that represents the percentage of prostatic involvement found in a specific tissue sample.",
+  "diag__path__rhabdoid_present": "Indicator describing whether rhabdoid features were present.",
   "diag__path__state": "The current state of the object.",
   "diag__path__submitter_id": "A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the uuid for identifying or recalling a node.",
   "diag__path__transglottic_extension": "The text term used to describe an extension of the tumor beyond the opening into the ventricles and vocal cords.",
