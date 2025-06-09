@@ -3,11 +3,11 @@
   "friendlyName": "GENE MAPPING FOR PDC",
   "labels": {
     "access": "open",
-    "source": "pdc",
-    "status": "current",
     "category": "reference_database",
     "data_type_0": "genome_annotation",
     "data_type_1": "proteome_annotation",
+    "source": "pdc",
+    "status": "current",
     "version": "{---tag-underscore-version---}"
   }
 }

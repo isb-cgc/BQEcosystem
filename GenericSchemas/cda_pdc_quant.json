@@ -3,11 +3,11 @@
   "friendlyName": "{---tag-study-name-upper---}",
   "labels": {
     "access": "open",
-    "status": "current",
-    "source": "pdc",
     "data_type": "protein_expression",
     "category": "processed_-omics_data",
     "program": "{---tag-program-name-lower---}",
+    "source": "pdc",
+    "status": "current",
     "version": "{---tag-underscore-version---}"
   }
 }

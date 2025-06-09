@@ -3,11 +3,11 @@
   "friendlyName": "STUDIES FOR PDC",
   "labels": {
     "access": "open",
+    "category": "metadata",
+    "data_type": "file_metadata",
     "source_0": "cda",
     "source_1": "pdc",
     "status": "current",
-    "category": "metadata",
-    "data_type": "file_metadata",
     "version": "{---tag-underscore-version---}"
   }
 }

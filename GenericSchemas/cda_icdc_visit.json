@@ -1,0 +1,13 @@
+{
+  "description": "Visit data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the ICDC release {---tag-version---}.",
+  "friendlyName": "ICDC STUDIES",
+  "labels": {
+    "access": "open",
+    "category": "metadata",
+    "data_type": "file_metadata",
+    "source_0": "cda",
+    "source_1": "icdc",
+    "status": "current",
+    "version": "{---tag-version---}"
+  }
+}

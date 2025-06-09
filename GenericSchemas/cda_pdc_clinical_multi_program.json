@@ -3,13 +3,13 @@
   "friendlyName": "{---tag-friendly-project-name-upper---} CLINICAL {---tag-mapping-name---}DATA",
   "labels": {
     "access": "open",
-    "data_type": "clinical_data",
-    "source_0": "cda",
-    "source_1": "pdc",
     "category": "clinical_biospecimen_data",
-    "status": "current",
+    "data_type": "clinical_data",
     "program_0": "{---tag-program-name-0-lower---}",
     "program_1": "{---tag-program-name-1-lower---}",
+    "source_0": "cda",
+    "source_1": "pdc",
+    "status": "current",
     "version": "{---tag-underscore-version---}"
   }
 }
