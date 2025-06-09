@@ -3,13 +3,13 @@
   "friendlyName": "{---tag-friendly-project-name-upper---} PER SAMPLE FILE METADATA FOR PDC",
   "labels": {
     "access": "open",
-    "source_0": "cda",
-    "source_1": "pdc",
-    "status": "current",
     "category": "metadata",
     "data_type": "file_metadata",
     "program_0": "{---tag-program-name-0-lower---}",
     "program_1": "{---tag-program-name-1-lower---}",
+    "source_0": "cda",
+    "source_1": "pdc",
+    "status": "current",
     "version": "{---tag-underscore-version---}"
   }
 }

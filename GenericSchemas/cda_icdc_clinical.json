@@ -1,0 +1,14 @@
+{
+  "description": "Clinical data was extracted from file metadata information for {---tag-project-name---} provided by CDA in {---tag-extracted-month-year---} from the ICDC release {---tag-version---}.",
+  "friendlyName": "ICDC {---tag-friendly-project-name-upper---} CLINICAL {---tag-mapping-name---} DATA",
+  "labels": {
+    "access": "open",
+    "category": "clinical_biospecimen_data",
+    "data_type": "clinical_data",
+    "program": "{---tag-program-name-lower---}",
+    "source_0": "cda",
+    "source_1": "icdc",
+    "status": "current",
+    "version": "{---tag-version---}"
+  }
+}

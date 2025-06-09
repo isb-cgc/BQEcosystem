@@ -1,0 +1,14 @@
+{
+  "description": "Data was extracted from file metadata information for {---tag-program-name---} provided by CDA in {---tag-extracted-month-year---} from the GDC release {---tag-version---}.",
+  "friendlyName": "ICDC {---tag-friendly-name---} PER SAMPLE FILE METADATA",
+  "labels": {
+    "access": "open",
+    "category": "metadata",
+    "data_type": "file_metadata",
+    "program": "{---tag-program-label---}",
+    "source_0": "cda",
+    "source_1": "icdc",
+    "status": "current",
+    "version": "r{---tag-version---}"
+  }
+}
