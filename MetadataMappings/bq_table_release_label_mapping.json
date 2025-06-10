@@ -9,7 +9,8 @@
     },
     "CPTAC_versioned": {
       "clinical_CPTAC3_discovery_pdc_": "isb-cgc-bq:CPTAC.clinical_CPTAC3_discovery_and_confirmatory_pdc_",
-      "per_sample_file_metadata_CPTAC3_discovery_pdc_" :"isb-cgc-bq:CPTAC.per_sample_file_metadata_CPTAC3_discovery_and_confirmatory_pdc_"
+      "per_sample_file_metadata_CPTAC3_discovery_pdc_": "isb-cgc-bq:CPTAC.per_sample_file_metadata_CPTAC3_discovery_and_confirmatory_pdc_",
+      "quant_glycoproteome_prospective_ovarian_JHU_n_linked_glycosite_containing_peptide_pdc_": "isb-cgc-bq:CPTAC.quant_glycoproteome_prospective_ovarian_JHU_N_linked_glycosite_containing_peptide_pdc_"
     },
     "CGCI_versioned": {
       "clinical_diagnoses_gdc_":"isb-cgc-bq:CGCI.clinical_diagnosis_gdc_",
@@ -38,6 +39,9 @@
       "clinical_follow_ups_gdc_": "isb-cgc-bq:HCMI.clinical_follow_up_gdc_",
       "clinical_follow_ups_molecular_tests_gdc_": "isb-cgc-bq:HCMI.clinical_follow_up_molecular_test_gdc_"
     },
+    "HTAN_versioned":{
+      "cds_drs_map_": "isb-cgc-bq:HTAN.gc_drs_map_"
+    },
     "MMRF_versioned":{
       "clinical_diagnoses_treatments_gdc_": "isb-cgc-bq:MMRF.clinical_diagnosis_treatment_gdc_",
       "clinical_follow_ups_gdc_": "isb-cgc-bq:MMRF.clinical_follow_up_gdc_",
@@ -45,7 +49,8 @@
 
     },
     "PDC_metadata_versioned": {
-      "case_metadata_pdc_": "isb-cgc-bq:PDC_metadata.case_metadata_"
+      "case_metadata_pdc_": "isb-cgc-bq:PDC_metadata.case_metadata_",
+      "aliquot_to_case_mapping_pdc_": "isb-cgc-bq:PDC_metadata.aliquot_to_case_mapping"
     },
     "REBC_versioned":{
       "clinical_diagnoses_treatments_gdc_": "isb-cgc-bq:REBC.clinical_diagnosis_treatment_gdc_"
