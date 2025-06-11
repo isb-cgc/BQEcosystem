@@ -1,6 +1,6 @@
 {
   "description": "Data for entity associations was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the PDC release {---tag-version---}.",
-  "friendlyName": "FILE METADATA ASSOCIATED ENTITIES FOR PDC",
+  "friendlyName": "PDC FILE METADATA ASSOCIATED ENTITIES",
   "labels": {
     "access": "open",
     "category": "metadata",

@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the PDC release {---tag-version---}.",
-  "friendlyName": "FILE METADATA FOR PDC",
+  "friendlyName": "PDC FILE METADATA",
   "labels": {
     "access": "open",
     "category": "metadata",

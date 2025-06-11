@@ -1,6 +1,6 @@
 {
   "description": "Study data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the PDC release {---tag-version---}.",
-  "friendlyName": "STUDIES FOR PDC",
+  "friendlyName": "PDC STUDIES",
   "labels": {
     "access": "open",
     "category": "metadata",
