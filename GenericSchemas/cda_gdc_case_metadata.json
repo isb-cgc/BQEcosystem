@@ -1,6 +1,6 @@
 {
   "description": "Data was extracted from file metadata information provided by CDA in {---tag-extracted-month-year---} from the GDC release {---tag-version---}.\nMore details: {---tag-release-notes-url---}",
-  "friendlyName": "CASE METADATA",
+  "friendlyName": "GDC CASE METADATA",
   "labels": {
     "access": "open",
     "category": "metadata",
