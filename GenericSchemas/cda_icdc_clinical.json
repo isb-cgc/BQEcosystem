@@ -5,7 +5,7 @@
     "access": "open",
     "category": "clinical_biospecimen_data",
     "data_type": "clinical_data",
-    "program": "{---tag-program-name-lower---}",
+    "program": "{---tag-program-label---}",
     "source_0": "cda",
     "source_1": "icdc",
     "status": "current",
