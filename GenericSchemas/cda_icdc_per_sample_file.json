@@ -1,5 +1,5 @@
 {
-  "description": "Data was extracted from file metadata information for {---tag-program-name---} provided by CDA in {---tag-extracted-month-year---} from the GDC release {---tag-version---}.",
+  "description": "Data was extracted from file metadata information for {---tag-program-name---} provided by CDA in {---tag-extracted-month-year---} from the ICDC release {---tag-version---}.",
   "friendlyName": "ICDC {---tag-friendly-name---} PER SAMPLE FILE METADATA",
   "labels": {
     "access": "open",
