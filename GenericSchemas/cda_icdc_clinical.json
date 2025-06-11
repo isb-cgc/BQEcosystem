@@ -1,6 +1,6 @@
 {
-  "description": "Clinical data was extracted from file metadata information for {---tag-project-name---} provided by CDA in {---tag-extracted-month-year---} from the ICDC release {---tag-version---}.",
-  "friendlyName": "ICDC {---tag-friendly-project-name-upper---} CLINICAL {---tag-mapping-name---} DATA",
+  "description": "Clinical data was extracted from file metadata information for {---tag-program-name---} provided by CDA in {---tag-extracted-month-year---} from the ICDC release {---tag-version---}.",
+  "friendlyName": "ICDC {---tag-friendly-name---} CLINICAL DATA",
   "labels": {
     "access": "open",
     "category": "clinical_biospecimen_data",
