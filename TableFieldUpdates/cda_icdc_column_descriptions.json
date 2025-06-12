@@ -247,6 +247,7 @@
   "visit_date": "The date upon which the visit occurred",
   "visit_id": "A globally unique identifier of each visit record; specifically the value of case_id concatenated with the value of visit_date, the date upon which the visit occurred. This property is used as the key via which child records, e.g. physical examination records, can be associated with the appropriate visit, and to identify the correct visit records during data updates",
   "visit_number": "The number of the visit during which therapy was administered and/or clinical observations were made, with visits numbered according to their chronological order",
+  "visits": "Rows within visits represent visit records associated with the parent case_id",
   "vital_signs": "Fields within vital_signs detail observations around the key indicators of the bodily functions of a patient enrolled in a clinical trial, as of that patient being examined by a veterinarian during a scheduled visit to the appropriate study site",
   "volume_of_tumor": "The volume of the tumor from which a tumor sample was derived, as measured in cubic centimeters",
   "volume_of_tumor_original": "The original volume of the tumor from which a tumor sample was derived, as measured in cubic centimeters",
