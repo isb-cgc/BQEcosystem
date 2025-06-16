@@ -142,5 +142,11 @@
     "project_friendly_name": "APOLLO-OV",
     "program_short_name": "APOLLO",
     "program_label": "apollo"
-  }
+  },
+    "Korea University - Cervical cancer": {
+      "project_short_name": "Korea_University_Cervical_cancer",
+      "project_friendly_name": "KOREA UNIVERSITY CERVICAL CANCER",
+      "program_short_name": "ICPC",
+      "program_label": "ICPC"
+    }
 }
