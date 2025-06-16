@@ -399,6 +399,14 @@
     "study_friendly_name": "CPTAC3-DISCOVERY PANCREATIC DUCTAL ADENOCARCINOMA (PDA) DIA PROTEOME",
     "study_grouping": "CPTAC PDA Discovery Study"
   },
+  "PDC000342": {
+    "study_friendly_name": "KU CCA DISCOVERY STUDY - GLOBAL PROTEOME",
+    "study_grouping": "KU CCA Discovery Study"
+  },
+  "PDC000343": {
+    "study_friendly_name": "KU CCA Discovery Study - Phosphoproteome",
+    "study_grouping": "KU CCA Discovery Study"
+  },
   "PDC000351": {
     "study_friendly_name": "CPTAC3-OTHER DEEP PROTEOMICS 2D-DIA",
     "study_grouping": "CPTAC Deep Proteomics 2D-DIA"
