@@ -37,13 +37,13 @@ ON clin.case_barcode = somatic.cell_line_primary_name
 BEATAML1.0; CGCI; CMI; CPTAC; CTSP; FM; GENIE; HCMI; MMRF; NCICCR; OHSU; ORGANOID; TARGET; TCGA; VAREPOP; WCDT	File Metadata	GDC File URLs	This query finds the GDC URLs and other file information for a program.	isb-cgc-bq.GDC_case_file_metadata.fileData_active_current; isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current	active.file_gdc_id = GCSurl.file_gdc_id	#Find the GDC URLs and other file information for a progam. The URLS can be used to access the files from the GDC Google Storage Bucket.
 SELECT active.case_gdc_id, active.file_gdc_id, GCSurl.file_gdc_url, active.file_name, active.file_size, active.data_format, active.file_type, active.project_short_name
 FROM `isb-cgc-bq.GDC_case_file_metadata.fileData_active_current` as active, `isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current` as GCSurl
-WHERE program_name = ""[PROGRAM]""
+WHERE program_name = '[PROGRAM]'
 AND active.file_gdc_id = GCSurl.file_gdc_id
 order by active.case_gdc_id, active.file_gdc_id
 CCLE	File Metadata	Legacy GDC File URLs	This query finds the Legacy GDC URLs and other file information for a program.	isb-cgc-bq.GDC_case_file_metadata.fileData_legacy_current; isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current	legacy.file_gdc_id = GCSurl.file_gdc_id	#Find the Legacy GDC URL and other file information for a progam. The URLS can be used to access the files from the GDC Legacy Google Storage Bucket.
 SELECT legacy.case_gdc_id, legacy.file_gdc_id, GCSurl.file_gdc_url, legacy.file_name, legacy.file_size, legacy.data_format, legacy.file_type, legacy.project_short_name
 FROM `isb-cgc-bq.GDC_case_file_metadata.fileData_legacy_current` as legacy, `isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current` as GCSurl
-WHERE program_name = ""[PROGRAM]""
+WHERE program_name = '[PROGRAM]'
 AND legacy.file_gdc_id = GCSurl.file_gdc_id
 order by legacy.case_gdc_id, legacy.file_gdc_id;
 BEATAML1.0; CGCI; CMI; CPTAC; CTSP; FM; GENIE; HCMI; MMRF; NCICCR; OHSU; ORGANOID; TARGET; TCGA; VAREPOP; WCDT	Clinical Data, File Metadata	HG38 Sample File Metadata	This query finds HG38 sample file metadata for a program.	isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].per_sample_file_metadata_hg38_gdc_current	clin.submitter_id = sfm.case_barcode	#Query for Sample File Metadata by program
