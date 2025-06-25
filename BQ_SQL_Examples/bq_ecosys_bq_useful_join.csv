@@ -33,7 +33,7 @@ CCLE	Clinical Data; Somatic Mutation	Somatic Mutation Analysis	This query extrac
 SELECT  somatic.Hugo_Symbol, somatic.Chromosome, somatic.Start_Position, somatic.End_Position, somatic.Variant_Classification, somatic.Variant_Type, clin.gender, clin.site_primary
 FROM `isb-cgc-bq.[PROGRAM].clinical_current` clin 
 JOIN `isb-cgc-bq.[PROGRAM].somatic_mutation_hg19_current` somatic
-ON clin.case_barcode = somatic.cell_line_primary_name"
+ON clin.case_barcode = somatic.cell_line_primary_name
 BEATAML1.0; CGCI; CMI; CPTAC; CTSP; FM; GENIE; HCMI; MMRF; NCICCR; OHSU; ORGANOID; TARGET; TCGA; VAREPOP; WCDT	File Metadata	GDC File URLs	This query finds the GDC URLs and other file information for a program.	isb-cgc-bq.GDC_case_file_metadata.fileData_active_current; isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current	active.file_gdc_id = GCSurl.file_gdc_id	#Find the GDC URLs and other file information for a progam. The URLS can be used to access the files from the GDC Google Storage Bucket.
 SELECT active.case_gdc_id, active.file_gdc_id, GCSurl.file_gdc_url, active.file_name, active.file_size, active.data_format, active.file_type, active.project_short_name
 FROM `isb-cgc-bq.GDC_case_file_metadata.fileData_active_current` as active, `isb-cgc-bq.GDC_case_file_metadata.GDCfileID_to_GCSurl_current` as GCSurl
