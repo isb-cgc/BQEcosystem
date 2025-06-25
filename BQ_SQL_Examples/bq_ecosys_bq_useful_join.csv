@@ -140,7 +140,7 @@ SELECT distinct clin.case_barcode, clin.case_gdc_id, clin.project_short_name,cli
 FROM `isb-cgc-bq.[PROGRAM].clinical_current` clin
 FULL JOIN `isb-cgc-bq.[PROGRAM].RMA_expression_hg19_current` RMA
 ON  clin.case_barcode = RMA.cell_line_primary_name
-ORDER BY clin.case_barcode, RMA.cell_line_primary_name"
+ORDER BY clin.case_barcode, RMA.cell_line_primary_name
 GPRP						#Query for Sample File Metadata by program
 SELECT sfm.project_submitter_id,sfm.case_id, sfm.sample_id, sfm.sample_type, clin.primary_site, clin.disease_type,
        sfm.access, sfm.data_category, sfm.file_name, sfm.file_location
