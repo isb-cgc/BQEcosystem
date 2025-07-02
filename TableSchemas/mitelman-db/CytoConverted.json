@@ -10,66 +10,66 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Not in use",
-                "mode":"NULLABLE",
-                "name":"CellsPresent",
-                "type":"STRING"
-            },
-            {
-                "description":"Chromosome number (1- 22, X or Y) in format \"chrNum\"",
-                "mode":"NULLABLE",
-                "name":"Chr",
-                "type":"STRING"
-            },
-            {
-                "description":"Chromosome number (1- 22, X or Y)",
-                "mode":"NULLABLE",
-                "name":"ChrOrd",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Clone number as determined by CytoConverter",
-                "mode":"NULLABLE",
-                "name":"Clone",
-                "type":"INTEGER"
-            },
-            {
-                "description":"End coordinate of the aberration identified by CytoConverter. Based on genome build hg38.",
-                "mode":"NULLABLE",
-                "name":"End",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Start coordinate of the aberration identified by CytoConverter. Based on genome build hg38.",
-                "mode":"NULLABLE",
-                "name":"Start",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Type of copy number aberration as determined by CytoConverter",
-                "mode":"NULLABLE",
-                "name":"Type",
-                "type":"STRING"
-            }
+      {
+        "description": "Reference number",
+        "mode": "REQUIRED",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "REQUIRED",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "REQUIRED",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Clone number as determined by CytoConverter",
+        "mode": "REQUIRED",
+        "name": "Clone",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Chromosome number (1- 22, X or Y) in format \"chrNum\"",
+        "mode": "NULLABLE",
+        "name": "Chr",
+        "type": "STRING"
+      },
+      {
+        "description": "Chromosome number (1- 22, X or Y)",
+        "mode": "NULLABLE",
+        "name": "ChrOrd",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Start coordinate of the aberration identified by CytoConverter. Based on genome build hg38.",
+        "mode": "NULLABLE",
+        "name": "Start",
+        "type": "INTEGER"
+      },
+      {
+        "description": "End coordinate of the aberration identified by CytoConverter. Based on genome build hg38.",
+        "mode": "NULLABLE",
+        "name": "End",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Type of copy number aberration as determined by CytoConverter",
+        "mode": "NULLABLE",
+        "name": "Type",
+        "type": "STRING"
+      },
+      {
+        "description": "Not in use",
+        "mode": "NULLABLE",
+        "name": "CellsPresent",
+        "type": "STRING"
+      }
         ]
     }
 }
