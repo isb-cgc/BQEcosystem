@@ -10,42 +10,42 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Clone number as determined by CytoConverter",
-                "mode":"NULLABLE",
-                "name":"Clone",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Message returned by CytoConverter",
-                "mode":"NULLABLE",
-                "name":"Message",
-                "type":"STRING"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Type of message return from CytoConverter",
-                "mode":"NULLABLE",
-                "name":"Type",
-                "type":"STRING"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "REQUIRED",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "REQUIRED",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "REQUIRED",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Clone number as determined by CytoConverter",
+        "mode": "NULLABLE",
+        "name": "Clone",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Type of message returned by CytoConverter",
+        "mode": "NULLABLE",
+        "name": "Type",
+        "type": "STRING"
+      },
+      {
+        "description": "Message returned by CytoConverter",
+        "mode": "NULLABLE",
+        "name": "Message",
+        "type": "STRING"
+      }
+    ]
     }
 }
