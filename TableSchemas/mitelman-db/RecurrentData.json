@@ -10,66 +10,66 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Structural chromosomal abnormality, eg 't(19;19)(p13;p13)' or 'del(7)(q?)'",
-                "mode":"NULLABLE",
-                "name":"Abnormality",
-                "type":"STRING"
-            },
-            {
-                "description":"Arm of the chromosome (p or q)",
-                "mode":"NULLABLE",
-                "name":"Arm",
-                "type":"STRING"
-            },
-            {
-                "description":"Position of the gene on the p or q arm",
-                "mode":"NULLABLE",
-                "name":"Band",
-                "type":"STRING"
-            },
-            {
-                "description":"Chromosome number (1- 22, X or Y)",
-                "mode":"NULLABLE",
-                "name":"Chromosome",
-                "type":"STRING"
-            },
-            {
-                "description":"Numeric order of the chromosome",
-                "mode":"NULLABLE",
-                "name":"ChrOrder",
-                "type":"INTEGER"
-            },
-            {
-                "description":"HGNC gene symbol",
-                "mode":"NULLABLE",
-                "name":"Gene",
-                "type":"STRING"
-            },
-            {
-                "description":"Morphology code from Koder table field Kod for the rows with 'MORPH' in the KodType field.",
-                "mode":"NULLABLE",
-                "name":"Morph",
-                "type":"STRING"
-            },
-            {
-                "description":"Topography code from the Koder table field Kod for the rows with 'TOP' in the KodType field.",
-                "mode":"NULLABLE",
-                "name":"Topo",
-                "type":"STRING"
-            },
-            {
-                "description":"Total number of cases",
-                "mode":"NULLABLE",
-                "name":"TotalCases",
-                "type":"STRING"
-            },
-            {
-                "description":"Whether the abberation is balanced ('B') or unbalanced ('U')",
-                "mode":"NULLABLE",
-                "name":"Type",
-                "type":"STRING"
-            }
-        ]
+      {
+        "description": "Chromosome number (1- 22, X or Y)",
+        "mode": "NULLABLE",
+        "name": "Chromosome",
+        "type": "STRING"
+      },
+      {
+        "description": "Arm of the chromosome (p or q)",
+        "mode": "NULLABLE",
+        "name": "Arm",
+        "type": "STRING"
+      },
+      {
+        "description": "Position of the gene on the p or q arm",
+        "mode": "NULLABLE",
+        "name": "Band",
+        "type": "STRING"
+      },
+      {
+        "description": "Structural chromosomal abnormality, eg 't(19;19)(p13;p13)' or 'del(7)(q?)'",
+        "mode": "NULLABLE",
+        "name": "Abnormality",
+        "type": "STRING"
+      },
+      {
+        "description": "Morphology code from Koder table field Kod for the rows with 'MORPH' in the KodType field.",
+        "mode": "NULLABLE",
+        "name": "Morph",
+        "type": "STRING"
+      },
+      {
+        "description": "Topography code from the Koder table field Kod for the rows with 'TOP' in the KodType field.",
+        "mode": "NULLABLE",
+        "name": "Topo",
+        "type": "STRING"
+      },
+      {
+        "description": "Total number of cases",
+        "mode": "NULLABLE",
+        "name": "TotalCases",
+        "type": "STRING"
+      },
+      {
+        "description": "HGNC gene symbol",
+        "mode": "NULLABLE",
+        "name": "Gene",
+        "type": "STRING"
+      },
+      {
+        "description": "Numeric order of the chromosome",
+        "mode": "NULLABLE",
+        "name": "ChrOrder",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Whether the aberration is balanced ('B') or unbalanced ('U')",
+        "mode": "NULLABLE",
+        "name": "Type",
+        "type": "STRING"
+      }
+    ]
     }
 }
