@@ -10,90 +10,90 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Author abbreviation, eg 'Park et al 2009'",
-                "mode":"NULLABLE",
-                "name":"Abbreviation",
-                "type":"STRING"
-            },
-            {
-                "description":"Length of author string",
-                "mode":"NULLABLE",
-                "name":"AuthorsLength",
-                "type":"STRING"
-            },
-            {
-                "description":"Full author string if the author string has been shortened",
-                "mode":"NULLABLE",
-                "name":"AuthorsLong",
-                "type":"STRING"
-            },
-            {
-                "description":"Shorted or truncated author string, eg 'Atkin NB, Baker MC'",
-                "mode":"NULLABLE",
-                "name":"AuthorsShort",
-                "type":"STRING"
-            },
-            {
-                "description":"Deprecated",
-                "mode":"NULLABLE",
-                "name":"Flag",
-                "type":"STRING"
-            },
-            {
-                "description":"Journal name abbreviation, eg 'Cancer Genet Cytogenet'",
-                "mode":"NULLABLE",
-                "name":"Journal",
-                "type":"STRING"
-            },
-            {
-                "description":"PubMed identifier",
-                "mode":"NULLABLE",
-                "name":"Pubmed",
-                "type":"STRING"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Deprecated field",
-                "mode":"NULLABLE",
-                "name":"Text",
-                "type":"STRING"
-            },
-            {
-                "description":"Length of the article title",
-                "mode":"NULLABLE",
-                "name":"TitleLength",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Full title of the article",
-                "mode":"NULLABLE",
-                "name":"TitleLong",
-                "type":"STRING"
-            },
-            {
-                "description":"Full or truncated title of the article",
-                "mode":"NULLABLE",
-                "name":"TitleShort",
-                "type":"STRING"
-            },
-            {
-                "description":"Journal volume and pages",
-                "mode":"NULLABLE",
-                "name":"Volume",
-                "type":"STRING"
-            },
-            {
-                "description":"Publication year",
-                "mode":"NULLABLE",
-                "name":"Year",
-                "type":"INTEGER"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Length of the article title",
+        "mode": "NULLABLE",
+        "name": "TitleLength",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Full or truncated title of the article",
+        "mode": "NULLABLE",
+        "name": "TitleShort",
+        "type": "STRING"
+      },
+      {
+        "description": "Full title of the article",
+        "mode": "NULLABLE",
+        "name": "TitleLong",
+        "type": "STRING"
+      },
+      {
+        "description": "Journal volume and pages",
+        "mode": "NULLABLE",
+        "name": "Volume",
+        "type": "STRING"
+      },
+      {
+        "description": "Publication year",
+        "mode": "NULLABLE",
+        "name": "Year",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Journal name abbreviation, eg 'Cancer Genet Cytogenet'",
+        "mode": "NULLABLE",
+        "name": "Journal",
+        "type": "STRING"
+      },
+      {
+        "description": "Deprecated field",
+        "mode": "NULLABLE",
+        "name": "Text",
+        "type": "STRING"
+      },
+      {
+        "description": "Author abbreviation, eg 'Park et al 2009'",
+        "mode": "NULLABLE",
+        "name": "Abbreviation",
+        "type": "STRING"
+      },
+      {
+        "description": "Length of author string",
+        "mode": "NULLABLE",
+        "name": "AuthorsLength",
+        "type": "STRING"
+      },
+      {
+        "description": "Shorted or truncated author string, eg 'Atkin NB, Baker MC'",
+        "mode": "NULLABLE",
+        "name": "AuthorsShort",
+        "type": "STRING"
+      },
+      {
+        "description": "Full author string if the author string has been shortened",
+        "mode": "NULLABLE",
+        "name": "AuthorsLong",
+        "type": "STRING"
+      },
+      {
+        "description": "Deprecated",
+        "mode": "NULLABLE",
+        "name": "Flag",
+        "type": "STRING"
+      },
+      {
+        "description": "PubMed identifier",
+        "mode": "NULLABLE",
+        "name": "Pubmed",
+        "type": "STRING"
+      }
+    ]
     }
 }
