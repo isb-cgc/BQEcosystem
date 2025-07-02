@@ -10,42 +10,42 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Clone number",
-                "mode":"NULLABLE",
-                "name":"CloneNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Order number",
-                "mode":"NULLABLE",
-                "name":"OrderNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Cytogenetic band location of abnormality, e.g., 1p21, as defined by ISCN.",
-                "mode":"NULLABLE",
-                "name":"Breakpoint",
-                "type":"STRING"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "NULLABLE",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "NULLABLE",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Clone number",
+        "mode": "NULLABLE",
+        "name": "CloneNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Order number",
+        "mode": "NULLABLE",
+        "name": "OrderNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Cytogenetic band location of abnormality, e.g., 1p21, as defined by ISCN.",
+        "mode": "NULLABLE",
+        "name": "Breakpoint",
+        "type": "STRING"
+      }
+    ]
     }
 }
