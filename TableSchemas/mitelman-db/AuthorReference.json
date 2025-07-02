@@ -10,24 +10,24 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Author name",
-                "mode":"NULLABLE",
-                "name":"Name",
-                "type":"STRING"
-            },
-            {
-                "description":"An integer indicating the position of this author's name in the list of authors for this reference",
-                "mode":"NULLABLE",
-                "name":"NameOrder",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"Refno",
-                "type":"INTEGER"
-            }
+           {
+              "description":"Reference number",
+              "mode":"NULLABLE",
+              "name":"Refno",
+              "type":"INTEGER"
+           },
+           {
+              "description":"Author name",
+              "mode":"NULLABLE",
+              "name":"Name",
+              "type":"STRING"
+           },
+           {
+              "description":"An integer indicating the position of this author's name in the list of authors for this reference",
+              "mode":"NULLABLE",
+              "name":"NameOrder",
+              "type":"INTEGER"
+           }
         ]
     }
 }
