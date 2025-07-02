@@ -10,60 +10,60 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Karyotype nomenclature that was used as input to CytoConverter. The nomenclature may have been modified by the syntax checker.",
-                "mode":"NULLABLE",
-                "name":"CytoConvInput",
-                "type":"STRING"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Number of characters in karyotype nomenclature string",
-                "mode":"NULLABLE",
-                "name":"KaryLength",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Karyotype description if it exceeds a certain length",
-                "mode":"NULLABLE",
-                "name":"KaryLong",
-                "type":"STRING"
-            },
-            {
-                "description":"Short (possibly truncated) karyotype description",
-                "mode":"NULLABLE",
-                "name":"KaryShort",
-                "type":"STRING"
-            },
-            {
-                "description":"Indicates if the karyotype has been corrected by the syntax checker",
-                "mode":"NULLABLE",
-                "name":"Message",
-                "type":"STRING"
-            },
-            {
-                "description":"Reason(s) for invalidating aberrations in the karyotype",
-                "mode":"NULLABLE",
-                "name":"Reason",
-                "type":"STRING"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "NULLABLE",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "NULLABLE",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Number of characters in karyotype nomenclature string",
+        "mode": "NULLABLE",
+        "name": "KaryLength",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Short (possibly truncated) karyotype description",
+        "mode": "NULLABLE",
+        "name": "KaryShort",
+        "type": "STRING"
+      },
+      {
+        "description": "Karyotype description if it exceeds a certain length",
+        "mode": "NULLABLE",
+        "name": "KaryLong",
+        "type": "STRING"
+      },
+      {
+        "description": "Indicates if the karyotype has been corrected by the syntax checker",
+        "mode": "NULLABLE",
+        "name": "Message",
+        "type": "STRING"
+      },
+      {
+        "description": "Reason(s) for invalidating aberrations in the karyotype",
+        "mode": "NULLABLE",
+        "name": "Reason",
+        "type": "STRING"
+      },
+      {
+        "description": "Karyotype nomenclature that was used as input to CytoConverter. The nomenclature may have been modified by the syntax checker.",
+        "mode": "NULLABLE",
+        "name": "CytoConvInput",
+        "type": "STRING"
+      }
+    ]
     }
 }
