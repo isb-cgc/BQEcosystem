@@ -10,66 +10,66 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Numeric ID given to each CaseNo",
-                "mode":"NULLABLE",
-                "name":"CaseOrder",
-                "type":"STRING"
-            },
-            {
-                "description":"Clone number",
-                "mode":"NULLABLE",
-                "name":"Clones",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Investigation date in the format of YYYYMMDD",
-                "mode":"NULLABLE",
-                "name":"InvDate",
-                "type":"STRING"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Number of characters in karyotype nomenclature string",
-                "mode":"NULLABLE",
-                "name":"KaryLength",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Karyotype description if it exceeds a certain length",
-                "mode":"NULLABLE",
-                "name":"KaryLong",
-                "type":"STRING"
-            },
-            {
-                "description":"Short (possibly truncated) karyotype description",
-                "mode":"NULLABLE",
-                "name":"KaryShort",
-                "type":"STRING"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Indicates the type of tissue. \"BM\" means Bone Marrow, \"TB\" means Tumor biopsy, \"LN\" means Lymph node, \"EX\" means Exudate, and \"CSF\" means Cerebrospinal fluid.",
-                "mode":"NULLABLE",
-                "name":"Tissue",
-                "type":"STRING"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "NULLABLE",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "NULLABLE",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Investigation date in the format of YYYYMMDD",
+        "mode": "NULLABLE",
+        "name": "InvDate",
+        "type": "STRING"
+      },
+      {
+        "description": "Indicates the type of tissue. \"BM\" means Bone Marrow, \"TB\" means Tumor biopsy, \"LN\" means Lymph node, \"EX\" means Exudate, and \"CSF\" means Cerebrospinal fluid.",
+        "mode": "NULLABLE",
+        "name": "Tissue",
+        "type": "STRING"
+      },
+      {
+        "description": "Clone number",
+        "mode": "NULLABLE",
+        "name": "Clones",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Number of characters in karyotype nomenclature string",
+        "mode": "NULLABLE",
+        "name": "KaryLength",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Short (possibly truncated) karyotype description",
+        "mode": "NULLABLE",
+        "name": "KaryShort",
+        "type": "STRING"
+      },
+      {
+        "description": "Karyotype description if it exceeds a certain length",
+        "mode": "NULLABLE",
+        "name": "KaryLong",
+        "type": "STRING"
+      },
+      {
+        "description": "Numeric ID given to each CaseNo",
+        "mode": "NULLABLE",
+        "name": "CaseOrder",
+        "type": "STRING"
+      }
+    ]
     }
 }
