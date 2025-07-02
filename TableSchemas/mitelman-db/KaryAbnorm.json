@@ -10,42 +10,42 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Abnormality description, eg 'del(15)(q22q24)', 't(17;17)(p11;q11)', '-22', etc",
-                "mode":"NULLABLE",
-                "name":"Abnormality",
-                "type":"STRING"
-            },
-            {
-                "description":"Case number",
-                "mode":"NULLABLE",
-                "name":"CaseNo",
-                "type":"STRING"
-            },
-            {
-                "description":"Clone number",
-                "mode":"NULLABLE",
-                "name":"CloneNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Order number",
-                "mode":"NULLABLE",
-                "name":"OrderNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            }
-        ]
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Case number",
+        "mode": "NULLABLE",
+        "name": "CaseNo",
+        "type": "STRING"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "NULLABLE",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Clone number",
+        "mode": "NULLABLE",
+        "name": "CloneNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Order number",
+        "mode": "NULLABLE",
+        "name": "OrderNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Abnormality description, eg 'del(15)(q22q24)', 't(17;17)(p11;q11)', '-22', etc",
+        "mode": "NULLABLE",
+        "name": "Abnormality",
+        "type": "STRING"
+      }
+    ]
     }
 }
