@@ -10,36 +10,36 @@
     },
     "schema": {
         "fields": [
-            {
-                "description":"Investigation number",
-                "mode":"NULLABLE",
-                "name":"InvNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"This flag indicates whether this row describes a molecular 'M' or clinical 'C' association",
-                "mode":"NULLABLE",
-                "name":"MolClin",
-                "type":"STRING"
-            },
-            {
-                "description":"Order number",
-                "mode":"NULLABLE",
-                "name":"OrderNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Reference number",
-                "mode":"NULLABLE",
-                "name":"RefNo",
-                "type":"INTEGER"
-            },
-            {
-                "description":"Cytogenetic band location of abnormality, e.g., 1p21, as defined by ISCN.",
-                "mode":"NULLABLE",
-                "name":"Breakpoint",
-                "type":"STRING"
-            }
-        ]
+      {
+        "description": "This flag indicates whether this row describes a molecular 'M' or clinical 'C' association",
+        "mode": "NULLABLE",
+        "name": "MolClin",
+        "type": "STRING"
+      },
+      {
+        "description": "Reference number",
+        "mode": "NULLABLE",
+        "name": "RefNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Investigation number",
+        "mode": "NULLABLE",
+        "name": "InvNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Order number",
+        "mode": "NULLABLE",
+        "name": "OrderNo",
+        "type": "INTEGER"
+      },
+      {
+        "description": "Cytogenetic band location of abnormality, e.g., 1p21, as defined by ISCN.",
+        "mode": "NULLABLE",
+        "name": "Breakpoint",
+        "type": "STRING"
+      }
+    ]
     }
 }
