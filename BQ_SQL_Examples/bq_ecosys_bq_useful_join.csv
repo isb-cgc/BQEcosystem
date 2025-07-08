@@ -1,14 +1,14 @@
 ,Data Type,Title,Description,Tables,Join conditions,SQL query
-BEATAML1_0;  CMI; CPTAC; TARGET; WCDT,Clinical Data; Gene Expression,RNA-Seq Analysis,This query extracts HG38 RNA-seq gene expression data and clinical features.,isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current,clin.submitter_id = rnaseq.case_barcode,#In this example, select RNA-seq gene expression and age at diagnosis
+BEATAML1_0;  CMI; CPTAC; TARGET; WCDT,Clinical Data; Gene Expression,RNA-Seq Analysis,This query extracts HG38 RNA-seq gene expression data and clinical features.,isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current,clin.submitter_id = rnaseq.case_barcode,"#In this example, select RNA-seq gene expression and age at diagnosis
 SELECT rnaseq.aliquot_barcode, rnaseq.gene_name, rnaseq.fpkm_uq_unstranded, clin.diag__age_at_diagnosis
 FROM `isb-cgc-bq.[PROGRAM].clinical_gdc_current` clin 
 JOIN `isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current` rnaseq 
-ON clin.submitter_id = rnaseq.case_barcode
-ORGANOID,Clinical Data; Gene Expression,RNA-Seq Analysis,This query extracts HG38 RNA-seq gene expression data and clinical features.,isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current,clin.submitter_id = rnaseq.case_barcode,#In this example, select RNA-seq gene expression and tumor_grade
+ON clin.submitter_id = rnaseq.case_barcode"
+ORGANOID,Clinical Data; Gene Expression,RNA-Seq Analysis,This query extracts HG38 RNA-seq gene expression data and clinical features.,isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current,clin.submitter_id = rnaseq.case_barcode,"#In this example, select RNA-seq gene expression and tumor_grade
 SELECT rnaseq.aliquot_barcode, rnaseq.gene_name, rnaseq.fpkm_uq_unstranded, clin.diag__tumor_grade
 FROM `isb-cgc-bq.[PROGRAM].clinical_gdc_current` clin 
 JOIN `isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current` rnaseq 
-ON clin.submitter_id = rnaseq.case_barcode
+ON clin.submitter_id = rnaseq.case_barcode"
 CGCI; HCMI; CTSP; TCGA,Clinical Data; Gene Expression,RNA-Seq Analysis,This query extracts HG38 RNA-seq gene expression data and clinical features.,isb-cgc-bq.[PROGRAM].clinical_gdc_current; isb-cgc-bq.[PROGRAM].clinical_diagnoses_gdc_current; isb-cgc-bq.[PROGRAM].RNAseq_hg38_gdc_current,clin.submitter_id = rnaseq.case_barcode;  clin.case_id = clin_diag.case_id,#In this example, select RNA-seq gene expression, disease_type, age at diagnosis for those patients with vital status of 'Alive'
 SELECT rnaseq.aliquot_barcode, rnaseq.gene_name, rnaseq.fpkm_uq_unstranded, clin.disease_type, clin_diag.diag__age_at_diagnosis
 FROM `isb-cgc-bq.[PROGRAM].clinical_gdc_current` clin 
