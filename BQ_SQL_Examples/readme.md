@@ -1,6 +1,6 @@
 # BQ SQL Examples
 The BQ_SQL_Examples/bq_ecosys_bq_useful_join.csv file is a collection of useful SQL examples to display in the BQ Table Search. This file needs to be saved as a CSV UTF-8 file.
-'''
+
 1. The first line is the header.
 2. Each column is separated by a comma (,) character.
 3. Each line is separated by a carriage return (\r\n). 
@@ -14,4 +14,4 @@ The BQ_SQL_Examples/bq_ecosys_bq_useful_join.csv file is a collection of useful 
 	7) SQL Query: The example in the SQL statement. The first line usually starts with a comment starting with a '#' character. Each line within the SQL statement is separated by a newline feed (\n) and not by a carriage return (\r).
 
 Tips: It's easier to edit the content in an Excel spreadsheet. When saving, ensure the file is saved with a CSV UTF-8 format (important!).
-'''
+
