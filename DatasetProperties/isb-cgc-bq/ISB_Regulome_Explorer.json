@@ -1,0 +1,4 @@
+{
+  "dataset_name": "ISB_Regulome_Explorer",
+  "description": "This data set contains TCGA data that was originally hosted on the now-retired ISB Cancer Regulome Explorer site (http://www.cancerregulome.org). Data was migrated in autumn 2022."
+}
