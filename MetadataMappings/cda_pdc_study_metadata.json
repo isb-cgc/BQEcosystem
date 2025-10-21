@@ -611,6 +611,22 @@
     "study_friendly_name": "BEAT AML BASELINE CLINICAL PHOSPHOPROTEOME",
     "study_grouping": "Beat AML Baseline Clinical"
   },
+  "PDC000489": {
+    "study_friendly_name": "CPTAC LUAD CONFIRMATORY STUDY PROTEOME",
+    "study_grouping": "CPTAC LUAD Confirmatory Study"
+  },
+  "PDC000490": {
+    "study_friendly_name": "CPTAC LUAD CONFIRMATORY STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC LUAD Confirmatory Study"
+  },
+  "PDC000491": {
+    "study_friendly_name": "CPTAC LUAD CONFIRMATORY STUDY ACETYLOME",
+    "study_grouping": "CPTAC LUAD Confirmatory Study"
+  },
+  "PDC000492": {
+    "study_friendly_name": "CPTAC LUAD CONFIRMATORY STUDY UBIQUITYLOME",
+    "study_grouping": "CPTAC LUAD Confirmatory Study"
+  },
   "PDC000504": {
     "study_friendly_name": "CPTAC PDAC BioTExt PROTEOME",
     "study_grouping": "CPTAC PDAC BioTExt"
@@ -671,6 +687,14 @@
     "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY LIPIDOME",
     "study_grouping": "CPTAC GBM Discovery Study"
   },
+  "PDC000563": {
+    "study_friendly_name": "ACADEMIA SINICA LUAD ICPC-B PROTEOME",
+    "study_grouping": "Academia Sinica LUAD ICPC-B"
+  },
+  "PDC000564": {
+    "study_friendly_name": "ACADEMIA SINICA LUAD ICPC-B PHOSPHOPROTEOME",
+    "study_grouping": "Academia Sinica LUAD ICPC-B"
+  },
   "PDC000579": {
     "study_friendly_name": "PTRC TRIPLE-NEGATIVE BREAST CANCER MITOTIC VULNERABILITY STUDY PROTEOME",
     "study_grouping": "PTRC Triple-negative Breast Cancer Mitotic Vulnerability Study"
@@ -710,5 +734,33 @@
   "PDC000592": {
     "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) VALIDATION STUDY DIA",
     "study_grouping": "NF-PNET Validation Study"
+  },
+  "PDC000627": {
+    "study_friendly_name": "CPTAC LUAD DISCOVERY STUDY UBIQUITYLOME",
+    "study_grouping": "CPTAC LUAD Discovery Study"
+  },
+  "PDC000629": {
+    "study_friendly_name": "IPMN Study CPTAC PDAC PROTEOME",
+    "study_grouping": "IPMN Study"
+  },
+  "PDC000630": {
+    "study_friendly_name": "IPMN STUDY PROTEOME",
+    "study_grouping": "IPMN Study"
+  },
+  "PDC000631": {
+    "study_friendly_name": "IPMN STUDY GLYCOPROTEOME",
+    "study_grouping": "IPMN Study"
+  },
+  "PDC000632": {
+    "study_friendly_name": "IPMN STUDY CYST FLUID PROTEOME",
+    "study_grouping": "IPMN Study"
+  },
+  "PDC000633": {
+    "study_friendly_name": "IPMN STUDY CYST FLUID GLYCOPROTEOME",
+    "study_grouping": "IPMN Study"
+  },
+  "PDC000634": {
+    "study_friendly_name": "IPMN STUDY LMD PROTEOME",
+    "study_grouping": "IPMN Study"
   }
 }
