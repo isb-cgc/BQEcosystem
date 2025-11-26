@@ -735,6 +735,10 @@
     "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) VALIDATION STUDY DIA",
     "study_grouping": "NF-PNET Validation Study"
   },
+  "PDC000613": {
+    "study_friendly_name": "",
+    "study_grouping": ""
+  },
   "PDC000627": {
     "study_friendly_name": "CPTAC LUAD DISCOVERY STUDY UBIQUITYLOME",
     "study_grouping": "CPTAC LUAD Discovery Study"
