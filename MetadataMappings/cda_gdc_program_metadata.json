@@ -11,8 +11,8 @@
   },
   "CCDI": {
     "bq_dataset": "CCDI",
-    "program_label": "ccmi",
-    "friendly_name": "CCLE"
+    "program_label": "ccdi",
+    "friendly_name": "CCDI"
   },
   "CCLE": {
     "bq_dataset": "CCLE",
