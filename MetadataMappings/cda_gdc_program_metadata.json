@@ -9,7 +9,12 @@
     "program_label": "beataml",
     "friendly_name": "BEATAML1.0"
   },
-    "CCLE": {
+  "CCDI": {
+    "bq_dataset": "CCDI",
+    "program_label": "ccdi",
+    "friendly_name": "CCDI"
+  },
+  "CCLE": {
     "bq_dataset": "CCLE",
     "program_label": "ccle",
     "friendly_name": "CCLE"
