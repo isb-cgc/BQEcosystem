@@ -735,9 +735,53 @@
     "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) VALIDATION STUDY DIA",
     "study_grouping": "NF-PNET Validation Study"
   },
+  "PDC000602": {
+    "study_friendly_name": "CPTAC KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE PEDIATRIC AML STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric AML Study"
+  },
+  "PDC000604": {
+    "study_friendly_name": "CPTAC KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE PEDIATRIC AML STUDY PROTEOME",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric AML Study"
+  },
+  "PDC000606": {
+    "study_friendly_name": "SIMM GALLBLADDER CANCER PROTEOME",
+    "study_grouping": "SIMM Gallbladder Cancer"
+  },
+  "PDC000607": {
+    "study_friendly_name": "SIMM GALLBLADDER CANCER PHOSPHOPROTEOME",
+    "study_grouping": "SIMM Gallbladder Cancer"
+  },
   "PDC000613": {
-    "study_friendly_name": "",
-    "study_grouping": ""
+    "study_friendly_name": "CPTAC RCC COMBINED STUDY DIA PROTEOME",
+    "study_grouping": "CPTAC RCC Combined Study"
+  },
+  "PDC000614": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY PROTEOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000615": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000616": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY GLYCOPROTEOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000617": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY DIA UBIQUITYLOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000621": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY METABOLOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000622": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY ACTYLOME",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000626": {
+    "study_friendly_name": "CPTAC STOMACH ADENOCARCINOMA STUDY PROTEIN PROTEIN INTERACTION",
+    "study_grouping": "CPTAC STAD Study"
   },
   "PDC000627": {
     "study_friendly_name": "CPTAC LUAD DISCOVERY STUDY UBIQUITYLOME",
@@ -766,5 +810,21 @@
   "PDC000634": {
     "study_friendly_name": "IPMN STUDY LMD PROTEOME",
     "study_grouping": "IPMN Study"
+  },
+  "PDC000640": {
+    "study_friendly_name": "KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE PEDIATRIC T-ALL STUDY PROTEOME",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric T-ALL Study"
+  },
+  "PDC000641": {
+    "study_friendly_name": "KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE PEDIATRIC T-ALL STUDY PHOSPHOPROTEOME",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric T-ALL Study"
+  },
+  "PDC000645": {
+    "study_friendly_name": "ACADEMIA SINICA GASTRIC CANCER PROTEOME",
+    "study_grouping": "Academia Sinica Gastric Cancer"
+  },
+  "PDC000649": {
+    "study_friendly_name": "ACADEMIA SINICA GASTRIC CANCER PHOSPHOPROTEOME",
+    "study_grouping": "Academia Sinica Gastric Cancer"
   }
 }
