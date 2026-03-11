@@ -155,6 +155,12 @@
     "program_short_name": "CPTAC-KF-CCDI",
     "program_label": "cptac_kf_ccdi"
   },
+  "CPTAC-KF-CCDI-Pediatric T-ALL": {
+    "project_short_name": "CPTAC_KF_CCDI_Pediatric_TALL",
+    "project_friendly_name": "KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE TCELL ACUTE LYMPHATIC LEUKEMIA",
+    "program_short_name": "CPTAC-KF-CCDI",
+    "program_label": "cptac_kf_ccdi"
+  },
   "Integrative proteogenomic analysis provides molecular insights and clinical significance in gallbladder cancer": {
     "project_short_name": "SIMM_Gallbladder_Cancer",
     "project_friendly_name": "INTEGRATIVE PROTEOGENOMIC ANALYSIS PROVIDES MOLECULAR INSIGHTS AND CLINICAL SIGNIFICANCE IN GALLBLADDER CANCER",
