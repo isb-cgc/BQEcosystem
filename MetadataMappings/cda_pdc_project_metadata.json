@@ -148,5 +148,23 @@
     "project_friendly_name": "KOREA UNIVERSITY CERVICAL CANCER",
     "program_short_name": "ICPC",
     "program_label": "ICPC"
+  },
+  "CPTAC-KF-CCDI-Pediatric AML": {
+    "project_short_name": "CPTAC_KF_CCDI_Pediatric_AML",
+    "project_friendly_name": "KIDS FIRST CHILDHOOD CANCER DATA INITIATIVE ACUTE MYELOID LEUKEMIA",
+    "program_short_name": "CPTAC-KF-CCDI",
+    "program_label": "cptac_kf_ccdi"
+  },
+  "Integrative proteogenomic analysis provides molecular insights and clinical significance in gallbladder cancer": {
+    "project_short_name": "SIMM_Gallbladder_Cancer",
+    "project_friendly_name": "INTEGRATIVE PROTEOGENOMIC ANALYSIS PROVIDES MOLECULAR INSIGHTS AND CLINICAL SIGNIFICANCE IN GALLBLADDER CANCER",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "Academia Sinica-Gastric Cancer-154": {
+    "project_short_name": "Academia_Sinica_Gastric_Cancer_154",
+    "project_friendly_name": "ACADEMIA SINICA GASTRIC CANCER",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
   }
 }
