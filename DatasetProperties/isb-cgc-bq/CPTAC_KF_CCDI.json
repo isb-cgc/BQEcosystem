@@ -1,4 +1,4 @@
 {
-  "dataset_name": "CPTAC-KF-CCDI",
+  "dataset_name": "CPTAC_KF_CCDI",
   "description": "This data set contains the current CPTAC-KF-CCDI program data extracted from the NCI GDC and PDC. CPTAC, Kids First, and CCDI collaborate to integrate proteomics and genomics data from pediatric cancer cohorts. This partnership enhances understanding of cancer biology by providing comprehensive molecular profiles, aiming to develop and improve treatments for childhood cancers. The tables within this data set are dynamic and update with new releases; for static tables use CPTAC-KF-CCDI_versioned."
 }
