@@ -1,4 +1,9 @@
 {
+  "ALCHEMIST": {
+    "bq_dataset": "ALCHEMIST",
+    "program_label": "alchemist",
+    "friendly_name": "ALCHEMIST"
+  },
   "APOLLO": {
     "bq_dataset": "APOLLO",
     "program_label": "apollo",
