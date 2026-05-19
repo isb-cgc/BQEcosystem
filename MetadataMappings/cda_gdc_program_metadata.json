@@ -105,6 +105,11 @@
     "program_label": "organoid",
     "friendly_name": "ORGANOID"
   },
+  "RC": {
+    "bq_dataset": "RC",
+    "program_label": "rc",
+    "friendly_name": "RC"
+  },
   "REBC": {
     "bq_dataset": "REBC",
     "program_label": "rebc",
