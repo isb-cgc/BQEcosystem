@@ -5,6 +5,12 @@
     "program_short_name": "ICPC",
     "program_label": "icpc"
   },
+  "Academia Sinica-Gastric Cancer-154": {
+    "project_short_name": "academia_sinica_GC_154",
+    "project_friendly_name": "ACADEMIA SINICA GASTRIC CANCER",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
   "CPTAC-2": {
     "project_short_name": "CPTAC_2",
     "project_friendly_name": "CPTAC2",
@@ -35,6 +41,24 @@
     "program_short_name": "CPTAC",
     "program_label": "cptac3"
   },
+  "CPTAC-KF-CCDI-Pediatric AML": {
+    "project_short_name": "cptac_kf_ccdi_paml",
+    "project_friendly_name": "CPTAC-KF-CCDI PEDIATRIC AML",
+    "program_short_name": "CPTAC-KF-CCDI",
+    "program_label": "cptac_kf_ccdi"
+  },
+  "CPTAC-KF-CCDI-Pediatric T-ALL": {
+    "project_short_name": "cptac_kf_ccdi_ptall",
+    "project_friendly_name": "CPTAC-KF-CCDI PEDIATRIC T-ALL",
+    "program_short_name": "CPTAC-KF-CCDI",
+    "program_label": "cptac_kf_ccdi"
+  },
+  "CPTAC-HCMI-Organoids": {
+    "project_short_name": "cptac_hcmi_organoids",
+    "project_friendly_name": "CPTAC-HCMI ORGANOIDS",
+    "program_short_name": "CPTAC-HCMI",
+    "program_label": "cptac_hcmi"
+  },
   "Georgetown Lung Cancer Proteomics Study": {
     "project_short_name": "georgetown_lung_cancer",
     "project_friendly_name": "GEORGETOWN LUNG CANCER",
@@ -50,6 +74,12 @@
   "Integrated Proteogenomic Characterization of HBV-related Hepatocellular carcinoma": {
     "project_short_name": "HBV_related_hepatocellular_carcinoma",
     "project_friendly_name": "HEPATITIS B VIRUS (HBV) RELATED HEPATOCELLULAR CARCINOMA",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "Integrative proteogenomic analysis provides molecular insights and clinical significance in gallbladder cancer": {
+    "project_short_name": "simm_gallbladder_cancer",
+    "project_friendly_name": "SIMM GALLBLADDER CANCER",
     "program_short_name": "ICPC",
     "program_label": "icpc"
   },
@@ -148,5 +178,11 @@
     "project_friendly_name": "KOREA UNIVERSITY CERVICAL CANCER",
     "program_short_name": "ICPC",
     "program_label": "ICPC"
+  },
+  "Yonsei Cancer Center - TNBC": {
+    "project_short_name": "yonsei_tnbc",
+    "project_friendly_name": "YONSEI CANCER CENTER - TNBC",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
   }
 }
