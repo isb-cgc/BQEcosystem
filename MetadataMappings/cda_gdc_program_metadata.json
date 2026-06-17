@@ -14,6 +14,11 @@
     "program_label": "beataml",
     "friendly_name": "BEATAML1.0"
   },
+  "CBTN": {
+    "bq_dataset": "CBTN",
+    "program_label": "cbtn",
+    "friendly_name": "Pediatric Brain Tumor Atlas - CBTN"
+  },
   "CCDI": {
     "bq_dataset": "CCDI",
     "program_label": "ccdi",
@@ -50,6 +55,16 @@
     "program_label_1": "cptac3",
     "friendly_name": "CPTAC"
   },
+  "CPTAC_HCMI": {
+    "bq_dataset": "CPTAC_HCMI",
+    "program_label": "cptac_hcmi",
+    "friendly_name": "CPTAC-Human Cancer Models Initiative"
+  },
+  "CPTAC_KF_CCDI": {
+    "bq_dataset": "CPTAC_KF_CCDI",
+    "program_label": "cptac_kf_ccdi",
+    "friendly_name": "CPTAC-Kids First-Childhood Cancer Data Initiative"
+  },
   "CTSP": {
     "bq_dataset": "CTSP",
     "program_label": "ctsp",
@@ -58,7 +73,7 @@
   "EXCEPTIONAL_RESPONDERS": {
     "bq_dataset": "EXC_RESPONDERS",
     "program_label": "exceptional_responders",
-    "friendly_name": "EXC_RESPONDERS"
+    "friendly_name": "Exceptional Responders"
   },
   "FM": {
     "bq_dataset": "FM",
@@ -74,6 +89,11 @@
     "bq_dataset": "HCMI",
     "program_label": "hcmi",
     "friendly_name": "HCMI"
+  },
+  "ICPC": {
+    "bq_dataset": "ICPC",
+    "program_label": "icpc",
+    "friendly_name": "International Cancer Proteogenome Consortium"
   },
   "MATCH": {
     "bq_dataset": "MATCH",
