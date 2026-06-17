@@ -87,6 +87,10 @@
     "study_friendly_name": "CPTAC3-DISCOVERY LUNG ADENOCARCINOMA (LUAD) PHOSPHOPROTEOME",
     "study_grouping": "CPTAC LUAD Discovery Study"
   },
+  "PDC000150": {
+    "study_friendly_name": "CPTAC LUAD Discovery Study – Proteome",
+    "study_grouping": "CPTAC LUAD Discovery Study"
+  },
   "PDC000152": {
     "study_friendly_name": "QUANT MAPS TISSUE BIOPSIES KIDNEY PROTEOME",
     "study_grouping": "PCT SWATH Kidney"
@@ -627,6 +631,26 @@
     "study_friendly_name": "CPTAC LUAD CONFIRMATORY STUDY UBIQUITYLOME",
     "study_grouping": "CPTAC LUAD Confirmatory Study"
   },
+  "PDC000495": {
+    "study_friendly_name": "HOPE-AYA GBM - CompRef Proteome",
+    "study_grouping": "HOPE-AYA GBM CompRef"
+  },
+  "PDC000496": {
+    "study_friendly_name": "HOPE-AYA GBM - CompRef Phosphoproteome",
+    "study_grouping": "HOPE-AYA GBM CompRef"
+  },
+  "PDC000497": {
+    "study_friendly_name": "HOPE-AYA GBM - Phosphoproteome",
+    "study_grouping": "HOPE-AYA GBM"
+  },
+  "PDC000498": {
+    "study_friendly_name": "HOPE-AYA GBM - Proteome",
+    "study_grouping": "HOPE-AYA GBM"
+  },
+  "PDC000499": {
+    "study_friendly_name": "HOPE-AYA GBM - Glycoproteome",
+    "study_grouping": "HOPE-AYA GBM"
+  },
   "PDC000504": {
     "study_friendly_name": "CPTAC PDAC BioTExt PROTEOME",
     "study_grouping": "CPTAC PDAC BioTExt"
@@ -687,6 +711,42 @@
     "study_friendly_name": "CPTAC GLIOBLASTOMA MULTIFORME (GBM) DISCOVERY STUDY LIPIDOME",
     "study_grouping": "CPTAC GBM Discovery Study"
   },
+  "PDC000554": {
+    "study_friendly_name": "CPTAC AML Study - Proteome",
+    "study_grouping": "CPTAC AML Study"
+  },
+  "PDC000555": {
+    "study_friendly_name": "CPTAC AML Study - CompRef Proteome",
+    "study_grouping": "CPTAC AML Study CompRef"
+  },
+  "PDC000556": {
+    "study_friendly_name": "CPTAC AML Study - Phosphoproteome",
+    "study_grouping": "CPTAC AML Study"
+  },
+  "PDC000557": {
+    "study_friendly_name": "CPTAC AML Study - CompRef Phosphoproteome",
+    "study_grouping": "CPTAC AML Study CompRef"
+  },
+  "PDC000558": {
+    "study_friendly_name": "CPTAC AML Study - Acetylome",
+    "study_grouping": "CPTAC AML Study"
+  },
+  "PDC000559": {
+    "study_friendly_name": "CPTAC AML Study - CompRef Acetylome",
+    "study_grouping": "CPTAC AML Study CompRef"
+  },
+  "PDC000560": {
+    "study_friendly_name": "CPTAC AML Study - Glycoproteome",
+    "study_grouping": "CPTAC AML Study"
+  },
+  "PDC000561": {
+    "study_friendly_name": "CPTAC AML Study - Metabolome",
+    "study_grouping": "CPTAC AML Study"
+  },
+  "PDC000562": {
+    "study_friendly_name": "CPTAC AML Study - Lipidome",
+    "study_grouping": "CPTAC AML Study"
+  },
   "PDC000563": {
     "study_friendly_name": "ACADEMIA SINICA LUAD ICPC-B PROTEOME",
     "study_grouping": "Academia Sinica LUAD ICPC-B"
@@ -735,6 +795,54 @@
     "study_friendly_name": "NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMOUR (NF-PNET) VALIDATION STUDY DIA",
     "study_grouping": "NF-PNET Validation Study"
   },
+  "PDC000602": {
+    "study_friendly_name": "CPTAC-KF-CCDI Pediatric AML Study - Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI Pediatric AML Study"
+  },
+  "PDC000604": {
+    "study_friendly_name": "CPTAC-KF-CCDI Pediatric AML Study - Proteome",
+    "study_grouping": "CPTAC-KF-CCDI Pediatric AML Study"
+  },
+  "PDC000606": {
+    "study_friendly_name": "SIMM Gallbladder Cancer - Proteome",
+    "study_grouping": "SIMM Gallbladder Cancer"
+  },
+  "PDC000607": {
+    "study_friendly_name": "SIMM Gallbladder Cancer - Phosphoproteome",
+    "study_grouping": "SIMM Gallbladder Cancer"
+  },
+  "PDC000613": {
+    "study_friendly_name": "CPTAC RCC Combined Study - DIA Proteome",
+    "study_grouping": "CPTAC RCC Combined Study"
+  },
+  "PDC000614": {
+    "study_friendly_name": "CPTAC STAD Study - Proteome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000615": {
+    "study_friendly_name": "CPTAC STAD Study - Phosphoproteome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000616": {
+    "study_friendly_name": "CPTAC STAD Study - Glycoproteome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000617": { 
+    "study_friendly_name": "CPTAC STAD Study - DIA Ubiquitylome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000621": {
+    "study_friendly_name": "CPTAC STAD Study - Metabolome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000622": {
+    "study_friendly_name": "CPTAC STAD Study - Acetylome",
+    "study_grouping": "CPTAC STAD Study"
+  },
+  "PDC000626": {
+    "study_friendly_name": "CPTAC STAD Study - Protein-protein Interaction",
+    "study_grouping": "CPTAC STAD Study"
+  },
   "PDC000627": {
     "study_friendly_name": "CPTAC LUAD DISCOVERY STUDY UBIQUITYLOME",
     "study_grouping": "CPTAC LUAD Discovery Study"
@@ -762,5 +870,45 @@
   "PDC000634": {
     "study_friendly_name": "IPMN STUDY LMD PROTEOME",
     "study_grouping": "IPMN Study"
+  },
+  "PDC000640": {
+    "study_friendly_name": "CPTAC-KF-CCDI Pediatric T-ALL Study - Proteome",
+    "study_grouping": "CPTAC-KF-CCDI Pediatric T-ALL Study"
+  },
+  "PDC000641": {
+    "study_friendly_name": "CPTAC-KF-CCDI Pediatric T-ALL Study - Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI Pediatric T-ALL Study"
+  },
+  "PDC000645": {
+    "study_friendly_name": "Academia Sinica Gastric Cancer - Proteome",
+    "study_grouping": "Academia Sinica Gastric Cancer"
+  },
+  "PDC000649": {
+    "study_friendly_name": "Academia Sinica Gastric Cancer - Phosphoproteome",
+    "study_grouping": "Academia Sinica Gastric Cancer"
+  },
+  "PDC000695": {
+    "study_friendly_name": "Yonsei Cancer Center - TNBC - Proteome",
+    "study_grouping": "Yonsei Cancer Center - TNBC"
+  },
+  "PDC000696": {
+    "study_friendly_name": "Yonsei Cancer Center - TNBC - Phosphoproteome",
+    "study_grouping": "Yonsei Cancer Center - TNBC"
+  },
+  "PDC000711": {
+    "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Proteome",
+    "study_grouping": "CPTAC-HCMI-Organoids Phase 1"
+  },
+  "PDC000712": {
+    "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Phosphoproteome",
+    "study_grouping": "CPTAC-HCMI-Organoids Phase 1"
+  },
+  "PDC000713": {
+    "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Acetylome",
+    "study_grouping": "CPTAC-HCMI-Organoids Phase 1"
+  },
+  "PDC000714": {
+    "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Ubiquitylome",
+    "study_grouping": "CPTAC-HCMI-Organoids Phase 1"
   }
 }
