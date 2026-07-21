@@ -1,4 +1,4 @@
 {
   "dataset_name": "CCG",
-  "description": "This data set contains static versioned Center for Cancer Genomics (CCG) program data extracted from the NCI GDC and PDC. The CCG aims to synthesize research in different fields of cancer genomics - structural, functional, and computational - to improve patient outcomes."
+  "description": "This data set contains the current Center for Cancer Genomics (CCG) program data extracted from the NCI PDC. The CCG aims to synthesize research in different fields of cancer genomics - structural, functional, and computational - to improve patient outcomes. The tables within this data set are dynamic and update with new releases; for static tables use CCG_versioned."
 }
