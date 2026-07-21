@@ -1,0 +1,4 @@
+{
+  "dataset_name": "RC_versioned",
+  "description": "This data set contains static versioned Refractory Cancer (RC) program data extracted from the NCI GDC and PDC. This program investigates the underlying genomic hallmarks involved in the observed inferior response to treatment of certain tumor types."
+}
