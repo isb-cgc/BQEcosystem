@@ -1,4 +1,4 @@
 {
-  "dataset_name": "ALCHEMIST",
+  "dataset_name": "ALCHEMIST_versioned",
   "description": "This data set contains static versioned Adjuvant Lung Cancer Enrichment Marker Identification and Sequencing Trial (ALCHEMIST) program data extracted from the NCI GDC and PDC."
 }
