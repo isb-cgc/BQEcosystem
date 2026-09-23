@@ -883,9 +883,81 @@
     "study_friendly_name": "Academia Sinica Gastric Cancer - Proteome",
     "study_grouping": "Academia Sinica Gastric Cancer"
   },
+  "PDC000646": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ependymoma Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000647": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ependymoma Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
   "PDC000649": {
     "study_friendly_name": "Academia Sinica Gastric Cancer - Phosphoproteome",
     "study_grouping": "Academia Sinica Gastric Cancer"
+  },
+  "PDC000651": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ependymoma Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000655": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - ATRT Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000656": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - ATRT Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000659": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - ATRT Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+    "PDC000663": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Medulloblastoma Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000666": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Medulloblastoma Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000667": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Medulloblastoma Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000673": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Craniopharyngioma Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000674": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Craniopharyngioma Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000676": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Craniopharyngioma Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000681": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Sarcoma Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000682": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Sarcoma Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000684": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Sarcoma Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000687": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - High-Grade Glioma Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000688": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - High-Grade Glioma Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000694": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - High-Grade Glioma Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
   },
   "PDC000695": {
     "study_friendly_name": "Yonsei Cancer Center - TNBC - Proteome",
@@ -894,6 +966,18 @@
   "PDC000696": {
     "study_friendly_name": "Yonsei Cancer Center - TNBC - Phosphoproteome",
     "study_grouping": "Yonsei Cancer Center - TNBC"
+  },
+  "PDC000700": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ganglioglioma-CPC-CPP Proteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000701": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ganglioglioma-CPC-CPP Phosphoproteome",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
+  },
+  "PDC000704": {
+    "study_friendly_name": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study - Ganglioglioma-CPC-CPP Phosphotyrosine",
+    "study_grouping": "CPTAC-KF-CCDI-Pediatric Brain Cancer Study"
   },
   "PDC000711": {
     "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Proteome",
