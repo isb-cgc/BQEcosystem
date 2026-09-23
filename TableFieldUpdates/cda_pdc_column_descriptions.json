@@ -81,6 +81,7 @@
   "hiv_positive": "Text term to signify whether a physician has diagnosed HIV infection in a patient",
   "hpv_positive_type": "Text classification to represent the strain or type of human papillomavirus identified in an individual",
   "hpv_status": "The findings of the oncogenic HPV",
+  "icd_10_code": "Alphanumeric value used to describe the disease code from the tenth version of the International Classification of Disease (ICD-10).",
   "initial_weight": "Numeric value that represents the initial weight of the sample, measured in milligrams",
   "instrument": "Make and model of the mass spectrometry instrument",
   "intermediate_dimension": "Intermediate dimension of the sample, in millimeters",
@@ -147,6 +148,7 @@
   "study_run_metadata_id": "An identifier (UUID) to uniquely identify the group the files generated in a single experimental run in PDC (e.g. f2c5c6bf-f40d-11e8-a44b-0a9c39d33490)",
   "study_run_metadata_submitter_id": "An identifier provided by the submitter to identify the group the files generated in a single experimental run (e.g. SRM25730263-1)",
   "study_submitter_id": "Unique identifier deriving from the data submitter used for the study (e.g. S046-1-CompRef)",
+  "synchronous_malignancy": "A yes/no/unknown indicator used to describe whether the patient had an additional malignant diagnosis at the same time the tumor used for sequencing was diagnosed. If both tumors were sequenced, both tumors would have synchronous malignancies.",
   "submitter_id_name": "Name of the study as described by the data submitter",
   "time_between_clamping_and_freezing": "Numeric representation of the elapsed time between the surgical clamping of blood supply and freezing of the sample, measured in minutes",
   "time_between_excision_and_freezing": "Numeric representation of the elapsed time between the excision and freezing of the sample, measured in minutes",
@@ -165,6 +167,7 @@
   "url": "PDC datastore file paths (typically hosted on AWS)",
   "vascular_invasion_present": "The yes/no indicator to ask if large vessel or venous invasion was detected by surgery or presence in a tumor specimen",
   "vital_status": "The survival state of the person registered on the protocol",
+  "who_cns_grade": "The WHO (World Health Organization) grading classification of CNS tumors, which is based on histological characteristics such as cellularity, mitotic activity, pleomorphism, necrosis, and endothelial proliferation (neoangiogenesis).",
   "year_of_birth": "Numeric value to represent the calendar year in which an individual was born",
   "year_of_death": "Numeric value to represent the year of the death of an individual",
   "year_of_diagnosis": "Numeric value to represent the year of an individual's initial pathologic diagnosis of cancer"
