@@ -53,6 +53,12 @@
     "program_short_name": "CPTAC-KF-CCDI",
     "program_label": "cptac_kf_ccdi"
   },
+  "CPTAC-KF-CCDI-Pediatric Brain Cancer": {
+    "project_short_name": "cptac_kf_ccdi_pbrain",
+    "project_friendly_name": "CPTAC-KF-CCDI PEDIATRIC BRAIN CANCER",
+    "program_short_name": "CPTAC-KF-CCDI",
+    "program_label": "cptac_kf_ccdi"
+  },
   "CPTAC-HCMI-Organoids": {
     "project_short_name": "cptac_hcmi_organoids",
     "project_friendly_name": "CPTAC-HCMI ORGANOIDS",
@@ -80,6 +86,12 @@
   "Integrative proteogenomic analysis provides molecular insights and clinical significance in gallbladder cancer": {
     "project_short_name": "simm_gallbladder_cancer",
     "project_friendly_name": "SIMM GALLBLADDER CANCER",
+    "program_short_name": "ICPC",
+    "program_label": "icpc"
+  },
+  "KNCC Medulloblastoma": {
+    "project_short_name": "kncc_mb",
+    "project_friendly_name": "KNCC MEDULLOBLASTOMA",
     "program_short_name": "ICPC",
     "program_label": "icpc"
   },
@@ -137,6 +149,18 @@
     "program_short_name": "APOLLO",
     "program_label": "apollo"
   },
+  "APOLLO-OV": {
+    "project_short_name": "APOLLO_OV",
+    "project_friendly_name": "APOLLO-OV",
+    "program_short_name": "APOLLO",
+    "program_label": "apollo"
+  },
+  "APOLLO-BRCA-1": {
+    "project_short_name": "APOLLO-BRCA-1",
+    "project_friendly_name": "APOLLO-BRCA-1",
+    "program_short_name": "APOLLO",
+    "program_label": "apollo"
+  },
   "National Cancer Center Korea - iCC": {
     "project_short_name": "NCC_iCC",
     "project_friendly_name": "NATIONAL CANCER CENTER KOREA",
@@ -166,12 +190,6 @@
     "project_friendly_name": "PROTEOGENOMIC CHARACTERIZATION OF NON-FUNCTIONAL PANCREATIC NEUROENDOCRINE TUMORS",
     "program_short_name": "ICPC",
     "program_label": "icpc"
-  },
-  "APOLLO-OV": {
-    "project_short_name": "APOLLO_OV",
-    "project_friendly_name": "APOLLO-OV",
-    "program_short_name": "APOLLO",
-    "program_label": "apollo"
   },
   "Korea University - Cervical cancer": {
     "project_short_name": "Korea_University_Cervical_cancer",
