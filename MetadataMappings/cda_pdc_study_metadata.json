@@ -675,6 +675,22 @@
     "study_friendly_name": "CGU OSCC APOBEC3A MULTIPLE PHOSPHOPROTEOME",
     "study_grouping": "CGU OSCC APOBEC3A"
   },
+  "PDC000522": {
+    "study_friendly_name": "KNCC Medulloblastoma - KNCC - Proteome",
+    "study_grouping": "KNCC Medulloblastoma - KNCC"
+  },
+  "PDC000523": {
+    "study_friendly_name": "KNCC Medulloblastoma - KBRI - Proteome",
+    "study_grouping": "KNCC Medulloblastoma - KBRI"
+  },
+  "PDC000524": {
+    "study_friendly_name": "KNCC Medulloblastoma - KNCC - Phosphoproteome",
+    "study_grouping": "KNCC Medulloblastoma - KNCC"
+  },
+  "PDC000525": {
+    "study_friendly_name": "KNCC Medulloblastoma - KBRI - Phosphoproteome",
+    "study_grouping": "KNCC Medulloblastoma - KBRI"
+  },
   "PDC000526": {
     "study_friendly_name": "CPTAC PDAC PROTEINS IN SERUM PROTEOME",
     "study_grouping": "CPTAC PDAC Proteins in Serum"
@@ -994,5 +1010,17 @@
   "PDC000714": {
     "study_friendly_name": "CPTAC HCMI Organoids Phase 1 - Ubiquitylome",
     "study_grouping": "CPTAC-HCMI-Organoids Phase 1"
+  },
+  "PDC000757": {
+    "study_friendly_name": "APOLLO-BRCA-1 - Proteome",
+    "study_grouping": "APOLLO-BRCA-1"
+  },
+  "PDC000758": {
+    "study_friendly_name": "APOLLO-BRCA-1 - Phosphoproteome - FeNTA",
+    "study_grouping": "APOLLO-BRCA-1 - Phosphoproteome"
+  },
+  "PDC000759": {
+    "study_friendly_name": "APOLLO-BRCA-1 - Phosphoproteome - TiO2",
+    "study_grouping": "APOLLO-BRCA-1 - Phosphoproteome"
   }
 }
