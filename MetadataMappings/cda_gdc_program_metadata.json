@@ -125,6 +125,11 @@
     "program_label": "organoid",
     "friendly_name": "ORGANOID"
   },
+  "PECGS": {
+    "bq_dataset": "PECGS",
+    "program_label": "pecgs",
+    "friendly_name": "PECGS"
+  },
   "RC": {
     "bq_dataset": "RC",
     "program_label": "rc",
