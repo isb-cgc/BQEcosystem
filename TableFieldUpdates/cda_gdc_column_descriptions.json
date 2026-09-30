@@ -597,5 +597,5 @@
   "follow__other_clin_attr__risk_factor_treatment": "The yes/no/unknown indicator used to describe whether the patient received treatment for a risk factor the patient had at the time of or prior to their diagnosis.",
   "follow__other_clin_attr__updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
   "follow__other_clin_attr__created_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
-  "follow__other_clin_attr__state": "The current state of the object.",
+  "follow__other_clin_attr__state": "The current state of the object."
 }
