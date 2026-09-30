@@ -47,6 +47,7 @@
   "demo__occupation_duration_years": "The number of years a patient worked in a specific occupation.",
   "demo__premature_at_birth": "The yes/no/unknown indicator used to describe whether the patient was premature (less than 37 weeks gestation) at birth.",
   "demo__race": "An arbitrary classification of a taxonomic group that is a division of a species. It usually arises as a consequence of geographical isolation within a species and is characterized by shared heredity, physical attributes and behavior, and in the case of humans, by common history, nationality, or geographic distribution. The provided values are based on the categories defined by the U.S. Office of Management and Business and used by the U.S. Census Bureau.",
+  "demo__sex_at_birt" : "A textual description of a person's sex at birth.",
   "demo__state": "The current state of the object.",
   "demo__submitter_id": "A project-specific identifier for a node. This property is the calling card/nickname/alias for a unit of submission. It can be used in place of the uuid for identifying or recalling a node.",
   "demo__updated_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
