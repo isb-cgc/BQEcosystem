@@ -1,4 +1,4 @@
 {
   "dataset_name": "HTAN2",
-  "description": "This data set contains the current data extracted from Human Tumor Atlas Network (HTAN), a National Cancer Institute (NCI)-funded Cancer Moonshot research initiative. The tables within this data set are dynamic and update with new releases; for static tables use HTAN_versioned."
+  "description": "This data set contains Phase 2 data from Human Tumor Atlas Network (HTAN), a National Cancer Institute (NCI)-funded initiative to construct 3-dimensional atlases of the dynamic cellular, morphological, and molecular features of human cancers as they evolve from precancerous lesions to advanced disease."
 }
