@@ -596,7 +596,7 @@
   "follow__other_clin_attr__pregnancy_outcome": "The text term used to describe the type of pregnancy the patient had.",
   "follow__other_clin_attr__cdc_hiv_risk_factors": "The text term used to describe a risk factor for human immunodeficiency virus, as described by the Centers for Disease Control.",
   "follow__other_clin_attr__haart_treatment_indicator": "The text term used to indicate whether the patient received Highly Active Antiretroviral Therapy (HAART).",
-  "follow__other_clin_attr__hepatitis_sustained_virological_response": "An indication as to whether sustained virological response was obtained in responses to viral hepatitis treatment."
+  "follow__other_clin_attr__hepatitis_sustained_virological_response": "An indication as to whether sustained virological response was obtained in responses to viral hepatitis treatment.",
   "follow__other_clin_attr__hormonal_contraceptive_use": "The text term used to indicate whether the patient used hormonal contraceptives.",
   "follow__other_clin_attr__hormone_replacement_therapy_type": "The specific type of hormone replacement therapy received by the patient.",
   "follow__other_clin_attr__hysterectomy_type": "The text term used to describe the type of hysterectomy the patient had.",
@@ -607,5 +607,5 @@
   "follow__other_clin_attr__state": "The current state of the object.",
   "follow__other_clin_attr__timepoint_category": "Category describing a specific point in the time continuum, including those established relative to an event.",
   "follow__other_clin_attr__updated_datetime": "Timestamp of last update in GDC; formatted as a combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm].",
-  "follow__other_clin_attr__created_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]",
+  "follow__other_clin_attr__created_datetime": "A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm]"
 }
